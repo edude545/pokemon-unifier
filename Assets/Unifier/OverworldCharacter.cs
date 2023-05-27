@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,12 @@ public class OverworldCharacter : MonoBehaviour
     public Vector3 GridPosition;
     public SpriteRenderer Sprite;
 
-    public string SpritesheetPath;
-    private Sprite[] sprites;
+    public string SpritesPath; // e.g. "Assets/Insurgence/Graphics/Characters/64px/trchar001"
+    private Sprite[] activeSprites;
+    private Sprite[] walkSprites;
+    private Sprite[] runSprites;
+    private Sprite[] bikeSprites;
+
     private int animationTick = 0;
     public float AnimationSpeed = 20f;
     private float timeSinceLastAnimationTick = 0f;
@@ -23,42 +28,48 @@ public class OverworldCharacter : MonoBehaviour
         Left, // 4, 5, 6, 7
         Right, // 8, 9, 10, 11
         Up, // 12, 13, 14, 15
-        None // 0, 4, 8, 12
     }
-    [HideInInspector] public bool Moving = false;
-    [HideInInspector] public Directions FaceDirection = Directions.Down;
-    Vector3 moveDirVec3;
-    [HideInInspector] public bool Running;
-    [HideInInspector] public float MoveProgress = 0f;
-    public float WalkSpeed;
-    public float RunSpeed;
+    public enum MoveSpeeds {
+        Walking,
+        Running,
+        Biking
+    }
+    public float[] MoveSpeedMults = new float[3] { 4f, 6.5f, 9f };
 
-    private void Start() {
-        sprites = AssetDatabase.LoadAllAssetsAtPath(SpritesheetPath).OfType<Sprite>().ToArray();
+    [HideInInspector] public bool Moving = false;
+    public Directions FaceDirection = Directions.Down;
+    Vector3 moveDirVec3;
+    [HideInInspector] public MoveSpeeds MoveSpeed = MoveSpeeds.Walking;
+    [HideInInspector] public float MoveProgress = 0f;
+
+    private Sprite[] loadSprites(string path) {
+        Sprite[] loaded = AssetDatabase.LoadAllAssetsAtPath(path + ".png").OfType<Sprite>().ToArray();
+        if (loaded.Length == 0) { return null; }
+        Sprite[] ret = new Sprite[animationPeriod * 4];
+        foreach (var l in loaded) {
+            ret[int.Parse(l.name)] = l;
+        }
+        return ret;
     }
 
     private void Update() {
+        if (MoveSpeed == MoveSpeeds.Running && runSprites != null) {
+            activeSprites = runSprites;
+        } else if (MoveSpeed == MoveSpeeds.Biking && bikeSprites != null) {
+            activeSprites = bikeSprites;
+        } else {
+            activeSprites = walkSprites;
+        }
         if (Moving) {
-            float delta = Time.deltaTime * (Running ? RunSpeed : WalkSpeed);
+            float delta = Time.deltaTime * MoveSpeedMults[(int)MoveSpeed];
             transform.localPosition += moveDirVec3 * delta;
             MoveProgress += delta;
+            UpdateSprite();
             if (MoveProgress >= 1f) {
-                setSprite((int)FaceDirection * animationPeriod);
-                animationTick = 0;
                 Moving = false;
                 GridPosition += moveDirVec3;
                 transform.localPosition = GridPosition;
                 MoveProgress = 0f;
-            } else {
-                timeSinceLastAnimationTick += Time.deltaTime;
-                if (timeSinceLastAnimationTick >= AnimationSpeed) {
-                    timeSinceLastAnimationTick = 0f;
-                    animationTick++;
-                    if (animationTick == animationPeriod) {
-                        animationTick = 0;
-                    }
-                    setSprite((int)FaceDirection * animationPeriod + animationTick);
-                }
             }
         }
     }
@@ -70,8 +81,6 @@ public class OverworldCharacter : MonoBehaviour
 
     public void Move() {
         if (!Moving) {
-            animationTick = 0;
-            timeSinceLastAnimationTick = 0f;
             Moving = true;
             switch (FaceDirection) {
                 case Directions.Up: moveDirVec3 = Vector3.up; break;
@@ -84,10 +93,58 @@ public class OverworldCharacter : MonoBehaviour
 
     public void Move(Directions dir) {
         Face(dir);
+        Move();
     }
 
     private void setSprite(int index) {
-        Sprite.sprite = sprites[index];
+        Sprite.sprite = activeSprites[index];
+    }
+
+    public void LoadSprites() {
+        walkSprites = loadSprites(SpritesPath);
+        runSprites = loadSprites(SpritesPath + "_run");
+        bikeSprites = loadSprites(SpritesPath + "_bike");
+        activeSprites = walkSprites;
+        UpdateSprite();
+    }
+
+    public void UpdateSprite() {
+        if (Moving) {
+            timeSinceLastAnimationTick += Time.deltaTime;
+            if (timeSinceLastAnimationTick >= AnimationSpeed) {
+                timeSinceLastAnimationTick = 0f;
+                animationTick++;
+                if (animationTick == animationPeriod) {
+                    animationTick = 0;
+                }
+                setSprite((int) FaceDirection * animationPeriod + animationTick);
+            }
+        } else {
+            setSprite((int) FaceDirection * animationPeriod);
+        }
+    }
+
+}
+
+[CustomEditor(typeof(OverworldCharacter))]
+public class OverworldCharacterEditor : Editor {
+
+    OverworldCharacter character;
+
+    public override void OnInspectorGUI() {
+        using (var check = new EditorGUI.ChangeCheckScope()) {
+            base.OnInspectorGUI();
+            if (check.changed) {
+                character.UpdateSprite();
+            }
+        }
+        if (GUILayout.Button("Load sprites")) {
+            character.LoadSprites();
+        }
+    }
+
+    private void OnEnable() {
+        character = (OverworldCharacter) target;
     }
 
 }

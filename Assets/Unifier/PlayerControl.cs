@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(OverworldCharacter))]
@@ -30,12 +31,11 @@ public class PlayerControl : MonoBehaviour
     private void Update() {
         foreach (Button b in buttons) b.Update();
 
-             if (down.Pressed)  { targetDirection = OverworldCharacter.Directions.Down;     directionButton = down;     }
-        else if (left.Pressed)  { targetDirection = OverworldCharacter.Directions.Left;     directionButton = left;     }
-        else if (right.Pressed) { targetDirection = OverworldCharacter.Directions.Right;    directionButton = right;    }
-        else if (up.Pressed)    { targetDirection = OverworldCharacter.Directions.Up;       directionButton = up;       }
+        /*if (down.Pressed) { targetDirection = OverworldCharacter.Directions.Down; directionButton = down; } else if (left.Pressed) { targetDirection = OverworldCharacter.Directions.Left; directionButton = left; } else if (right.Pressed) { targetDirection = OverworldCharacter.Directions.Right; directionButton = right; } else if (up.Pressed) { targetDirection = OverworldCharacter.Directions.Up; directionButton = up; }
 
-        character.Running = run.Held;
+        if (character.MoveSpeed != OverworldCharacter.MoveSpeeds.Biking) {
+            character.MoveSpeed = run.Held ? OverworldCharacter.MoveSpeeds.Running : OverworldCharacter.MoveSpeeds.Walking;
+        }
 
         if (directionButton.Held) {
             if (run.Held) {
@@ -47,6 +47,18 @@ public class PlayerControl : MonoBehaviour
             }
         } else if (directionButton.Released) {
             character.Face(targetDirection);
+        }*/
+        if (down.Pressed) attemptMove(down, OverworldCharacter.Directions.Down);
+        if (left.Pressed) attemptMove(left, OverworldCharacter.Directions.Left);
+        if (right.Pressed) attemptMove(right, OverworldCharacter.Directions.Right);
+        if (up.Pressed) attemptMove(up, OverworldCharacter.Directions.Up);
+    }
+
+    private void attemptMove(Button btn, OverworldCharacter.Directions direc) {
+        if (!character.Moving) {
+            if (run.Held || btn.TimeHeld > TimeHeldBeforeMove) {
+                character.Move(direc);
+            }
         }
     }
 

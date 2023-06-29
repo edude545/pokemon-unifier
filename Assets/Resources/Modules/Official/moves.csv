@@ -1,0 +1,901 @@
+index	name	type	category	contest_condition	pp	power	accuracy	generation	tags	targeting_type	makes_contact
+1	Pound	Normal	Physical	Tough	35	40	1	1		Adjacent	y
+2	Karate Chop	Fighting	Physical	Tough	25	50	1	1	critratio 1	Adjacent	y
+3	Double Slap	Normal	Physical	Cute	10	15	0.85	1	multihit	Adjacent	y
+4	Comet Punch	Normal	Physical	Tough	15	18	0.85	1	multihit	Adjacent	y
+5	Mega Punch	Normal	Physical	Tough	20	80	0.85	1		Adjacent	y
+6	Pay Day	Normal	Physical	Clever	20	40	1	1	money 5	Adjacent	n
+7	Fire Punch	Fire	Physical	Tough	15	75	1	1	roll 0.1 status burn	Adjacent	y
+8	Ice Punch	Ice	Physical	Beautiful	15	75	1	1	roll 0.1 status freeze	Adjacent	y
+9	Thunder Punch	Electric	Physical	Cool	15	75	1	1	roll 0.1 status paralyze	Adjacent	y
+10	Scratch	Normal	Physical	Tough	35	40	1	1		Adjacent	y
+11	Vice Grip	Normal	Physical	Tough	30	55	1	1		Adjacent	y
+12	Guillotine	Normal	Physical	Cool	5	-1	0.3	1	ohko	Adjacent	y
+13	Razor Wind	Normal	Special	Cool	10	80	1	1	charge normal; critratio 1	AllAdjacentEnemies	n
+14	Swords Dance	Normal	Status	Beautiful	20	-1	-0.01	1	buff self atk 2	User	
+15	Cut	Normal	Physical	Cool	30	50	0.95	1		Adjacent	y
+16	Gust	Flying	Special	Clever	35	40	1	1	iflocation sky powermult 2	Any	n
+17	Wing Attack	Flying	Physical	Cool	35	60	1	1		Any	y
+18	Whirlwind	Normal	Status	Clever	20	-1	-0.01	1	priority -6; forceswitch	Adjacent	
+19	Fly	Flying	Physical	Clever	15	90	0.95	1	charge sky	Any	y
+20	Bind	Normal	Physical	Tough	20	15	0.85	1	bind	Adjacent	y
+21	Slam	Normal	Physical	Tough	20	80	0.75	1		Adjacent	y
+22	Vine Whip	Grass	Physical	Cool	25	45	1	1		Adjacent	y
+23	Stomp	Normal	Physical	Tough	20	65	1	1	roll 0.3 flinch	Adjacent	y
+24	Double Kick	Fighting	Physical	Cool	30	30	1	1	doublehit	Adjacent	y
+25	Mega Kick	Normal	Physical	Cool	5	120	0.75	1		Adjacent	y
+26	Jump Kick	Fighting	Physical	Cool	10	100	0.95	1	ifmiss recoilpercentage 0.5	Adjacent	y
+27	Rolling Kick	Fighting	Physical	Cool	15	60	0.85	1	roll 0.3 flinch	Adjacent	y
+28	Sand Attack	Ground	Status	Cute	15	-1	1	1	buff target acc -1	Adjacent	
+29	Headbutt	Normal	Physical	Tough	15	70	1	1	roll 0.3 flinch	Adjacent	y
+30	Horn Attack	Normal	Physical	Cool	25	65	1	1		Adjacent	y
+31	Fury Attack	Normal	Physical	Cool	20	15	0.85	1	multihit	Adjacent	y
+32	Horn Drill	Normal	Physical	Cool	5	-1	0.3	1	ohko	Adjacent	y
+33	Tackle	Normal	Physical	Tough	35	40	1	1		Adjacent	y
+34	Body Slam	Normal	Physical	Tough	15	85	1	1	roll 0.3 status paralysis	Adjacent	y
+35	Wrap	Normal	Physical	Tough	20	15	0.9	1	bind	Adjacent	y
+36	Take Down	Normal	Physical	Tough	20	90	0.85	1	recoil 0.25	Adjacent	y
+37	Thrash	Normal	Physical	Tough	10	120	1	1	outrage	User	y
+38	Double-Edge	Normal	Physical	Tough	15	120	1	1	recoil 0.3334	Adjacent	y
+39	Tail Whip	Normal	Status	Cute	30	-1	1	1	target buff def -1	AllAdjacentEnemies	
+40	Poison Sting	Poison	Physical	Clever	35	15	1	1	roll 0.3 status poison	Adjacent	n
+41	Twineedle	Bug	Physical	Cool	20	25	1	1	roll 0.2 status poison; doublehit	Adjacent	n
+42	Pin Missile	Bug	Physical	Cool	20	25	0.95	1	multihit	Adjacent	n
+43	Leer	Normal	Status	Cool	30	-1	1	1	buff target def -1	AllAdjacentEnemies	
+44	Bite	Dark	Physical	Tough	25	60	1	1	roll 0.3 flinch	Adjacent	y
+45	Growl	Normal	Status	Cute	40	-1	1	1	buff target atk -1	AllAdjacentEnemies	
+46	Roar	Normal	Status	Cool	20	-1	-0.01	1	priority -6 forceswitch	Adjacent	
+47	Sing	Normal	Status	Cute	15	-1	0.55	1	status sleep	Adjacent	
+48	Supersonic	Normal	Status	Clever	20	-1	0.55	1	confuse	Adjacent	
+49	Sonic Boom	Normal	Special	Cool	20	-1	0.9	1	directdamage 20	Adjacent	n
+50	Disable	Normal	Status	Clever	20	-1	1	1	disable 4	Adjacent	
+51	Acid	Poison	Special	Clever	30	40	1	1	roll 0.1 buff target spd -1	AllAdjacentEnemies	n
+52	Ember	Fire	Special	Cute	25	40	1	1	roll 0.1 status burn	Adjacent	n
+53	Flamethrower	Fire	Special	Beautiful	15	90	1	1	roll 0.1 status burn	Adjacent	n
+54	Mist	Ice	Status	Beautiful	30	-1	-0.01	1	preventdebuffs	UserAndAllAllies	
+55	Water Gun	Water	Special	Cute	25	40	1	1		Adjacent	n
+56	Hydro Pump	Water	Special	Beautiful	5	110	0.8	1		Adjacent	n
+57	Surf	Water	Special	Beautiful	15	90	1	1	iflocation underwater powermult 2	AllAdjacent	n
+58	Ice Beam	Ice	Special	Beautiful	10	90	1	1	roll 0.1 status freeze	Adjacent	n
+59	Blizzard	Ice	Special	Beautiful	5	110	0.7	1	roll 0.1 status freeze; ifweather snow,hail nomiss	AllAdjacentEnemies	n
+60	Psybeam	Psychic	Special	Beautiful	20	65	1	1	roll 0.1 confuse	Adjacent	n
+61	Bubble Beam	Water	Special	Beautiful	20	65	1	1	roll 0.1 buff target spe -1	Adjacent	n
+62	Aurora Beam	Ice	Special	Beautiful	20	65	1	1	roll 0.1 buff target atk -1	Adjacent	n
+63	Hyper Beam	Normal	Special	Cool	5	150	0.9	1	recharge	Adjacent	n
+64	Peck	Flying	Physical	Cool	35	35	1	1		Any	y
+65	Drill Peck	Flying	Physical	Cool	20	80	1	1		Any	y
+66	Submission	Fighting	Physical	Cool	20	80	0.8	1	recoil 0.25	Adjacent	y
+67	Low Kick	Fighting	Physical	Tough	20	-1	1	1	scalewithweight target	Adjacent	y
+68	Counter	Fighting	Physical	Tough	20	-1	1	1	parry physical 2	User	y
+69	Seismic Toss	Fighting	Physical	Tough	20	-1	1	1	directdamagelevel	Adjacent	y
+70	Strength	Normal	Physical	Tough	15	80	1	1		Adjacent	y
+71	Absorb	Grass	Special	Clever	25	20	1	1	lifesteal 0.5	Adjacent	n
+72	Mega Drain	Grass	Special	Clever	15	40	1	1	lifesteal 0.5	Adjacent	n
+73	Leech Seed	Grass	Status	Clever	10	-1	0.9	1	leech 0.125	Adjacent	
+74	Growth	Normal	Status	Beautiful	20	-1	-0.01	1	buff self atk,spa 1; ifweather sun,primordialsun buff self atk,spa 1	User	
+75	Razor Leaf	Grass	Physical	Cool	25	55	0.95	1	critratio 1	AllAdjacentEnemies	n
+76	Solar Beam	Grass	Special	Cool	10	120	1	1	solarcharge	Adjacent	n
+77	Poison Powder	Poison	Status	Clever	35	-1	0.75	1	status poison	Adjacent	
+78	Stun Spore	Grass	Status	Clever	30	-1	0.75	1	status paralysis	Adjacent	
+79	Sleep Powder	Grass	Status	Clever	15	-1	0.75	1	status sleep	Adjacent	
+80	Petal Dance	Grass	Special	Beautiful	10	120	1	1	outrage	User	y
+81	String Shot	Bug	Status	Clever	40	-1	0.95	1	buff target spe -2	AllAdjacentEnemies	
+82	Dragon Rage	Dragon	Special	Cool	10	-1	1	1	directdamage 40	Adjacent	n
+83	Fire Spin	Fire	Special	Beautiful	15	35	0.85	1	bind	Adjacent	n
+84	Thunder Shock	Electric	Special	Cool	30	40	1	1	roll 0.1 status paralyze	Adjacent	n
+85	Thunderbolt	Electric	Special	Cool	15	90	1	1	roll 0.1 status paralyze	Adjacent	n
+86	Thunder Wave	Electric	Status	Cool	20	-1	0.9	1	status paralyze	Adjacent	
+87	Thunder	Electric	Special	Cool	10	110	0.7	1	ifweather rain,primordialrain nomiss; roll 0.3 status paralyze	Adjacent	n
+88	Rock Throw	Rock	Physical	Tough	15	50	0.9	1		Adjacent	n
+89	Earthquake	Ground	Physical	Tough	10	100	1	1	iflocation underground powermult 2	AllAdjacent	n
+90	Fissure	Ground	Physical	Tough	5	-1	0.3	1	ohko	Adjacent	n
+91	Dig	Ground	Physical	Tough	10	80	1	1	charge underground	Adjacent	y
+92	Toxic	Poison	Status	Clever	10	-1	0.9	1	iftype poison nomiss; status toxic	Adjacent	
+93	Confusion	Psychic	Special	Clever	25	50	1	1	roll 0.1 confuse	Adjacent	n
+94	Psychic	Psychic	Special	Clever	10	90	1	1	roll 0.1 buff target spd -1	Adjacent	n
+95	Hypnosis	Psychic	Status	Clever	20	-1	0.6	1	status sleep	Adjacent	
+96	Meditate	Psychic	Status	Beautiful	40	-1	-0.01	1	buff self atk 1	User	
+97	Agility	Psychic	Status	Cool	30	-1	-0.01	1	buff self spe 2	User	
+98	Quick Attack	Normal	Physical	Cool	30	40	1	1	priority 1	Adjacent	y
+99	Rage	Normal	Physical	Tough	20	20	1	1	ifattackedafter buff self atk 1	Adjacent	y
+100	Teleport	Psychic	Status	Cool	20	-1	-0.01	1	switchout	User	
+101	Night Shade	Ghost	Special	Clever	15	-1	1	1	directdamagelevel	Adjacent	n
+102	Mimic	Normal	Status	Cute	10	-1	-0.01	1	mimic	Adjacent	
+103	Screech	Normal	Status	Clever	40	-1	0.85	1	buff target def -2	Adjacent	
+104	Double Team	Normal	Status	Cool	15	-1	-0.01	1	buff self eva 1	User	
+105	Recover	Normal	Status	Clever	5	-1	-0.01	1	heal self 0.5	User	
+106	Harden	Normal	Status	Tough	30	-1	-0.01	1	buf self def 1	User	
+107	Minimize	Normal	Status	Cute	10	-1	-0.01	1	buff self eva 2; minimize	User	
+108	Smokescreen	Normal	Status	Clever	20	-1	1	1	buff target acc -1	Adjacent	
+109	Confuse Ray	Ghost	Status	Clever	10	-1	1	1	confuse	Adjacent	
+110	Withdraw	Water	Status	Cute	40	-1	-0.01	1	buff self def 1	User	
+111	Defense Curl	Normal	Status	Cute	40	-1	-0.01	1	buff self def 1	User	
+112	Barrier	Psychic	Status	Cool	20	-1	-0.01	1	buff self def 2;	User	
+113	Light Screen	Psychic	Status	Beautiful	30	-1	-0.01	1	lightscreen	UserAndAllAllies	
+114	Haze	Ice	Status	Beautiful	30	-1	-0.01	1	resetstats all	All	
+115	Reflect	Psychic	Status	Clever	20	-1	-0.01	1	reflect	UserAndAllAllies	
+116	Focus Energy	Normal	Status	Cool	30	-1	-0.01	1	buffcritratio 2	User	
+117	Bide	Normal	Physical	Tough	10	-1	-0.01	1	bide 2	User	y
+118	Metronome	Normal	Status	Cute	10	-1	-0.01	1	randommove	User	
+119	Mirror Move	Flying	Status	Clever	20	-1	-0.01	1	mirrormove	Adjacent	
+120	Self-Destruct	Normal	Physical	Beautiful	5	200	1	1	faint	AllAdjacent	n
+121	Egg Bomb	Normal	Physical	Cute	10	100	0.75	1		Adjacent	n
+122	Lick	Ghost	Physical	Cute	30	30	1	1	roll 0.3 status paralysis	Adjacent	y
+123	Smog	Poison	Special	Tough	20	30	0.7	1	roll 0.4 status poison	Adjacent	n
+124	Sludge	Poison	Special	Tough	20	65	1	1	roll 0.3 status poison	Adjacent	n
+125	Bone Club	Ground	Physical	Tough	20	65	0.85	1	roll 0.1 flinch	Adjacent	n
+126	Fire Blast	Fire	Special	Beautiful	5	110	0.85	1	roll 0.1 status burn	Adjacent	n
+127	Waterfall	Water	Physical	Tough	15	80	1	1	roll 0.2 flinch	Adjacent	y
+128	Clamp	Water	Physical	Tough	15	35	0.85	1	bind	Adjacent	y
+129	Swift	Normal	Special	Cool	20	60	-0.01	1	nomiss	AllAdjacentEnemies	n
+130	Skull Bash	Normal	Physical	Tough	10	130	1	1	chargeafter normal buff self def 1	Adjacent	y
+131	Spike Cannon	Normal	Physical	Cool	15	20	1	1	multihit	Adjacent	n
+132	Constrict	Normal	Physical	Tough	35	10	1	1	roll 0.1 buff target spe -1	Adjacent	y
+133	Amnesia	Psychic	Status	Cute	20	-1	-0.01	1	buff self spd 2	User	
+134	Kinesis	Psychic	Status	Clever	15	-1	0.8	1	buff target acc -1	Adjacent	
+135	Soft-Boiled	Normal	Status	Cute	5	-1	-0.01	1	heal self 0.5	User	
+136	High Jump Kick	Fighting	Physical	Cool	10	130	0.9	1	ifmiss recoilpercentage 0.5	Adjacent	y
+137	Glare	Normal	Status	Tough	30	-1	1	1	status paralysis	Adjacent	
+138	Dream Eater	Psychic	Special	Clever	15	100	1	1	onlytargets ifstatus sleep; lifesteal 0.5	Adjacent	n
+139	Poison Gas	Poison	Status	Clever	40	-1	0.9	1	status poison	AllAdjacentEnemies	
+140	Barrage	Normal	Physical	Cute	20	15	0.85	1	multihit	Adjacent	n
+141	Leech Life	Bug	Physical	Clever	10	80	1	1	lifesteal 0.5	Adjacent	y
+142	Lovely Kiss	Normal	Status	Beautiful	10	-1	0.75	1	status sleep	Adjacent	
+143	Sky Attack	Flying	Physical	Cool	5	140	0.9	1	charge sky; critratio 1; roll 0.3 flinch	Any	n
+144	Transform	Normal	Status	Clever	10	-1	-0.01	1	transform	Adjacent	
+145	Bubble	Water	Special	Cute	30	40	1	1	roll 0.1 buff target spe -1	AllAdjacentEnemies	n
+146	Dizzy Punch	Normal	Physical	Cute	10	70	1	1	roll 0.2 confuse	Adjacent	y
+147	Spore	Grass	Status	Beautiful	15	-1	1	1	status sleep	Adjacent	
+148	Flash	Normal	Status	Beautiful	20	-1	1	1	buff target acc -1	Adjacent	
+149	Psywave	Psychic	Special	Clever	15	-1	1	1	directdamagelevelrand 0.5 1.5	Adjacent	n
+150	Splash	Normal	Status	Cute	40	-1	-0.01	1		User	
+151	Acid Armor	Poison	Status	Tough	20	-1	-0.01	1	buff self def 2	User	
+152	Crabhammer	Water	Physical	Tough	10	100	0.9	1	critratio 1	Adjacent	y
+153	Explosion	Normal	Physical	Beautiful	5	250	1	1	faint	AllAdjacent	n
+154	Fury Swipes	Normal	Physical	Tough	15	18	0.8	1	multihit	Adjacent	y
+155	Bonemerang	Ground	Physical	Tough	10	50	0.9	1	doublehit	Adjacent	n
+156	Rest	Psychic	Status	Cute	5	-1	-0.01	1	rest	User	
+157	Rock Slide	Rock	Physical	Tough	10	75	0.9	1	roll 0.3 flinch	AllAdjacentEnemies	n
+158	Hyper Fang	Normal	Physical	Cool	15	80	0.9	1	roll 0.1 flinch	Adjacent	y
+159	Sharpen	Normal	Status	Cute	30	-1	-0.01	1	buff self atk 1	User	
+160	Conversion	Normal	Status	Beautiful	30	-1	-0.01	1	matchfirstmovetype	User	
+161	Tri Attack	Normal	Special	Beautiful	10	80	1	1	roll 0.2 status paralyze,burn,freeze	Adjacent	n
+162	Super Fang	Normal	Physical	Tough	10	-1	0.9	1	directdamagepercentage 0.5	Adjacent	y
+163	Slash	Normal	Physical	Cool	20	70	1	1	critratio 1	Adjacent	y
+164	Substitute	Normal	Status	Cute	10	-1	-0.01	1	saferecoilpercentage 0.25; substitute 0.25	User	
+165	Struggle	Normal	Physical	Tough	1	50	-0.01	1	recoilpercentage 0.25	User	y
+166	Sketch	Normal	Status	Clever	1	-1	-0.01	2	sketch	Adjacent	
+167	Triple Kick	Fighting	Physical	Cool	10	10	0.9	2	compoundinghits 3 10	Adjacent	y
+168	Thief	Dark	Physical	Tough	25	60	1	2	stealitem	Adjacent	y
+169	Spider Web	Bug	Status	Clever	10	-1	-0.01	2	trap	Adjacent	
+170	Mind Reader	Normal	Status	Clever	5	-1	-0.01	2	noevade	Adjacent	
+171	Nightmare	Ghost	Status	Clever	15	-1	1	2	nightmare 0.25	Adjacent	
+172	Flame Wheel	Fire	Physical	Beautiful	25	60	1	2	thaw; roll 0.1 status burn	Adjacent	y
+173	Snore	Normal	Special	Cute	15	50	1	2	failunless ifselfstatus sleep; roll 0.3 flinch	Adjacent	n
+174	Curse	Ghost	Status	Tough	10	-1	-0.01	2	iftype ghost curse; ifnottype ghost buff self atk,def 1; ifnottype ghost buff self spe -1	User	
+175	Flail	Normal	Physical	Cute	15	-1	1	2	scalewithmissinghp self	Adjacent	y
+176	Conversion 2	Normal	Status	Beautiful	30	-1	-0.01	2	changetypetoresist	Adjacent	
+177	Aeroblast	Flying	Special	Cool	5	100	0.95	2	critratio 1	Any	n
+178	Cotton Spore	Grass	Status	Beautiful	40	-1	1	2	buff target spe -2	AllAdjacentEnemies	
+179	Reversal	Fighting	Physical	Cool	15	-1	1	2	scalewithmissinghp self	Adjacent	y
+180	Spite	Ghost	Status	Tough	10	-1	1	2	damagepp 4	Adjacent	
+181	Powder Snow	Ice	Special	Beautiful	25	40	1	2	roll 0.1 status freeze	AllAdjacentEnemies	n
+182	Protect	Normal	Status	Cute	10	-1	-0.01	2	priority 4; protect	User	
+183	Mach Punch	Fighting	Physical	Cool	30	40	1	2	priority 1	Adjacent	y
+184	Scary Face	Normal	Status	Tough	10	-1	1	2	buff target spe -2	Adjacent	
+185	Feint Attack	Dark	Physical	Clever	20	60	-0.01	2	nomiss	Adjacent	y
+186	Sweet Kiss	Fairy	Status	Cute	10	-1	0.75	2	confuse	Adjacent	
+187	Belly Drum	Normal	Status	Cute	10	-1	-0.01	2	recoilpercentage 0.5; buff self atk 12	User	
+188	Sludge Bomb	Poison	Special	Tough	10	90	1	2	roll 0.3 status poison	Adjacent	n
+189	Mud-Slap	Ground	Special	Cute	10	20	1	2	buff target acc -1	Adjacent	n
+190	Octazooka	Water	Special	Tough	10	65	0.85	2	roll 0.5 buff target acc -1	Adjacent	n
+191	Spikes	Ground	Status	Clever	20	-1	-0.01	2	spikes	AllEnemies	
+192	Zap Cannon	Electric	Special	Cool	5	120	0.5	2	status paralyze	Adjacent	n
+193	Foresight	Normal	Status	Clever	40	-1	-0.01	2	nullifybuffs target eva; removeimmunities ghost	Adjacent	
+194	Destiny Bond	Ghost	Status	Clever	5	-1	-0.01	2	destinybond	User	
+195	Perish Song	Normal	Status	Beautiful	5	-1	-0.01	2	perish 3	All	
+196	Icy Wind	Ice	Special	Beautiful	15	55	0.95	2	buff target spe -1	AllAdjacentEnemies	n
+197	Detect	Fighting	Status	Cool	5	-1	-0.01	2	priority 4; protect	User	
+198	Bone Rush	Ground	Physical	Tough	10	25	0.9	2	multihit	Adjacent	n
+199	Lock-On	Normal	Status	Clever	5	-1	-0.01	2	lockon	Adjacent	
+200	Outrage	Dragon	Physical	Cool	10	120	1	2	outrage	User	y
+201	Sandstorm	Rock	Status	Tough	10	-1	-0.01	2	weather sandstorm	All	
+202	Giga Drain	Grass	Special	Clever	10	75	1	2	lifesteal 0.5	Adjacent	n
+203	Endure	Normal	Status	Tough	10	-1	-0.01	2	priority 2; endure	User	
+204	Charm	Fairy	Status	Cute	20	-1	1	2	buff target atk -2	Adjacent	
+205	Rollout	Rock	Physical	Cute	20	30	0.9	2	doublingpower 5	Adjacent	y
+206	False Swipe	Normal	Physical	Cool	40	40	1	2	nofaint	Adjacent	y
+207	Swagger	Normal	Status	Cute	15	-1	0.85	2	buff target atk 2; confuse	Adjacent	
+208	Milk Drink	Normal	Status	Cute	5	-1	-0.01	2	heal self 0.5	User	
+209	Spark	Electric	Physical	Cool	20	65	1	2	roll 0.3 status paralysis	Adjacent	y
+210	Fury Cutter	Bug	Physical	Cool	20	40	0.95	2	doublingpower 3	Adjacent	y
+211	Steel Wing	Steel	Physical	Cool	25	70	0.9	2	roll 0.1 buff self def 1	Adjacent	y
+212	Mean Look	Normal	Status	Beautiful	5	-1	-0.01	2	trap	Adjacent	
+213	Attract	Normal	Status	Cute	15	-1	1	2	ifoppositegender attract	Adjacent	
+214	Sleep Talk	Normal	Status	Cute	10	-1	-0.01	2	failunless ifselfstatus sleep; othermove	User	
+215	Heal Bell	Normal	Status	Beautiful	5	-1	-0.01	2	curestatus team	UserAndAllAllies	
+216	Return	Normal	Physical	Cute	20	-1	1	2	scalewithhappiness	Adjacent	y
+217	Present	Normal	Physical	Cute	15	-1	0.9	2	present	Adjacent	n
+218	Frustration	Normal	Physical	Cute	20	-1	1	2	inversescalewithhappiness self	Adjacent	y
+219	Safeguard	Normal	Status	Beautiful	25	-1	-0.01	2	safeguard 5	UserAndAllAllies	
+220	Pain Split	Normal	Status	Clever	20	-1	-0.01	2	hpsplit	Adjacent	
+221	Sacred Fire	Fire	Physical	Beautiful	5	100	0.95	2	thaw; roll 0.5 status burn	Adjacent	n
+222	Magnitude	Ground	Physical	Tough	30	-1	1	2	randpower; iflocation underground powermult 2	AllAdjacent	n
+223	Dynamic Punch	Fighting	Physical	Cool	5	100	0.5	2	confuse	Adjacent	y
+224	Megahorn	Bug	Physical	Cool	10	120	0.85	2		Adjacent	y
+225	Dragon Breath	Dragon	Special	Cool	20	60	1	2	roll 0.3 status paralysis	Adjacent	n
+226	Baton Pass	Normal	Status	Cute	40	-1	-0.01	2	batonpass	User	
+227	Encore	Normal	Status	Cute	5	-1	1	2	encore 3	Adjacent	
+228	Pursuit	Dark	Physical	Clever	20	40	1	2	interceptswitch	Adjacent	y
+229	Rapid Spin	Normal	Physical	Cool	40	50	1	2	spin; buff self spe 1	Adjacent	y
+230	Sweet Scent	Normal	Status	Cute	20	-1	1	2	buff target eva -2	AllAdjacentEnemies	
+231	Iron Tail	Steel	Physical	Cool	15	100	0.75	2	roll 0.3 buff self def -1	Adjacent	y
+232	Metal Claw	Steel	Physical	Cool	35	50	0.95	2	roll 0.1 buff self atk 1	Adjacent	y
+233	Vital Throw	Fighting	Physical	Cool	10	70	-0.01	2	priority -1; nomiss	Adjacent	y
+234	Morning Sun	Normal	Status	Beautiful	5	-1	-0.01	2	weatherheal self	User	
+235	Synthesis	Grass	Status	Clever	5	-1	-0.01	2	weatherheal	User	
+236	Moonlight	Fairy	Status	Beautiful	5	-1	-0.01	2	weatherheal self	User	
+237	Hidden Power	Normal	Special	Clever	15	60	1	2	matchhiddenpowertype	Adjacent	n
+238	Cross Chop	Fighting	Physical	Cool	5	100	0.8	2	critratio 1	Adjacent	y
+239	Twister	Dragon	Special	Cool	20	40	1	2	roll 0.2 flinch	AllAdjacentEnemies	n
+240	Rain Dance	Water	Status	Beautiful	5	-1	-0.01	2	weather rain	All	
+241	Sunny Day	Fire	Status	Beautiful	5	-1	-0.01	2	weather sun	All	
+242	Crunch	Dark	Physical	Tough	15	80	1	2	roll 0.2 buff target def -1	Adjacent	y
+243	Mirror Coat	Psychic	Special	Beautiful	20	-1	1	2	priority -5; parry special 2	User	n
+244	Psych Up	Normal	Status	Clever	10	-1	-0.01	2	copybuffs	Adjacent	
+245	Extreme Speed	Normal	Physical	Cool	5	80	1	2	priority 2	Adjacent	y
+246	Ancient Power	Rock	Special	Tough	5	60	1	2	roll 0.1 buff self all 1	Adjacent	n
+247	Shadow Ball	Ghost	Special	Clever	15	80	1	2	roll 0.2 buff target spd -1	Adjacent	n
+248	Future Sight	Psychic	Special	Clever	10	120	1	2	performafter 2	Adjacent	n
+249	Rock Smash	Fighting	Physical	Tough	15	40	1	2	roll 0.5 buff target def -1	Adjacent	y
+250	Whirlpool	Water	Special	Beautiful	15	35	0.85	2	bind	Adjacent	n
+251	Beat Up	Dark	Physical	Clever	10	-1	1	2	beatup	Adjacent	n
+252	Fake Out	Normal	Physical	Cute	10	40	1	3	failunless isfirstturn; priority 3; flinch	Adjacent	y
+253	Uproar	Normal	Special	Cute	10	90	1	3	uproar 3	User	n
+254	Stockpile	Normal	Status	Tough	20	-1	-0.01	3	stockpile	User	
+255	Spit Up	Normal	Special	Tough	10	-1	1	3	stockpileboost 100	Adjacent	n
+256	Swallow	Normal	Status	Tough	10	-1	-0.01	3	stockpileheal	User	
+257	Heat Wave	Fire	Special	Beautiful	10	95	0.9	3	roll 0.1 status burn	AllAdjacentEnemies	n
+258	Hail	Ice	Status	Beautiful	10	-1	-0.01	3	weather hail	All	
+259	Torment	Dark	Status	Tough	15	-1	1	3	torment	Adjacent	
+260	Flatter	Dark	Status	Clever	15	-1	1	3	buff target spa 1; confuse	Adjacent	
+261	Will-O-Wisp	Fire	Status	Beautiful	15	-1	0.85	3	status burn	Adjacent	
+262	Memento	Dark	Status	Tough	10	-1	1	3	buff target atk,spa -2; faint	Adjacent	
+263	Facade	Normal	Physical	Cute	20	70	1	3	ifselfstatus paralysis,poison,toxic powermult 2; ifselfstatus burn powermult 4	Adjacent	y
+264	Focus Punch	Fighting	Physical	Tough	20	150	1	3	priority -3; ifattackedafter fail	Adjacent	y
+265	Smelling Salts	Normal	Physical	Tough	10	70	1	3	ifstatus paralyze powermult 2; ifstatus paralyze curestatus target	Adjacent	y
+266	Follow Me	Normal	Status	Cute	20	-1	-0.01	3	priority 2; redirectattacks self	User	
+267	Nature Power	Normal	Status	Beautiful	20	-1	-0.01	3	naturepower	Adjacent	
+268	Charge	Electric	Status	Clever	20	-1	-0.01	3	buff self spd 1; typeboost electric	User	
+269	Taunt	Dark	Status	Clever	20	-1	1	3	taunt 3	Adjacent	
+270	Helping Hand	Normal	Status	Clever	20	-1	-0.01	3	nextmoveboost 1.5	AdjacentAlly	
+271	Trick	Psychic	Status	Clever	10	-1	1	3	swapitem	Adjacent	
+272	Role Play	Psychic	Status	Cute	10	-1	-0.01	3	copyability	Adjacent	
+273	Wish	Normal	Status	Cute	10	-1	-0.01	3	wish 0.5	User	
+274	Assist	Normal	Status	Cute	20	-1	-0.01	3	assist	User	
+275	Ingrain	Grass	Status	Clever	20	-1	-0.01	3	selftrap; regen 0.0625	User	
+276	Superpower	Fighting	Physical	Tough	5	120	1	3	buff self atk,def -1	Adjacent	y
+277	Magic Coat	Psychic	Status	Beautiful	15	-1	-0.01	3	priority 4; reflectstatus	User	
+278	Recycle	Normal	Status	Clever	10	-1	-0.01	3	recycle	User	
+279	Revenge	Fighting	Physical	Tough	10	60	1	3	priority -4; ifattacked powermult 2	Adjacent	y
+280	Brick Break	Fighting	Physical	Cool	15	75	1	3	shatter	Adjacent	y
+281	Yawn	Normal	Status	Cute	10	-1	-0.01	3	nextturnstatus sleep	Adjacent	
+282	Knock Off	Dark	Physical	Clever	20	65	1	3	ifhasitem target powermult 1.5; removeitem	Adjacent	y
+283	Endeavor	Normal	Physical	Tough	5	-1	1	3	endeavor	Adjacent	y
+284	Eruption	Fire	Special	Beautiful	5	150	1	3	scalewithhp self	AllAdjacentEnemies	n
+285	Skill Swap	Psychic	Status	Clever	10	-1	-0.01	3	abilityswap	Adjacent	
+286	Imprison	Psychic	Status	Clever	10	-1	-0.01	3	imprison	User	
+287	Refresh	Normal	Status	Cute	20	-1	-0.01	3	ifselfstatus burn,poison,paralyze curestatus self	User	
+288	Grudge	Ghost	Status	Tough	5	-1	-0.01	3	grudge	User	
+289	Snatch	Dark	Status	Clever	10	-1	-0.01	3	priority 4 snatch	User	
+290	Secret Power	Normal	Physical	Clever	20	70	1	3	secretpower	Adjacent	n
+291	Dive	Water	Physical	Beautiful	10	80	1	3	charge underwater	Adjacent	y
+292	Arm Thrust	Fighting	Physical	Tough	20	15	1	3	multihit	Adjacent	y
+293	Camouflage	Normal	Status	Clever	20	-1	-0.01	3	selfmatchenvironmenttype	User	
+294	Tail Glow	Bug	Status	Beautiful	20	-1	-0.01	3	buff self spa 3	User	
+295	Luster Purge	Psychic	Special	Clever	5	70	1	3	roll 0.5 buff target spd -1	Adjacent	n
+296	Mist Ball	Psychic	Special	Clever	5	70	1	3	roll 0.5 buff target spa -1	Adjacent	n
+297	Feather Dance	Flying	Status	Beautiful	15	-1	1	3	buff target atk -2	Adjacent	
+298	Teeter Dance	Normal	Status	Cute	20	-1	1	3	confuse	AllAdjacent	
+299	Blaze Kick	Fire	Physical	Cool	10	85	0.9	3	critratio 1; roll 0.1 status burn	Adjacent	y
+300	Mud Sport	Ground	Status	Cute	15	-1	-0.01	3	weakentype Electric 5	All	
+301	Ice Ball	Ice	Physical	Beautiful	20	30	0.9	3	doublingpower 5	Adjacent	y
+302	Needle Arm	Grass	Physical	Clever	15	60	1	3	roll 0.3 flinch	Adjacent	y
+303	Slack Off	Normal	Status	Cute	5	-1	-0.01	3	heal self 0.5	User	
+304	Hyper Voice	Normal	Special	Cool	10	90	1	3		AllAdjacentEnemies	n
+305	Poison Fang	Poison	Physical	Clever	15	50	1	3	roll 0.5 status toxic	Adjacent	y
+306	Crush Claw	Normal	Physical	Cool	10	75	0.95	3	roll 0.5 buff target def -1	Adjacent	y
+307	Blast Burn	Fire	Special	Beautiful	5	150	0.9	3	recharge	Adjacent	n
+308	Hydro Cannon	Water	Special	Beautiful	5	150	0.9	3	recharge	Adjacent	n
+309	Meteor Mash	Steel	Physical	Cool	10	90	0.9	3	roll 0.2 buff self atk 1	Adjacent	y
+310	Astonish	Ghost	Physical	Cute	15	30	1	3	roll 0.3 flinch	Adjacent	y
+311	Weather Ball	Normal	Special	Beautiful	10	50	1	3	ifweather any powermult 2; matchweathertype	Adjacent	n
+312	Aromatherapy	Grass	Status	Clever	5	-1	-0.01	3	curestatus team	UserAndAllAllies	
+313	Fake Tears	Dark	Status	Cute	20	-1	1	3	buff target spd -2	Adjacent	
+314	Air Cutter	Flying	Special	Cool	25	60	0.95	3	critratio 1	AllAdjacentEnemies	n
+315	Overheat	Fire	Special	Beautiful	5	130	0.9	3	buff target spa -2	Adjacent	n
+316	Odor Sleuth	Normal	Status	Clever	40	-1	-0.01	3	nullifybuffs target eva; removeimmunities ghost	Adjacent	
+317	Rock Tomb	Rock	Physical	Clever	15	60	0.95	3	buff target spe -1	Adjacent	n
+318	Silver Wind	Bug	Special	Beautiful	5	60	1	3	roll 0.1 buff self all 1	Adjacent	n
+319	Metal Sound	Steel	Status	Clever	40	-1	0.85	3	buff target spd -2	Adjacent	
+320	Grass Whistle	Grass	Status	Clever	15	-1	0.55	3	status sleep	Adjacent	
+321	Tickle	Normal	Status	Cute	20	-1	1	3	buff target atk,def -1	Adjacent	
+322	Cosmic Power	Psychic	Status	Beautiful	20	-1	-0.01	3	buff self def,spd 1	User	
+323	Water Spout	Water	Special	Beautiful	5	150	1	3	scalewithhp self	AllAdjacentEnemies	n
+324	Signal Beam	Bug	Special	Beautiful	15	75	1	3	roll 0.1 confuse	Adjacent	n
+325	Shadow Punch	Ghost	Physical	Clever	20	60	-0.01	3	nomiss	Adjacent	y
+326	Extrasensory	Psychic	Special	Cool	20	80	1	3	roll 0.1 flinch	Adjacent	n
+327	Sky Uppercut	Fighting	Physical	Cool	15	85	0.9	3	reach sky	Adjacent	y
+328	Sand Tomb	Ground	Physical	Clever	15	35	0.85	3	bind	Adjacent	n
+329	Sheer Cold	Ice	Special	Beautiful	5	-1	0.3	3	ohko	Adjacent	n
+330	Muddy Water	Water	Special	Tough	10	90	0.85	3	roll 0.3 buff target acc -1	AllAdjacentEnemies	n
+331	Bullet Seed	Grass	Physical	Cool	30	25	1	3	multihit	Adjacent	n
+332	Aerial Ace	Flying	Physical	Cool	20	60	-1	3	nomiss	Any	y
+333	Icicle Spear	Ice	Physical	Beautiful	30	25	1	3	multihit	Adjacent	n
+334	Iron Defense	Steel	Status	Tough	15	-1	-0.01	3	buff self def 2	User	
+335	Block	Normal	Status	Cute	5	-1	-0.01	3	trap	Adjacent	
+336	Howl	Normal	Status	Cool	40	-1	-0.01	3	buff self,allies atk 1	UserAndAllAllies	
+337	Dragon Claw	Dragon	Physical	Cool	15	80	1	3		Adjacent	y
+338	Frenzy Plant	Grass	Special	Cool	5	150	0.9	3	recharge	Adjacent	n
+339	Bulk Up	Fighting	Status	Cool	20	-1	-0.01	3	buff self atk,def 1	User	
+340	Bounce	Flying	Physical	Cute	5	85	0.85	3	charge sky; roll 0.3 status paralysis	Any	y
+341	Mud Shot	Ground	Special	Tough	15	55	0.95	3	buff target spe -1	Adjacent	n
+342	Poison Tail	Poison	Physical	Clever	25	50	1	3	critratio 1; roll 0.1 status poison	Adjacent	y
+343	Covet	Normal	Physical	Cute	25	60	1	3	stealitem	Adjacent	y
+344	Volt Tackle	Electric	Physical	Cool	15	120	1	3	recoil 0.3334; roll 0.1 status paralyze	Adjacent	y
+345	Magical Leaf	Grass	Special	Beautiful	20	60	-0.01	3	nomiss	Adjacent	n
+346	Water Sport	Water	Status	Cute	15	-1	-0.01	3	weakentype Fire 5	All	
+347	Calm Mind	Psychic	Status	Clever	20	-1	-0.01	3	buff self spa,spd 1	User	
+348	Leaf Blade	Grass	Physical	Cool	15	90	1	3	critratio 1	Adjacent	y
+349	Dragon Dance	Dragon	Status	Cool	20	-1	-0.01	3	buff self atk,spe 1	User	
+350	Rock Blast	Rock	Physical	Tough	10	25	0.9	3	multihit	Adjacent	n
+351	Shock Wave	Electric	Special	Cool	20	60	-0.01	3	nomiss	Adjacent	n
+352	Water Pulse	Water	Special	Beautiful	20	60	1	3	roll 0.2 confuse	Any	n
+353	Doom Desire	Steel	Special	Beautiful	5	140	1	3	delayattack 2	Adjacent	n
+354	Psycho Boost	Psychic	Special	Clever	5	140	0.9	3	buff self spa -2	Adjacent	n
+355	Roost	Flying	Status	Clever	5	-1	-0.01	4	heal self 0.5; singleturnremovetype self flying	User	
+356	Gravity	Psychic	Status	Clever	5	-1	-0.01	4	gravity 5	All	
+357	Miracle Eye	Psychic	Status	Clever	40	-1	-0.01	4	nullifybuffs target eva; removeimmunities dark	Adjacent	
+358	Wake-Up Slap	Fighting	Physical	Tough	10	70	1	4	ifstatus sleep powermult 2; ifstatus sleep curestatus target	Adjacent	y
+359	Hammer Arm	Fighting	Physical	Tough	10	100	0.9	4	buf self spe -1	Adjacent	y
+360	Gyro Ball	Steel	Physical	Cool	5	-1	1	4	scalewithspeeddisadvantage	Adjacent	y
+361	Healing Wish	Psychic	Status	Beautiful	10	-1	-0.01	4	healnext; faint	User	
+362	Brine	Water	Special	Tough	10	65	1	4	ifhp target lessthan 0.5; powermult 2	Adjacent	n
+363	Natural Gift	Normal	Physical	Clever	15	-1	1	4	berryattack	Adjacent	n
+364	Feint	Normal	Physical	Clever	10	30	1	4	breakprotect	Adjacent	n
+365	Pluck	Flying	Physical	Cute	20	60	1	4	eatberry	Any	y
+366	Tailwind	Flying	Status	Cool	15	-1	-0.01	4	tailwind 4	UserAndAllAllies	
+367	Acupressure	Normal	Status	Tough	30	-1	-0.01	4	buff self random 2	UserOrAdjacentAlly	
+368	Metal Burst	Steel	Physical	Cool	10	-1	1	4	parry either 1.5	User	n
+369	U-turn	Bug	Physical	Cute	20	70	1	4	switchout	Adjacent	y
+370	Close Combat	Fighting	Physical	Tough	5	120	1	4	buff self def,spd -1	Adjacent	y
+371	Payback	Dark	Physical	Tough	10	50	1	4	ifmoved powermult 2	Adjacent	y
+372	Assurance	Dark	Physical	Clever	10	60	1	4	ifattacked powermult 2	Adjacent	y
+373	Embargo	Dark	Status	Clever	15	-1	1	4	embargo 5	Adjacent	
+374	Fling	Dark	Physical	Cute	10	-1	1	4	fling	Adjacent	n
+375	Psycho Shift	Psychic	Status	Clever	10	-1	1	4	shiftstatus	Adjacent	
+376	Trump Card	Normal	Special	Cool	5	-1	-0.01	4	inversescalewithpp	Adjacent	y
+377	Heal Block	Psychic	Status	Clever	15	-1	1	4	noheal target 5	AllAdjacentEnemies	
+378	Wring Out	Normal	Special	Tough	5	-1	1	4	scalewithhp target	Adjacent	y
+379	Power Trick	Psychic	Status	Clever	10	-1	-0.01	4	swapstat atk def	User	
+380	Gastro Acid	Poison	Status	Tough	10	-1	1	4	removeability	Adjacent	
+381	Lucky Chant	Normal	Status	Cute	30	-1	-0.01	4	critshield 5	UserAndAllAllies	
+382	Me First	Normal	Status	Clever	20	-1	-0.01	4	mefirst	AdjacentEnemy	
+383	Copycat	Normal	Status	Cute	20	-1	-0.01	4	copycat	User	
+384	Power Swap	Psychic	Status	Clever	10	-1	-0.01	4	swapbuffs atk,spa	Adjacent	
+385	Guard Swap	Psychic	Status	Clever	10	-1	-0.01	4	swapbuffs def,spd	Adjacent	
+386	Punishment	Dark	Physical	Cool	5	60	1	4	scalewithbuffs target 20	Adjacent	y
+387	Last Resort	Normal	Physical	Cute	5	140	1	4	failunless lastmove	Adjacent	y
+388	Worry Seed	Grass	Status	Clever	10	-1	1	4	givefixedability Insomnia	Adjacent	
+389	Sucker Punch	Dark	Physical	Clever	5	70	1	4	priority 1; failunless ifattackqueued	Adjacent	y
+390	Toxic Spikes	Poison	Status	Clever	20	-1	-0.01	4	toxicspikes	AllEnemies	
+391	Heart Swap	Psychic	Status	Clever	10	-1	-0.01	4	swapbuffs all	Adjacent	
+392	Aqua Ring	Water	Status	Beautiful	20	-1	-0.01	4	regen 0.0625	User	
+393	Magnet Rise	Electric	Status	Clever	10	-1	-0.01	4	levitate self 5	User	
+394	Flare Blitz	Fire	Physical	Cool	15	120	1	4	thaw; roll 0.1 status burn; recoil 0.3334	Adjacent	y
+395	Force Palm	Fighting	Physical	Cool	10	60	1	4	roll 0.3 status paralysis	Adjacent	y
+396	Aura Sphere	Fighting	Special	Beautiful	20	80	-1	4	nomiss	Any	n
+397	Rock Polish	Rock	Status	Tough	20	-1	-0.01	4	buff self spe 2	User	
+398	Poison Jab	Poison	Physical	Tough	20	80	1	4	roll 0.3 status poison	Adjacent	y
+399	Dark Pulse	Dark	Special	Cool	15	80	1	4	roll 0.2 flinch	Any	n
+400	Night Slash	Dark	Physical	Cool	15	70	1	4	critratio 1	Adjacent	y
+401	Aqua Tail	Water	Physical	Beautiful	10	90	0.9	4		Adjacent	y
+402	Seed Bomb	Grass	Physical	Tough	15	80	1	4		Adjacent	n
+403	Air Slash	Flying	Special	Cool	15	75	0.95	4	roll 0.3 flinch	Any	n
+404	X-Scissor	Bug	Physical	Cool	15	80	1	4		Adjacent	y
+405	Bug Buzz	Bug	Special	Beautiful	10	90	1	4	roll 0.1 buff self spd -1	Adjacent	n
+406	Dragon Pulse	Dragon	Special	Beautiful	10	85	1	4		Any	n
+407	Dragon Rush	Dragon	Physical	Tough	10	100	0.75	4	roll 0.2 flinch	Adjacent	y
+408	Power Gem	Rock	Special	Beautiful	20	80	1	4		Adjacent	n
+409	Drain Punch	Fighting	Physical	Tough	10	75	1	4	lifesteal 0.5	Adjacent	y
+410	Vacuum Wave	Fighting	Special	Cool	30	40	1	4	priority 1	Adjacent	n
+411	Focus Blast	Fighting	Special	Cool	5	120	0.7	4	roll 0.1 buff target spd -1	Adjacent	n
+412	Energy Ball	Grass	Special	Beautiful	10	90	1	4	roll 0.1 buff target spd -1	Adjacent	n
+413	Brave Bird	Flying	Physical	Cool	15	120	1	4	recoil 0.3334	Any	y
+414	Earth Power	Ground	Special	Beautiful	10	90	1	4	roll 0.1 buff target spd -1	Adjacent	n
+415	Switcheroo	Dark	Status	Clever	10	-1	1	4	swapitem	Adjacent	
+416	Giga Impact	Normal	Physical	Tough	5	150	0.9	4	recharge	Adjacent	y
+417	Nasty Plot	Dark	Status	Clever	20	-1	-0.01	4	buff self spa 2	User	
+418	Bullet Punch	Steel	Physical	Tough	30	40	1	4	priority 1	Adjacent	y
+419	Avalanche	Ice	Physical	Beautiful	10	60	1	4	ifattacked powermult 2	Adjacent	y
+420	Ice Shard	Ice	Physical	Beautiful	30	40	1	4	priority 1	Adjacent	n
+421	Shadow Claw	Ghost	Physical	Cool	15	70	1	4	critratio 1	Adjacent	y
+422	Thunder Fang	Electric	Physical	Cool	15	65	0.95	4	roll 0.1 flinch; roll 0.1 status paralyze	Adjacent	y
+423	Ice Fang	Ice	Physical	Cool	15	65	0.95	4	roll 0.1 status freeze; roll 0.1 flinch	Adjacent	y
+424	Fire Fang	Fire	Physical	Cool	15	65	0.95	4	roll 0.1 burn; roll 0.1 flinch	Adjacent	y
+425	Shadow Sneak	Ghost	Physical	Clever	30	40	1	4	priority 1	Adjacent	y
+426	Mud Bomb	Ground	Special	Cute	10	65	0.85	4	roll 0.3 buff target acc -1	Adjacent	n
+427	Psycho Cut	Psychic	Physical	Cool	20	70	1	4	critratio 1	Adjacent	n
+428	Zen Headbutt	Psychic	Physical	Clever	15	80	0.9	4	roll 0.2 flinch	Adjacent	y
+429	Mirror Shot	Steel	Special	Beautiful	10	65	0.85	4	roll 0.3 buff target acc -1	Adjacent	n
+430	Flash Cannon	Steel	Special	Beautiful	10	80	1	4	roll 0.1 buff target spd -1	Adjacent	n
+431	Rock Climb	Normal	Physical	Tough	20	90	0.85	4	roll 0.2 confuse	Adjacent	y
+432	Defog	Flying	Status	Cool	15	-1	-0.01	4	buff target eva -1; terrain none; clearhazards	Adjacent	
+433	Trick Room	Psychic	Status	Clever	5	-1	-0.01	4	priority -7; trickroom 5	All	
+434	Draco Meteor	Dragon	Special	Beautiful	5	130	0.9	4	buff self spa -2	Adjacent	n
+435	Discharge	Electric	Special	Beautiful	15	80	1	4	roll 0.3 status paralysis	AllAdjacent	n
+436	Lava Plume	Fire	Special	Tough	15	80	1	4	roll 0.3 status burn	AllAdjacent	n
+437	Leaf Storm	Grass	Special	Beautiful	5	130	0.9	4	buff self spa -2	Adjacent	n
+438	Power Whip	Grass	Physical	Tough	10	120	0.85	4		Adjacent	y
+439	Rock Wrecker	Rock	Physical	Tough	5	150	0.9	4	recharge	Adjacent	n
+440	Cross Poison	Poison	Physical	Cool	20	70	1	4	critratio 1; roll 0.1 status poison	Adjacent	y
+441	Gunk Shot	Poison	Physical	Tough	5	120	0.8	4	roll 0.3 status poison	Adjacent	n
+442	Iron Head	Steel	Physical	Tough	15	80	1	4	roll 0.3 flinch	Adjacent	y
+443	Magnet Bomb	Steel	Physical	Cool	20	60	-1	4	nomiss	Adjacent	n
+444	Stone Edge	Rock	Physical	Tough	5	100	0.8	4	critratio 1	Adjacent	n
+445	Captivate	Normal	Status	Cute	20	-1	1	4	ifoppositegender buff target spa -2	AllAdjacentEnemies	
+446	Stealth Rock	Rock	Status	Cool	20	-1	-0.01	4	typehazard Rock	AllEnemies	
+447	Grass Knot	Grass	Special	Cute	20	-1	1	4	scalewithweight target	Adjacent	y
+448	Chatter	Flying	Special	Cute	20	65	1	4	confuse	Any	n
+449	Judgment	Normal	Special	Beautiful	10	100	1	4	matchplatetype	Adjacent	n
+450	Bug Bite	Bug	Physical	Cute	20	60	1	4	eatberry	Adjacent	y
+451	Charge Beam	Electric	Special	Beautiful	10	50	0.9	4	roll 0.7 buff self spa 1	Adjacent	n
+452	Wood Hammer	Grass	Physical	Tough	15	120	1	4	recoil 0.3334	Adjacent	y
+453	Aqua Jet	Water	Physical	Cool	20	40	1	4	priority 1	Adjacent	y
+454	Attack Order	Bug	Physical	Clever	15	90	1	4	critratio 1	Adjacent	n
+455	Defend Order	Bug	Status	Clever	10	-1	-0.01	4	buff self def,spd 1	User	
+456	Heal Order	Bug	Status	Clever	10	-1	-0.01	4	heal self 0.5	User	
+457	Head Smash	Rock	Physical	Tough	5	150	0.8	4	recoil 0.5	Adjacent	y
+458	Double Hit	Normal	Physical	Cool	10	35	0.9	4	doublehit	Adjacent	y
+459	Roar of Time	Dragon	Special	Beautiful	5	150	0.9	4	recharge	Adjacent	n
+460	Spacial Rend	Dragon	Special	Beautiful	5	100	0.95	4	critratio 1	Adjacent	n
+461	Lunar Dance	Psychic	Status	Beautiful	10	-1	-0.01	4	healnext; pprestorenext; faint	User	
+462	Crush Grip	Normal	Physical	Tough	5	-1	1	4	scalewithhp target	Adjacent	y
+463	Magma Storm	Fire	Special	Tough	5	100	0.75	4	bind	Adjacent	n
+464	Dark Void	Dark	Status	Clever	10	-1	0.5	4	failunless ifform Darkrai; status sleep	AllAdjacentEnemies	
+465	Seed Flare	Grass	Special	Beautiful	5	120	0.85	4	roll 0.4 buff target spd -2	Adjacent	n
+466	Ominous Wind	Ghost	Special	Beautiful	5	60	1	4	roll 0.1 buff self all 1	Adjacent	n
+467	Shadow Force	Ghost	Physical	Cool	5	120	1	4	charge disappear	Adjacent	y
+468	Hone Claws	Dark	Status	Cute	15	-1	-0.01	5	buff self atk,acc 1	User	
+469	Wide Guard	Rock	Status	Tough	10	-1	-0.01	5	multitargetprotect	UserAndAllAllies	
+470	Guard Split	Psychic	Status	Clever	10	-1	-0.01	5	sharestat def,spd	Adjacent	
+471	Power Split	Psychic	Status	Clever	10	-1	-0.01	5	sharestat atk,spa	Adjacent	
+472	Wonder Room	Psychic	Status	Clever	10	-1	-0.01	5	fieldstatswap 5 def spd	All	
+473	Psyshock	Psychic	Special	Beautiful	10	80	1	5	defensestat target def	Adjacent	n
+474	Venoshock	Poison	Special	Beautiful	10	65	1	5	ifstatus poison,toxic powermult 2	Adjacent	n
+475	Autotomize	Steel	Status	Beautiful	15	-1	-0.01	5	buff self spe 2; changeweight -100	User	
+476	Rage Powder	Bug	Status	Clever	20	-1	-0.01	5	priority 2; redirectattacks self	User	
+477	Telekinesis	Psychic	Status	Clever	15	-1	-0.01	5	levitate target 3; vulnerable 3 1	Adjacent	
+478	Magic Room	Psychic	Status	Clever	10	-1	-0.01	5	nullifyitems 5	All	
+479	Smack Down	Rock	Physical	Tough	15	50	1	5	smackdown	Adjacent	n
+480	Storm Throw	Fighting	Physical	Cool	10	60	1	5	critratio 4	Adjacent	y
+481	Flame Burst	Fire	Special	Beautiful	15	70	1	5	totargetallies directdamagemaxpercentage 0.0625	Adjacent	n
+482	Sludge Wave	Poison	Special	Tough	10	95	1	5	roll 0.1 status poison	AllAdjacent	n
+483	Quiver Dance	Bug	Status	Beautiful	20	-1	-0.01	5	buff self spa,spd,spe 1	User	
+484	Heavy Slam	Steel	Physical	Tough	10	-1	1	5	scalewithweightadvantage	Adjacent	y
+485	Synchronoise	Psychic	Special	Clever	10	120	1	5	failunless issametype	AllAdjacent	n
+486	Electro Ball	Electric	Special	Cool	10	-1	1	5	scalewithspeedadvantage	Adjacent	n
+487	Soak	Water	Status	Cute	20	-1	1	5	settype water	Adjacent	
+488	Flame Charge	Fire	Physical	Cool	20	50	1	5	buff self spe 1	Adjacent	y
+489	Coil	Poison	Status	Tough	20	-1	-0.01	5	buff self atk,def,acc 1	User	
+490	Low Sweep	Fighting	Physical	Clever	20	65	1	5	buff target spe -1	Adjacent	y
+491	Acid Spray	Poison	Special	Beautiful	20	40	1	5	buff target spd -2	Adjacent	n
+492	Foul Play	Dark	Physical	Clever	15	95	1	5	offensestat target atk	Adjacent	y
+493	Simple Beam	Normal	Status	Cute	15	-1	1	5	givefixedability Simple	Adjacent	
+494	Entrainment	Normal	Status	Cute	15	-1	1	5	giveability	Adjacent	
+495	After You	Normal	Status	Cute	15	-1	-0.01	5	afteryou	Adjacent	
+496	Round	Normal	Special	Beautiful	15	60	1	5	chorus powermult 2	Adjacent	n
+497	Echoed Voice	Normal	Special	Beautiful	15	40	1	5	compoundpower 5	Adjacent	n
+498	Chip Away	Normal	Physical	Tough	20	70	1	5	ignorestats target	Adjacent	y
+499	Clear Smog	Poison	Special	Beautiful	15	50	-0.01	5	resetstats target	Adjacent	n
+500	Stored Power	Psychic	Special	Clever	10	20	1	5	scalewithbuffs self 20	Adjacent	n
+501	Quick Guard	Fighting	Status	Cool	15	-1	-0.01	5	priority 3; priorityprotect	UserAndAllAllies	
+502	Ally Switch	Psychic	Status	Clever	15	-1	-0.01	5	swap	User	
+503	Scald	Water	Special	Tough	15	80	1	5	thawtarget; roll 0.3 status burn	Adjacent	n
+504	Shell Smash	Normal	Status	Tough	15	-1	-0.01	5	buff self def,spd -1; buff self atk,spa,spe 2	User	
+505	Heal Pulse	Psychic	Status	Beautiful	10	-1	-0.01	5	heal target 0.5	Any	
+506	Hex	Ghost	Special	Clever	10	65	1	5	ifstatus any powermult 2	Adjacent	n
+507	Sky Drop	Flying	Physical	Tough	10	60	1	5	chargetake sky	Any	y
+508	Shift Gear	Steel	Status	Clever	10	-1	-0.01	5	buff self spe 2; buff self atk 1	User	
+509	Circle Throw	Fighting	Physical	Cool	10	60	0.9	5	priority -6; forceswitch	Adjacent	y
+510	Incinerate	Fire	Special	Tough	15	60	1	5	destroyberry; destroygem	AllAdjacentEnemies	n
+511	Quash	Dark	Status	Clever	15	-1	1	5	quash	Adjacent	
+512	Acrobatics	Flying	Physical	Cool	15	55	1	5	ifhasnoitem self powermult 2	Any	y
+513	Reflect Type	Normal	Status	Clever	15	-1	-0.01	5	matchtyping	Adjacent	
+514	Retaliate	Normal	Physical	Cool	5	70	1	5	onretaliate powermult 2	Adjacent	y
+515	Final Gambit	Fighting	Special	Tough	5	-1	1	5	directdamagehp; faint	Adjacent	n
+516	Bestow	Normal	Status	Cute	15	-1	-0.01	5	giveitem	Adjacent	
+517	Inferno	Fire	Special	Beautiful	5	100	0.5	5	status burn	Adjacent	n
+518	Water Pledge	Water	Special	Beautiful	10	80	1	5	waterpledge	Adjacent	n
+519	Fire Pledge	Fire	Special	Beautiful	10	80	1	5	firepledge	Adjacent	n
+520	Grass Pledge	Grass	Special	Beautiful	10	80	1	5	grasspledge	Adjacent	n
+521	Volt Switch	Electric	Special	Cool	20	70	1	5	switchout	Adjacent	n
+522	Struggle Bug	Bug	Special	Cute	20	50	1	5	buff target spa -1	AllAdjacentEnemies	n
+523	Bulldoze	Ground	Physical	Tough	20	60	1	5	buff target spe -1	AllAdjacent	n
+524	Frost Breath	Ice	Special	Beautiful	10	60	0.9	5	critratio 4	Adjacent	n
+525	Dragon Tail	Dragon	Physical	Tough	10	60	0.9	5	priority -6 forceswitch	Adjacent	y
+526	Work Up	Normal	Status	Tough	30	-1	-0.01	5	buff self atk,spa 1	User	
+527	Electroweb	Electric	Special	Beautiful	15	55	0.95	5	buff target spe -1	AllAdjacentEnemies	n
+528	Wild Charge	Electric	Physical	Tough	15	90	1	5	recoil 0.25	Adjacent	y
+529	Drill Run	Ground	Physical	Tough	10	80	0.95	5	crit ratio 1	Adjacent	y
+530	Dual Chop	Dragon	Physical	Tough	15	40	0.9	5	doublehit	Adjacent	y
+531	Heart Stamp	Psychic	Physical	Cute	25	60	1	5	roll 0.3 flinch	Adjacent	y
+532	Horn Leech	Grass	Physical	Tough	10	75	1	5	lifesteal 0.5	Adjacent	y
+533	Sacred Sword	Fighting	Physical	Cool	15	90	1	5	ignorestats target	Adjacent	y
+534	Razor Shell	Water	Physical	Cool	10	75	0.95	5	roll 0.5 buff target def -1	Adjacent	y
+535	Heat Crash	Fire	Physical	Tough	10	-1	1	5	scalewithweightadvantage	Adjacent	y
+536	Leaf Tornado	Grass	Special	Cool	10	65	0.9	5	roll 0.5 buff target acc -1	Adjacent	n
+537	Steamroller	Bug	Physical	Tough	20	65	1	5	roll 0.3 flinch	Adjacent	y
+538	Cotton Guard	Grass	Status	Cute	10	-1	-0.01	5	buff self def 3	User	
+539	Night Daze	Dark	Special	Cool	10	85	0.95	5	roll 0.4 buff target acc -1	Adjacent	n
+540	Psystrike	Psychic	Special	Cool	10	100	1	5	defensestat target def	Adjacent	n
+541	Tail Slap	Normal	Physical	Cute	10	25	0.85	5	multihit	Adjacent	y
+542	Hurricane	Flying	Special	Tough	10	110	0.7	5	ifweather rain,primordialrain nomiss; roll 0.3 confuse	Any	n
+543	Head Charge	Normal	Physical	Tough	15	120	1	5	recoil 0.25	Adjacent	y
+544	Gear Grind	Steel	Physical	Clever	15	50	0.85	5	doublehit	Adjacent	y
+545	Searing Shot	Fire	Special	Cool	5	100	1	5	roll 0.3 status burn	AllAdjacent	n
+546	Techno Blast	Normal	Special	Cool	5	120	1	5	matchdrive	Adjacent	n
+547	Relic Song	Normal	Special	Beautiful	10	75	1	5	roll 0.1 status sleep; relicsong	AllAdjacentEnemies	n
+548	Secret Sword	Fighting	Special	Beautiful	10	85	1	5	defensestat target def	Adjacent	n
+549	Glaciate	Ice	Special	Beautiful	10	65	0.95	5	buff target spe -1	AllAdjacentEnemies	n
+550	Bolt Strike	Electric	Physical	Beautiful	5	130	0.85	5	roll 0.2 status paralyze	Adjacent	y
+551	Blue Flare	Fire	Special	Beautiful	5	130	0.85	5	roll 0.2 status burn	Adjacent	n
+552	Fiery Dance	Fire	Special	Beautiful	10	80	1	5	roll 0.5 buff self spa 1	Adjacent	n
+553	Freeze Shock	Ice	Physical	Beautiful	5	140	0.9	5	charge normal; roll 0.3 status paralyze	Adjacent	n
+554	Ice Burn	Ice	Special	Beautiful	5	140	0.9	5	charge normal; roll 0.3 status burn	Adjacent	n
+555	Snarl	Dark	Special	Tough	15	55	0.95	5	buff target spa -1	AllAdjacentEnemies	n
+556	Icicle Crash	Ice	Physical	Beautiful	10	85	0.9	5	roll 0.3 flinch	Adjacent	n
+557	V-create	Fire	Physical	Cool	5	180	0.95	5	buff self def,spd,spe -1	Adjacent	y
+558	Fusion Flare	Fire	Special	Beautiful	5	100	1	5	afterfusionbolt powermult 2	Adjacent	n
+559	Fusion Bolt	Electric	Physical	Cool	5	100	1	5	afterfusionflare powermult 2	Adjacent	n
+560	Flying Press	Fighting	Physical	Tough	10	100	0.95	6	extratype Flying; counterminimize	Any	y
+561	Mat Block	Fighting	Status	Cool	10	-1	-0.01	6	failunless isfirstturn; attackprotect	UserAndAllAllies	
+562	Belch	Poison	Special	Tough	10	120	0.9	6	failunless haseatenberry	Adjacent	n
+563	Rototiller	Ground	Status	Tough	10	-1	-0.01	6	ifgrounded iftargettype Grass buff target atk,spa 1	All	
+564	Sticky Web	Bug	Status	Tough	20	-1	-0.01	6	stathazard spe -1	AllEnemies	
+565	Fell Stinger	Bug	Physical	Cool	25	50	1	6	ifko buff self atk 3	Adjacent	y
+566	Phantom Force	Ghost	Physical	Cool	10	90	1	6	charge disappear	Adjacent	y
+567	Trick-or-Treat	Ghost	Status	Cute	20	-1	1	6	addtype target Ghost	Adjacent	
+568	Noble Roar	Normal	Status	Tough	30	-1	1	6	buff target atk,spa -1	Adjacent	
+569	Ion Deluge	Electric	Status	Beautiful	25	-1	-0.01	6	priority 1; changenormalmoves Electric	All	
+570	Parabolic Charge	Electric	Special	Clever	20	65	1	6	lifesteal 0.5	AllAdjacent	n
+571	Forest's Curse	Grass	Status	Clever	20	-1	1	6	addtype target Grass	Adjacent	
+572	Petal Blizzard	Grass	Physical	Beautiful	15	90	1	6		AllAdjacent	n
+573	Freeze-Dry	Ice	Special	Beautiful	20	70	1	6	iftargettype water makesupereffective	Adjacent	n
+574	Disarming Voice	Fairy	Special	Cute	15	40	-0.01	6	nomiss	AllAdjacentEnemies	n
+575	Parting Shot	Dark	Status	Cool	20	-1	1	6	buff target atk,spa -1; switchout	Adjacent	
+576	Topsy-Turvy	Dark	Status	Clever	20	-1	-0.01	6	invertbuffs self	Adjacent	
+577	Draining Kiss	Fairy	Special	Cute	10	50	1	6	lifesteal 0.75	Adjacent	y
+578	Crafty Shield	Fairy	Status	Clever	10	-1	-0.01	6	priority 3; statusprotect	UserAndAllAllies	
+579	Flower Shield	Fairy	Status	Beautiful	10	-1	-0.01	6	iftype Grass buff target def 1	All	
+580	Grassy Terrain	Grass	Status	Beautiful	10	-1	-0.01	6	terrain grassy	All	
+581	Misty Terrain	Fairy	Status	Beautiful	10	-1	-0.01	6	terrain misty	All	
+582	Electrify	Electric	Status	Clever	20	-1	-0.01	6	temptype target electric	Adjacent	
+583	Play Rough	Fairy	Physical	Cute	10	90	0.9	6	roll 0.1 buff target atk -1	Adjacent	y
+584	Fairy Wind	Fairy	Special	Beautiful	30	40	1	6		Adjacent	n
+585	Moonblast	Fairy	Special	Beautiful	15	95	1	6	roll 0.3 buff target spa -1	Adjacent	n
+586	Boomburst	Normal	Special	Tough	10	140	1	6		AllAdjacent	n
+587	Fairy Lock	Fairy	Status	Clever	10	-1	-0.01	6	trapall 1	All	
+588	King's Shield	Steel	Status	Cool	10	-1	-0.01	6	priority 4; protect; ifattackedafter buff target atk -2	User	
+589	Play Nice	Normal	Status	Cute	20	-1	-0.01	6	buff target atk -1	Adjacent	
+590	Confide	Normal	Status	Cute	20	-1	-0.01	6	buff target spa -1	Adjacent	
+591	Diamond Storm	Rock	Physical	Beautiful	5	100	0.95	6	roll 0.5 buff self def 2	AllAdjacentEnemies	n
+592	Steam Eruption	Water	Special	Beautiful	5	110	0.95	6	thawtarget; roll 0.3 status burn	Adjacent	n
+593	Hyperspace Hole	Psychic	Special	Clever	5	80	-0.01	6	breakprotect	Adjacent	n
+594	Water Shuriken	Water	Special	Cool	20	15	1	6	priority 1; multihit	Adjacent	n
+595	Mystical Fire	Fire	Special	Beautiful	10	75	1	6	buff target spa -1	Adjacent	n
+596	Spiky Shield	Grass	Status	Tough	10	-1	-0.01	6	priority 4; protect; ifattackedafter directdamagepercentage 0.125	User	
+597	Aromatic Mist	Fairy	Status	Beautiful	20	-1	-0.01	6	buff target spd 1	AdjacentAlly	
+598	Eerie Impulse	Electric	Status	Clever	15	-1	1	6	buff target spa -2	Adjacent	
+599	Venom Drench	Poison	Status	Clever	20	-1	1	6	ifstatus poison,toxic buff target atk,spa,spe -2	AllAdjacentEnemies	
+600	Powder	Bug	Status	Clever	20	-1	1	6	settypetrap Fire 0.25	Adjacent	
+601	Geomancy	Fairy	Status	Beautiful	10	-1	-0.01	6	charge normal; buff self spa,spd,spe 2	User	
+602	Magnetic Flux	Electric	Status	Clever	20	-1	-0.01	6	ifplusorminus buff target def,spd 1	UserAndAllAllies	
+603	Happy Hour	Normal	Status	Cute	30	-1	-0.01	6	moneymult 2	UserAndAllAllies	
+604	Electric Terrain	Electric	Status	Clever	10	-1	-0.01	6	terrain electric	All	
+605	Dazzling Gleam	Fairy	Special	Beautiful	10	80	1	6		AllAdjacentEnemies	n
+606	Celebrate	Normal	Status	Cute	40	-1	-0.01	6		User	
+607	Hold Hands	Normal	Status	Cute	40	-1	-0.01	6		AdjacentAlly	
+608	Baby-Doll Eyes	Fairy	Status	Cute	30	-1	1	6	buff target atk -1	Adjacent	
+609	Nuzzle	Electric	Physical	Cute	20	20	1	6	status paralysis	Adjacent	y
+610	Hold Back	Normal	Physical	Cool	40	40	1	6	nofaint	Adjacent	y
+611	Infestation	Bug	Special	Cute	20	20	1	6	bind	Adjacent	y
+612	Power-Up Punch	Fighting	Physical	Tough	20	40	1	6	buff self atk 1	Adjacent	y
+613	Oblivion Wing	Flying	Special	Cool	10	80	1	6	lifesteal 0.75	Any	n
+614	Thousand Arrows	Ground	Physical	Beautiful	10	90	1	6	neutralagainst Flying; smackdown	AllAdjacentEnemies	n
+615	Thousand Waves	Ground	Physical	Tough	10	90	1	6	trap	AllAdjacentEnemies	n
+616	Land's Wrath	Ground	Physical	Beautiful	10	90	1	6		AllAdjacentEnemies	n
+617	Light of Ruin	Fairy	Special	Beautiful	5	140	0.9	6	recoil 0.5	Adjacent	n
+618	Origin Pulse	Water	Special	Beautiful	10	110	0.85	6		AllAdjacentEnemies	n
+619	Precipice Blades	Ground	Physical	Cool	10	120	0.85	6		AllAdjacentEnemies	n
+620	Dragon Ascent	Flying	Physical	Beautiful	5	120	1	6	buff self def,spd -1	Adjacent	y
+621	Hyperspace Fury	Dark	Physical	Tough	5	100	-0.01	6	failunless ifform Hoopa-Unbound; breakprotect; buff self def -1;	Adjacent	y
+622	Breakneck Blitz	Normal	Physical		1	-1	-0.01	7		Adjacent	y
+623	Breakneck Blitz	Normal	Special		1	-1	-0.01	7		Adjacent	n
+624	All-Out Pummeling	Fighting	Physical		1	-1	-0.01	7		Adjacent	y
+625	All-Out Pummeling	Fighting	Special		1	-1	-0.01	7		Adjacent	n
+626	Supersonic Skystrike	Flying	Physical		1	-1	-0.01	7		Adjacent	y
+627	Supersonic Skystrike	Flying	Special		1	-1	-0.01	7		Adjacent	n
+628	Acid Downpour	Poison	Physical		1	-1	-0.01	7		Adjacent	y
+629	Acid Downpour	Poison	Special		1	-1	-0.01	7		Adjacent	n
+630	Tectonic Rage	Ground	Physical		1	-1	-0.01	7		Adjacent	y
+631	Tectonic Rage	Ground	Special		1	-1	-0.01	7		Adjacent	n
+632	Continental Crush	Rock	Physical		1	-1	-0.01	7		Adjacent	y
+633	Continental Crush	Rock	Special		1	-1	-0.01	7		Adjacent	n
+634	Savage Spin-Out	Bug	Physical		1	-1	-0.01	7		Adjacent	y
+635	Savage Spin-Out	Bug	Special		1	-1	-0.01	7		Adjacent	n
+636	Never-Ending Nightmare	Ghost	Physical		1	-1	-0.01	7		Adjacent	y
+637	Never-Ending Nightmare	Ghost	Special		1	-1	-0.01	7		Adjacent	n
+638	Corkscrew Crash	Steel	Physical		1	-1	-0.01	7		Adjacent	y
+639	Corkscrew Crash	Steel	Special		1	-1	-0.01	7		Adjacent	n
+640	Inferno Overdrive	Fire	Physical		1	-1	-0.01	7		Adjacent	y
+641	Inferno Overdrive	Fire	Special		1	-1	-0.01	7		Adjacent	n
+642	Hydro Vortex	Water	Physical		1	-1	-0.01	7		Adjacent	y
+643	Hydro Vortex	Water	Special		1	-1	-0.01	7		Adjacent	n
+644	Bloom Doom	Grass	Physical		1	-1	-0.01	7		Adjacent	y
+645	Bloom Doom	Grass	Special		1	-1	-0.01	7		Adjacent	n
+646	Gigavolt Havoc	Electric	Physical		1	-1	-0.01	7		Adjacent	y
+647	Gigavolt Havoc	Electric	Special		1	-1	-0.01	7		Adjacent	n
+648	Shattered Psyche	Psychic	Physical		1	-1	-0.01	7		Adjacent	y
+649	Shattered Psyche	Psychic	Special		1	-1	-0.01	7		Adjacent	n
+650	Subzero Slammer	Ice	Physical		1	-1	-0.01	7		Adjacent	y
+651	Subzero Slammer	Ice	Special		1	-1	-0.01	7		Adjacent	n
+652	Devastating Drake	Dragon	Physical		1	-1	-0.01	7		Adjacent	y
+653	Devastating Drake	Dragon	Special		1	-1	-0.01	7		Adjacent	n
+654	Black Hole Eclipse	Dark	Physical		1	-1	-0.01	7		Adjacent	y
+655	Black Hole Eclipse	Dark	Special		1	-1	-0.01	7		Adjacent	n
+656	Twinkle Tackle	Fairy	Physical		1	-1	-0.01	7		Adjacent	y
+657	Twinkle Tackle	Fairy	Special		1	-1	-0.01	7		Adjacent	n
+658	Catastropika	Electric	Physical		1	210	-0.01	7		Adjacent	y
+659	Shore Up	Ground	Status		5	-1	-0.01	7	sandheal self	User	
+660	First Impression	Bug	Physical		10	90	1	7	failunless isfirstturn; priority 2	Adjacent	y
+661	Baneful Bunker	Poison	Status		10	-1	-0.01	7	priority 4; protect; ifattackedafter status poison	User	
+662	Spirit Shackle	Ghost	Physical		10	80	1	7	trap	Adjacent	n
+663	Darkest Lariat	Dark	Physical		10	85	1	7	ignorestats target	Adjacent	y
+664	Sparkling Aria	Water	Special		10	90	1	7	ifstatus burn curestatus target	AllAdjacent	n
+665	Ice Hammer	Ice	Physical		10	100	0.9	7	buff self spe -1	Adjacent	y
+666	Floral Healing	Fairy	Status		10	-1	-0.01	7	heal target 0.5	Adjacent	
+667	High Horsepower	Ground	Physical		10	95	0.95	7		Adjacent	y
+668	Strength Sap	Grass	Status		10	-1	1	7	sapstat atk; buff target atk -1	Adjacent	
+669	Solar Blade	Grass	Physical		10	125	1	7	solarcharge	Adjacent	y
+670	Leafage	Grass	Physical		40	40	1	7		Adjacent	n
+671	Spotlight	Normal	Status		15	-1	-0.01	7	priority 3; redirectattacks target	Adjacent	
+672	Toxic Thread	Poison	Status		20	-1	1	7	buff target spe -1; status poison	Adjacent	
+673	Laser Focus	Normal	Status		30	-1	-0.01	7	critnextturn	User	
+674	Gear Up	Steel	Status		20	-1	-0.01	7	ifplusorminus buff target atk,spa 1	UserAndAllAllies	
+675	Throat Chop	Dark	Physical		15	80	1	7	nosoundmoves 2	Adjacent	y
+676	Pollen Puff	Bug	Special		15	90	1	7	healifally 0.5	Adjacent	n
+677	Anchor Shot	Steel	Physical		20	80	1	7	trap	Adjacent	y
+678	Psychic Terrain	Psychic	Status		10	-1	-0.01	7	terrain psychic	All	
+679	Lunge	Bug	Physical		15	80	1	7	buf target atk -1	Adjacent	y
+680	Fire Lash	Fire	Physical		15	80	1	7	buff target def -1	Adjacent	y
+681	Power Trip	Dark	Physical		10	20	1	7	scalewithbuffs self 20	Adjacent	y
+682	Burn Up	Fire	Special		5	130	1	7	failunless iftype fire; removetype self fire	Adjacent	n
+683	Speed Swap	Psychic	Status		10	-1	-0.01	7	swapstatwithtarget spe	Adjacent	
+684	Smart Strike	Steel	Physical		10	70	-0.01	7	nomiss	Adjacent	y
+685	Purify	Poison	Status		20	-1	-0.01	7	ifstatus target heal self 0.5; curestatus target	Adjacent	
+686	Revelation Dance	Normal	Special		15	90	1	7	matchprimarytype	Adjacent	n
+687	Core Enforcer	Dragon	Special		10	100	1	7	ifmoved suppressability	AllAdjacentEnemies	n
+688	Trop Kick	Grass	Physical		15	70	1	7	buff target atk -1	Adjacent	y
+689	Instruct	Psychic	Status		15	-1	-0.01	7	instruct	Adjacent	
+690	Beak Blast	Flying	Physical		15	100	1	7	settrap -3 status burn;	Adjacent	n
+691	Clanging Scales	Dragon	Special		5	110	1	7	buff self def -1	AllAdjacentEnemies	n
+692	Dragon Hammer	Dragon	Physical		15	90	1	7		Adjacent	y
+693	Brutal Swing	Dark	Physical		20	60	1	7		AllAdjacent	y
+694	Aurora Veil	Ice	Status		20	-1	-0.01	7	ifweather snow,hail reflect,lightscreen	UserAndAllAllies	
+695	Sinister Arrow Raid	Ghost	Physical		1	180	-0.01	7		Adjacent	n
+696	Malicious Moonsault	Dark	Physical		1	180	-0.01	7	counterminimize	Adjacent	y
+697	Oceanic Operetta	Water	Special		1	195	-0.01	7		Adjacent	n
+698	Guardian of Alola	Fairy	Special		1	-1	-0.01	7	directdamagepercentage 0.75	Adjacent	n
+699	Soul-Stealing 7-Star Strike	Ghost	Physical		1	195	-0.01	7		Adjacent	y
+700	Stoked Sparksurfer	Electric	Special		1	175	-0.01	7	status paralyze	Adjacent	n
+701	Pulverizing Pancake	Normal	Physical		1	210	-0.01	7		Adjacent	y
+702	Extreme Evoboost	Normal	Status		1	-1	-0.01	7	buff self all 2	User	
+703	Genesis Supernova	Psychic	Special		1	185	-0.01	7	terrain psychic	Adjacent	n
+704	Shell Trap	Fire	Special		5	150	1	7	setmovetrap	AllAdjacentEnemies	n
+705	Fleur Cannon	Fairy	Special		5	130	0.9	7	buff self spa -2	Adjacent	n
+706	Psychic Fangs	Psychic	Physical		10	85	1	7	shatter	Adjacent	y
+707	Stomping Tantrum	Ground	Physical		10	75	1	7	iffailedlastturn powermult 2	Adjacent	y
+708	Shadow Bone	Ghost	Physical		10	85	1	7	roll 0.2 buff target def -1	Adjacent	n
+709	Accelerock	Rock	Physical		20	40	1	7	priority 1	Adjacent	y
+710	Liquidation	Water	Physical		10	85	1	7	roll 0.2 buff target def -1	Adjacent	y
+711	Prismatic Laser	Psychic	Special		10	160	1	7	recharge	Adjacent	n
+712	Spectral Thief	Ghost	Physical		10	90	1	7	stealbuffs	Adjacent	y
+713	Sunsteel Strike	Steel	Physical		5	100	1	7	ignoreability	Adjacent	y
+714	Moongeist Beam	Ghost	Special		5	100	1	7	ignoreability	Adjacent	n
+715	Tearful Look	Normal	Status		20	-1	-0.01	7	buff target atk,spa -1	Adjacent	
+716	Zing Zap	Electric	Physical		10	80	1	7	roll 0.3 flinch	Adjacent	y
+717	Nature's Madness	Fairy	Special		10	-1	0.9	7	directdamagepercentage 0.5	Adjacent	n
+718	Multi-Attack	Normal	Physical		10	120	1	7	matchmemory	Adjacent	y
+719	10,000,000 Volt Thunderbolt	Electric	Special		1	195	-0.01	7	critratio 2	Adjacent	n
+720	Mind Blown	Fire	Special		5	150	1	7	recoilpercentage 0.5	AllAdjacent	n
+721	Plasma Fists	Electric	Physical		15	100	1	7	changenormalmoves Electric	Adjacent	y
+722	Photon Geyser	Psychic	Special		5	100	1	7	strongestcategory; ignoreability	Adjacent	n
+723	Light That Burns the Sky	Psychic	Special		1	200	-0.01	7	ignoreability; strongestcategory	Adjacent	n
+724	Searing Sunraze Smash	Steel	Physical		1	200	-0.01	7	ignoreability	Adjacent	y
+725	Menacing Moonraze Maelstrom	Ghost	Special		1	200	-0.01	7	ignoreability	Adjacent	n
+726	Let's Snuggle Forever	Fairy	Physical		1	190	-0.01	7		Adjacent	y
+727	Splintered Stormshards	Rock	Physical		1	190	-0.01	7	terrain none	Adjacent	n
+728	Clangorous Soulblaze	Dragon	Special		1	185	-0.01	7	buff self all 1	AllAdjacentEnemies	n
+729	Zippy Zap	Electric	Physical		10	80	1	7	priority 2; critratio 4	Adjacent	y
+730	Splishy Splash	Water	Special		15	90	1	7	roll 0.3 status paralyze	AllAdjacentEnemies	n
+731	Floaty Fall	Flying	Physical		15	90	0.95	7	roll 0.3 flinch	Adjacent	y
+732	Pika Papow	Electric	Special		20	-1	-0.01	7	nomiss; scalewithhappiness	Adjacent	n
+733	Bouncy Bubble	Water	Special		20	60	1	7	lifesteal 0.5	AllAdjacentEnemies	n
+734	Buzzy Buzz	Electric	Special		20	60	1	7	status paralyze	Adjacent	n
+735	Sizzly Slide	Fire	Physical		20	60	1	7	status burn	Adjacent	y
+736	Glitzy Glow	Psychic	Special		15	80	0.95	7	lightscreen	Adjacent	n
+737	Baddy Bad	Dark	Special		15	80	0.95	7	reflect	Adjacent	n
+738	Sappy Seed	Grass	Physical		10	100	0.9	7	leech 0.125	Adjacent	y
+739	Freezy Frost	Ice	Special		10	100	0.9	7	resetstats all	Adjacent	n
+740	Sparkly Swirl	Fairy	Special		5	120	0.85	7	curestatus team	Adjacent	n
+741	Veevee Volley	Normal	Physical		20	-1	-0.01	7	nomiss; scalewithhappiness	Adjacent	y
+742	Double Iron Bash	Steel	Physical		5	60	1	7	doublehit; roll 0.3 flinch	Adjacent	y
+743	Max Guard	Normal	Status		10	-1	-0.01	8	maxguard	User	
+744	Dynamax Cannon	Dragon	Special		5	100	1	8	ifdyna target powermult 2	Adjacent	n
+745	Snipe Shot	Water	Special		15	80	1	8	noredirect; critratio 1	Adjacent	n
+746	Jaw Lock	Dark	Physical		10	80	1	8	trap; selftrap	Adjacent	y
+747	Stuff Cheeks	Normal	Status		10	-1	-0.01	8	failunless ifhasberry self; eatberryself; buff self def 2	User	
+748	No Retreat	Fighting	Status		5	-1	-0.01	8	buff self all 1; selftrap	User	
+749	Tar Shot	Rock	Status		15	-1	1	8	buff target spe -1; typevulnerability fire	Adjacent	
+750	Magic Powder	Psychic	Status		20	-1	1	8	settype target psychic	Adjacent	
+751	Dragon Darts	Dragon	Physical		10	50	1	8	splitdoublehit	Adjacent	n
+752	Teatime	Normal	Status		10	-1	-0.01	8	eatberryself	All	
+753	Octolock	Fighting	Status		15	-1	1	8	debufftrap def,spd	Adjacent	
+754	Bolt Beak	Electric	Physical		10	85	1	8	ifnotmoved powermult 2	Adjacent	y
+755	Fishious Rend	Water	Physical		10	85	1	8	ifnotmoved powermult 2	Adjacent	y
+756	Court Change	Normal	Status		10	-1	1	8	swapfields	All	
+757	Max Flare	Fire	MaxMove		10	-1	-0.01	8	weather sun	AdjacentEnemy	???
+758	Max Flutterby	Bug	MaxMove		10	-1	-0.01	8	buff target spa -1	AdjacentEnemy	???
+759	Max Lightning	Electric	MaxMove		10	-1	-0.01	8	terrain electric	AdjacentEnemy	???
+760	Max Strike	Normal	MaxMove		10	-1	-0.01	8	buff target spe -1	AdjacentEnemy	???
+761	Max Knuckle	Fighting	MaxMove		10	-1	-0.01	8	toallies buff target atk 1	AdjacentEnemy	???
+762	Max Phantasm	Ghost	MaxMove		10	-1	-0.01	8	buff target def -1	AdjacentEnemy	???
+763	Max Hailstorm	Ice	MaxMove		10	-1	-0.01	8	weather hail	AdjacentEnemy	???
+764	Max Ooze	Poison	MaxMove		10	-1	-0.01	8	toallies buff target spa 1	AdjacentEnemy	???
+765	Max Geyser	Water	MaxMove		10	-1	-0.01	8	weather rain	AdjacentEnemy	???
+766	Max Airstream	Flying	MaxMove		10	-1	-0.01	8	toallies buff target spe 1	AdjacentEnemy	???
+767	Max Starfall	Fairy	MaxMove		10	-1	-0.01	8	terrain misty	AdjacentEnemy	???
+768	Max Wyrmwind	Dragon	MaxMove		10	-1	-0.01	8	buff target atk -1	AdjacentEnemy	???
+769	Max Mindstorm	Psychic	MaxMove		10	-1	-0.01	8	terrain psychic	AdjacentEnemy	???
+770	Max Rockfall	Rock	MaxMove		10	-1	-0.01	8	weather sandstorm	AdjacentEnemy	???
+771	Max Quake	Ground	MaxMove		10	-1	-0.01	8	toallies buff target spd 1	AdjacentEnemy	???
+772	Max Darkness	Dark	MaxMove		10	-1	-0.01	8	buff target spd -1	AdjacentEnemy	???
+773	Max Overgrowth	Grass	MaxMove		10	-1	-0.01	8	terrain grassy	AdjacentEnemy	???
+774	Max Steelspike	Steel	MaxMove		10	-1	-0.01	8	toallies buff target def 1	AdjacentEnemy	???
+775	Clangorous Soul	Dragon	Status		5	-1	-0.01	8	saferecoilpercentage 0.3334; buff self all 1	AllAdjacentEnemies	
+776	Body Press	Fighting	Physical		10	80	1	8	offensestat self def	Adjacent	y
+777	Decorate	Fairy	Status		15	-1	-0.01	8	buff target atk,spa 2	Adjacent	
+778	Drum Beating	Grass	Physical		10	80	1	8	buff target spe -1	Adjacent	n
+779	Snap Trap	Grass	Physical		15	35	1	8	bind	Adjacent	y
+780	Pyro Ball	Fire	Physical		5	120	0.9	8	thaw; roll 0.1 status burn	Adjacent	n
+781	Behemoth Blade	Steel	Physical		5	100	1	8	ifdyna target powermult 2	Adjacent	y
+782	Behemoth Bash	Steel	Physical		5	100	1	8	ifdyna target powermult 2	Adjacent	y
+783	Aura Wheel	Electric	Physical		10	110	1	8	aurawheel; buff self spe 1	Adjacent	n
+784	Breaking Swipe	Dragon	Physical		15	60	1	8	buff target atk -1	AllAdjacentEnemies	y
+785	Branch Poke	Grass	Physical		40	40	1	8		Adjacent	y
+786	Overdrive	Electric	Special		10	80	1	8		AllAdjacentEnemies	n
+787	Apple Acid	Grass	Special		10	80	1	8	buff target spd -1	Adjacent	n
+788	Grav Apple	Grass	Physical		10	80	1	8	buff target def -1; ifgravity powermult 1.5	Adjacent	n
+789	Spirit Break	Fairy	Physical		15	75	1	8	buff target spa -1	Adjacent	y
+790	Strange Steam	Fairy	Special		10	90	0.95	8	roll 0.2 confuse	Adjacent	n
+791	Life Dew	Water	Status		10	-1	-0.01	8	heal self,allies 0.25	UserAndAllAllies	
+792	Obstruct	Dark	Status		10	-1	1	8	priority 4; protect; ifattackedafter buff target def -2	User	
+793	False Surrender	Dark	Physical		10	80	-0.01	8	nomiss	Adjacent	y
+794	Meteor Assault	Fighting	Physical		5	150	1	8	recharge	Adjacent	n
+795	Eternabeam	Dragon	Special		5	160	0.9	8	recharge	Adjacent	n
+796	Steel Beam	Steel	Special		5	140	0.95	8	recoilpercentage 0.5	Adjacent	n
+797	Expanding Force	Psychic	Special		10	80	1	8	ifterrain psychic powermult 1.5	Adjacent	n
+798	Steel Roller	Steel	Physical		5	130	1	8	failunless ifterrain any; terrain none	Adjacent	y
+799	Scale Shot	Dragon	Physical		20	25	0.9	8	multishot; buff self def -1; buff self spe 1	Adjacent	n
+800	Meteor Beam	Rock	Special		10	120	0.9	8	buff self spa 1; charge normal	Adjacent	n
+801	Shell Side Arm	Poison	Special		10	90	1	8	strongestcategory; roll 0.2 status poison	Adjacent	n
+802	Misty Explosion	Fairy	Special		5	100	1	8	ifterrain misty powermult 1.5; faint	AllAdjacent	n
+803	Grassy Glide	Grass	Physical		20	60	1	8	ifterrain grassy priority 1	Adjacent	y
+804	Rising Voltage	Electric	Special		20	70	1	8	ifterrain electric powermult 2	Adjacent	n
+805	Terrain Pulse	Normal	Special		10	50	1	8	ifterrain powermult 2; matchterraintype	Adjacent	n
+806	Skitter Smack	Bug	Physical		10	70	0.9	8	buff target spa -1	Adjacent	y
+807	Burning Jealousy	Fire	Special		5	70	1	8	ifbuffed target status burn	AllAdjacentEnemies	n
+808	Lash Out	Dark	Physical		5	75	1	8	ifdebuffed self powermult 2	Adjacent	y
+809	Poltergeist	Ghost	Physical		5	110	0.9	8	onlytargets ifhasitem target	Adjacent	n
+810	Corrosive Gas	Poison	Status		40	-1	1	8	removeitem	AllAdjacent	
+811	Coaching	Fighting	Status		10	-1	-0.01	8	buff target atk,def 1	AllAllies	
+812	Flip Turn	Water	Physical		20	60	1	8	switchout	Adjacent	y
+813	Triple Axel	Ice	Physical		10	20	0.9	8	compoundinghits 3 20	Adjacent	y
+814	Dual Wingbeat	Flying	Physical		10	40	0.9	8	doublehit	Adjacent	y
+815	Scorching Sands	Ground	Special		10	70	1	8	thawtarget; roll 0.3 status burn	Adjacent	n
+816	Jungle Healing	Grass	Status		10	-1	-0.01	8	heal self,allies 0.25; curestatus self,allies	UserAndAllAllies	
+817	Wicked Blow	Dark	Physical		5	75	1	8	critratio 4	Adjacent	y
+818	Surging Strikes	Water	Physical		5	25	1	8	critratio 4; triplehit	Adjacent	y
+819	Thunder Cage	Electric	Special		15	80	0.9	8	bind	Adjacent	n
+820	Dragon Energy	Dragon	Special		5	150	1	8	scalewithhp self	AllAdjacentEnemies	n
+821	Freezing Glare	Psychic	Special		10	90	1	8	roll 0.1 status freeze	Adjacent	n
+822	Fiery Wrath	Dark	Special		10	90	1	8	roll 0.2 flinch	AllAdjacentEnemies	n
+823	Thunderous Kick	Fighting	Physical		10	90	1	8	buff target def -1	Adjacent	y
+824	Glacial Lance	Ice	Physical		5	120	1	8		AllAdjacentEnemies	y
+825	Astral Barrage	Ghost	Special		5	120	1	8		AllAdjacentEnemies	n
+826	Eerie Spell	Psychic	Special		5	80	1	8	damagepp 3	Adjacent	n
+827	Dire Claw	Poison	Physical		15	80	1	8	roll 0.5 status sleep,poison,paralysis	Adjacent	y
+828	Psyshield Bash	Psychic	Physical		10	70	0.9	8	buff self def 1	Adjacent	y
+829	Power Shift	Normal	Status		10	-1	-0.01	8	swapstat atk def	User	
+830	Stone Axe	Rock	Physical		15	65	0.9	8	typehazard Rock	Adjacent	y
+831	Springtide Storm	Fairy	Special		10	100	0.8	8	roll 0.3 buff target atk -1	AllAdjacentEnemies	n
+832	Mystical Power	Psychic	Special		10	70	0.9	8	buff self spa 1	Adjacent	n
+833	Raging Fury	Fire	Physical		10	120	1	8	outrage	User	y
+834	Wave Crash	Water	Physical		10	120	1	8	recoil 0.3334	Adjacent	y
+835	Chloroblast	Grass	Special		5	150	0.95	8	recoilpercentage 0.5	Adjacent	n
+836	Mountain Gale	Ice	Physical		10	100	0.85	8	roll 0.3 flinch	Adjacent	y
+837	Victory Dance	Fighting	Status		10	-1	-0.01	8	buff self atk,def,spe 1	User	
+838	Headlong Rush	Ground	Physical		5	120	1	8	buff self def,spd -1	Adjacent	y
+839	Barb Barrage	Poison	Physical		10	60	1	8	ifstatus poison powermult 2; roll 0.5 status poison	Adjacent	y
+840	Esper Wing	Psychic	Special		10	80	1	8	critratio 1; buff self spe 1	Adjacent	n
+841	Bitter Malice	Ghost	Special		10	75	1	8	buff target atk -1	Adjacent	n
+842	Shelter	Steel	Status		10	-1	-0.01	8	buff self def 2	User	
+843	Triple Arrows	Fighting	Physical		10	90	1	8	critratio 1; roll 0.3 flinch; roll 0.5 buff target def -1	Adjacent	y
+844	Infernal Parade	Ghost	Special		15	60	1	8	ifstatus any powermult 2; roll 0.3 status burn	Adjacent	n
+845	Ceaseless Edge	Dark	Physical		15	65	0.9	8	spikes	Adjacent	y
+846	Bleakwind Storm	Flying	Special		10	100	0.8	8	roll 0.3 buff target spe -1	AllAdjacentEnemies	n
+847	Wildbolt Storm	Electric	Special		10	100	0.8	8	roll 0.2 status paralyze	AllAdjacentEnemies	n
+848	Sandsear Storm	Ground	Special		10	100	0.8	8	roll 0.2 status burn	AllAdjacentEnemies	n
+849	Lunar Blessing	Psychic	Status		5	-1	-0.01	8	heal self,allies 0.25; curestatus self,allies	UserAndAllAllies	
+850	Take Heart	Psychic	Status		10	-1	-0.01	8	buff self spa,spd 1	User	
+851	Tera Blast	Normal	Special		10	80	1	9	iftera self strongestcategory; iftera self matchprimarytype	Adjacent	n
+852	Silk Trap	Bug	Status		10	-1	-0.01	9	priority 4; protect; ifattackedafter buff target spe -1	User	
+853	Axe Kick	Fighting	Physical		10	120	0.9	9	roll 0.3 confuse; ifmiss percentrecoil 0.5	Adjacent	y
+854	Last Respects	Ghost	Physical		10	50	1	9	scalewithfaintedteammates 50	Adjacent	n
+855	Lumina Crash	Psychic	Special		10	80	1	9	buff target spd -2	Adjacent	n
+856	Order Up	Dragon	Physical		10	80	1	9	tatsugiribuff	Adjacent	n
+857	Jet Punch	Water	Physical		15	60	1	9	priority 1	Adjacent	y
+858	Spicy Extract	Grass	Status		15	-1	-0.01	9	buff target atk 2; buff target def -2	Adjacent	
+859	Spin Out	Steel	Physical		5	100	1	9	buff self spe -2	Adjacent	y
+860	Population Bomb	Normal	Physical		10	20	0.9	9	manyhit 10	Adjacent	y
+861	Ice Spinner	Ice	Physical		15	80	1	9	terrain none	Adjacent	y
+862	Glaive Rush	Dragon	Physical		5	120	1	9	selfvulnerable 1 2	Adjacent	y
+863	Revival Blessing	Normal	Status		1	-1	-0.01	9	revive 0.5	User	
+864	Salt Cure	Rock	Physical		15	40	1	9	saltcure	Adjacent	n
+865	Triple Dive	Water	Physical		10	30	0.95	9	triplehit	Adjacent	y
+866	Mortal Spin	Poison	Physical		15	30	1	9	status poison; spin	AllAdjacentEnemies	y
+867	Doodle	Normal	Status		10	-1	1	9	doodle	AdjacentEnemy	
+868	Fillet Away	Normal	Status		10	-1	-0.01	9	saferecoilpercentage 0.5; buff self atk,spa,spe	User	
+869	Kowtow Cleave	Dark	Physical		10	85	-0.01	9	nomiss	Adjacent	y
+870	Flower Trick	Grass	Physical		10	70	-0.01	9	nomiss; critratio1	Adjacent	n
+871	Torch Song	Fire	Special		10	80	1	9	buff self spa 1	Adjacent	n
+872	Aqua Step	Water	Physical		10	80	1	9	buff self spe 1	Adjacent	y
+873	Raging Bull	Normal	Physical		10	90	1	9	shatter; matchsecondarytype	Adjacent	y
+874	Make It Rain	Steel	Special		5	120	1	9	buff target spa -1; money 5	AllAdjacentEnemies	n
+875	Psyblade	Psychic	Physical		15	80	1	9	ifterrain electric powermult 1.5	Adjacent	y
+876	Hydro Steam	Water	Special		15	80	1	9	ifweather sun,primordialsun powermult 4	Adjacent	n
+877	Ruination	Dark	Special		10	-1	0.9	9	directdamagepercentage 0.5	Adjacent	n
+878	Collision Course	Fighting	Physical		5	100	1	9	ifsupereffective powermult 1.3334	Adjacent	y
+879	Electro Drift	Electric	Special		5	100	1	9	if supereffective powermult 1.3334	Adjacent	y
+880	Shed Tail	Normal	Status		10	-1	-0.01	9	saferecoilpercentage 0.5; substitute 0.25; switchout	User	
+881	Chilly Reception	Ice	Status		10	-1	-0.01	9	weather snow; switchout	All	
+882	Tidy Up	Normal	Status		10	-1	-0.01	9	buff self atk,spe 1; tidyup	User	
+883	Snowscape	Ice	Status		10	-1	-0.01	9	weather snow	All	
+884	Pounce	Bug	Physical		20	50	1	9	buff target spe -1	Adjacent	y
+885	Trailblaze	Grass	Physical		20	50	1	9	buff self spe 1	Adjacent	y
+886	Chilling Water	Water	Special		20	50	1	9	buff target atk -1	Adjacent	n
+887	Hyper Drill	Normal	Physical		5	100	1	9	ignoreprotectonce	Adjacent	y
+888	Twin Beam	Psychic	Special		10	40	1	9	doublehit	Adjacent	n
+889	Rage Fist	Ghost	Physical		10	50	1	9	scalewithhits 50 6	Adjacent	y
+890	Armor Cannon	Fire	Special		5	120	1	9	buff self def,spd -1	Adjacent	n
+891	Bitter Blade	Fire	Physical		10	90	1	9	lifesteal 0.5	Adjacent	y
+892	Double Shock	Electric	Physical		5	120	1	9	failunless iftype electric; removetype self electric	Adjacent	y
+893	Gigaton Hammer	Steel	Physical		5	160	1	9	failif usedlastturn	Adjacent	n
+894	Comeuppance	Dark	Physical		10	-1	1	9	parry either 1.5	User	y
+895	Aqua Cutter	Water	Physical		20	70	1	9	critratio 1	Adjacent	n
+896	Blazing Torque	Fire	Physical		10	80	1	9	roll 0.3 status burn	Adjacent	y
+897	Wicked Torque	Dark	Physical		10	80	1	9	roll 0.1 status sleep	Adjacent	y
+898	Noxious Torque	Poison	Physical		10	100	1	9	roll 0.3 poison	Adjacent	y
+899	Combat Torque	Fighting	Physical		10	100	1	9	roll 0.3 paralysis	Adjacent	y
+900	Magical Torque	Fairy	Physical		10	100	1	9	roll 0.3 confuse	Adjacent	y

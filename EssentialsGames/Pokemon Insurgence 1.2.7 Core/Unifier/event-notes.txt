@@ -1,0 +1,124 @@
+RPGMaker uses a system that consists of several objects:
+- Event
+	- Page
+		- Condition
+		- Graphic
+		- EventCommand
+
+EventCommands describe the individual steps of an event, such as progressing dialog.
+
+Here's an example of an EventCommand chain from Map626.yaml (a house in Cerebrum Town):
+
+{i: 0, c: 111, p: [6, -1, 8]}                                                                                                   - seems to start dialog?
+  {i: 1, c: 101, p: ['It''s a book that reads: "\bWho <i>is </i> the Second Augur?\c[0]".']}                                    - dialog
+  {i: 1, c: 101, p: ['Would you like to read it?']}																			                                        - dialog
+  {i: 1, c: 102, p: [['Yes', 'No'], 2]}																						                                              - binary choice
+  {i: 1, c: 402, p: [0, 'Yes']}																								                                                  - if player chooses yes...
+    {i: 2, c: 101, p: [\rThe second Augur is a beautiful and ruggedly handsome trainer who is constantly saving the world.]}	  - yes dialog
+    {i: 2, c: 101, p: ['\rHe is incredible, and he is the hero we deserve and need.']}											                    - yes dialog
+    {i: 2, c: 0, p: []}																										                                                      - ???
+  {i: 1, c: 402, p: [1, 'No']}																								                                                  - If player chooses no...
+    {i: 2, c: 0, p: []}                                                                                                         -
+  {i: 1, c: 404, p: []}                                                                                                         -
+  {i: 1, c: 0, p: []}                                                                                                           -
+{i: 0, c: 412, p: []}                                                                                                           -
+{i: 0, c: 0, p: []}                                                                                                             -
+
+Another from Map626.yaml. Scene transition.
+
+{i: 0, c: 250, p: [{name: Exit Door, pitch: 100, volume: 80}]}                                                                  - Play audio clip "Exit Door"
+{i: 0, c: 223, p: [{a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}                                                               -
+{i: 0, c: 106, p: [8]}                                                                                                          -
+{i: 0, c: 201, p: [0, 483, 13, 18, 0, 1]}                                                                                       - Teleport to map 483, "Cerebrum Town"
+{i: 0, c: 223, p: [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}                                                                        -
+
+Here's one from map010.yaml. Seems to be Brock's gym - I think it's a default map from Essentials.
+
+{i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Brock)']}                                                                            -
+{i: 0, c: 101, p: ['\bYou''ve made it this far, but can you beat me?']}                                                         -
+{i: 0, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::LEADER_Brock,"Brock",_I("Very good."))']}                                   -
+  {i: 1, c: 101, p: [\bYou've earned the Boulder Badge.]}                                                                       -
+  {i: 1, c: 355, p: ['$Trainer.badges[0]=true']}                                                                                -
+  {i: 1, c: 121, p: [4, 4, 0]}                                                                                                  -
+  {i: 1, c: 123, p: [A, 0]}                                                                                                     -
+  {i: 1, c: 0, p: []}                                                                                                           -
+{i: 0, c: 412, p: []}                                                                                                           -
+{i: 0, c: 355, p: [pbTrainerEnd]}                                                                                               -
+{i: 0, c: 0, p: []}                                                                                                             -
+
+Here's one from Map832.yaml, "No Man's Land" (probably a little cave that just has the same name as the main area). The event describes a scene transition, i.e. moving through a cave tunnel to another map.
+This event's graphic has tile_id equal to 462, which makes me think this is a reference to the map's tileset. Not sure if we would have to apply the offset for this.
+This event also has a MoveRoute that's worth looking at. Possibly moves the player upwards through the tunnel tile?
+
+{i: 0, c: 355, p: [pbCaveExit]}                                                                                                 -
+{i: 0, c: 223, p: [{a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8]}                                                             -
+{i: 0, c: 106, p: [10]}                                                                                                         -
+{i: 0, c: 201, p: [0, 530, 44, 44, 0, 0]}                                                                                       - Teleport to map 530, "No Man's Land"
+{i: 0, c: 223, p: [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]}                                                                        -
+
+Another from Map832.yaml. Looks like this is an event for picking up a PP Max item. The value of graphic.character_name for this one is "Object ball", which I think tells it to display a little pokeball on the ground.
+
+{i: 0, c: 355, p: ['Kernel.pbItemBall(PBItems::PPMAX)']}                                                                        -
+{i: 0, c: 123, p: [A, 0]}                                                                                                       -
+{i: 0, c: 0, p: []}                                                                                                             -
+
+`i` may be used for flow control.
+`c` almost certainly denotes which "type" of event this is, e.g. dialog, dialog start, choice
+`p` probably stands for parameters; it's an array that can have a bunch of different types... makes it hard to deserialize. There are probably a couple of formats we could match with the `c` parameter:
+
+c: 0 - "Empty"
+  Empty array.
+  e.g. []
+
+c: 101 - "Dialog"
+  Single string; dialog?
+  e.g. ['It''s a book that reads: "\bWho <i>is </i> the Second Augur?\c[0]".'], ['Would you like to read it?']
+
+c: 102 - "Choice input"
+  String array & integer. Integer represents length of string array, I think. Alternatively, this could be a binary choice and the integer is a "goto" thing for flow control.
+  e.g. [['Yes', 'No'], 2]
+
+c: 106 - "???"
+  Single integer.
+  e.g. [10], [8]
+
+c: 111 - "???"
+  Array with multiple types. Seems to run Ruby code like 355.
+  e.g. [6, -1, 8], [12, 'pbTrainerBattle(PBTrainers::LEADER_Brock,"Brock",_I("Very good."))']
+
+c: 121 - "???"
+  Many integers.
+  e.g. [4, 4, 0]
+
+c: 123 - "???"
+  Many types. :/
+  e.g. [A, 0] appears in multiple events
+
+c: 201 - "???"
+  Many integers. This only appears in scene transition events. This command almost certainly teleports the player to another map.
+  e.g. [0, 530, 44, 44, 0, 0], [0, 483, 13, 18, 0, 1]
+  --> [???, map_number, ???, ???, ???, ???]
+
+c: 223 - "???"
+  JSON "Tone" object & integer. A Tone is just an RGBA color. Maybe sets screen overlay color, because this is used in the cave exit trannsition. If this is the case, that EventCommand chain looks like it makes the screen white, then transitions to black?
+  e.g. [{a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8], [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]
+
+c: 250 - "???"
+  Single audio file.
+  e.g. [{name: Exit Door, pitch: 100, volume: 80}]
+
+c: 355 - "Global command"
+  Single string. This seems to call some sort of external event, like setting a global variable or something. The $ syntax for setting a veriable makes it seem like this might be Ruby code...
+  e.g. ['pbTrainerIntro(:LEADER_Brock)'], ['$Trainer.badges[0]=true'], [pbTrainerEnd], [pbCaveExit], ['Kernel.pbItemBall(PBItems::PPMAX)']
+
+c: 402 - "Choice flow control"
+  Integer & string. Looks like the integer is the number of the choice and the string is the choice (see 102).
+  e.g. [0, 'Yes'], [1, 'No']
+
+c: 404 - "???"
+  Empty array.
+  e.g. []
+
+c: 412 - "???"
+  Empty array.
+  e.g. []

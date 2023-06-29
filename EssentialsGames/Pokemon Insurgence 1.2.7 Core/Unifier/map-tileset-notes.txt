@@ -1,0 +1,117 @@
+0000 - Empty space, definitely.
+
+---
+
+Magma autotiles. Defined as autotile 4/7 in nightmare realm tileset. Starts at offset 0xc0, or 192 in decimal.
+I think autotiles have a space of 48 unique combinations. The main tileset is treated as the 8th tileset, with the autotiles as the first 7. The offset of 192 tracks - 192 / 4 = 48.
+Theoretically, the magma autotiles would end at 39, or:
+0000 0000 1110 1111 - 00ef
+Notes with an offset are "projected", meaning I haven't confirmed that tile by looking at map data.
+We have to guess because some of them would obviously be hard as hell to verify, like 00cf, but the assumption for that one clearly fits the pattern.
+
+0000 0000 1100 0000 - 00c0 - No land.
+0000 0000 1100 0001 - 00c1 - Land at top-left corner.
+0000 0000 1100 0010 - 00c2 - Land at top-right corner.
+0000 0000 1100 0011	- 00c3 -														- Land at top-left corner and top-right corner.
+0000 0000 1100 0100 - 00c4 - Land at bottom-right corner.
+0000 0000 1100 0101 - 00c5 - Land at top-left corner and bottom-right corner.
+0000 0000 1100 0110 - 00c6 -														- Land at top-right corner and bottom-right corner.
+0000 0000 1100 0111 - 00c7 -														- Land at top-left corner, top-right corner, and bottom-right corner.
+
+0000 0000 1100 1000 - 00c8 - Land at bottom-left corner.
+0000 0000 1100 1001 - 00c9 - Land at top-left corner and bottom-left corner.
+0000 0000 1100 1010 - 00ca - Land at top-right corner and bottom-left corner.
+0000 0000 1100 1011 - 00cb -														- Land at top-left corner, top-right corner, and bottom-left corner.
+0000 0000 1100 1100 - 00cc -														- Land at bottom-left corner and bottom-right corner.
+0000 0000 1100 1101 - 00cd -														- Land at top-left corner, bottom-left corner, and bottom-right corner.
+0000 0000 1100 1110 - 00ce -														- Land at top-right corner, bottom-left corner, and bottom-right corner.
+0000 0000 1100 1111 - 00cf -														- Land at all corners.
+
+0000 0000 1101 0000 - 00d0 - Land at left.
+0000 0000 1101 0001 - 00d1 -														- Land at left and top-right corner.
+0000 0000 1101 0010 - 00d2 - Land at left and bottom-right corner.
+0000 0000 1101 0011 - 00d3 -														- Land at left, top-right corner, and bottom-right corner.
+0000 0000 1101 0100 - 00d4 - Land at top.
+0000 0000 1101 0101	- 00d5 - Land at top and bottom-right corner.
+0000 0000 1101 0110 - 00d6 - Land at top and bottom-left corner.
+0000 0000 1101 0111 - 00d7 - 														- Land at top, bottom-right corner, and bottom-left corner.
+
+0000 0000 1101 1000 - 00d8 - Land at right.
+0000 0000 1101 1001 - 00d9 - 														- Land at right and top-left corner.
+0000 0000 1101 1010 - 00da - 														- Land at right and bottom-left corner.
+0000 0000 1101 1011 - 00db - 														- Land at right, top-left corner and bottom-left corner.
+0000 0000 1101 1100 - 00dc - Land at bottom.
+0000 0000 1101 1101 - 00dd - Land at bottom and top-left corner.
+0000 0000 1101 1110 - 00de - Land at bottom and top-right corner.
+0000 0000 1101 1111 - 00df - 														- Land at bottom, top-left corner, and top-right corner.
+
+0000 0000 1110 0000 - 00e0 - Land at left and right.
+0000 0000 1110 0001 - 00e1 - Land at top and bottom.
+0000 0000 1110 0010 - 00e2 - Land at top and left.
+0000 0000 1110 0011 - 00e3 -														- Land at top, left, and bottom-right corner.
+0000 0000 1110 0100 - 00e4 - Land at top and right.
+0000 0000 1110 0101 - 00e5 -														- Land at top, right, and bottom-left corner.
+0000 0000 1110 0110 - 00e6 - Land at bottom and right.
+0000 0000 1110 0111 - 00e7 -														- Land at bottom, right and top-left corner.
+
+0000 0000 1110 1000 - 00e8 - Land at bottom and left.
+0000 0000 1110 1001 - 00e9 -														- Land at bottom, left, and top-right corner.
+0000 0000 1110 1010 - 00ea -														-
+0000 0000 1110 1011 - 00eb - Land at left, top and bottom.
+0000 0000 1110 1100 - 00ec -														-
+0000 0000 1110 1101 - 00ed - Land at top, right and bottom.
+0000 0000 1110 1110 - 00ee -														-
+0000 0000 1110 1111 - 00ef -														-
+
+					- 00f0 - (Start of next autotile)
+
+
+...this should probably be enough to figure out the autotile generation algorithm.
+I could make a grid where the columns are c-f and the rows are 0-a, might help to visualize it. Maybe not.
+
+TL 	- Lowest value
+TR
+BR
+BL
+L
+T
+R
+B 	- Highest value
+
+Each tile is described in 6 bits. Might help to use a different base? Try base 6 (48 over 8, the number of tile parts)
+
+---
+
+As stated above, the main tileset seems to begin at offset 384.
+
+Main tileset. Seems to start at offset 0x180, or 384 in decimmal.
+0000 0001 1000 0000 - 0180 - Floor tile (dark grass). Zeroth tile in main tileset (index 0).
+0000 0001 1000 0010 - 0182 - Red flowers. Index 2.
+0000 0001 1000 0011 - 0183 - Black flowers. Index 3.
+0000 0001 1001 1011 - 019b - Bottom left of pathway.
+0000 0010 0000 1101 - 020d - Top left of cliff tunnel (index 141).
+0000 0010 0000 1110 - 020e - Index 142
+0000 0010 0000 1111 - 020f - Index 143
+0000 0010 0001 0101 - 0215 - Index 149
+0000 0010 0001 0110 - 0216 - Index 150
+0000 0010 0001 0111 - 0217 - Index 151
+0000 0010 0001 1101 - 021d - Index 157
+0000 0010 0001 1110 - 021e - Index 158
+0000 0010 0001 1111 - 021f - Bottom right of cliff tunnel (index 159).
+0000 0010 1110 0001 - 02e1 - Cliff face. Duplicated a couple times so other addresses point to the same sprite.
+0000 1011 1111 1100 - 0bfc - Nightmare house top left.
+0000 1011 1111 1101 - 0bfd
+0000 1011 1111 1110 - 0bfe
+0000 1011 1111 1111 - 0bff
+0000 1100 0000 0100 - 0c04
+0000 1100 0000 0101 - 0c05
+0000 1100 0000 0110 - 0c06
+0000 1100 0000 0111 - 0c07
+0000 1100 0000 1100 - 0c0c
+0000 1100 0000 1101 - 0c0d
+0000 1100 0000 1110 - 0c0e
+0000 1100 0000 1111 - 0c0f
+0000 1100 0001 0100 - 0c14
+0000 1100 0001 0101 - 0c15
+0000 1100 0001 0110 - 0c16
+0000 1100 0001 0111 - 0c17 - Nightmare house bottom right.

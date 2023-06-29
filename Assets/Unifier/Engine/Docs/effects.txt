@@ -1,0 +1,507 @@
+--------- Effects ---------
+
+critrato <int>                                   - Effective crit ratio for this move is increased by <int> stage(s).
+buffcritratio <int>                              - Battler's effective crit ratio is increased by <int> until switchout.
+critnextturn                                     - Battler's moves are guaranteed to crit next turn.
+critshield <int>                                 - For the next <int> turns, user's team cannot be critically hit.
+
+reflectstatus                                    - For the remainder of this turn, certian non-damaging moves are reflected back at the user.
+
+randpower                                        - Move's power is set to a randomly-chosen value each time it is used (effect of Magnitude).
+
+For all multiple hit moves, the effects before the multiple hit keyword are computed for each hit. Any effects afterward are computed once.
+Example: Twineedle hits twice and has a 20% chance of poisoning with each hit: `roll 0.2 status poison; doublehit`
+doublehit                                        - Move hits twice.
+triplehit                                        - Move hits three times.
+splitdoublehit                                   - Move hits twice, split between opponents if there are multiple.
+multihit                                         - Move hits 2-5 times.
+manyhit <int>                                    - Move continues to hit until it misses, or until it has hit <int> times.
+compoundinghits <int> <int>                      - Move continues to hit until it misses, or until it has hit <int1> times. Each hit's power is boosted by <int2>.
+
+inversescalewithpp                               - Move deals more damage the less PP it has. Should only be used if move has base 5 PP.
+
+uproar <int>                                     - User is locked into this move for the next <int> turns, during which no Pokemon can fall asleep.
+
+lifesteal <float>                                - Recover <float>x damage dealt.
+
+priority <int>                                   - Increase/decrease move priority bracket.
+
+powermult <float>                                - Multiply move power.
+
+buff <battler> <stat> <int>                - Modify <battler>'s stat by <int> stage(s).
+     valid battlers: self, target, team
+     valid stats: atk, def, spa, spd, spe, acc, eva, all, random
+     note: random includes acc and eva, all does not
+
+afteryou                                         - Target makes its move immediately.
+
+flinch                                           - Target flinches.
+
+swap                                             - User swaps positions with target.
+
+tailwind <int>                                   - User's teammates have their effective speed doubled for the next <int> turns.
+
+typevulnerability <type>                         - Doubles <type>'s effective against the target until it switches out.
+
+taunt <int>                                      - Target can only use attacks for the next <int> turns.
+
+swapitem                                         - User swaps held items with target.
+
+trickroom <int>                                  - Turn order is reversed for <int> turns (within priority brackets).
+
+trap                                             - Prevents target from switching out.
+trapall <int>                                    - Prevents all Pokemon from switching out until <int> turns have passed.
+selftrap                                         - Prevents user from switching out.
+
+regen <float>                                    - Regenerate <float>x max health until switch out.
+
+attract                                          - Infatuate target.
+
+reflect                                          - Halve physical damage for 5 turns (8 if holding light clay).
+lightscreen                                      - Halve special damage for 5 turns (8 if holding light clay).
+
+shatter                                          - Remove reflect and lightscreen effects.
+
+recoil <float>                                   - User loses health equal to <float>x damage dealt to target.
+recoilpercentage <float>                         - User loses health equal to <float>x max hp.
+saferecoilpercentage <float>                     - User loses health equal to <float>x max hp. Fails if this would cause the user to faint.
+
+confuse                                          - Confuse target.
+
+status <status>                                  - Apply non-volatile status effect to user.
+     valid statuses: burn, sleep, paralysis, poison, toxic, freeze
+
+switchout                                        - Switch out to a chosen party member.
+batonpass                                        - Switch out to a chosen party member, preserving stat changes.
+forceswitch                                      - Target switches out for a random party member.
+
+beatup                                           - Multihit move where all healthy allies damage the target.
+
+bind                                             - Deal damage to target over 2-5 turns, e.g. Bind, Whirlpool. Also traps.
+
+recharge                                         - User misses their next turn.
+
+offensestat <battler> <stat>                     - Use user's value for given stat as offensive stat when calculating damage.
+defensestat <battler> <stat>                     - Use opponent's value for given stat as defensive stat when calculating damage.
+     valid battlers: self, target
+
+quash                                            - Forces target to move last this turn.
+
+charge <location>                                - User charges move for 1 turn in given location and uses it on the next turn.
+chargetake <location>                            - User takes target to given location, then uses the move next turn (e.g. Sky Drop: `chargetake sky`).
+chargeafter <location> <effect>                  - Execute effect, then charge move for 1 turn.
+reach <location>                                 - Move is able to hit targets in location (e.g. Sky Uppercut: `reach sky`)
+     valid locations: normal, sky, underground, underwater, disappear
+
+eatberry                                         - Eat target's berry.
+eatberryself                                     - User eats its berry immediately.
+
+randommove                                       - Use a random move (Metronome's effect).
+
+noevade                                          - If the user attacks the target next turn, the move bypasses accuracy checks.
+
+mirrormove                                       - User uses the move that was last used by the target.
+
+weakentype <type> <int>                          - For the next <int> turns, moves of type <type> deal one-third damage.
+
+mimic                                            - Mimic is replaced with the move that was last used in this battle, until the user switches out.
+sketch                                           - Sketch is permanently replaced with the move that was last used in this battle.
+
+minimize                                         - Target is minimized for the purposes of counterminimize calculations.
+counterminimize                                  - Deals double damage and always hits if the target has used Minimize.
+
+preventdebuffs <int>                             - Prevents debuffs to target for <int> turns.
+
+weatherheal <battler>                            - Heals <battler> by an amount depending on the weather.
+sandheal <battler>                               - Heals <battler> by 1/2 max HP, 2/3 in sandstorm.
+
+spin                                             - Remove entry hazards from user's side of the field. Removes bind and leech effects on user.
+
+relicsong                                        - If user is Meloetta, swap its form.
+
+rest                                             - User heals fully and restores status, then falls asleep for 2 turns.
+
+solarcharge                                      - Move takes 1 turn to charge, unless used in sunlight.
+
+embargo <int>                                    - For <int> turns, effects of the target's held item are nullified and bag items cannot be used on it.
+
+settype <battler> <type>                         - Set <battler>'s typing to <type>.
+matchtyping                                      - Set user's typing to match the target's.
+temptype <battler> <type>                        - Set <battler>'s typing for the remainder of this turn.
+removetype <battler> <type>                      - Remove <type> type from <battler>.
+addtype <battler> <type>                         - Add <type> to <battler>'s existing typing until switchout.
+singleturnremovetype <battler> <type>            - Remove <type> type from <battler> for the remainder of this turn.
+
+matchplate                                       - Move changes type to match user's held plate.
+matchdrive                                       - Move changes type to match user's held drive.
+matchmemory                                      - Move changes type to match user's held memory.
+
+berryattack                                      - Effect of Natural Gift.
+
+spikes                                           - Add a layer of spikes to the target's side of the field.
+toxicspikes                                      - Add a layer of toxic spikes to the target's side of the field. One layer inflicts poison, two inflicts toxic.
+typehazard <type>                                - Add an entry hazard of the given type (e.g. Rock for Stealth Rock, Steel for G-Max Steelsurge).
+stathazard <stat> <int>                          - Add an entry hazard that changes enemies' stats on switch-in.
+
+transform                                        - User transforms into target, inheriting species, stats and moves.
+
+nextmoveboost <float>                            - Target's moves this turn have their power multiplied by <float>.
+typeboost <type>                                 - Next turn, moves of the given type have their power doubled.
+
+resetstats <battler>                             - Reset <battler>'s stat changes to 0.
+     valid battlers: self, target, all
+
+scalewithhappiness <battler>                     - Move power scales with <battler>'s happiness.
+inversescalewithhappiness <battler>              - Move power scales inversely with <battler>'s happiness (does more damage with lower happiness).
+
+nullifyitems <int>                               - Nullifies all held item effects for <int> turns.
+
+levitate <int>                                   - User is immune to Ground-type moves for <int> turns.
+smackdown                                        - Removes user's immunity to Ground.
+
+neutralagainst <type>                            - If the target has the given type, the move is always neutrally effective against it.
+
+invertbuffs <battler>                            - Invert all of <battler>'s stat changes.
+
+money <int>                                      - Scatters money on the ground equal to $<int> * user's level.
+
+parry <category> <float>                         - If attacked with a move of given category this turn, returns <float>x damage to attacker.
+     valid categories: physical, special, either
+bide <int>                                       - User bides for <int> turns, storing damage. Deals direct damage equal to twice the damage taken afterwards.
+
+copycat                                          - Use the last move used this battle.
+
+heal <battler> <float>                           - Heals <battler>'s health by <float>x its max health.
+     valid battlers: self, target, allies
+
+recycle                                          - Restores user's consumed item (effect of Recycle).
+
+healnext                                         - Fully heals health and status conditions of next Pokemon to switch in after this Pokemon switches out.
+pprestorenext                                    - Fully restores PP of next Pokemon to switch in after this Pokemon switches out.
+
+aurawheel                                        - Move fails unless the user is Morpeko. Matches the type of Morpeko's form. Switches Morpeko's form.
+
+changeweight <int>                               - Changes the user's weight by <int>kg.
+
+assist                                           - Use a random move known by a teammate.
+
+healifally                                       - If the target is an ally, deal no damage and instead heal by <float>x its max health.
+
+interceptswitch                                  - If target is switching out, attack first for 2x damage.
+
+curestatus <battler>                             - Cure non-volatile status effects of <battler>.
+
+removeitem                                       - Remove target's item.
+
+swapfields                                       - Swap field effects on each side.
+
+stealitem                                        - Steal target's item.
+
+nosoundmoves <int>                               - Target is prevented from using sound-based moves for the next <int> turns.
+
+torment                                          - Target is prevented from using the same move for two turns in a row.
+
+tidyup                                           - Removes all entry hazards and substitutes on both sides.
+
+curse                                            - Curse the target.
+
+safeguard <int>                                  - Protect user's team from status for next <int> turns.
+
+saltcure                                         - Target takes 1/8th damage per turn until user switches out (1/4 damage if Steel or Water type).
+
+matchfirstmovetype                               - User's typing is changed to the type of its first move.
+changetypetoresist                               - User's type is changed to resist the target's last used move.
+
+ignorestats <battler>                            - Ignore <battler>'s stat changes in damage calculation, including accuracy/evasion.
+     valid battlers: self, target, both
+
+weather <weather>                                - Activate weather.
+     valid weathers: snow, hail, sun, rain, sandstorm, primordialsun, primordialrain, none
+terrain <terrain>                                - Activate terrain.
+     valid terrains: electric, grassy, misty, psychic, none
+
+destinybond                                      - If user faints, opponent also faints. Lasts until switchout.
+
+matchweathertype                                 - Move's type changes to match weather.
+
+scalewithhits <int> <int>                        - Move's effective power is increased by <int1> multiplied by the number of attacks the user has received this battle, up to a maximum of <int2> attacks. Multi-strike moves are counted as multiple attacks.
+
+fieldstatswap <int> <stat> <stat>                - For the next <int> turns, each Pokemon has its stats swapped.
+
+wish <float>                                     - Next turn, the Pokemon in this position has its health restored by <float>x max HP.
+
+toallies <effect>                                - Perform effect once on all allies regardless of move targeting. Used for Max Moves.
+
+protect                                          - Effect of protect.
+multitargetprotect                               - Effect of protect. Only works against multi-target moves. Works in single battles.
+priorityprotect                                  - Effect of protect. Only works against moves with increased priority.
+attackprotect                                    - Effect of protect. Only works against attacks.
+statusprotect                                    - Effect of protect. Only works against status moves.
+breakprotect                                     - Move lifts the effects of protect, multitargetprotect, priorityprotect and statusprotect for this turn.
+ignoreprotect                                    - Move ignores protect, multitargetprotect, priorityprotect and statusprotect.
+
+maxguard                                         - Protect, including against Max Moves (effect of Max Guard).
+
+mefirst                                          - Effect of Me First.
+
+disable <int>                                    - Disable target's last-used move for <int> turns.
+
+nextturnstatus <status>                          - Inflicts status on target at the end of next turn.
+
+giveability                                      - Target's ability is changed to the user's.
+copyability                                      - User's ability is changed to the target's.
+suppressability                                  - Nullify the target's ability for the remainder of this turn.
+removeability                                    - Removes the target's ability until switchout.
+abilityswap                                      - User and target swap abilities.
+doodle                                           - User and allies' abilities become target's ability.
+givefixedability <ability>                       - Target's ability is changed to <ability>.
+getfixedability <ability>                        - User's ability is changed to <ability>.
+ignoreability                                    - This move ignores the effects of the target's ability.
+
+scalewithhp                                      - Move's effective power scales with user's HP percentage.
+scalewithmissinghp                               - Move's effective power scales with user's missing HP percentage.
+
+scalewithspeedadvantage                          - Move's effective power scale with user's speed advantage over target.
+scalewithspeeddisadvantage                       - Move's effective power scale with target's speed advantage over user.
+
+scalewithweight <battler>                        - Move power scales with <battler>'s weight.
+scalewithweightadvantage                         - Move power scales with user's weight advantage over target.
+
+compoundpower <int>                              - When used consecutively, move's effective power is multiplied by the number of turns it has been used for, with a maximum of <int>.
+doublingpower <int>                              - When used consecutively, move's effective power doubles each turn. Power is capped at <int> turns.
+
+changenormalmoves <type>                         - For the remainder of this turn, Normal-type moves are changed to <type>.
+
+damagepp <int>                                   - Subtracts <int> from PP of target's last used move.
+damageallpp <int>                                - Subtracts <int> from PP of all of target's moves.
+
+encore <int>                                     - Target is forced to use its last-used move for <int> turns.
+
+endeavor                                         - Reduces target's HP to match user's.
+
+endure                                           - User cannot be knocked out until the end of this turn.
+
+faint                                            - User faints after using this move.
+
+nofaint                                          - Target always survives with at least 1 HP.
+
+noheal <battler> <int>                           - For the next <int> turns, <battler> cannot receive healing from any source.
+
+nightmare <float>                                - Effect of Nightmare. Target loses <float>x max HP per turn. Only works on sleeping target and expires when it wakes up.
+
+debufftrap <stat>                                - While the user is still on the field, target is trapped and has <stat> lowered 1 stage per turn (see Octolock).
+
+directdamage <int>                               - Move deals direct damage to target's HP, ignoring stats.
+directdamagepercentage <float>                   - Move deals direct damage equal to <float>x target's CURRENT HP.
+directdamagemaxpercentage <float>                - Move deals direct damage equal to <float>x target's MAX HP.
+directdamagehp                                   - Move deals direct damage equal to user's current HP.
+directdamagelevel                                - Move deals direct damage equal to user's level.
+directdamagelevelrand                            - Move deals direct damage equal to a random number between <float1>x user's level and <float2>x user's level.
+
+moneymult <float>                                - User's trainer receives <float>x money at the end of battle. Stacks with Amulet Coin effect.
+
+tatsugiribuff                                    - Effect of Order Up.
+
+substitute <float>                               - Creates a substitute with <float>x user's max HP. If switchout occurs in the same move, substitute is preserved.
+
+strongestcategory                                - The move switches between contact physical and no-contact special, based on which would deal more damage.
+
+outrage                                          - User is locked into this move for 2-3 turns, and becomes confused afterwards.
+
+hpsplit                                          - Additively share HP between user and target (effect of Pain Split).
+
+grasspledge                                      - Effect of Grass Pledge.
+firepledge                                       - Effect of Fire Pledge.
+waterpledge                                      - Effect of Water Pledge.
+
+ohko                                             - Causes the target to faint. Accuracy scales with user's level advantage over target, starting when levels are equal.
+
+thaw                                             - Move immediately cures user's freeze status.
+thawtarget                                       - Target's freeze status is cured.
+
+fling                                            - Effect of Fling.
+
+extratype <type>                                 - Move has an extra type for the purposes of type effectiveness calculations. Does not affect STAB.
+
+fail                                             - Move fails. (Used with ifattackedafter for moves like Focus Punch.)
+
+redirectattacks <battler>                        - Opponents of <battler> can only target it this turn.
+noredirect                                       - Move ignores the effects of redirectattacks.
+
+matchprimarytype                                 - This move's type is changed to match the user's primary type.
+matchsecondarytype                               - This move's type is changed to match the user's secondary type (first type if it has none).
+matchterraintype                                 - This move's type is changed to match the terrain.
+matchhiddenpowertype                             - This move's type is changed to match the user's Hidden Power type.
+
+selfmatchenvironmenttype                         - This user's type is changed to match the environment (cave, water, indoors, desert etc.).
+naturepower                                      - Effect of Nature Power. Use another move based on battle environment.
+secretpower                                      - Effect of Secret Power. Random side effect based on battle environment.
+
+makesupereffective                               - Makes the move super-effective against the target, regardless of its or the move's typing.
+
+performafter <int>                               - Attack is performed after <int> turns have passed.
+
+vulnerable <int> <float>                         - For the next <int> turns, attacks against the target always hit and have <float>x base power.
+selfvulnerable <int> <float>                     - For the next <int> turns, attacks against the user always hit and have <float>x base power.
+
+grudge                                           - Any attack that causes the user to faint this turn loses all its PP.
+
+lockon                                           - If the user attacks the target next turn,  the move will bypass accuracy checks.
+
+gravity <int>                                    - Activate Gravity for the next <int> turns.
+
+scalewithbuffs <battler> <int>                   - Move's effective power is increased by <int> for each of <battler>'s stat buffs.
+
+present                                          - Effect of Present.
+
+copybuffs                                        - User copies the target's stat changes (effect of Psych Up).
+
+delayattack <int>                                - This move is delayed for <int> turns.
+
+swapstat <stat> <stat>                           - Swaps two of the user's stats.
+sharestat <stat>                                 - Averages stat between the user and target.
+swapbuffs <stat>                                 - Swap user and target's stat buffs for a given stat.
+swapstatwithtarget <stat>                        - Swaps stats of the user and target.
+
+snatch                                           - User steals status moves for the remainder of the turn (effect of Snatch).
+
+imprison                                         - Target cannot use any moves known by the user, until either switches out.
+
+destroyberry                                     - Destroys target's held berry.
+destroygem                                       - Destroys target's held gem.
+
+giveitem                                         - User gives its held item to the target (e.g. Bestow).
+
+instruct                                         - Target immediately uses its last-used move.
+
+matchplatetype                                   - Move's type matches the user's held plate.
+
+scalewithfaintedteammates <int>                  - Move's power increases by <int> for each of the player's Pokemon that has fainted.
+
+leech <float>                                    - Leech effect is placed on target until switchout, which drains <float>x max HP and gives it to player's Pokemon.
+sapstat <stat>                                   - User heals HP equal to target's stat.
+
+othermove                                        - User uses another of its moves at random.
+
+stealbuffs                                       - User steals the target's stat increases before attacking (effect of Spectral Thief).
+
+shiftstatus                                      - Attempts to transfer the user's non-volatile status condition to the target. Does nothing if the target already has one.
+
+perish <int>                                     - All active Pokemon faint within <int> turns unless switched out.
+
+stockpile                                        - User's stockpile count is increased by 1 (max 3). User's Def and SpD increased by 1 stage each.
+stockpileboost <int>                             - Move's power is boosted by <int>x stockpile count.
+stockpileheal                                    - User consumes stockpile to heal (1=25%, 2=50%, 3=100%).
+
+nullifybuffs <battler> <stat>                    - <battler>'s stat changes are ignored until switchout.
+removeimmunities <type>                          - Removes <type>'s immunities on target (e.g. makes Ghost vulnerable to Normal and Fighting) until switchout.
+
+totargetallies <effect>                          - Use on single-target moves. Execute an effect against target's allies.
+
+
+
+
+
+
+
+
+
+--------- Predicates ---------
+
+afterfusionbolt                                  - Execute effect if Fusion Bolt has been used this turn.
+afterfusionflare                                 - Execute effect if Fusion Flare has been used this turn.
+
+ifdyna <battler>                                 - Execute effect if <battler> is Dynamaxed or Gigantamaxed.
+iftera <battler>                                 - Execute effect if <battler> is Terastallized.
+
+ifterrain <terrain>                              - Execute effect if given terrain is present.
+     valid terrains: electric, grassy, misty, psychic, any, none
+
+ifsametype                                       - Execute effect if user and target share a type.
+
+chorus                                           - Execute effect if other Pokemon have used the move this turn?
+
+ifmoved                                          - Execute effect if target has already moved this turn.
+ifnotmoved                                       - Execute effect if target has not moved this turn.
+
+ifplusorminus                                    - Execute effect if target's ability is Plus or Minus.
+
+ifform <string>                                  - Execute effect if user matches the given form.
+
+ifattacked                                       - Execute effect if user was attacked this turn.
+
+iffailedlastturn                                 - Execute effect if the user used a move that failed last turn.
+
+onretaliate                                      - Execute effect if a teammate fainted last turn.
+
+ifbuffed <battler>                               - Execute effect if target received a stat increase this turn.
+ifdebuffed <battler>                             - Execute effect if target received a stat decrease this turn.
+
+ifoppositegender                                 - Execute effect if user and target have opposite genders. Always false if either is genderless.
+
+ifweather <weather>                              - Execute effect if given weather is active.
+     valid weathers: snow, hail, sun, rain, weather, primordialsun, primordialrain, any
+
+ifmiss                                           - Execute effect if the move misses.
+
+ifselfstatus <status>                            - Execute effect if user has status.
+ifstatus <status>                                - Execute effect if target has status.
+     valid statuses: burn, sleep, paralysis, poison, toxic, freeze, all, none
+
+ifhp <battler> <comparator> <float>              - Execute effect if <battler>'s health is less/greater than <float>x max HP.
+     valid comparators: greaterthan, lessthan
+
+ifhasitem <battler>                              - Execute effect if <battler> has a held item.
+ifhasnoitem <battler>                            - Execute effect if <battler> does not have a held item.
+ifhasberry <battler>                             - Execute effect if <battler> is holding a berry.
+
+iftype <type>                                    - Execute effect if user has <type>.
+ifnottype <type>                                 - Execute effect if user does not have <type>.
+
+ifgrounded <battler>                             - Execute effect if <battler> is grounded, e.g. not Flying type, not levitating.
+
+iftargettype <type>                              - Execute effect if user has <type>.
+
+ifsupereffective                                 - Execute effect if move was super effective.
+
+iflocation <location>                            - Execute effect if target is in given location.
+     valid locations: normal, sky, underground, underwater, disappear
+
+isfirstturn                                      - Execute effect if used on this battler's first turn.
+
+ifko                                             - Execute effect if move knocked out the target.
+
+usedlastturn                                     - Execute effect if this move was used last turn.
+
+ifgravity                                        - Execute effect if Gravity is in effect.
+
+lastmove                                         - Execute effect if the user has used all of its other moves since it last switched in.
+
+
+
+
+
+
+
+
+
+--------- Qualifiers ---------
+
+failif <predicate>                               - Move fails if predicate is true.
+failunless <predicate>                           - Move fails unless predicate is true.
+onlytargets <predicate>                          - Move can only be used on targets for which the predicate is true.
+
+
+
+
+
+
+
+
+
+--------- Trigger ---------
+
+ifattackedafter                                  - Execute effect on attacker if user is attacked later this turn.
+settrap                                          - Sets a trap with the given effect before any moves are used. Effect is triggered on contact. Move is used at -3 priority. Effect can be triggered many times.
+setmovetrap                                      - Sets a move trap before any moves are used. The move is used on contact. Otherwise, the move fails at -3 priority. Can only be triggered once.
+settypetrap <type> <float>                       - Sets a type trap on the target at priority 1. If the target uses a move of the given type this turn, it losees <float>x max HP.

@@ -1,0 +1,709 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: true
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: Lab
+  pitch: 100
+  volume: 80
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 30
+  y: 27
+  z: 3
+  data:
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 04c8 04c9 04c8 04c9 04c8 04c9 04c8 04c9 04c8 04c9 04c8 04c9 04c8 04c9 04c8 04c9 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 04d0 04d1 04d0 04d1 04d0 04d1 04d0 04d1 04d0 04d1 04d0 04d1 04d0 04d1 04d0 04d1 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 0509 0508 0509 0508 0509 0508 0509 0508 0509 0508 0509 0508 0509 0508 0509 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0510 050b 050b 050b 050b 0513 0512 0513 0512 0513 0512 0513 0512 0513 0512 0513 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 050b 050b 050b 050b 050b 050a 050b 050a 050b 050a 050b 050a 050b 050a 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0510 050b 050b 050b 050b 0513 0512 0513 0512 0513 0512 0513 0512 0513 0512 0513 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 050b 050b 050b 050b 050b 050a 050b 050a 050b 050a 050b 050a 050b 050a 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0510 050b 050b 050b 050b 0513 0512 0513 0512 0513 0512 0513 0512 0513 0512 0513 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0510 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0510 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0510 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0508 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 050b 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290 0290
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04a3 04a5 04a5 04a5 04a5 04a7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 04bb 04ad 04ad 04ad 04ad 04af 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 04a3 04a5 04a5 04a5 04a5 04a9 04b5 04b5 04b5 04b5 04b1 04a5 04a5 04a5 04a5 04a7 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 04b3 04b5 04b5 04b5 04b5 04b5 04bd 04bd 04bd 04bd 04bd 04bd 04bd 04bd 04bd 04af 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 04bb 04bd 04bd 04bd 04bd 04bd 04b9 04c5 04c5 04c1 04bd 04bd 04bd 04bd 04bd 04af 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 04c3 04c5 04c5 04c5 04c5 04c5 04c7 0000 0000 04c3 04c5 04c5 04c5 04c5 04c5 04c7 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 024e 024f 024e 024f 0000 0000 0000 0000 0000 0000 024e 024f 024e 024f 024e 024f 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0256 0257 0256 0257 0000 0000 0000 0000 0000 0000 0256 0257 0256 0257 0256 0257 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0430 0431 0432 0000 0000 0000 0000 0000 0000 0000 0000 0246 0247 0246 0247 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0438 0439 043a 021a 021b 0000 0000 0000 0000 0000 0000 024e 024f 024e 024f 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0440 0441 0442 0222 0223 0000 0000 0000 0000 0000 0000 0256 0257 0256 0257 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0448 0449 044a 01dd 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01f0 0209 01f1 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01f8 0277 01f9 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0200 0208 0201 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0246 0247 0246 0247 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 022c 022d 022e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0234 0235 022f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: random event scientist
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar028
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &2 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
+          - &3 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 207, p: [0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bAh! Augur \pn!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bIt's so good to see you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThank you so much for coming.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bLet me be the first to welcome you to the Holon Region!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bWelcome to Settlement Foxtrot.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bI'm part of an organization called Holon University.]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &5 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThis entire region- Holon- is very new to us, and is still mostly unexplored.']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &6 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWe''ve set up a few settlements like this one in different areas of the region, but most of Holon is still wild terrain.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bBut more importantly- it seems to be filled to the brim with Delta Species Pokemon!]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &7 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bFollow me.]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &8 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &10 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &11 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &12 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*11]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*12]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &13 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
+          - &14 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &15 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &16 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &17 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &18 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &19 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &20 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &21 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*13]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*14]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*15]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*16]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*17]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*18]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*19]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 210, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\b\pn, these are Professor Pine and Professor Maple, respectively.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,4)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rWe''ve already met. I''m Professor Pine, of course, and that''s Professor Maple.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bCharmed.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThey're very respected researchers in their fields.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bProfessor Pine is an engineer working for Silph Co.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,4)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rI''m in the more experimental side of this project.\nI''m developing special Pokeballs on commission for the University, and helping out with the study of Deltas found.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bProfessor Maple is the region's leading expert on Delta Species.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThat's right. I'm here to try and examine the Deltas here and see what they can tell us about the distant past of this region.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bWhy are there so many Deltas? Why are Deltas usually so much stronger?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bThose are the kinds of questions I try and answer with my research.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,1)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bHe''s helping us try and figure out why there are so many Delta Species here, and where they come from.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIt''d be nice if you could help us out, \pn.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\bWe can supply you with Pokeballs and information you can't get anywhere else.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bProfessor Pine can hook you up with any supplies you might need, and you and I can divide and conquer the region.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIf you go north through the grasslands, we have another settlement there.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI can meet you there, if you''d like.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,4)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rI'll be dropping by the different settlements.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,4)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rWe don''t have Pokemarts here, so I can get you access to all the supplies you need.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOh and... one of your friends was invited here, too.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI think her name was... Nora? She was out looking for Delta Species Pokemon too.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bI think she''s working on something slightly different, but you might see her once or twice.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbCallBub(2,3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bAnyways, thanks for coming, \pn.\nLet''s meet up again!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [540, 540, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [$game_map.need_refresh=true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 540
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 16
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: Exit
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: Exit Door, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 447, 27, 21, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 209
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          list:
+          - &23 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &24 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &25 !ruby/object:RPG::MoveCommand {code: 38, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          repeat: false
+          skippable: false
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 509, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 1
+      walk_anime: true
+    x: 15
+    y: 22
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: maple
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: professor maple
+        direction: 4
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThank you for coming, Augur.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bIf you head up to Settlement Oscar, we can start charting off the region.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bOf course, you''re perfectly welcome to go anywhere you want, but we can get it done a lot more efficiently this way, right?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 540
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 17
+    y: 12
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: pine
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: professor_pine
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHey, \pn! It''s great to see you again.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rAre you interested in buying some stuff from me? Maybe some of my rare, gimmicked Pokeballs and items?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbPokemonMart([:POKEBALL,:GREATBALL,:ULTRABALL,:SNOREBALL,:DELTABALL,:SHINYBALL,:ANCIENTBALL,:POTION,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':SUPERPOTION,:HYPERPOTION,:MAXPOTION,:FULLRESTORE,:REVIVE,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':REPEL,:SUPERREPEL,:MAXREPEL,:FULLHEAL,:ANTIDOTE,:ICEHEAL,:PARLYZHEAL,:AWAKENING,:BURNHEAL,:ESCAPEROPE,:HONEY])']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 459
+        switch1_valid: true
+        switch2_id: 503
+        switch2_valid: true
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: professor_pine
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHey, \pn! It''s great to see you again.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rI actually have something for you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rI was exploring the Torren Region and I found some Delta Species that nobody seemed to notice, just lying there, injured.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rI took it and healed it up, but perhaps you''d like to take care of it? I think it belonged to that blue-haired cultist who fled the region.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbAddPokemon(PBSpecies::DELTABELDUM2,20)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rTake good care of it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [649, 649, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 649
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: professor_pine
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rHey, \pn! It''s great to see you again.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\rAre you interested in buying some stuff from me? Maybe some of my rare, gimmicked Pokeballs and items?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['pbPokemonMart([:POKEBALL,:GREATBALL,:ULTRABALL,:SNOREBALL,:DELTABALL,:SHINYBALL,:ANCIENTBALL,:POTION,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':SUPERPOTION,:HYPERPOTION,:MAXPOTION,:FULLRESTORE,:REVIVE,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [':REPEL,:SUPERREPEL,:MAXREPEL,:FULLHEAL,:ANTIDOTE,:ICEHEAL,:PARLYZHEAL,:AWAKENING,:BURNHEAL,:ESCAPEROPE,:HONEY])']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 15
+    y: 11
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar028
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['\bThank you for coming to help us out, \pn. I''m sure we can explore the entire region with you on our side!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 9
+    y: 12
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: trchar029
+        direction: 6
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [\rI'm researching one of the Delta Species I've found here- Delta Mawile.\nIt's super interesting!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 1
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 9
+    y: 19
+height: 27
+tileset_id: 3
+width: 30

@@ -35,6 +35,9 @@ namespace Assets.Unifier.Game.Editor {
                 if (GUILayout.Button("Deserialize map assets from JSON files")) {
                     DeserializeMaps();
                 }
+                if (GUILayout.Button("Deserialize mapinfos into map assets")) {
+                    DeserializeMapInfos();
+                }
                 if (GUILayout.Button("Expand autotile spritesheets")) {
                     ExpandAutotiles();
                 }
@@ -47,7 +50,7 @@ namespace Assets.Unifier.Game.Editor {
             }
             catch (Exception ex) {
                 AssetDatabase.StopAssetEditing();
-                Debug.LogError(ex);
+                Debug.LogException(ex);
             }
         }
 
@@ -56,15 +59,22 @@ namespace Assets.Unifier.Game.Editor {
         }
 
         private void saveAsset(UnityEngine.Object asset, string subdirectory) {
-            string path = Path.Combine(module.ModulePath, subdirectory, asset.name);
+            string path = "Assets/Resources/" + module.ModulePath + "/" + subdirectory + "/" + asset.name;
             if (AssetDatabase.FindAssets(path) != null) AssetDatabase.DeleteAsset(path);
             AssetDatabase.CreateAsset(asset, path + ".asset");
         }
 
-        private void makeFolder(string subdir, string dir) {
-            subdir = module.ModulePath + "/" + subdir;
-            if (!AssetDatabase.IsValidFolder(subdir+"/"+dir)) {
-                AssetDatabase.CreateFolder(subdir, dir);
+        private void makeFolder(string path, string dirName) {
+            path = module.ModulePath + "/" + path;
+            if (!AssetDatabase.IsValidFolder(path+"/"+dirName)) {
+                AssetDatabase.CreateFolder(path, dirName);
+            }
+        }
+
+        private void makeFolder(string dirName) {
+            string path = "Assets/Resources/" + module.ModulePath;
+            if (!AssetDatabase.IsValidFolder(path+"/"+dirName)) {
+                AssetDatabase.CreateFolder(path, dirName);
             }
         }
 
@@ -72,18 +82,31 @@ namespace Assets.Unifier.Game.Editor {
 
         public void DeserializeMaps() {
             AssetDatabase.StartAssetEditing();
-            string[] jsonPaths = Directory.GetFiles(Path.Combine(module.ModulePath, "JSON", "Maps"), "*.json");
+            string[] jsonPaths = Directory.GetFiles("Assets/Resources/" + module.ModulePath + "/JSON/Maps", "*.json");
+            makeFolder("Maps");
             foreach (string jsonPath in jsonPaths) {
                 TextAsset json = AssetDatabase.LoadAssetAtPath<TextAsset>(jsonPath);
-                EssentialsJSONMapData map = JsonConvert.DeserializeObject<EssentialsJSONMapData>(json.text);
+                MapData map = JsonConvert.DeserializeObject<MapData>(json.text);
                 map.event_list =
                     JsonConvert.DeserializeObject<Dictionary<string, Essentials.Event>>(
                         JObject.Parse(json.text)["events"].ToString()
                     ).Values.ToArray();
                 EssentialsMapAsset asset = CreateInstance<EssentialsMapAsset>();
-                asset.MapData = map;
-                asset.name = json.name.Replace("Map", "");
+                asset.Data = map;
+                asset.name = json.name.Replace("Map00", "").Replace("Map0","").Replace("Map",""); // :/
                 saveAsset(asset, "Maps");
+            }
+            AssetDatabase.StopAssetEditing();
+        }
+
+        public void DeserializeMapInfos() {
+            AssetDatabase.StartAssetEditing();
+            JObject json = JObject.Parse(Resources.Load<TextAsset>(module.ModulePath + "/JSON/MapInfos").text);
+            string mapsPath = module.ModulePath + "/Maps/";
+            foreach (JProperty jprop in json.Properties()) {
+                EssentialsMapAsset map = Resources.Load<EssentialsMapAsset>(mapsPath + jprop.Name);
+                if (map == null) Debug.LogError("No map found at " + mapsPath+jprop.Name + "!");
+                map.Info = JsonConvert.DeserializeObject<MapInfo>(jprop.Value.ToString());
             }
             AssetDatabase.StopAssetEditing();
         }
@@ -96,7 +119,7 @@ namespace Assets.Unifier.Game.Editor {
         // Generate tileset asset from JSON
         public void DeserializeTilesets() {
             AssetDatabase.StartAssetEditing();
-            makeFolder("", "Tilesets");
+            makeFolder("Tilesets");
             Tileset?[] tilesets = JsonConvert.DeserializeObject<Tileset?[]>(Resources.Load<TextAsset>(module.ModulePath + "/JSON/Tilesets").text);
             foreach (Tileset? tileset in tilesets) {
                 //Debug.Log(tilesetJson.ToString());
@@ -104,6 +127,7 @@ namespace Assets.Unifier.Game.Editor {
                 EssentialsTilesetAsset asset = CreateInstance<EssentialsTilesetAsset>();
                 asset.TilesetData = tileset.Value;
                 asset.name = tileset.Value.id.ToString();
+                asset.Module = module;
                 saveAsset(asset, "Tilesets");
             }
             AssetDatabase.StopAssetEditing();
@@ -112,7 +136,7 @@ namespace Assets.Unifier.Game.Editor {
         // Build tiles for each tileset
         public void GenerateTiles() {
             AssetDatabase.StartAssetEditing();
-            makeFolder("", "Tiles");
+            makeFolder("Tiles");
             foreach (EssentialsTilesetAsset tileset in Resources.LoadAll<EssentialsTilesetAsset>(module.ModulePath + "/Graphics/Tilesets")) {
                 Debug.Log("Building tile for tileset " + tileset.TilesetData.name);
                 makeFolder("Tiles", tileset.TilesetData.id.ToString());

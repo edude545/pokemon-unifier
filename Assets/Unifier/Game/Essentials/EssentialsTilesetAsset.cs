@@ -87,6 +87,7 @@ namespace Assets.Unifier.Game.Essentials {
 
     }
 
+    [System.Serializable]
     public struct Tileset {
         public string[] autotile_names;
         public string battleback_name;

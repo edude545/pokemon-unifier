@@ -10,11 +10,12 @@ namespace Assets.Unifier.Game.Essentials {
 
     public class EssentialsMapAsset : ScriptableObject {
 
-        public string Module;
-        public EssentialsJSONMapData MapData;
+        public EssentialsModule Module;
+        public MapData Data;
+        public MapInfo Info;
 
         private int[,,] generateTileData() {
-            Table table = MapData.data;
+            Table table = Data.data;
             int[,,] tileData = new int[table.z,table.y,table.x];
             int x, y = 0, z = 0;
             foreach (string line in table.data) {
@@ -31,7 +32,7 @@ namespace Assets.Unifier.Game.Essentials {
 
         public void Load(BasicMap map) {
             int[,,] tiledata = generateTileData();
-            EssentialsTilesetAsset eta = EssentialsTilesetAsset.FindAndLoad(Module, MapData.tileset_id);
+            EssentialsTilesetAsset eta = EssentialsTilesetAsset.FindAndLoad(Module.ModuleName, Data.tileset_id);
             //EssentialsTilemap_DEPRECATED etm = BundleLoader.LoadAsset<EssentialsTilemap_DEPRECATED>("essentials_tilemaps_insurgence", TilesetID.ToString());
             int tileID;
             map.Clear();
@@ -50,7 +51,17 @@ namespace Assets.Unifier.Game.Essentials {
     }
 
     [System.Serializable]
-    public struct EssentialsJSONMapData {
+    public struct MapInfo {
+        public bool expanded;
+        public string name;
+        public int order;
+        public int parent_id;
+        public int scroll_x;
+        public int scroll_y;
+    }
+
+    [System.Serializable]
+    public struct MapData {
         // Automatically deserialized fields
         public bool autoplay_bgm;
         public bool autoplay_bgs;

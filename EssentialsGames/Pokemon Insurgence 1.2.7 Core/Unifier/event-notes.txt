@@ -1,3 +1,5 @@
+! - Look into Interpreter.rb, it looks like this is the script that runs EventCommands.
+
 RPGMaker uses a system that consists of several objects:
 - Event
 	- Page
@@ -9,15 +11,15 @@ EventCommands describe the individual steps of an event, such as progressing dia
 
 Here's an example of an EventCommand chain from Map626.yaml (a house in Cerebrum Town):
 
-{i: 0, c: 111, p: [6, -1, 8]}                                                                                                   - seems to start dialog?
-  {i: 1, c: 101, p: ['It''s a book that reads: "\bWho <i>is </i> the Second Augur?\c[0]".']}                                    - dialog
-  {i: 1, c: 101, p: ['Would you like to read it?']}																			                                        - dialog
-  {i: 1, c: 102, p: [['Yes', 'No'], 2]}																						                                              - binary choice
-  {i: 1, c: 402, p: [0, 'Yes']}																								                                                  - if player chooses yes...
-    {i: 2, c: 101, p: [\rThe second Augur is a beautiful and ruggedly handsome trainer who is constantly saving the world.]}	  - yes dialog
-    {i: 2, c: 101, p: ['\rHe is incredible, and he is the hero we deserve and need.']}											                    - yes dialog
-    {i: 2, c: 0, p: []}																										                                                      - ???
-  {i: 1, c: 402, p: [1, 'No']}																								                                                  - If player chooses no...
+{i: 0, c: 111, p: [6, -1, 8]}                                                                                                   - Do branch if player's facing north(?).
+  {i: 1, c: 101, p: ['It''s a book that reads: "\bWho <i>is </i> the Second Augur?\c[0]".']}                                    - Dialog
+  {i: 1, c: 101, p: ['Would you like to read it?']}																			                                        - Dialog
+  {i: 1, c: 102, p: [['Yes', 'No'], 2]}																						                                              - Player choice
+  {i: 1, c: 402, p: [0, 'Yes']}																								                                                  - Do branch if player chose yes.
+    {i: 2, c: 101, p: [\rThe second Augur is a beautiful and ruggedly handsome trainer who is constantly saving the world.]}	  - Dialog
+    {i: 2, c: 101, p: ['\rHe is incredible, and he is the hero we deserve and need.']}											                    - Dialog
+    {i: 2, c: 0, p: []}																										                                                      -
+  {i: 1, c: 402, p: [1, 'No']}																								                                                  - Do branch if player chose no.
     {i: 2, c: 0, p: []}                                                                                                         -
   {i: 1, c: 404, p: []}                                                                                                         -
   {i: 1, c: 0, p: []}                                                                                                           -
@@ -26,99 +28,140 @@ Here's an example of an EventCommand chain from Map626.yaml (a house in Cerebrum
 
 Another from Map626.yaml. Scene transition.
 
-{i: 0, c: 250, p: [{name: Exit Door, pitch: 100, volume: 80}]}                                                                  - Play audio clip "Exit Door"
-{i: 0, c: 223, p: [{a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}                                                               -
-{i: 0, c: 106, p: [8]}                                                                                                          -
-{i: 0, c: 201, p: [0, 483, 13, 18, 0, 1]}                                                                                       - Teleport to map 483, "Cerebrum Town"
-{i: 0, c: 223, p: [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}                                                                        -
+{i: 0, c: 250, p: [{name: Exit Door, pitch: 100, volume: 80}]}                                                                  - Play audio clip "Exit Door".
+{i: 0, c: 223, p: [{a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 6]}                                                               - Fade to white(?) over 12 frames.
+{i: 0, c: 106, p: [8]}                                                                                                          - Wait 8*2u.
+{i: 0, c: 201, p: [0, 483, 13, 18, 0, 1]}                                                                                       - TP to map 483 at 13,18 without fade.
+{i: 0, c: 223, p: [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 6]}                                                                        - Fade to black(?) over 12 frames.
 
 Here's one from map010.yaml. Seems to be Brock's gym - I think it's a default map from Essentials.
 
-{i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Brock)']}                                                                            -
-{i: 0, c: 101, p: ['\bYou''ve made it this far, but can you beat me?']}                                                         -
-{i: 0, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::LEADER_Brock,"Brock",_I("Very good."))']}                                   -
-  {i: 1, c: 101, p: [\bYou've earned the Boulder Badge.]}                                                                       -
-  {i: 1, c: 355, p: ['$Trainer.badges[0]=true']}                                                                                -
-  {i: 1, c: 121, p: [4, 4, 0]}                                                                                                  -
-  {i: 1, c: 123, p: [A, 0]}                                                                                                     -
+{i: 0, c: 355, p: ['pbTrainerIntro(:LEADER_Brock)']}                                                                            - Run pbTrainerIntro for Brock.
+{i: 0, c: 101, p: ['\bYou''ve made it this far, but can you beat me?']}                                                         - Dialog.
+{i: 0, c: 111, p: [12, 'pbTrainerBattle(PBTrainers::LEADER_Brock,"Brock",_I("Very good."))']}                                   - Battle; if won, say dialog & do branch
+  {i: 1, c: 101, p: [\bYou've earned the Boulder Badge.]}                                                                       - Dialog.
+  {i: 1, c: 355, p: ['$Trainer.badges[0]=true']}                                                                                - Give player badge 0.
+  {i: 1, c: 121, p: [4, 4, 0]}                                                                                                  - ???
+  {i: 1, c: 123, p: [A, 0]}                                                                                                     - ???
   {i: 1, c: 0, p: []}                                                                                                           -
 {i: 0, c: 412, p: []}                                                                                                           -
-{i: 0, c: 355, p: [pbTrainerEnd]}                                                                                               -
+{i: 0, c: 355, p: [pbTrainerEnd]}                                                                                               - End battle.
 {i: 0, c: 0, p: []}                                                                                                             -
 
 Here's one from Map832.yaml, "No Man's Land" (probably a little cave that just has the same name as the main area). The event describes a scene transition, i.e. moving through a cave tunnel to another map.
 This event's graphic has tile_id equal to 462, which makes me think this is a reference to the map's tileset. Not sure if we would have to apply the offset for this.
 This event also has a MoveRoute that's worth looking at. Possibly moves the player upwards through the tunnel tile?
 
-{i: 0, c: 355, p: [pbCaveExit]}                                                                                                 -
-{i: 0, c: 223, p: [{a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8]}                                                             -
-{i: 0, c: 106, p: [10]}                                                                                                         -
+{i: 0, c: 355, p: [pbCaveExit]}                                                                                                 - Run pbCaveExit.
+{i: 0, c: 223, p: [{a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8]}                                                             - Fade to white(?) over 16 frames.
+{i: 0, c: 106, p: [10]}                                                                                                         - Wait for 20 frames.
 {i: 0, c: 201, p: [0, 530, 44, 44, 0, 0]}                                                                                       - Teleport to map 530, "No Man's Land"
-{i: 0, c: 223, p: [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]}                                                                        -
+{i: 0, c: 223, p: [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]}                                                                        - Fade to black over 16 frames.
 
 Another from Map832.yaml. Looks like this is an event for picking up a PP Max item. The value of graphic.character_name for this one is "Object ball", which I think tells it to display a little pokeball on the ground.
 
-{i: 0, c: 355, p: ['Kernel.pbItemBall(PBItems::PPMAX)']}                                                                        -
+{i: 0, c: 355, p: ['Kernel.pbItemBall(PBItems::PPMAX)']}                                                                        - Add PP Max to player inventory??
 {i: 0, c: 123, p: [A, 0]}                                                                                                       -
 {i: 0, c: 0, p: []}                                                                                                             -
 
-`i` may be used for flow control.
+`i` stands for "indent" and is used for flow control.
 `c` almost certainly denotes which "type" of event this is, e.g. dialog, dialog start, choice
 `p` probably stands for parameters; it's an array that can have a bunch of different types... makes it hard to deserialize. There are probably a couple of formats we could match with the `c` parameter:
 
 c: 0 - "Empty"
+  Nothing in Interpreter.rb. This seems to just be a dummy command.
   Empty array.
   e.g. []
 
 c: 101 - "Dialog"
+  Interpreter.rb - "Show Text"
   Single string; dialog?
   e.g. ['It''s a book that reads: "\bWho <i>is </i> the Second Augur?\c[0]".'], ['Would you like to read it?']
 
 c: 102 - "Choice input"
+  Interpreter.rb - "Show Choices"
   String array & integer. Integer represents length of string array, I think. Alternatively, this could be a binary choice and the integer is a "goto" thing for flow control.
   e.g. [['Yes', 'No'], 2]
 
 c: 106 - "???"
+  Interpreter.rb - "Wait"
   Single integer.
   e.g. [10], [8]
+  Sets $wait_count to p[0]*2, i.e. wait for p[0]*2 frames.
 
 c: 111 - "???"
+  Interpreter.rb - "Conditional Branch"
   Array with multiple types. Seems to run Ruby code like 355.
   e.g. [6, -1, 8], [12, 'pbTrainerBattle(PBTrainers::LEADER_Brock,"Brock",_I("Very good."))']
+  --> [condition_type, ...]
+  ===
+  set result to false
+  if condition_type is 6: // character direction check
+    get character with id p[0]
+    set result to true if character's direction matches p[2]
+  if condition_type is 12: // script
+    run p[1] as ruby code,
+    set result to the return value
+  set branch[list[index].indent] to result
+  if result is true:
+    delete branch list[index].indent
+  else:
+    skip command
 
 c: 121 - "???"
+  Interpreter.rb - "Control Switches"
   Many integers.
   e.g. [4, 4, 0]
+  Loop i from p[0] to p[1]:
+    set game_switches[i] to bool(p[2])
+  p[2] is a boolean value, 0 is true and 1 is false
 
 c: 123 - "???"
+  Interpreter.rb - "Control Self Switch"
   Many types. :/
   e.g. [A, 0] appears in multiple events
 
 c: 201 - "???"
+  Interpreter.rb - "Transfer Player"
   Many integers. This only appears in scene transition events. This command almost certainly teleports the player to another map.
   e.g. [0, 530, 44, 44, 0, 0], [0, 483, 13, 18, 0, 1]
-  --> [???, map_number, ???, ???, ???, ???]
+  --> [appointment_method, new_map_number, new_x, new_y, new_direction, fade]
+  appointment_method is 0 or 1. 0 tells the interpreter to use new_map_number, new_x and new_y as literal variables, e.g. send the player to map 530 at coordinates 44,44. If 1, the interpreter queries $game_variables and uses the values stored at keys 530, 44, and 44.
+  fade can be 0 or 1 and causes a screen transition if 0.
 
 c: 223 - "???"
+  Interpreter.rb - "Change Screen Color Tone"
   JSON "Tone" object & integer. A Tone is just an RGBA color. Maybe sets screen overlay color, because this is used in the cave exit trannsition. If this is the case, that EventCommand chain looks like it makes the screen white, then transitions to black?
   e.g. [{a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8], [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]
 
+c: 249
+  Interpreter.rb - "Play ME"
+
 c: 250 - "???"
+  Interpreter.rb - "Play SE" - sound effect?
   Single audio file.
   e.g. [{name: Exit Door, pitch: 100, volume: 80}]
 
+c: 251
+  Interpreter.rb - "Stop SE"
+
 c: 355 - "Global command"
+  Interpreter.rb - "Script"
   Single string. This seems to call some sort of external event, like setting a global variable or something. The $ syntax for setting a veriable makes it seem like this might be Ruby code...
+  We'll probably have to write an (incredibly simple) interpreter for this stuff. Some 355 commands just call certain functions or set global variables, which I think is doable.
   e.g. ['pbTrainerIntro(:LEADER_Brock)'], ['$Trainer.badges[0]=true'], [pbTrainerEnd], [pbCaveExit], ['Kernel.pbItemBall(PBItems::PPMAX)']
 
 c: 402 - "Choice flow control"
+  Interpreter.rb - "When [**]" - not sure what this means
   Integer & string. Looks like the integer is the number of the choice and the string is the choice (see 102).
   e.g. [0, 'Yes'], [1, 'No']
 
 c: 404 - "???"
+  Not in Interpreter.rb.
   Empty array.
   e.g. []
 
 c: 412 - "???"
+  Not in Interpreter.rb.
   Empty array.
   e.g. []

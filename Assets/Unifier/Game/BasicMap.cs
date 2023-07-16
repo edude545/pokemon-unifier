@@ -11,17 +11,10 @@ namespace Assets.Unifier.Game.Editor {
 
         public Tilemap[] Layers;
 
-        public EssentialsMapData_DEPRECATED MapData;
+        public EssentialsMapAsset Map;
 
         private void Awake() {
             Instance = this;
-        }
-
-        public void Load() {
-            MapData.Load(this);
-            if (MapData.TileIDs.SizeZ != 3) {
-                throw new System.Exception("This map doesn't have 3 layers! Figure this out");
-            }
         }
 
         public bool GetPointCollision(Vector2 point) {

@@ -12,7 +12,7 @@ namespace Assets.Unifier.Game {
 
     public class GameController : MonoBehaviour {
 
-        public GameDataImporter[] GameDataImporters;
+        public UnifierModule[] GameDataImporters;
 
         public static GameController Instance;
 

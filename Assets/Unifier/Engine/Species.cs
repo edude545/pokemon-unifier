@@ -6,6 +6,8 @@ namespace Assets.Unifier.Engine {
 
     public class Species {
 
+        public string SourceModule;
+
         public int NatDex;
 
         // Name is the species name, e.g. "Venusaur", "Wo-Chien".

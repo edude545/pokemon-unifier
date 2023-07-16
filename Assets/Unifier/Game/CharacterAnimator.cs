@@ -6,6 +6,9 @@ public class CharacterAnimator : SpriteAnimator {
 
     public int AnimationPeriod = 4;
 
+    public string ModuleName;
+    public string SpritesheetGraphicPath; // e.g. "Assets/Insurgence/Graphics/Characters/64px/trchar001"
+
     public enum Directions {
         Down, // 0, 1, 2, 3
         Left, // 4, 5, 6, 7
@@ -27,20 +30,29 @@ public class CharacterAnimator : SpriteAnimator {
         new int[4] { 12, 13, 14, 15 }
     };
 
-    private Sprite[] walkSprites;
-    private Sprite[] runSprites;
-    private Sprite[] bikeSprites;
+    public Sprite[] WalkSprites;
+    public Sprite[] RunSprites;
+    public Sprite[] BikeSprites;
+
+    protected override void Start() {
+        LoadSpritesFromInspectorFields();
+        base.Start();
+    }
+
+    public virtual void LoadSpritesFromInspectorFields () {
+        Debug.Log("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath);
+        WalkSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath);
+        RunSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "_run");
+        BikeSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "_bike");
+        if (WalkSprites.Length != AnimationPeriod * AnimationPeriod) throw new NoDataException("Couldn't find a spritesheet with " + AnimationPeriod * AnimationPeriod + " sprites with filename " + SpritesheetGraphicPath + "!");
+        if (RunSprites.Length == 0) RunSprites = null;
+        if (BikeSprites.Length == 0) BikeSprites = null;
+        LoadSprites();
+    }
 
     public override void LoadSprites() {
-        //AssetBundle bundle = BundleLoader.Instance.AssetBundles[BundleName];
-        walkSprites = BundleLoader.LoadAssetWithSubAssets<Sprite>("overworld_characters", SpritesheetName);
-        runSprites = BundleLoader.LoadAssetWithSubAssets<Sprite>("overworld_characters", SpritesheetName + "_run");
-        bikeSprites = BundleLoader.LoadAssetWithSubAssets<Sprite>("overworld_characters", SpritesheetName + "_bike");
-        if (walkSprites.Length != AnimationPeriod * AnimationPeriod) throw new NoDataException("Couldn't find a spritesheet with "+AnimationPeriod*AnimationPeriod+" sprites with filename "+SpritesheetName+"!");
-        if (runSprites.Length == 0) runSprites = null;
-        if (bikeSprites.Length == 0) bikeSprites = null;
         LoadAnimation(walkAnimations[0]);
-        setSpritesheetWithoutUpdating(walkSprites);
+        setSpritesheetWithoutUpdating(WalkSprites);
         if (Application.isEditor && !Application.isPlaying) {
             UpdateSprite();
         }
@@ -51,12 +63,12 @@ public class CharacterAnimator : SpriteAnimator {
     }
 
     public void SetMoveSpeed(MoveSpeeds moveSpeed) {
-        if (moveSpeed == MoveSpeeds.Running && runSprites != null) {
-            SwitchSpritesheet(runSprites);
-        } else if (moveSpeed == MoveSpeeds.Biking && bikeSprites != null) {
-            SwitchSpritesheet(bikeSprites);
+        if (moveSpeed == MoveSpeeds.Running && RunSprites != null) {
+            SwitchSpritesheet(RunSprites);
+        } else if (moveSpeed == MoveSpeeds.Biking && BikeSprites != null) {
+            SwitchSpritesheet(BikeSprites);
         } else {
-            SwitchSpritesheet(walkSprites);
+            SwitchSpritesheet(WalkSprites);
         }
     }
 

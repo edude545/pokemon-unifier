@@ -25,7 +25,10 @@ namespace Assets.Unifier.Game.Essentials {
                     x++;
                 }
                 y++;
-                if (y > table.z) y = 0; z++;
+                if (y > table.y - 1) {
+                    y = 0;
+                    z++;
+                }
             }
             return tileData;
         }
@@ -68,7 +71,7 @@ namespace Assets.Unifier.Game.Essentials {
         public AudioFile bgm;
         public AudioFile bgs;
         public Table data;
-        //public ??? encounter_list;
+        public object[] encounter_list; // not sure what type this should be, haven't found a map whose encounter_list is not empty
         public int encounter_step;
         public int height;
         public int tileset_id;
@@ -148,7 +151,7 @@ namespace Assets.Unifier.Game.Essentials {
     public struct EventCommand {
         public int i;
         public int c;
-        // public ??? p;
+        public object[] p;
     }
 
     [System.Serializable]
@@ -169,7 +172,7 @@ namespace Assets.Unifier.Game.Essentials {
     [System.Serializable]
     public struct MoveCommand {
         public int code;
-        //public ??? parameters;
+        public object[] parameters;
     }
 
 }

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 
 namespace Assets.Unifier.Engine {
 
     public class Move {
+
+        public string ModuleName;
 
         public string Name;
 
@@ -22,6 +25,8 @@ namespace Assets.Unifier.Engine {
         public int ContestJam;
 
         public bool MakesContact;
+
+        public EffectStatement[] EffectStatements;
 
         public bool IsAttack {
             get {
@@ -44,6 +49,33 @@ namespace Assets.Unifier.Engine {
         public static Move GetByID(int id) {
             return null;
         }
+
+        // TODO
+        public bool MayHaveEffect(params string[] effectNames) {
+            return true;
+        }
+
+        // TODO
+        // ====================================
+        public struct EffectStatement {
+            public Predicate[] predicates;
+            public Trigger[] triggers;
+            public Effect[] effects;
+        }
+
+        public struct Effect {
+            public string name;
+            public float[] parameters;
+        }
+
+        public struct Predicate {
+
+        }
+
+        public struct Trigger {
+
+        }
+        // ====================================
 
     }
 

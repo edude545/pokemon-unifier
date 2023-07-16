@@ -13,7 +13,7 @@ namespace Assets.Unifier.Game.Data {
         public static EssentialsTilemap_DEPRECATED GetEssentialsTilemap(string bundle, string filename) {
             //string path = "Assets/Data/" + bundle + "/Tilesets/" + filename + ".asset";
             Debug.Log("Have a look at this");
-            return BundleLoader.LoadAsset<EssentialsTilemap_DEPRECATED>(bundle, filename);
+            return BundleLoader_DEPRECATED.LoadAsset<EssentialsTilemap_DEPRECATED>(bundle, filename);
         }
 
     }

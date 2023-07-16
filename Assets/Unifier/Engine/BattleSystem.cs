@@ -3,7 +3,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Burst.Intrinsics;
 using UnityEngine;
+using UnityEngine.Playables;
+using static Assets.Unifier.Engine.BattleSystem;
 
 namespace Assets.Unifier.Engine {
 
@@ -11,8 +14,18 @@ namespace Assets.Unifier.Engine {
     // This class is purely logical, and needs to be "operated" by another object (such as a BattleUIController).
     internal class BattleSystem {
 
-        public BattleSide PlayerSide;
-        public BattleSide EnemySide;
+        public BattleSide[] Sides;
+        public BattleSide PlayerSide {
+            get {
+                return Sides[0];
+            }
+        }
+
+        public BattleMask PlayerBattleMask;
+        private string battleLog;
+        private string logUpdate;
+
+        public int CurrentTurn; // Starts at 1
 
         internal enum BattleTypes { Single, Double, Triple }
         public BattleTypes BattleType;
@@ -30,11 +43,8 @@ namespace Assets.Unifier.Engine {
         }
         public List<FieldEffect> ActiveFieldEffects = new List<FieldEffect>();
 
-        private Action[] queuedActions;
+        private List<Action> queuedActions;
         private int currentAction;
-
-        public bool WaitingForInputs; // Controls whether this BattleSystem is waiting for inputs from players and AI.
-        public bool InputsReady { get { return PlayerSide.InputsComplete && EnemySide.InputsComplete; } }
 
         public BattleSystem(BattleTypes battleType, TrainerData player, TrainerData computer) {
             BattleType = battleType;
@@ -43,40 +53,60 @@ namespace Assets.Unifier.Engine {
             else if (BattleType == BattleTypes.Double) battlers = 2;
             else if (BattleType == BattleTypes.Triple) battlers = 3;
             else battlers = 1;
-            PlayerSide = new BattleSide(this, player, battlers);
-            EnemySide = new BattleSide(this, computer, battlers);
-            PlayerSide.OpposingSide = EnemySide;
-            EnemySide.OpposingSide = PlayerSide;
-            OpenInputs();
-        }
-
-        public void OpenInputs() {
-            WaitingForInputs = true;
+            Sides = new BattleSide[2];
+            Sides[0] = new BattleSide(this, player, battlers);
+            Sides[1] = new BattleSide(this, computer, battlers);
+            Sides[0].OpposingSide = Sides[1];
+            Sides[1].OpposingSide = Sides[0];
+            PlayerBattleMask = new BattleMask(this);
+            battleLog = "";
+            CurrentTurn = 1;
         }
 
         public void CloseInputs() {
-            WaitingForInputs = false;
             calculateTurnOrder();
             currentAction = 0;
         }
 
-        // Process the next action
-        public void Next() {
+        // Process the next action. Returns battle log info.
+        public ActionResult Next() {
+            ActionResult ret = new ActionResult();
+            logUpdate = "";
             queuedActions[currentAction].Perform();
             currentAction += 1;
-            if (currentAction == queuedActions.Length) {
+            if (currentAction == queuedActions.Count) {
                 currentAction = 0;
-                OpenInputs();
             }
+            if (queuedActions.Count == 1) {
+                ret.LastActionThisTurn = true;
+                CurrentTurn++;
+            } else {
+                ret.LastActionThisTurn = false;
+            }
+            ret.Log = logUpdate;
+            battleLog += logUpdate;
+            return ret;
+        }
+        public struct ActionResult {
+            public bool LastActionThisTurn;
+            public string Log;
         }
 
-        public void calculateTurnOrder() {
-            Array.Sort(queuedActions, (Action a1, Action a2) => a1.PriorityBracket.CompareTo(a2.PriorityBracket));
-            Array.Sort(queuedActions, (Action a1, Action a2) => a1.Battler.Stats[PokeStat.Spe].CompareTo(a2.Battler.Stats[PokeStat.Spe]));
+        private void log(string message) {
+            logUpdate += message;
+        }
+
+        public void QueueActions(IEnumerable<Action> actions) {
+            queuedActions = queuedActions.Union(actions).ToList();
+        }
+
+        private void calculateTurnOrder() {
+            queuedActions.Sort((Action a1, Action a2) => a1.PriorityBracket.CompareTo(a2.PriorityBracket));
+            queuedActions.Sort((Action a1, Action a2) => a1.Performer.Spe.CompareTo(a2.Performer.Spe));
         }
 
         public void SwapPokemon(Battler swappedOut, Pokemon swappedIn) {
-
+            // TODO
         }
 
         public void HasFieldEffect() {
@@ -86,14 +116,13 @@ namespace Assets.Unifier.Engine {
         // A BattleSide represents a side in a battle that controls one or more Battlers.
         internal class BattleSide {
 
+            public int Index;
             public readonly BattleSystem BattleSystem;
             public BattleSide OpposingSide;
             public Battler[] Battlers;
             public TrainerData Trainer;
             public List<string> Effects;
             public StatComplex Stats;
-
-            public bool InputsComplete = false;
 
             public BattleSide(BattleSystem battleSystem, TrainerData trainer, int battlers) {
                 BattleSystem = battleSystem;
@@ -134,11 +163,25 @@ namespace Assets.Unifier.Engine {
             public Pokemon Pokemon;
             public int Position; // Index in the BattleSide's Battlers array. Used for adjacency calculation.
             public StatComplex Effects;
-            
-            public PokeStatDict Stats;
 
-            public Ability Ability { get { return Pokemon.Ability; } }
-            public Typing Typing { get { return Pokemon.Typing; } }
+            private BattleSystem battleSystem {
+                get {
+                    return BattleSide.BattleSystem;
+                }
+            }
+
+            // TODO: Pokemon should be able to change their stats during battle
+            //public PokeStatDict Stats;
+            public int HP { get { return (int) Pokemon.Stats.HP.Value; } }
+            public int Atk { get { return (int)Pokemon.Stats.Atk.Value; } }
+            public int Def { get { return (int)Pokemon.Stats.Def.Value; } }
+            public int SpA { get { return (int)Pokemon.Stats.SpA.Value; } }
+            public int SpD { get { return (int)Pokemon.Stats.SpD.Value; } }
+            public int Spe { get { return (int)Pokemon.Stats.Spe.Value; } }
+
+            public Ability Ability { get { return Pokemon.Ability; } } // TODO: Pokemon should be able to change abilities during battle
+            public Typing Typing { get { return Pokemon.Typing; } } // TODO: Pokemon should be able to change type during battle
+            public Move[] Moves { get { return Pokemon.Moves; } } // TODO: Pokemon should be able to gain or lose moves during battle
 
             public Action CurrentAction; // Action to be performed by the Battler this turn. Player input/AI choice code writes to this field.
 
@@ -148,7 +191,7 @@ namespace Assets.Unifier.Engine {
                 BattleSide = battleSide;
                 Pokemon = pokemon;
                 Position = position;
-                Stats = new PokeStatDict(Pokemon.Stats);
+                //Stats = new PokeStatDict(Pokemon.Stats);
             }
 
             public void SetActionMove(int index) {
@@ -156,7 +199,8 @@ namespace Assets.Unifier.Engine {
             }
 
             public void ReceiveDamage(int damage) {
-
+                Pokemon.CurrentHP -= damage;
+                battleSystem.log(Pokemon.Name + " lost " + damage + " HP!");
             }
 
             public float GetSTAB(Move move) {
@@ -185,14 +229,17 @@ namespace Assets.Unifier.Engine {
         // This include moves, switching Pokemon, using items, Mega Evolving, using Z-Moves, Dynamaxing, and Terastallizing.
         internal abstract class Action {
             public bool Performed = true;
-            public Battler Battler;
+            public Battler Performer;
             public readonly int PriorityBracket;
+            protected BattleSystem battleSystem {
+                get {
+                    return Performer.BattleSide.BattleSystem;
+                }
+            }
             public Action(Battler battler) {
-                Battler = battler;
+                Performer = battler;
             }
-            public virtual void Perform() {
-
-            }
+            public abstract void Perform();
         }
 
         internal class MoveAction : Action {
@@ -204,14 +251,14 @@ namespace Assets.Unifier.Engine {
             public readonly bool Terastallize;
             public Move Move {
                 get {
-                    return Battler.Pokemon.Moves[MoveIndex];
+                    return Performer.Pokemon.Moves[MoveIndex];
                 }
             }
             public MoveAction(Battler battler, int moveIndex) : base(battler) {
                 MoveIndex = moveIndex;
             }
             public override void Perform() {
-                base.Perform();
+                battleSystem.log(Performer.Pokemon.Name + " used " + Move.Name + "!");
                 bool multiTarget = Targets.Length > 1;
                 if (Move.IsAttack) {
                     /*foreach (Battler target in Targets) {
@@ -219,32 +266,52 @@ namespace Assets.Unifier.Engine {
                     }*/
                 }
             }
-            private void performAttack(Battler target, bool multiTarget, bool isCrit) {
+            private static void performAttack(Battler performer, Move move, BattleSystem battleSystem, Battler target, bool multiTarget, bool isCrit) {
                 int atkStat; int defStat;
-                if (Move.Category == MoveCategories.Physical) {
-                    atkStat = Battler.Stats[PokeStat.Atk]; defStat = target.Stats[PokeStat.Def];
+                if (move.Category == MoveCategories.Physical) {
+                    atkStat = performer.Atk; defStat = target.Def;
                 } else {
-                    atkStat = Battler.Stats[PokeStat.SpA]; defStat = target.Stats[PokeStat.SpD];
+                    atkStat = performer.SpA; defStat = target.SpD;
                 }
-                target.ReceiveDamage((int)(
-                    ((((2*Battler.Pokemon.Level)/5+2) * Move.Power * (atkStat / defStat)) / 50 + 2)
+                float effectiveness = move.Type.GetMatchupAttacking(target.Typing);
+                if (effectiveness > 1) {
+                    battleSystem.log("It's super effective against " + target.Pokemon.Name + "!");
+                } else if (effectiveness == 0) {
+                    battleSystem.log("It had no effect against " + target.Pokemon.Name + "...");
+                } else if (effectiveness < 0) {
+                    battleSystem.log("It's not very effective against " + target.Pokemon.Name + "...");
+                }
+                int damage = (int)(
+                    ((((2 * performer.Pokemon.Level) / 5 + 2) * move.Power * (atkStat / defStat)) / 50 + 2)
                     * (multiTarget ? 0.75f : 1f)
                     * ((isCrit && !target.IsCritImmune()) ? 1.5f : 1f)
-                    * (UnityEngine.Random.Range(85,101) / 100f)
-                    * Battler.GetSTAB(Move)
-                    * Move.Type.GetMatchupAttacking(target.Typing)
-                ));;
+                    * (UnityEngine.Random.Range(85, 101) / 100f)
+                    * performer.GetSTAB(move)
+                    * effectiveness
+                );
+                target.ReceiveDamage(damage);
             }
+
         }
 
-        internal class SwitchPokemonAction : Action {
+        internal class MoveAndSwitchAction : MoveAction {
             public readonly int TargetPosition;
-            public SwitchPokemonAction(Battler battler, int targetPosition) : base(battler) {
-                TargetPosition = targetPosition;
+            public readonly int PartyMemberIndex;
+            public MoveAndSwitchAction(Battler battler, int moveIndex, int partyMemberIndex) : base(battler, moveIndex) {
+                PartyMemberIndex = partyMemberIndex;
             }
             public override void Perform() {
                 base.Perform();
-                Battler.BattleSide.BattleSystem.SwapPokemon(Battler, Battler.BattleSide.GetPokemon(TargetPosition));
+            }
+        }
+
+        internal class SwitchAction : Action {
+            public readonly int PartyMemberIndex;
+            public SwitchAction(Battler battler, int partyMemberIndex) : base(battler) {
+                PartyMemberIndex = partyMemberIndex;
+            }
+            public override void Perform() {
+                battleSystem.SwapPokemon(Performer, Performer.BattleSide.GetPokemon(PartyMemberIndex));
             }
         }
 

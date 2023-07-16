@@ -41,7 +41,7 @@ namespace Assets.Unifier.Game.Essentials {
 
         public void Load(BasicMap map) {
             TileIDs.OnAfterDeserialize();
-            EssentialsTilemap_DEPRECATED etm = BundleLoader.LoadAsset<EssentialsTilemap_DEPRECATED>("essentials_tilemaps_insurgence", TilesetID.ToString());
+            EssentialsTilemap_DEPRECATED etm = BundleLoader_DEPRECATED.LoadAsset<EssentialsTilemap_DEPRECATED>("essentials_tilemaps_insurgence", TilesetID.ToString());
             etm.GenerateTilesFromSpritesheet();
             int tileID;
             map.Clear();

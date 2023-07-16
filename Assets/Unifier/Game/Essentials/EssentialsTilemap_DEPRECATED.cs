@@ -63,7 +63,7 @@ namespace Assets.Unifier.Game.Essentials {
         }
 
         public void GenerateTilesFromSpritesheet() {
-            Sprite[] spritesheet = BundleLoader.LoadAssetWithSubAssets<Sprite>("overworld_tilesets", TilesetName);
+            Sprite[] spritesheet = BundleLoader_DEPRECATED.LoadAssetWithSubAssets<Sprite>("overworld_tilesets", TilesetName);
             int index;
             int i;
             dict = new Dictionary<int, Tile>();

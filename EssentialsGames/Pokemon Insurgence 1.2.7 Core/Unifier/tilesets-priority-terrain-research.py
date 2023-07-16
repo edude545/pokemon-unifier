@@ -3,7 +3,7 @@ from yaml.loader import Loader
 import rpg
 
 def load(filename):
-	with open("../YAML-pythonized/"+filename,"r") as f:
+	with open("../YAML-processed/"+filename,"r") as f:
 		return yaml.load(f.read(),Loader)
 
 def flatten_table(table):

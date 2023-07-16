@@ -24,7 +24,7 @@ namespace Assets.Unifier.Game.Editor {
                 }
             }
             if (GUILayout.Button("Load map")) {
-                map.Load();
+                map.Map.Load(map);
             }
         }
 
@@ -34,25 +34,6 @@ namespace Assets.Unifier.Game.Editor {
 
     }
 
-    [CustomEditor(typeof(TwoFrameAnimator))]
-    public class TwoFrameAnimatorEditor : UnityEditor.Editor {
-
-        TwoFrameAnimator animator;
-
-        public override void OnInspectorGUI() {
-            using (var check = new EditorGUI.ChangeCheckScope()) {
-                base.OnInspectorGUI();
-            }
-            if (GUILayout.Button("Load sprites")) {
-                animator.LoadSprites();
-            }
-        }
-
-        private void OnEnable() {
-            animator = (TwoFrameAnimator)target;
-        }
-
-    }
 
     [CustomEditor(typeof(CharacterAnimator))]
     public class CharacterAnimatorEditor : UnityEditor.Editor {
@@ -64,7 +45,7 @@ namespace Assets.Unifier.Game.Editor {
                 base.OnInspectorGUI();
             }
             if (GUILayout.Button("Load sprites")) {
-                animator.LoadSprites();
+                animator.LoadSpritesFromInspectorFields();
             }
         }
 

@@ -11,8 +11,6 @@ using UnityEngine.UI;
 public abstract class SpriteAnimator : MonoBehaviour
 {
 
-    public string SpritesheetName; // e.g. "Assets/Insurgence/Graphics/Characters/64px/trchar001"
-
     private int activeSprites;
     private Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
@@ -26,7 +24,7 @@ public abstract class SpriteAnimator : MonoBehaviour
     private int animationLength;
     private float frameTime = 0f;
 
-    private void Start() {
+    protected virtual void Start() {
         spriteRenderer = GetComponent<SpriteRenderer>();
         LoadSprites();
     }

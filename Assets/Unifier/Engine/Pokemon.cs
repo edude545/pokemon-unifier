@@ -12,6 +12,13 @@ namespace Assets.Unifier.Engine {
 
         public Species Species { get; private set; }
 
+        public int CurrentHP;
+        public float HPPercentage {
+            get {
+                return CurrentHP / (float)Stats.HP.Value;
+            }
+        }
+
         private float genderFloat;
         public bool IsMale { get { return genderFloat > Species.GenderRatio; } }
         public bool IsFemale { get { return genderFloat <= Species.GenderRatio; } }

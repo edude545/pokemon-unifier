@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.Unifier.Game.Editor;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -38,14 +39,7 @@ namespace Assets.Unifier.Game.Essentials {
     // | | | | | | Main
     // | | | | | | | Built tiles from 1's spritesheet, with 1's terrain/priority data...
     [CreateAssetMenu(fileName = "Module", menuName = "Unifier/Essentials Module")]
-    public class EssentialsModule : ScriptableObject {
-
-        public string ModuleName;
-        public string ModulePath; // ex. Assets/Modules/Insurgence
-
-        public void OnValidate() {
-            ModulePath = "Modules/" + ModuleName;
-        }
+    public class EssentialsModule : UnifierModule {
 
     }
 

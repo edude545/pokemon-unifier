@@ -10,7 +10,7 @@ namespace Assets.Unifier.Game.Data {
 
     public abstract class CSVAsset : ScriptableObject {
 
-        public abstract CSVAsset LoadFromCSVRecord(GameDataImporter importer, Dictionary<string, string> record);
+        public abstract CSVAsset LoadFromCSVRecord(UnifierModule importer, Dictionary<string, string> record);
 
     }
 

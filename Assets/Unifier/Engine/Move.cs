@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.Unifier.Game.Editor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,11 +8,12 @@ using Unity.VisualScripting;
 
 namespace Assets.Unifier.Engine {
 
-    public class Move {
+    public class Move : UnifierRegistryObject {
 
         public string ModuleName;
 
         public string Name;
+        public string Identifier => Name.Replace(" ","").Replace("-","");
 
         public MoveCategories Category;
         public int Power;
@@ -46,8 +48,13 @@ namespace Assets.Unifier.Engine {
             }
         }
 
-        public static Move GetByID(int id) {
-            return null;
+        public static Move GetByInternalName(string name) {
+            foreach (UnifierModule module in UnifierModule.Modules.Values) {
+                if (module.HasMove(name)) {
+                    return module.GetMove(name);
+                }
+            }
+            throw new ArgumentOutOfRangeException("No registered module provides a move with internal name " + name);
         }
 
         // TODO

@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Assets.Unifier.Engine {
 
-    public class Species {
+    public class Species : UnifierRegistryObject {
 
         public string SourceModule;
 
@@ -15,7 +16,8 @@ namespace Assets.Unifier.Engine {
         // The reason this has to be a string array is that some Pokemon have hyphens in their names e.g. Ho-Oh, Kommo-o, Wo-Chien.
         // None of these mons have other forms officially, but this means there needs to be support for distinguishing names from form qualifiers.
         public string Name;
-        public string Forms;
+        public string[] Forms;
+        public string Identifier => ((Forms.Length == 0) ? Name : (Name + "-" + string.Join("-",Forms))).ToLower();
         public bool IsDefaultForm;
 
         public PokeStatDict BaseStats;
@@ -24,11 +26,14 @@ namespace Assets.Unifier.Engine {
         public Ability Ability2;
         public Ability HiddenAbility;
 
+        public LearnsetData Learnset;
+
         public LevelCurves LevelCurve;
         public int ExpYield;
         public PokeStatDict EVYield;
 
-        public Dictionary<int,int[]> LevelupLearnset; // Maps 
+        public Dictionary<int,string[]> LevelupLearnset; // Key of 0 indicates a move learnt when evolving into this Pokemon
+        public HashSet<string> Movepool; // All moves that may be moved by levelup, TM/HM/TR, tutor and egg moves.
 
         public string Category;
 
@@ -71,15 +76,126 @@ namespace Assets.Unifier.Engine {
 
         private Move[] movesLearnedAtLevel(int level) {
             if (LevelupLearnset.ContainsKey(level)) {
-                ArrayList ret = new ArrayList();
-                foreach (int moveID in LevelupLearnset[level]) {
-                    ret.Add(Move.GetByID(moveID));
+                List<Move> ret = new List<Move>();
+                foreach (string id in LevelupLearnset[level]) {
+                    ret.Add(Move.GetByInternalName(id));
                 }
-                return (Move[])ret.ToArray();
+                return ret.ToArray();
             } else {
                 return new Move[0];
             }
         }
 
+        public void BuildMoveset() {
+            if (Learnset.learnset == null) {
+                Debug.LogWarning("Species " + Identifier + " has no learnset");
+                return;
+            }
+            var sourcesToMoves = new Dictionary<MoveSource, List<string>>();
+            foreach (var moveToSources in Learnset.learnset) {
+                foreach (string str in moveToSources.Value) {
+                    MoveSource source = new MoveSource(str);
+                    List<string> list = sourcesToMoves.GetValueOrDefault(source, new List<string>());
+                    list.Add(moveToSources.Key);
+                    sourcesToMoves[source] = list;
+                }
+            }
+
+            var levelupLearnsetBuild = new Dictionary<int, List<string>>();
+            Movepool = new HashSet<string>();
+
+            int latestGeneration = 0;
+            foreach (MoveSource key in sourcesToMoves.Keys) {
+                latestGeneration = Mathf.Max(latestGeneration, key.Generation);
+            }
+
+            foreach (var kvp in sourcesToMoves) {
+                if (kvp.Key.Generation != latestGeneration) continue;
+                Movepool.UnionWith(kvp.Value);
+                if (kvp.Key.SourceType == 'L') {
+                    List<string> l = levelupLearnsetBuild.GetValueOrDefault(kvp.Key.Num, new List<string>());
+                    foreach (string id in kvp.Value) {
+                        if (!l.Contains(id)) {
+                            l.Add(id);
+                        }
+                    }
+                    levelupLearnsetBuild[kvp.Key.Num] = l;
+                }
+            }
+
+            LevelupLearnset = new Dictionary<int, string[]>();
+            foreach (var kvp in levelupLearnsetBuild) {
+                LevelupLearnset[kvp.Key] = kvp.Value.ToArray();
+            }
+
+            /*string output = "";
+            foreach (var kvp in LevelupLearnset) {
+                output += kvp.Key + ": " + string.Join(", ", kvp.Value) + "\n";
+            }
+            Debug.Log(output);*/
+            //LevelupLearnset = new Dictionary<int, Move[]>();
+        }
+
     }
+
+    struct MoveSource {
+        public int Generation;
+        public char SourceType;
+        public int Num;
+        public MoveSource(string str) {
+            string gens = "";
+            SourceType = ' ';
+            string nums = "";
+            bool secondHalf = false;
+            foreach (char c in str) {
+                if (char.IsDigit(c)) {
+                    if (secondHalf) {
+                        nums += c;
+                    } else {
+                        gens += c;
+                    }
+                } else {
+                    SourceType = c;
+                    secondHalf = true;
+                }
+            }
+            Generation = int.Parse(gens);
+            Num = nums.Length == 0 ? 0 : int.Parse(nums);
+        }
+    }
+
+    public struct LearnsetData {
+
+        // Maps move names to sources.
+        // gL0 - Move learned when evolving into this Pokemon in generation g
+        // gLn - Move learned at level n in generation g
+        // gM - Move learned by TM/HM/TR in generation g
+        // gT - Move learned through move tutor in generation g
+        // gE - Possible egg move in generation g
+        // gSn - Move available in nth distribution event in generation g
+        public Dictionary<string, string[]> learnset;
+
+        public EncounterData[] eventData;
+        public EncounterData[] encounters;
+        public bool eventOnly;
+        public string parent; // TODO!
+
+    }
+
+    public struct EncounterData {
+
+        public int generation;
+        public int level;
+        public bool shiny;
+        public string gender;
+        public string nature;
+        public Dictionary<string, int> ivs;
+        public string[] abilities;
+        public bool hidden; // not sure what this does
+        public string[] moves;
+        public string pokeball;
+        public int maxEggMoves;
+
+    }
+
 }

@@ -1,6 +1,6 @@
 import math
 
-hdr = "default,name,form,type1,type2,ability1,ability2,abilityh,base stat total,hp,attack,defense,special attack,special defense,speed,group1,group2,catch_rate,egg_cycles,base_happiness,category,percentage_male,exp_group,height_m,weight_kg,pokedex,item_common,item_uncommon,item_rare,exp_yield"
+pkmn_hdr = "default,name,form,type1,type2,ability1,ability2,abilityh,base stat total,hp,attack,defense,special attack,special defense,speed,group1,group2,catch_rate,egg_cycles,base_happiness,category,percentage_male,exp_group,height_m,weight_kg,pokedex,item_common,item_uncommon,item_rare,exp_yield"
 
 gender_rates = {
 	"Female50Percent" : "0.5",
@@ -24,7 +24,7 @@ egg_groups = {
 	
 }
 
-def process_pkmn(pkmn, file):
+def process_pkmn(pkmn, pkmn_file, learnset_file):
 	ab = [abilities[a] for a in pkmn["Abilities"].split(",")]
 	for a in ab:
 		all_upper = True
@@ -34,9 +34,9 @@ def process_pkmn(pkmn, file):
 	stats = pkmn["BaseStats"].split(",")
 	t1 = process_type(pkmn["Type1"])
 	t2 = process_type(pkmn["Type2"]) if "Type2" in pkmn else ""
-	eggs = pkmn["Compatability"].split(",")
-	egg1 = egg_groups[pkmn[0]]
-	egg2 = egg_groups[pkmn[1]] if len(eggs) > 0 else ""
+	#eggs = pkmn["Compatibility"].split(",")
+	#egg1 = egg_groups[eggs[0]]
+	#egg2 = egg_groups[eggs[1]] if len(eggs) > 0 else ""
 	add_record({
 		"name" : pkmn["Name"],
 		"type1" : t1,
@@ -60,18 +60,20 @@ def process_pkmn(pkmn, file):
 		"height_m" : pkmn["Height"],
 		"weight_kg" : pkmn["Weight"],
 		"exp_yield" : pkmn["BaseEXP"]
-	}, file)
+	}, pkmn_file, pkmn_row_length)
 
-header_indices = {}
-headers = hdr.split(",")
-for i,col in enumerate(headers):
-	header_indices[col] = i
-row_length = len(headers)
 
-def add_record(record_dict, file):
+
+pkmn_header_indices = {}
+pkmn_headers = pkmn_hdr.split(",")
+for i,col in enumerate(pkmn_headers):
+	pkmn_header_indices[col] = i
+pkmn_row_length = len(pkmn_headers)
+
+def add_record(record_dict, file, row_length):
 	record = ["" for i in range(row_length)]
 	for k in record_dict:
-		record[header_indices[k]] = str(record_dict[k])
+		record[pkmn_header_indices[k]] = str(record_dict[k])
 	print(",".join(record))
 	file.write("\n" + ",".join(record))
 	#print(record)
@@ -90,15 +92,16 @@ def read_pokemon_file():
 	read_abilities_file()
 	lines = load_lines("pokemon")
 	current = {}
-	with open("../CSV/pokemon.txt", "w") as out:
-		out.write(hdr)
-		for line in lines:
-			line = line.replace("\n","")
-			if (line[0] == "["):
-				if current != {}: process_pkmn(current, out)
-				current = {}
-				continue
-			key,val = line.split("=")
-			current[key] = val
+	with open("../CSV/pokemon.csv", "w") as pkmn_file:
+		with open("../CSV/learnset.csv", "w") as learnset_file:
+			pkmn_file.write(pkmn_hdr)
+			for line in lines:
+				line = line.replace("\n","")
+				if (line[0] == "["):
+					if current != {}: process_pkmn(current, pkmn_file, learnset_file)
+					current = {}
+					continue
+				key,val = line.split("=")
+				current[key] = val
 
 read_pokemon_file()

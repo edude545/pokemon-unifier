@@ -3,12 +3,15 @@ using UnityEngine;
 using System.IO;
 using Assets.Unifier.Engine;
 using System;
+using Newtonsoft.Json;
 using System.Linq;
 
 namespace Assets.Unifier.Game.Editor {
 
     [CreateAssetMenu(fileName = "Game Data Importer", menuName = "Unifier/Generic Module")]
     public class UnifierModule : ScriptableObject {
+
+        public static Dictionary<string, UnifierModule> Modules;
 
         public string ModuleName;
         public string ModulePath; // ex. Assets/Modules/Insurgence
@@ -20,42 +23,73 @@ namespace Assets.Unifier.Game.Editor {
         //public string BundleName;
         //private static HashSet<char> forbiddenCharacters = new HashSet<char>() { '\\', '/', ':', '*', '?', '\"', '<', '>', '|' };
 
-        public TextAsset SpeciesData;
-        public TextAsset MovesData;
+        public TextAsset SpeciesTSV;
+        public TextAsset MovesTSV;
+        public TextAsset LearnsetsDataJSON;
 
-        public Dictionary<string, Species> Species;
-        public Dictionary<string, Move> Moves;
+        private Dictionary<string, Species> species;
+        private Dictionary<string, Move> moves;
+
+        public Species GetSpecies(string name) {
+            return species[name.ToLower()];
+        }
+
+        public Move GetMove(string name) {
+            return moves[name.ToLower().Replace(" ","")];
+        }
+
+        public bool HasSpecies(string name) {
+            return species.ContainsKey(name.ToLower());
+        }
+
+        public bool HasMove(string name) {
+            return moves.ContainsKey(name.ToLower().Replace(" ", "").Replace("-", ""));
+        }
 
         public void GenerateAssets() {
-            if (SpeciesData != null) GenerateSpecies();
-            if (MovesData != null) GenerateMoves();
+            if (SpeciesTSV != null) GenerateSpecies();
+            if (MovesTSV != null) GenerateMoves();
+            if (LearnsetsDataJSON != null) GenerateLearnsets();
         }
 
         public void GenerateSpecies() {
-            Species = new Dictionary<string, Species>();
+            species = new Dictionary<string, Species>();
             //string speciesPath = tryMakeFolder("Species");
-            readCSV(SpeciesData, generateSpecies, Species);
+            readCSV(SpeciesTSV, generateSpecies, species);
         }
 
         public void GenerateMoves() {
-            Moves = new Dictionary<string, Move>();
+            moves = new Dictionary<string, Move>();
             //string movesPath = tryMakeFolder("Moves");
-            readCSV(MovesData, generateMove, Moves);
+            readCSV(MovesTSV, generateMove, moves);
         }
 
-        private string[] getLines(TextAsset csv) {
+        public void GenerateLearnsets() {
+            var learnsets = JsonConvert.DeserializeObject<Dictionary<string,LearnsetData>>(LearnsetsDataJSON.text);
+            foreach (var kvp in learnsets) {
+                if (HasSpecies(kvp.Key)) {
+                    Species s = GetSpecies(kvp.Key);
+                    s.Learnset = kvp.Value;
+                    s.BuildMoveset();
+                } else {
+                    Debug.LogWarning("Couldn't find key " + kvp.Key);
+                }
+            }
+        }
+
+        private string[] getLines(TextAsset tsv) {
             //return File.ReadAllLines(AssetDatabase.GetAssetPath(csv));
-            return csv.text.Replace("\r","").Split("\n");
+            return tsv.text.Replace("\r","").Split("\n");
             //throw new NotImplementedException();
         }
 
-        private void readCSV<T>(TextAsset csv, Func<string, Dictionary<string, string>, T> importFunction, Dictionary<string, T> dict) {
+        private void readCSV<T>(TextAsset csv, Func<string, Dictionary<string, string>, T> importFunction, Dictionary<string, T> dict) where T : UnifierRegistryObject {
             string[] lines = getLines(csv);
             string[] fields = lines[0].Split("\t");
             for (int i = 1; i < lines.Length; i++) {
                 Dictionary<string, string> record = buildRecordDict(fields, lines[i].Split("\t"));
                 T asset = importFunction.Invoke(ModuleName, record);
-                dict[record["name"]] = asset;
+                dict[asset.Identifier.ToLower()] = asset;
                 //AssetDatabase.CreateAsset(asset, path+"/"+ string.Join("_", asset.name.Split(Path.GetInvalidFileNameChars())) + ".asset");
             }
         }
@@ -73,6 +107,22 @@ namespace Assets.Unifier.Game.Editor {
             return record;
         }
 
+        /*private string fromShowdownSpeciesName(string name) {
+            string[] formNames = { "alola", "galar", "paldea", "totem", "cosplay", "rockstar", "belle", "popstar", "phd", "libre", "original", "hoenn", "sinnoh", "unova", "kalos", "partner", "starter", "world",  };
+            foreach (string regionName in regionNames) {
+                int index = name.IndexOf(regionName);
+                if (index != -1) {
+                    name = name.Substring(0, index) + "-" + name.Substring(index);
+                }
+            }
+            string ret = "";
+            foreach (string part in name.Split("-")) {
+                ret += char.ToUpper(part[0]) + part.Substring(1) + "-";
+            }
+            ret = ret.Substring(0,ret.Length-1);
+            return name;
+        }*/
+
         /*private string tryMakeFolder(string folderName) {
             string ret = path + "/" + folderName;
             if (!AssetDatabase.IsValidFolder(ret)) {
@@ -86,6 +136,8 @@ namespace Assets.Unifier.Game.Editor {
             s.SourceModule = moduleName;
             s.IsDefaultForm = record["default_form"] == "y";
             s.Name = record["name"];
+            s.Forms = record["form"].Split("`");
+            if (s.Forms[0] == "") { s.Forms = new string[0]; }
             s.Typing = new Typing(record["type1"], record["type2"]);
             //s.Ability1 = Ability.Get(record["ability1"]);
             //s.Ability2 = Ability.Get(record["ability2"]);
@@ -106,7 +158,6 @@ namespace Assets.Unifier.Game.Editor {
             int.TryParse(record["natdex"], out s.NatDex);
             //int.TryParse(record["generation"], out s.Generation);
             //Subgeneration = record["subgeneration"];
-            s.LevelupLearnset = new Dictionary<int, int[]>();
             return s;
         }
 

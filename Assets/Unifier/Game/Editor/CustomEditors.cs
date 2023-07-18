@@ -1,4 +1,5 @@
-﻿using Assets.Unifier.Game.Data;
+﻿using Assets.Unifier.Engine;
+using Assets.Unifier.Game.Data;
 using Assets.Unifier.Game.Essentials;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -34,6 +35,35 @@ namespace Assets.Unifier.Game.Editor {
 
     }
 
+    [CustomEditor(typeof(UnifierModule))]
+    public class UnifierModuleEditor : UnityEditor.Editor {
+
+        UnifierModule module;
+
+        public override void OnInspectorGUI() {
+            using (var check = new EditorGUI.ChangeCheckScope()) {
+                base.OnInspectorGUI();
+                if (check.changed) {
+
+                }
+            }
+            if (GUILayout.Button("Load")) {
+                module.GenerateAssets();
+                /*Pokemon absol = new Pokemon(module.GetSpecies("Absol"), 50);
+                string s = "";
+                foreach (Move move in absol.Moves) {
+                    s += move.Name + " ";
+                }
+                Debug.Log(s);*/
+                module.GetSpecies("Absol").BuildMoveset();
+            }
+        }
+
+        private void OnEnable() {
+            module = (UnifierModule)target;
+        }
+
+    }
 
     [CustomEditor(typeof(CharacterAnimator))]
     public class CharacterAnimatorEditor : UnityEditor.Editor {

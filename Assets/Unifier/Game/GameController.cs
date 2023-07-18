@@ -25,8 +25,8 @@ namespace Assets.Unifier.Game {
 
         public static Species GetSpecies(string name) {
             foreach (var gdi in Instance.GameDataImporters) {
-                if (gdi.Species.ContainsKey(name)) {
-                    return gdi.Species[name];
+                if (gdi.HasSpecies(name)) {
+                    return gdi.GetSpecies(name);
                 }
             }
             throw new KeyNotFoundException("No such species " + name + "!");
@@ -34,8 +34,8 @@ namespace Assets.Unifier.Game {
 
         public static Move GetMove(string name) {
             foreach (var gdi in Instance.GameDataImporters) {
-                if (gdi.Moves.ContainsKey(name)) {
-                    return gdi.Moves[name];
+                if (gdi.HasMove(name)) {
+                    return gdi.GetMove(name);
                 }
             }
             throw new KeyNotFoundException("No such move " + name + "!");

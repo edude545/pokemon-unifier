@@ -3,18 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Unity.Plastic.Newtonsoft.Json.Linq;
 using Unity.Plastic.Newtonsoft.Json;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using NUnit.Framework;
-using System.ComponentModel;
-using UnityEngine.Rendering;
-using Unity.VisualScripting;
-using UnityEngine.Rendering.Universal;
 
 namespace Assets.Unifier.Game.Editor {
 
@@ -22,7 +15,7 @@ namespace Assets.Unifier.Game.Editor {
     public class EssentialsModuleEditor : UnityEditor.Editor {
 
         EssentialsModule module;
-
+        
         // :)
         private static string[] autotileParts = {
             "",

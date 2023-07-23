@@ -4,10 +4,13 @@ using Assets.Unifier.Game.Essentials;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
+using System.Net.Configuration;
+using System.Reflection;
 using Unity.Plastic.Newtonsoft.Json;
 using Unity.Plastic.Newtonsoft.Json.Linq;
 using UnityEditor;
 using UnityEngine;
+using static Assets.Unifier.Engine.LearnsetData;
 using static UnityEngine.GraphicsBuffer;
 
 namespace Assets.Unifier.Game.Editor {
@@ -18,12 +21,7 @@ namespace Assets.Unifier.Game.Editor {
         BasicMap map;
 
         public override void OnInspectorGUI() {
-            using (var check = new EditorGUI.ChangeCheckScope()) {
-                base.OnInspectorGUI();
-                if (check.changed) {
-
-                }
-            }
+            base.OnInspectorGUI();
             if (GUILayout.Button("Load map")) {
                 map.Map.Load(map);
             }
@@ -38,29 +36,18 @@ namespace Assets.Unifier.Game.Editor {
     [CustomEditor(typeof(UnifierModule))]
     public class UnifierModuleEditor : UnityEditor.Editor {
 
-        UnifierModule module;
+        UnifierModule unifierModule;
 
         public override void OnInspectorGUI() {
-            using (var check = new EditorGUI.ChangeCheckScope()) {
-                base.OnInspectorGUI();
-                if (check.changed) {
-
-                }
-            }
-            if (GUILayout.Button("Load")) {
-                module.GenerateAssets();
-                /*Pokemon absol = new Pokemon(module.GetSpecies("Absol"), 50);
-                string s = "";
-                foreach (Move move in absol.Moves) {
-                    s += move.Name + " ";
-                }
-                Debug.Log(s);*/
-                module.GetSpecies("Absol").BuildMoveset();
+            base.OnInspectorGUI();
+            if (GUILayout.Button("Load game data to memory [DEBUG]")) {
+                unifierModule.GenerateAssets();
+                Debug.Log("Module " + unifierModule.ModuleName + "'s data was loaded successfully");
             }
         }
 
-        private void OnEnable() {
-            module = (UnifierModule)target;
+        protected virtual void OnEnable() {
+            unifierModule = (UnifierModule)target;
         }
 
     }
@@ -71,9 +58,7 @@ namespace Assets.Unifier.Game.Editor {
         CharacterAnimator animator;
 
         public override void OnInspectorGUI() {
-            using (var check = new EditorGUI.ChangeCheckScope()) {
-                base.OnInspectorGUI();
-            }
+            base.OnInspectorGUI();
             if (GUILayout.Button("Load sprites")) {
                 animator.LoadSpritesFromInspectorFields();
             }

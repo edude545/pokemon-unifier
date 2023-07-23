@@ -1,10 +1,5 @@
 ﻿using Assets.Unifier.Game.Editor;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Unity.VisualScripting;
 
 namespace Assets.Unifier.Engine {
 
@@ -13,7 +8,7 @@ namespace Assets.Unifier.Engine {
         public string ModuleName;
 
         public string Name;
-        public string Identifier => Name.Replace(" ","").Replace("-","");
+        public string Identifier => Name.Replace(" ","").Replace("-","").Replace("'","");
 
         public MoveCategories Category;
         public int Power;
@@ -59,7 +54,11 @@ namespace Assets.Unifier.Engine {
 
         // TODO
         public bool MayHaveEffect(params string[] effectNames) {
-            return true;
+            return false;
+        }
+
+        public override string ToString() {
+            return Name;
         }
 
         // TODO

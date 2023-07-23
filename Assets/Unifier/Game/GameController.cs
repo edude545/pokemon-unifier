@@ -12,33 +12,13 @@ namespace Assets.Unifier.Game {
 
     public class GameController : MonoBehaviour {
 
-        public UnifierModule[] GameDataImporters;
-
         public static GameController Instance;
 
         private void Awake() {
             Instance = this;
-            foreach (var gdi in GameDataImporters) {
-                gdi.GenerateAssets();
+            foreach (UnifierModule module in UnifierModule.Modules.Values) {
+                module.GenerateAssets();
             }
-        }
-
-        public static Species GetSpecies(string name) {
-            foreach (var gdi in Instance.GameDataImporters) {
-                if (gdi.HasSpecies(name)) {
-                    return gdi.GetSpecies(name);
-                }
-            }
-            throw new KeyNotFoundException("No such species " + name + "!");
-        }
-
-        public static Move GetMove(string name) {
-            foreach (var gdi in Instance.GameDataImporters) {
-                if (gdi.HasMove(name)) {
-                    return gdi.GetMove(name);
-                }
-            }
-            throw new KeyNotFoundException("No such move " + name + "!");
         }
 
     }

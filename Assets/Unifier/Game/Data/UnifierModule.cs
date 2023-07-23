@@ -5,6 +5,7 @@ using Assets.Unifier.Engine;
 using System;
 using Newtonsoft.Json;
 using System.Linq;
+using Unity.Mathematics;
 
 namespace Assets.Unifier.Game.Editor {
 
@@ -13,12 +14,8 @@ namespace Assets.Unifier.Game.Editor {
 
         public static Dictionary<string, UnifierModule> Modules;
 
-        public string ModuleName;
-        public string ModulePath; // ex. Assets/Modules/Insurgence
-
-        public void OnValidate() {
-            ModulePath = "Modules/" + ModuleName;
-        }
+        public string ModuleName = "New Module";
+        public string ModulePath => "Modules/" + ModuleName;
 
         //public string BundleName;
         //private static HashSet<char> forbiddenCharacters = new HashSet<char>() { '\\', '/', ':', '*', '?', '\"', '<', '>', '|' };
@@ -30,12 +27,28 @@ namespace Assets.Unifier.Game.Editor {
         private Dictionary<string, Species> species;
         private Dictionary<string, Move> moves;
 
+        public void OnEnable() {
+            if (Modules == null) {
+                Modules = new Dictionary<string, UnifierModule>();
+            }
+            List<string> keysToRemove = new List<string>();
+            foreach (var kvp in Modules) {
+                if (kvp.Value.ModuleName != kvp.Key) {
+                    keysToRemove.Add(kvp.Key);
+                }
+            }
+            foreach (string key in keysToRemove) {
+                Modules.Remove(key);
+            }
+            Modules[ModuleName] = this;
+        }
+
         public Species GetSpecies(string name) {
             return species[name.ToLower()];
         }
 
         public Move GetMove(string name) {
-            return moves[name.ToLower().Replace(" ","")];
+            return moves[name.ToLower().Replace(" ", "")];
         }
 
         public bool HasSpecies(string name) {
@@ -46,10 +59,16 @@ namespace Assets.Unifier.Game.Editor {
             return moves.ContainsKey(name.ToLower().Replace(" ", "").Replace("-", ""));
         }
 
+        public Species GetRandomSpecies() {
+            Species[] s = species.Values.ToArray();
+            //s = s.Where(s => s.Forms.Contains("Mega")).ToArray();
+            return s[UnityEngine.Random.Range(0, s.Length)];
+        }
+
         public void GenerateAssets() {
-            if (SpeciesTSV != null) GenerateSpecies();
-            if (MovesTSV != null) GenerateMoves();
-            if (LearnsetsDataJSON != null) GenerateLearnsets();
+            if (SpeciesTSV != null) { GenerateSpecies(); } else { species = new Dictionary<string, Species>(); }
+            if (MovesTSV != null) { GenerateMoves(); } else { moves = new Dictionary<string, Move>(); }
+            if (LearnsetsDataJSON != null) { GenerateLearnsets(); }
         }
 
         public void GenerateSpecies() {
@@ -70,6 +89,10 @@ namespace Assets.Unifier.Game.Editor {
                 if (HasSpecies(kvp.Key)) {
                     Species s = GetSpecies(kvp.Key);
                     s.Learnset = kvp.Value;
+                    s.Learnset.species = s;
+                    if (s.Learnset.parent != null) {
+                        s.Learnset.InheritFrom(GetSpecies(s.Learnset.parent).Learnset);
+                    }
                     s.BuildMoveset();
                 } else {
                     Debug.LogWarning("Couldn't find key " + kvp.Key);
@@ -144,18 +167,25 @@ namespace Assets.Unifier.Game.Editor {
             //s.HiddenAbility = Ability.Get(record["abilityh"]);
             s.BaseStats = PokeStatDict.FromStrings(new string[6] { record["hp"], record["attack"], record["defense"], record["special attack"], record["special defense"], record["speed"] });
             if (int.TryParse(record["base stat total"], out int bst) && s.BaseStats.Total != bst) {
-                throw new Exception("Incorrect BST for " + s.Name + "!");
+                throw new Exception("Incorrect BST for " + s.Identifier + "!");
             }
-            s.EggGroups = Breeding.Get(record["group1"], record["group2"]);
+
+            string eg1 = record.GetValueOrDefault("group1", ""); bool eg1valid = string.IsNullOrWhiteSpace(eg1);
+            string eg2 = record.GetValueOrDefault("group2", ""); bool eg2valid = string.IsNullOrWhiteSpace(eg1);
+            if (!eg1valid && !eg2valid) { s.EggGroups = new string[0]; }
+            else if (eg1valid && !eg2valid) { s.EggGroups = new string[1] { eg1 }; }
+            else if (!eg1valid && eg2valid) { s.EggGroups = new string[1] { eg2 }; }
+            else if (eg1valid && eg2valid) { s.EggGroups = new string[2] { eg1, eg2 }; }
+
             int.TryParse(record["catch_rate"], out s.CatchRate);
-            int.TryParse(record["egg_cycles"], out s.EggCycles);
-            int.TryParse(record["base_happiness"], out s.BaseFriendship);
-            s.Category = record["category"];
+            int.TryParse(record.GetValueOrDefault("egg_cycles","20"), out s.EggCycles);
+            int.TryParse(record.GetValueOrDefault("base_happiness","70"), out s.BaseFriendship);
+            s.Category = record.GetValueOrDefault("category","");
             float.TryParse(record["percentage_male"], out s.GenderRatio);
             Enum.TryParse(record["exp_group"], out s.LevelCurve);
             float.TryParse(record["height_m"], out s.Height);
             float.TryParse(record["weight_kg"], out s.Weight);
-            int.TryParse(record["natdex"], out s.NatDex);
+            int.TryParse(record.GetValueOrDefault("natdex","0"), out s.NatDex);
             //int.TryParse(record["generation"], out s.Generation);
             //Subgeneration = record["subgeneration"];
             return s;

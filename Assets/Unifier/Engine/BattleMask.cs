@@ -11,11 +11,11 @@ namespace Assets.Unifier.Engine {
     internal class BattleMask {
 
         // Array of BattleSideMasks for each opposing side.
-        // The 0th element is always null because the 0th BattleSide in BattleSystem is the player.
+        // The element at the index corresponding to this side is always null.
         public BattleSideMask?[] SideMasks;
 
-        public BattleMask(BattleSystem battleSystem) {
-            SideMasks = new BattleSideMask?[battleSystem.Sides.Length];
+        public BattleMask(BattleSystem.BattleSide battleSide) {
+            SideMasks = new BattleSideMask?[battleSide.BattleSystem.Sides.Length];
             SideMasks[0] = null;
             for (int i = 0; i < SideMasks.Length; i++) {
                 SideMasks[i] = new BattleSideMask();

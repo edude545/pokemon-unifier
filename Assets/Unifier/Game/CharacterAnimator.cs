@@ -40,11 +40,10 @@ public class CharacterAnimator : SpriteAnimator {
     }
 
     public virtual void LoadSpritesFromInspectorFields () {
-        Debug.Log("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath);
         WalkSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath);
         RunSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "_run");
         BikeSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "_bike");
-        if (WalkSprites.Length != AnimationPeriod * AnimationPeriod) throw new NoDataException("Couldn't find a spritesheet with " + AnimationPeriod * AnimationPeriod + " sprites with filename " + SpritesheetGraphicPath + "!");
+        if (WalkSprites.Length != AnimationPeriod * AnimationPeriod) throw new NoDataException("Couldn't find a spritesheet with " + AnimationPeriod * AnimationPeriod + " sprites with at Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "!");
         if (RunSprites.Length == 0) RunSprites = null;
         if (BikeSprites.Length == 0) BikeSprites = null;
         LoadSprites();

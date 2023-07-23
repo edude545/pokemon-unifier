@@ -26,9 +26,9 @@ public class PlayerControl : MonoBehaviour
     private void Start() {
         character = GetComponent<TrainerCharacter>();
         character.Trainer.Name = "Player";
-        character.Trainer.AddPartyMember(new Pokemon(GameController.GetSpecies("Magnezone"), 48));
-        character.Trainer.AddPartyMember(new Pokemon(GameController.GetSpecies("Delphox"), 58));
-        character.Trainer.AddPartyMember(new Pokemon(GameController.GetSpecies("Absol"), 72));
+        character.Trainer.AddPartyMember(new Pokemon(Species.GetByInternalName("Magnezone"), 48));
+        character.Trainer.AddPartyMember(new Pokemon(Species.GetByInternalName("Delphox"), 58));
+        character.Trainer.AddPartyMember(new Pokemon(Species.GetByInternalName("Absol"), 72));
     }
 
     private void Update() {

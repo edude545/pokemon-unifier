@@ -29,17 +29,25 @@ namespace Assets.Unifier.Engine {
             }
         }
 
+        public new string ToString() {
+            return $"{HP.Value} HP, {Atk.Value} Atk, {Def.Value} Def, {SpA.Value} SpA, {SpD.Value} SpD, {Spe.Value} Spe";
+        }
+
         public static PokeStatDict Zero {
             get {
-                PokeStatDict ret = new PokeStatDict();
-                ret.HP.BaseValue = 0;
-                ret.Atk.BaseValue = 0;
-                ret.Def.BaseValue = 0;
-                ret.SpA.BaseValue = 0;
-                ret.SpD.BaseValue = 0;
-                ret.Spe.BaseValue = 0;
-                return ret;
+                return All(0f);
             }
+        }
+
+        public static PokeStatDict All(float value) {
+            PokeStatDict ret = new PokeStatDict();
+            ret.HP.BaseValue = value;
+            ret.Atk.BaseValue = value;
+            ret.Def.BaseValue = value;
+            ret.SpA.BaseValue = value;
+            ret.SpD.BaseValue = value;
+            ret.Spe.BaseValue = value;
+            return ret;
         }
 
         private DynamicStat getByStatIndex(PokeStat stat) {
@@ -80,19 +88,15 @@ namespace Assets.Unifier.Engine {
         public PokeStatDict(PokeStatDict baseStats)
             : this(baseStats.HP.Value, baseStats.Atk.Value, baseStats.Def.Value, baseStats.SpA.Value, baseStats.SpD.Value, baseStats.Spe.Value) { }
 
-        public static PokeStatDict Randomize(int max) {
+        public static PokeStatDict Randomize(int maxExclusive) {
             PokeStatDict ret = new PokeStatDict();
-            ret.HP.BaseValue = Random.Range(0, max);
-            ret.Atk.BaseValue = Random.Range(0, max);
-            ret.Def.BaseValue = Random.Range(0, max);
-            ret.SpA.BaseValue = Random.Range(0, max);
-            ret.SpD.BaseValue = Random.Range(0, max);
-            ret.Spe.BaseValue = Random.Range(0, max);
+            ret.HP.BaseValue = Random.Range(0, maxExclusive);
+            ret.Atk.BaseValue = Random.Range(0, maxExclusive);
+            ret.Def.BaseValue = Random.Range(0, maxExclusive);
+            ret.SpA.BaseValue = Random.Range(0, maxExclusive);
+            ret.SpD.BaseValue = Random.Range(0, maxExclusive);
+            ret.Spe.BaseValue = Random.Range(0, maxExclusive);
             return ret;
-        }
-
-        public override string ToString() {
-            return (int)HP.Value + " HP, " + (int)HP.Value + " Atk, " + (int)HP.Value + " Def, " + (int)HP.Value + " SpA, " + (int)HP.Value + " SpD, " + (int)HP.Value + " Spe";
         }
 
     }

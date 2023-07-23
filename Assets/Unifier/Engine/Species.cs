@@ -1,3 +1,5 @@
+using Assets.Unifier.Game.Editor;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,7 +41,7 @@ namespace Assets.Unifier.Engine {
 
         public bool IsGenderless = false;
         public float GenderRatio = 0.5f; // percentage male
-        public Breeding.EggGroup[] EggGroups;
+        public string[] EggGroups;
         public int EggCycles;
 
         public int CatchRate;
@@ -52,6 +54,15 @@ namespace Assets.Unifier.Engine {
         public float Weight; // kilograms
 
         public bool HasGenderDifferences { get { return false; } }
+
+        public static Species GetByInternalName(string name) {
+            foreach (UnifierModule module in UnifierModule.Modules.Values) {
+                if (module.HasSpecies(name)) {
+                    return module.GetSpecies(name);
+                }
+            }
+            throw new ArgumentOutOfRangeException("No registered module provides a Pokemon with internal name " + name);
+        }
 
         // Returns the 4 moves a Pokemon of this species would have if it learned all of its new moves at every level.
         // Used for generating wild Pokemon.
@@ -75,6 +86,7 @@ namespace Assets.Unifier.Engine {
         }
 
         private Move[] movesLearnedAtLevel(int level) {
+            if (LevelupLearnset == null) return new Move[0];
             if (LevelupLearnset.ContainsKey(level)) {
                 List<Move> ret = new List<Move>();
                 foreach (string id in LevelupLearnset[level]) {
@@ -88,7 +100,7 @@ namespace Assets.Unifier.Engine {
 
         public void BuildMoveset() {
             if (Learnset.learnset == null) {
-                Debug.LogWarning("Species " + Identifier + " has no learnset");
+                //Debug.LogWarning("Species " + Identifier + " has no learnset");
                 return;
             }
             var sourcesToMoves = new Dictionary<MoveSource, List<string>>();
@@ -166,6 +178,8 @@ namespace Assets.Unifier.Engine {
 
     public struct LearnsetData {
 
+        public Species species;
+
         // Maps move names to sources.
         // gL0 - Move learned when evolving into this Pokemon in generation g
         // gLn - Move learned at level n in generation g
@@ -178,8 +192,35 @@ namespace Assets.Unifier.Engine {
         public EncounterData[] eventData;
         public EncounterData[] encounters;
         public bool eventOnly;
-        public string parent; // TODO!
+        public string parent;
 
+        public void InheritFrom(LearnsetData parentData) {
+            var newLearnset = new Dictionary<string, string[]>();
+
+            IEnumerable<string> keys;
+            if (learnset == null) { keys = parentData.learnset.Keys; }
+            else if (parentData.learnset.Keys == null) { keys = learnset.Keys; }
+            else { keys = learnset.Keys.Union(parentData.learnset.Keys); }
+
+            foreach (string key in keys) {
+                if (learnset == null) {
+                    newLearnset[key] = parentData.learnset[key];
+                } else if (parentData.learnset == null) {
+                    newLearnset[key] = learnset[key];
+                } else {
+                    newLearnset[key] = learnset.GetValueOrDefault(key, new string[0])
+                    .Union(parentData.learnset.GetValueOrDefault(key, new string[0]))
+                    .ToArray();
+                }
+            }
+            learnset = newLearnset;
+
+            if (eventData == null) { eventData = parentData.eventData; }
+            else if (parentData.eventData != null) { eventData.Union(parentData.eventData).ToArray(); }
+
+            if (encounters == null) { encounters = parentData.encounters; }
+            else if (parentData.encounters != null) { eventData.Union(parentData.encounters).ToArray(); }
+        }
     }
 
     public struct EncounterData {

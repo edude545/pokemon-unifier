@@ -14,12 +14,14 @@ namespace Assets.Unifier.Game.Data {
     internal class UnifierResources {
 
         // ex. female shiny Raichu: 026fs
-        private static string getDescriptor(Pokemon pokemon) {
+        private static string getDescriptor(Pokemon pokemon, bool backsprite) {
             string desc = zeropad(pokemon.Species.NatDex);
             if (pokemon.Species.HasGenderDifferences && pokemon.IsFemale) { desc += "f"; }
             if (pokemon.Shiny) desc += "s";
+            if (backsprite) desc += "b";
 
-            if (!pokemon.IsDefaultForm) {
+            //if (!pokemon.IsDefaultForm) {
+            if (pokemon.Species.Forms.Length != 0) {
                 desc += "-" + string.Join("-", pokemon.Species.Forms);
             }
 
@@ -41,33 +43,45 @@ namespace Assets.Unifier.Game.Data {
         }
 
         public static Sprite LoadBattlerSprite(Pokemon pokemon) {
-            string loadPath = "Modules/" + pokemon.Species.SourceModule + "/Graphics/Battlers/" + getDescriptor(pokemon);
-            Debug.Log("Loaded " + pokemon.Species.Name + "'s battler sprite from " + loadPath);
-            return Resources.Load<Sprite>(loadPath);
+            Debug.Log(getDescriptor(pokemon, false));
+            return Resources.Load<Sprite>("Modules/" + pokemon.Species.SourceModule + "/Graphics/Battlers/" + getDescriptor(pokemon, false));
         }
 
         public static Sprite LoadBattlerBacksprite(Pokemon pokemon) {
-            string loadPath = "Modules/" + pokemon.Species.SourceModule + "/Graphics/Battlers/" + getDescriptor(pokemon) + "b";
-            Debug.Log("Loaded " + pokemon.Species.Name + "'s battler backsprite from " + loadPath);
-            return Resources.Load<Sprite>(loadPath);
+            Debug.Log(getDescriptor(pokemon, true));
+            return Resources.Load<Sprite>("Modules/" + pokemon.Species.SourceModule + "/Graphics/Battlers/" + getDescriptor(pokemon, true));
         }
 
         public static Sprite[] LoadOverworldWalkCycle(Pokemon pokemon) {
-            string loadPath = "Modules/" + pokemon.Species.SourceModule + "/Graphics/Characters/" + getDescriptor(pokemon) + "b";
-            Debug.Log("Loaded " + pokemon.Species.Name + "'s overworld walkcycle from " + loadPath);
-            return Resources.LoadAll<Sprite>(loadPath);
+            return Resources.LoadAll<Sprite>("Modules/" + pokemon.Species.SourceModule + "/Graphics/Characters/" + getDescriptor(pokemon, false) + "b");
         }
 
         public static Sprite[] LoadOverworldWalkCycle(string filename) {
-            string loadPath = "Modules/Essentials/Graphics/Characters/" + filename;
-            Debug.Log("Loaded overworld walkcycle from " + loadPath);
-            return Resources.LoadAll<Sprite>(loadPath);
+            return Resources.LoadAll<Sprite>("Modules/Official/Graphics/Characters/" + filename);
         }
 
         public static Sprite[] LoadIcon(Pokemon pokemon) {
-            string loadPath = "Modules/" + pokemon.Species.SourceModule + "/Graphics/Icons/icon" + getDescriptor(pokemon);
-            Debug.Log("Loaded " + pokemon.Species.Name + "'s icon from " + loadPath);
-            return Resources.LoadAll<Sprite>(loadPath);
+            Sprite[] ret = Resources.LoadAll<Sprite>("Modules/" + pokemon.Species.SourceModule + "/Graphics/Icons/icon" + getDescriptor(pokemon, false));
+            if (ret.Length == 0) {
+                Debug.Log(getDescriptor(pokemon, false) + " missing icon");
+            }
+            return ret;
+        }
+
+        private static Sprite[] typeBarIcons;
+        public static Sprite LoadTypeBarIcon(PokeType pokeType) {
+            if (typeBarIcons == null) {
+                typeBarIcons = Resources.LoadAll<Sprite>("Modules/Official/Graphics/Pictures/types");
+            }
+            return typeBarIcons[pokeType.ID];
+        }
+
+        private static Sprite[] categoryIcons;
+        public static Sprite LoadCategoryIcon(MoveCategories category) {
+            if (categoryIcons == null) {
+                categoryIcons = Resources.LoadAll<Sprite>("Modules/Official/Graphics/Pictures/category");
+            }
+            return categoryIcons[(int)category];
         }
 
     }

@@ -1,4 +1,6 @@
 ﻿using Assets.Unifier.Engine;
+using Assets.Unifier.Game.Data;
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,6 +8,8 @@ using UnityEngine.UI;
 namespace Assets.Unifier.Game.UI {
 
     internal class MoveButton : MonoBehaviour {
+
+        private Move loadedMove;
 
         public int Index;
         public Image Background;
@@ -17,15 +21,19 @@ namespace Assets.Unifier.Game.UI {
         public Image CategoryIcon;
         public Image TypeIcon;
 
-
-
         public void Refresh(BattleSystem.Battler battler) {
             Move move = battler.Pokemon.Moves[Index];
-            MoveName.SetText(move.Name);
+            if (loadedMove == move) return;
+            loadedMove = move;
+            try {
+                MoveName.SetText(move.Name);
+            } catch (NullReferenceException) {
+                Debug.Log($"Null ref exception for move slot {Index} on {battler.Pokemon.Species.Identifier}");
+            }
             PP.SetText(battler.Pokemon.PP[Index].ToString());
             MaxPP.SetText(battler.Pokemon.MaxPP[Index].ToString());
-            CategoryIcon.sprite = BundleLoader_DEPRECATED.LoadAssetWithSubAssets<Sprite>("essentials", "category")[(int)move.Category];
-            TypeIcon.sprite = BundleLoader_DEPRECATED.LoadAssetWithSubAssets<Sprite>("essentials", "types")[move.Type.ID];
+            TypeIcon.sprite = UnifierResources.LoadTypeBarIcon(move.Type);
+            CategoryIcon.sprite = UnifierResources.LoadCategoryIcon(move.Category);
         }
 
     }

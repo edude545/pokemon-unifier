@@ -1,8 +1,5 @@
 ﻿using Assets.Unifier.Engine;
 using Assets.Unifier.Game.Data;
-using System;
-using UnityEditor;
-using UnityEngine;
 
 namespace Assets.Unifier.Game {
 

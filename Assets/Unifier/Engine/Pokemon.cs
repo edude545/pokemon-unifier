@@ -15,7 +15,7 @@ namespace Assets.Unifier.Engine {
         public int CurrentHP;
         public float HPPercentage {
             get {
-                return CurrentHP / (float)Stats.HP.Value;
+                return CurrentHP / (float)stats.HP.Value;
             }
         }
 
@@ -28,7 +28,14 @@ namespace Assets.Unifier.Engine {
         public PokeStatDict IVs { get; private set; }
         public PokeStatDict EVs { get; private set; }
         public Nature Nature { get; private set; }
-        public PokeStatDict Stats { get; private set; }
+        private PokeStatDict stats;
+
+        public int HP { get { return (int) stats.HP.Value; } }
+        public int Atk { get { return (int) stats.Atk.Value; } }
+        public int Def { get { return (int) stats.Def.Value; } }
+        public int SpA { get { return (int) stats.SpA.Value; } }
+        public int SpD { get { return (int) stats.SpD.Value; } }
+        public int Spe { get { return (int) stats.Spe.Value; } }
 
         public int AbilitySlot { get; private set; }
         public Ability Ability {
@@ -61,29 +68,36 @@ namespace Assets.Unifier.Engine {
 
         public Pokemon(Species species, int level) {
             Species = species;
-            IVs = PokeStatDict.Randomize(32);
+            //IVs = PokeStatDict.Randomize(32);
+            IVs = PokeStatDict.All(31);
             EVs = PokeStatDict.Zero;
             Nature = Nature.GetRandom();
             Level = level;
 
             generateStats();
 
-            Moves = Species.AutoMovesAtLevel(Level);
-
+            Moves = new Move[4];
             PP = new int[] { 0, 0, 0, 0 };
             MaxPP = new int[] { 0, 0, 0, 0 };
+
+            Move[] moves = Species.AutoMovesAtLevel(Level);
+            for (int i = 0; i < moves.Length; i++) {
+                if (moves[i] != null) {
+                    LearnMove(moves[i], i);
+                }
+            }
 
             Friendship = Species.BaseFriendship;
             IsOutsider = false;
         }
 
         private void generateStats() {
-            Stats = PokeStatDict.Zero;
+            stats = PokeStatDict.Zero;
             foreach (PokeStat stat in Enum.GetValues(typeof(PokeStat))) {
                 if (stat == PokeStat.HP) {
-                    Stats[stat] = (int) Mathf.Floor((2 * Species.BaseStats[stat] + IVs[stat] + Mathf.Floor(EVs[stat]/4f)) / 100f) + Level + 10;
+                    stats[stat] = (int) (Mathf.Floor((2 * Species.BaseStats[stat] + IVs[stat] + Mathf.Floor(EVs[stat]/4f)) * Level / 100f) + Level + 10);
                 } else {
-                    Mathf.Floor((Mathf.Floor((2 * Species.BaseStats[stat] + IVs[stat] + Mathf.Floor(EVs[stat] / 4f)) * Level / 100f) + 5) * Nature.GetMult(stat));
+                    stats[stat] = (int) (Mathf.Floor((Mathf.Floor((2 * Species.BaseStats[stat] + IVs[stat] + Mathf.Floor(EVs[stat] / 4f)) * Level / 100f) + 5) * Nature.GetMult(stat)));
                 }
             }
         }

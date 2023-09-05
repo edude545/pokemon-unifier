@@ -151,30 +151,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 692
+            - 37
+            - 46
+            - 2
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -211,54 +255,126 @@ MonoBehaviour:
         list:
         - i: 0
           c: 118
+          p:
+            values:
+            - start
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHullo. Welcome to the Battle Pyramid.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWould you like to begin a challenge?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No","(Rules)"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOk! Fantastic!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - (Rules)
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bThe rules of the Battle Pyramid are as follows:'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou're going to get randomly paired up with one Gym Leader!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe two of you are going to wander a dark, scary pyramid.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou're going to try and find the ladder that leads to the next floor.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOn the way, you'll randomly find other Gym Leader pairs, scattered
+              around like wild Pokemon.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYour items will be temporarily stored, but don't worry! You'll find
+              temporary items in the pyramid itself.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIf you make it to the top, the two of you will have a final battle
+              against a pair of Elite Four members to complete the challenge.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHopefully you give it a go!
         - i: 1
           c: 119
+          p:
+            values:
+            - start
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -271,8 +387,8 @@ MonoBehaviour:
       y: 3
   Info:
     expanded: 0
-    name: Battle Pyramid
-    order: 286
-    parent_id: 692
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

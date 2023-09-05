@@ -223,28 +223,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 234
+            - 28
+            - 52
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -281,12 +320,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -323,12 +369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -365,76 +418,181 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bFire-type Pokemon are by far my favorites.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIn my fiery arsenal, I have the strongest of them all!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll trade it, if you want it.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut in exchange, I want something <i>really </i> rare.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShall we say... a Druddigon?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou give me one of them, and I'll give you something you won't see
+              anywhere else!
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.species==PBSpecies::DRUDDIGON)
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bHuh... you found one! Impressive!\nWell, I made a promise. Let's
+              trade!
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Firebreather Cato"
         - i: 2
           c: 655
+          p:
+            values:
+            - poke=PokeBattle_Pokemon.new(PBSpecies::CYNDAQUIL,5)
         - i: 2
           c: 655
+          p:
+            values:
+            - poke.item=PBItems::TYPHLOSIONITE
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - poke,"Vulcan",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell, come back if you change your mind!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -466,108 +624,252 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIn my arsenal, I have the strongest Pokemon of them all!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll trade it, if you want it.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut in exchange, I want something <i>really </i> rare.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbGet(195).is_a?(Array)'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[17]>0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(17,0)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[17]!=nil
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(17,0)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(_INTL("\\bShall we say... a {1}?",PBSpecies.getName(pbGet(194)[17])))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou give me one of them, and I'll give you something you won't see
+              anywhere else!
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.species==pbGet(194)[17])
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bHuh... you found one! Impressive!\nWell, I made a promise. Let's
+              trade!
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Firebreather Cato"
         - i: 2
           c: 655
+          p:
+            values:
+            - poke=PokeBattle_Pokemon.new(pbGet(195)[17],5)
         - i: 2
           c: 655
+          p:
+            values:
+            - poke.item=Kernel.pbCheckForRandomItem(PBItems::TYPHLOSIONITE)
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - poke,"Vulcan",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell, come back if you change your mind!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -599,12 +901,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat Pokemon is rarer than you think!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -641,16 +950,29 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"155Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Cyndaquil: \bCyndaaaa!'
         - i: 0
           c: 101
+          p:
+            values:
+            - There seems to be something on this Cyndaquil's neck.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -663,8 +985,8 @@ MonoBehaviour:
       y: 15
   Info:
     expanded: 0
-    name: Sonata City
-    order: 398
-    parent_id: 234
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

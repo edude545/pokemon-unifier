@@ -151,68 +151,186 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 10
+            - 0
+            - 5
+            - 0
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 18
+            - 6
+            - 1
+            - 0
+            - 1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 10
+            - 0
+            - 4
+            - 0
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 17
+            - 6
+            - 1
+            - 0
+            - 1
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 10
+            - 0
+            - 3
+            - 0
         - i: 3
           c: 201
+          p:
+            values:
+            - 0
+            - 16
+            - 6
+            - 1
+            - 0
+            - 1
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 111
+          p:
+            values:
+            - 1
+            - 10
+            - 0
+            - 2
+            - 0
         - i: 4
           c: 201
+          p:
+            values:
+            - 0
+            - 15
+            - 6
+            - 1
+            - 0
+            - 1
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 201
+          p:
+            values:
+            - 0
+            - 14
+            - 6
+            - 1
+            - 0
+            - 1
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -249,228 +367,579 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - cur=5-pbGet(10)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[11]=Kernel.pbMessage(
         - i: 0
           c: 655
+          p:
+            values:
+            - '    _I("Which floor do you want?"),'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    [_I("5F"),_I("4F"),_I("3F"),'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    _I("2F"),_I("1F"),_I("Exit")],'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    6,nil,cur)'
         - i: 0
           c: 355
+          p:
+            values:
+            - t=pbGet(11)
         - i: 0
           c: 655
+          p:
+            values:
+            - pbSet(11,5-t)
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 11
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Choice was cancelled.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 118
+          p:
+            values:
+            - Start
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 11
+            - 1
+            - 10
+            - 3
         - i: 2
           c: 108
+          p:
+            values:
+            - Go up.
         - i: 2
           c: 225
+          p:
+            values:
+            - 4
+            - 9
+            - 12
         - i: 2
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 122
+          p:
+            values:
+            - 10
+            - 10
+            - 1
+            - 0
+            - 1
         - i: 2
           c: 119
+          p:
+            values:
+            - Start
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 11
+            - 1
+            - 10
+            - 4
         - i: 2
           c: 108
+          p:
+            values:
+            - Go down.
         - i: 2
           c: 225
+          p:
+            values:
+            - 4
+            - 9
+            - 12
         - i: 2
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 122
+          p:
+            values:
+            - 10
+            - 10
+            - 2
+            - 0
+            - 1
         - i: 2
           c: 119
+          p:
+            values:
+            - Start
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -507,10 +976,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -547,10 +1020,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -587,10 +1064,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -603,8 +1084,8 @@ MonoBehaviour:
       y: 2
   Info:
     expanded: 0
-    name: Cedolan Dept. Elevator
-    order: 51
-    parent_id: 14
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

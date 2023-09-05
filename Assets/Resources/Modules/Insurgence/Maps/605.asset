@@ -421,38 +421,84 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbSetPokemonCenter
         - i: 0
           c: 101
+          p:
+            values:
+            - The Chansey is offering to heal your Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - Would you like to heal your party?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 249
+          p:
+            values:
+            - '{"name":"Pokemon Healing","pitch":100,"volume":100}'
         - i: 1
           c: 314
+          p:
+            values:
+            - 0
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 101
+          p:
+            values:
+            - Your party was healed!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -484,46 +530,108 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 71
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Your Nuzlocke Challenge is over.\nThank you for participating.\nWe
+              will revive your dead Pokemon, however, this Challenge is no longer
+              considered a '
         - i: 1
           c: 401
+          p:
+            values:
+            - Nuzlocke Challenge and you are considered to have failed.
         - i: 1
           c: 121
+          p:
+            values:
+            - 71
+            - 71
+            - 1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - remove_sprite
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbSetPokemonCenter
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"113Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - Your Pokemon were healed!
         - i: 0
           c: 314
+          p:
+            values:
+            - 0
         - i: 0
           c: 249
+          p:
+            values:
+            - '{"name":"Pokemon Healing","pitch":100,"volume":100}'
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 0
           c: 106
+          p:
+            values:
+            - 40
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonFollow(32)
         - i: 0
           c: 121
+          p:
+            values:
+            - 1
+            - 1
+            - 1
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -560,28 +668,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 459
+            - 30
+            - 29
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -618,20 +765,40 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHey, \pn! It's great to see you again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAre you interested in buying some stuff from me? Maybe some of my
+              rare, gimmicked Pokeballs and items?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonMart([:POKEBALL,:GREATBALL,:ULTRABALL,:SNOREBALL,:DELTABALL,:SHINYBALL,:ANCIENTBALL,:POTION,
         - i: 0
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,:MAXPOTION,:FULLRESTORE,:REVIVE,
         - i: 0
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL,:MAXREPEL,:FULLHEAL,:ANTIDOTE,:ICEHEAL,:PARLYZHEAL,:AWAKENING,:BURNHEAL,:ESCAPEROPE,:HONEY])
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -663,24 +830,53 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHey, \pn! It's great to see you again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI actually have something for you.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI was exploring the Torren Region and I found some Delta Species
+              that nobody seemed to notice, just lying there, injured.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI took it and healed it up, but perhaps you'd like to take care of
+              it? I think it belonged to that blue-haired cultist who fled the region.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbAddPokemon(PBSpecies::DELTABELDUM2,20)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rTake good care of it.
         - i: 0
           c: 121
+          p:
+            values:
+            - 649
+            - 649
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -712,20 +908,40 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHey, \pn! It's great to see you again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAre you interested in buying some stuff from me? Maybe some of my
+              rare, gimmicked Pokeballs and items?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonMart([:POKEBALL,:GREATBALL,:ULTRABALL,:SNOREBALL,:DELTABALL,:SHINYBALL,:ANCIENTBALL,:POTION,
         - i: 0
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,:MAXPOTION,:FULLRESTORE,:REVIVE,
         - i: 0
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL,:MAXREPEL,:FULLHEAL,:ANTIDOTE,:ICEHEAL,:PARLYZHEAL,:AWAKENING,:BURNHEAL,:ESCAPEROPE,:HONEY])
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -762,68 +978,161 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou interested in trading Pokemon?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI caught this really interesting Delta a while back. Seems to be
+              a, uh, Numel I think?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLooks a bit Poison-y. Not too sure.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can trade it to you, if you want! Gimme a Poison/Dark or a Poison/Ghost-type
+              Pokemon.
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.hasType?(:POISON) && (poke.hasType?(:DARK) || poke.hasType?(:GHOST)))
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bFantastic! Lemme see what you got!
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Ruin Maniac Tim"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - PBSpecies::DELTANUMEL,"Virulence",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYour call! Lame, but your call!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -855,102 +1164,236 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou interested in trading Pokemon?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI caught this really interesting Pokemon a while back.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbGet(195).is_a?(Array)'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[33]>0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(33,1)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[33]!=nil
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(33,1)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(_INTL("\\bI can trade it to you, if you want! Gimme
+              a {1}-type Pokemon.",
         - i: 0
           c: 655
+          p:
+            values:
+            - PBTypes.getName(pbGet(194)[33])))
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.hasType?(pbGet(194)[33]))
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bFantastic! Lemme see what you got!
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Ruin Maniac Tim"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - pbGet(195)[33],"Virulence",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYour call! Lame, but your call!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -982,12 +1425,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bGlad we could arrange a deal!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1024,14 +1474,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm here on Holon on a work vacation.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rTechnically I should be helping out with the research, but who wants
+              to do that?!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1068,12 +1529,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[29]=$game_map.map_id
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1110,18 +1578,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1134,8 +1618,8 @@ MonoBehaviour:
       y: 4
   Info:
     expanded: 0
-    name: Medic's Tent
-    order: 687
-    parent_id: 459
-    scroll_x: 480
-    scroll_y: 377
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

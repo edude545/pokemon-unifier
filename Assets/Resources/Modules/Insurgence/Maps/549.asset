@@ -1111,12 +1111,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1153,12 +1160,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1195,12 +1209,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1237,12 +1258,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1279,12 +1307,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1321,12 +1356,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1363,14 +1405,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ZEKROMMACHINE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1402,10 +1455,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1442,12 +1499,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1484,12 +1548,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A shattered pile of stones rests, undisturbed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1526,14 +1597,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 30
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1565,10 +1647,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1605,32 +1691,73 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A button of some sort seems to be engraved into the stone.
         - i: 0
           c: 101
+          p:
+            values:
+            - Press?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 121
+          p:
+            values:
+            - 520
+            - 520
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Something happened!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1662,10 +1789,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1702,10 +1833,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1737,10 +1872,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1777,10 +1916,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1812,26 +1955,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 550
+            - 31
+            - 39
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1868,26 +2047,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 455
+            - 10
+            - 53
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1924,14 +2139,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - tesseract_there
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -1968,14 +2193,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::TMH5)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2007,10 +2243,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2047,14 +2287,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ESCAPEROPE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2086,10 +2337,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2126,14 +2381,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::DELTACAMERUPTITE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2165,10 +2431,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2205,14 +2475,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::HYPERPOTION)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2244,10 +2525,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2284,14 +2569,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::RARECANDY)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2323,10 +2619,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2363,14 +2663,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::BURNHEAL)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2402,10 +2713,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2442,14 +2757,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ANCIENTBALL)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2481,10 +2807,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2521,14 +2851,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::MAXREVIVE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2560,10 +2901,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2600,14 +2945,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::XSPEED3)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2639,10 +2995,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2679,14 +3039,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::SPELLTAG)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2718,10 +3089,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2758,14 +3133,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ULTRABALL)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2797,10 +3183,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2837,10 +3227,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2872,26 +3266,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 550
+            - 32
+            - 13
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2904,8 +3334,8 @@ MonoBehaviour:
       y: 14
   Info:
     expanded: 0
-    name: Mountainous Cave
-    order: 720
-    parent_id: 455
-    scroll_x: 1039
-    scroll_y: 1648
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

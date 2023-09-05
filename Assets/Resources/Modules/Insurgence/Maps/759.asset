@@ -1141,24 +1141,57 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveExit
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 703
+            - 39
+            - 40
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1195,40 +1228,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rWelcome to the Tube Challenge! Just do the best you can!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: POKEMONRANGER_F'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Becca'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: What a fun match!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rWhat a fun match!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:POKEMONRANGER_F)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWelcome to the Tube Challenge! Just do the best you can!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::POKEMONRANGER_F,"Becca",_I("What a fun
+              match!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1260,12 +1343,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWhat a fun match!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1302,18 +1392,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.setHiddenGrotto(6,$game_map.map_id)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetEventTime
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage("1")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1345,10 +1452,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1380,16 +1491,32 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 24
+            - 24
+            - 1
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage("2")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1426,10 +1553,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1466,10 +1597,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1506,40 +1641,91 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bYou can''t blame me for taking a challenge as easy as thiso
+              ne.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ACETRAINER_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Truth'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Hey, you''re not bad at all.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bHey, you''re not bad at all.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ACETRAINER_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou can't blame me for taking a challenge as easy as thiso ne.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ACETRAINER_M,"Truth",_I("Hey, you're not
+              bad at all."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1571,12 +1757,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHey, you're not bad at all.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1613,40 +1806,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''m the strongest Bug-type trainer around these parts.
+              You won''t stand a chance.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: BUGCATCHER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: aDrive'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Well, I got beat. Fair''s fair!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWell, I got beat. Fair''s fair!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:BUGCATCHER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm the strongest Bug-type trainer around these parts. You won't
+              stand a chance.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::BUGCATCHER,"aDrive",_I("Well, I got beat.
+              Fair's fair!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1678,12 +1923,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell, I got beat. Fair's fair!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1720,40 +1972,91 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bBwahaha! I''ll crit you with every attack! You''re going
+              down!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: HIKER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Shady'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Wow, what a competitive, no-luck, all-skill match.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWow, what a competitive, no-luck, all-skill match.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:HIKER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBwahaha! I'll crit you with every attack! You're going down!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::HIKER,"Shady",_I("Wow, what a competitive,
+              no-luck, all-skill match."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1785,12 +2088,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWow, what a competitive, no-luck, all-skill match.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1827,40 +2137,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''ve been preparing for this for ages. Let''s do it!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ATHLETE_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Steve'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Well... dang. Oh well, next time!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWell... dang. Oh well, next time!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ATHLETE_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've been preparing for this for ages. Let's do it!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ATHLETE_M,"Steve",_I("Well... dang. Oh
+              well, next time!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1892,12 +2252,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell... dang. Oh well, next time!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1934,40 +2301,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''m not gonna talk trash before the match or anything.
+              I''m just anxious to get going!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ACETRAINER_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Cloudded'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Maybe I should take my time!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bMaybe I should take my time!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ACETRAINER_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm not gonna talk trash before the match or anything. I'm just anxious
+              to get going!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ACETRAINER_M,"Cloudded",_I("Maybe I should
+              take my time!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1999,12 +2418,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMaybe I should take my time!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2041,40 +2467,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bYou''ll never make it to the end of this challenge. You
+              lose here!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: BURGLAR'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Callum'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Well... dang.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWell... dang.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:BURGLAR)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou'll never make it to the end of this challenge. You lose here!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::BURGLAR,"Callum",_I("Well... dang."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2106,12 +2582,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell... dang.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2148,40 +2631,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bOnly a few more to go! Can you make it all the way through?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: DRAGONTAMER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Jay'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Hmph. You won''t make it much further.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bHmph. You won''t make it much further.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:DRAGONTAMER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOnly a few more to go! Can you make it all the way through?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::DRAGONTAMER,"Jay",_I("Hmph. You won't make
+              it much further."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2213,12 +2746,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHmph. You won't make it much further.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2255,40 +2795,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bDon''t blame this win on hax- I''m gonna bring you to the
+              ground, fair and square!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ATHLETE_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Mo'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Well, fair and square was pushing it.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWell, fair and square was pushing it.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ATHLETE_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDon't blame this win on hax- I'm gonna bring you to the ground, fair
+              and square!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ATHLETE_M,"Mo",_I("Well, fair and square
+              was pushing it."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2320,12 +2912,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell, fair and square was pushing it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2362,40 +2961,89 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rThe spirits of the doomed will assist me in your defeat!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: MEDIUM'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Nexus'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: W-what? I was lied to!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rW-what? I was lied to!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:MEDIUM)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThe spirits of the doomed will assist me in your defeat!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::MEDIUM,"Nexus",_I("W-what? I was lied to!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2427,12 +3075,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rW-what? I was lied to!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2469,40 +3124,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bNo talk. Bring it.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: LEADERTWIT'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Twit'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Oh for crying out loud...'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bOh for crying out loud...'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:LEADERTWIT)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNo talk. Bring it.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::LEADERTWIT,"Twit",_I("Oh for crying out
+              loud..."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2534,12 +3239,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOh for crying out loud...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2576,40 +3288,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''m the final trainer here. You beat me, you get to fight
+              the Arena Master!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: DRAGONTAMER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Shofu'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Not bad. Pass on through!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bNot bad. Pass on through!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:DRAGONTAMER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm the final trainer here. You beat me, you get to fight the Arena
+              Master!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::DRAGONTAMER,"Shofu",_I("Not bad. Pass on
+              through!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2641,12 +3405,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNot bad. Pass on through!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2683,26 +3454,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 760
+            - 39
+            - 56
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2715,8 +3522,8 @@ MonoBehaviour:
       y: 10
   Info:
     expanded: 0
-    name: Tube Challenge
-    order: 288
-    parent_id: 703
-    scroll_x: 1244
-    scroll_y: 1472
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

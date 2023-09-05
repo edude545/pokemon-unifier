@@ -151,20 +151,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 23
+            - 32
+            - 21
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -201,20 +227,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 28
+            - 8
+            - 24
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -251,12 +303,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -293,198 +352,501 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbIsWeekday(1,2,4,6)
         - i: 1
           c: 108
+          p:
+            values:
+            - 'Today is Tuesday, Thursday or Saturday, and the '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'Bug Contest is on.  The weekday name is stored in '
         - i: 1
           c: 408
+          p:
+            values:
+            - variable 1.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbBugContestState.pbContestHeld?
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bWe hope you''ll take part in a Bug-Catching Contest '
         - i: 2
           c: 401
+          p:
+            values:
+            - in the future!
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bToday's \v[1].
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThat means the Bug-Catching Contest is on today.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe rules are simple.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJVc2luZyBvbmUgb2YgeW91ciBQb2vDqW1vbiwgY2F0Y2ggYSBCdWctdHlw
+
+              ZSA='
         - i: 1
           c: 401
+          p:
+            values:
+            - UG9rw6ltb24gdG8gYmUganVkZ2VkLg==
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWould you like to give it a try?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbBoxesFull?
         - i: 3
           c: 101
+          p:
+            values:
+            - \bSorry, your PC boxes are full.
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - 'XGJZb3UgYXJlIG9ubHkgYWxsb3dlZCB0byB0YWtlIDEgUG9rw6ltb24gaW50
+
+              byB0aGUg'
         - i: 2
           c: 401
+          p:
+            values:
+            - Contest.
         - i: 2
           c: 101
+          p:
+            values:
+            - 'XGJQbGVhc2UgY2hvb3NlIHdoaWNoIFBva8OpbW9uIHlvdSB3YW50IHRvIGVu
+
+              dGVyIA=='
         - i: 2
           c: 401
+          p:
+            values:
+            - with.
         - i: 2
           c: 108
+          p:
+            values:
+            - 'T3BlbnMgYSBzY3JlZW4gZm9yIGNob29zaW5nIGEgUG9rw6ltb24gZXhjZXB0
+
+              IHRob3NlIA=='
         - i: 2
           c: 408
+          p:
+            values:
+            - 'with 0 HP or that are eggs.  The index is stored in '
         - i: 2
           c: 408
+          p:
+            values:
+            - 'dmFyaWFibGUgMSwgdGhlIFBva8OpbW9uJ3MgbmFtZSBpbiB2YXJpYWJsZSAy
+
+              Lg=='
         - i: 2
           c: 355
+          p:
+            values:
+            - pbChooseAblePokemon(1,2)
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 4
         - i: 3
           c: 108
+          p:
+            values:
+            - Q2FuY2VsbGVkIGNob29zaW5nIGEgUG9rw6ltb24u
         - i: 3
           c: 101
+          p:
+            values:
+            - \bOK.  We hope you'll take part in the future.
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \bYou will be entering with \v[2], then.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'XGJXZSdsbCBob2xkIHlvdXIgb3RoZXIgUG9rw6ltb24gd2hpbGUgeW91IGNv
+
+              bXBldGUu'
         - i: 3
           c: 101
+          p:
+            values:
+            - XFBOJ3MgUG9rw6ltb24gd2VyZSBsZWZ0IHdpdGggdGhlIENvbnRlc3Qg
         - i: 3
           c: 401
+          p:
+            values:
+            - Helper.\se[expfull]\wtnp[20]
         - i: 3
           c: 101
+          p:
+            values:
+            - \bHere are the Sport Balls for the Contest.
         - i: 3
           c: 101
+          p:
+            values:
+            - \PN received 20 Sport Balls.\se[itemlevel]\wtnp[20]
         - i: 3
           c: 101
+          p:
+            values:
+            - 'XGJUaGUgcGVyc29uIHdobyBnZXRzIHRoZSBzdHJvbmdlc3QgYnVnIFBva8Op
+
+              bW9uIGlzIA=='
         - i: 3
           c: 401
+          p:
+            values:
+            - the winner.
         - i: 3
           c: 101
+          p:
+            values:
+            - \bYou have 20 minutes.
         - i: 3
           c: 101
+          p:
+            values:
+            - \bIf you run out of Sport Balls, you're done.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'XGJZb3UgY2FuIGtlZXAgdGhlIGxhc3QgUG9rw6ltb24geW91IGNhdGNoIGFz
+
+              IHlvdXIg'
         - i: 3
           c: 401
+          p:
+            values:
+            - own.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'XGJHbyBvdXQgYW5kIGNhdGNoIHRoZSBzdHJvbmdlc3QgQnVnLXR5cGUgUG9r
+
+              w6ltb24g'
         - i: 3
           c: 401
+          p:
+            values:
+            - you can find!
         - i: 3
           c: 108
+          p:
+            values:
+            - 'Setting the map, X and Y where the Contest is '
         - i: 3
           c: 408
+          p:
+            values:
+            - 'judged; setting the map used for determining the '
         - i: 3
           c: 408
+          p:
+            values:
+            - 'Pokemon caught by contestants; setting the index of '
         - i: 3
           c: 408
+          p:
+            values:
+            - 'the Pokemon selected by the player; and starting the '
         - i: 3
           c: 408
+          p:
+            values:
+            - contest with 20 Sport Balls.
         - i: 3
           c: 355
+          p:
+            values:
+            - pbBugContestState.pbSetJudgingPoint(30,5,6)
         - i: 3
           c: 655
+          p:
+            values:
+            - pbBugContestState.pbSetReception(29,30)
         - i: 3
           c: 655
+          p:
+            values:
+            - pbBugContestState.pbSetContestMap(28)
         - i: 3
           c: 655
+          p:
+            values:
+            - pbBugContestState.pbSetPokemon(pbGet(1))
         - i: 3
           c: 655
+          p:
+            values:
+            - pbBugContestState.pbStart(20)
         - i: 3
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 3
           c: 210
+          p:
+            values: []
         - i: 3
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 3
           c: 201
+          p:
+            values:
+            - 0
+            - 28
+            - 8
+            - 24
+            - 0
+            - 1
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 101
+          p:
+            values:
+            - \bOK.  We hope you'll take part in the future.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 108
+          p:
+            values:
+            - Today is not a Contest day.
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWe hold contests regularly in the Park.  You should '
         - i: 1
           c: 401
+          p:
+            values:
+            - give it a shot.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -516,68 +878,165 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Event page called when the contest is still in '
         - i: 0
           c: 408
+          p:
+            values:
+            - progress.
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bYou still have some time left.  Do you want to finish '
         - i: 0
           c: 401
+          p:
+            values:
+            - now?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bOK.  Please wait in the pavillion for the '
         - i: 1
           c: 401
+          p:
+            values:
+            - announcement of the winners.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBugContestState.pbStartJudging
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOK.  Please go back outside and finish up.
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":15,"parameters":[4]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 28
+            - 8
+            - 24
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -590,8 +1049,8 @@ MonoBehaviour:
       y: 2
   Info:
     expanded: 0
-    name: Natural Park Entrance
-    order: 58
-    parent_id: 28
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

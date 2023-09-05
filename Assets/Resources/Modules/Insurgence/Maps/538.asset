@@ -1501,46 +1501,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1572,40 +1626,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1637,34 +1739,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1696,40 +1838,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1766,46 +1956,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1837,40 +2081,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1902,34 +2194,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1961,40 +2293,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2031,46 +2411,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2102,40 +2536,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2167,34 +2649,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2226,40 +2748,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2296,46 +2866,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2367,40 +2991,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2432,34 +3104,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2491,40 +3203,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2561,46 +3321,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2632,40 +3446,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2697,34 +3559,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2756,40 +3658,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2826,46 +3776,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2897,40 +3901,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2962,34 +4014,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3021,40 +4113,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3091,26 +4231,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 263
+            - 10
+            - 7
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3147,16 +4323,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Fighting Compendium\c[0]."
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's full of odd diagrams, graphs and drawings to do with the Fighting-type.
         - i: 0
           c: 121
+          p:
+            values:
+            - 374
+            - 374
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3193,10 +4384,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3228,10 +4423,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3268,18 +4467,36 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI used to be a trainer before I became a librarian.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThose days are long past, so you might find better use for these
+              than I will.
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::ULTRABALL,5)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3311,12 +4528,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI used to be a trainer before I became a librarian.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3353,18 +4577,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLiving in the Snow"\c[0], by \bYuki\c[0].
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3396,18 +4636,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLiving in the Snow.\c[0], by \bYuki\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3444,18 +4700,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rWar and Pichu\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3492,18 +4764,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rGrimer and Punishment\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3540,10 +4828,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3575,10 +4867,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3615,18 +4911,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rFor Whom the Weepinbell Tolls\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3658,18 +4970,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rFor Whom the Weepinbell Tolls\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3706,230 +5034,584 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSo... he has all three of them? <i>Again </i>?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYep.  I'm glad I found you, by the way.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIt's nice to see someone else is having trouble with this turdbrain.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rSpeaking of...
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":1,"parameters":[]},{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOh, \pn, thank goodness you're here.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAfter you went off looking for Taen... I tried following my connection
+              to Reshiram, like we talked about.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt led me everywhere.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHe went somewhere WAY off of Torren, and I couldn't really follow
+              him.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut when I felt Reshiram here, I rushed over and came to this.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bA huge mess, books thrown everywhere.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat a piece of scum this guy is. No respect for literature.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHe must have been in a hurry.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rRight. Blockhead boy was looking at Unovan language structures.
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut what could he want with those?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHe's got Reshiram, Zekrom, and Kyurem already, what would he need
+              to know about where Unovan names come from?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYeah. Last time, he was after the Original Dragon.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHe gave up on that when he realized he didn't have its na...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... he didn't have its...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... .... ...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... ... oh.
         - i: 0
           c: 101
+          p:
+            values:
+            - \b<i>Oh </i>.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI know exactly where he is AND exactly what he wants.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOh, this is bad. This is really, really bad.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b\pn... I think you know, too.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's the same thing. Again.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut this time, he actually...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHe might be able to pull it off.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,9)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've gotta go stop them.
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":3,"parameters":[]},{"code":37,"parameters":[]},{"code":14,"parameters":[1,0]},{"code":14,"parameters":[1,0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[1,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[1,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 10
         - i: 0
           c: 106
+          p:
+            values:
+            - 12
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \r...what?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rDo you know what this is about?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rOrion's going north... I'm going to follow him.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI might need to kick off Operation Z if this is as bad as he says.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut where could he have gone? Somewhere north that Taen's been before...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,14)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm gonna bring that bruteball down. Hope to see you there, \pn.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 10
         - i: 0
           c: 106
+          p:
+            values:
+            - 12
         - i: 0
           c: 121
+          p:
+            values:
+            - 502
+            - 502
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 10
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3961,10 +5643,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4001,10 +5687,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4036,10 +5726,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4076,18 +5770,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Giving Trevenant\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4124,12 +5834,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4166,30 +5883,71 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book is loose.
         - i: 0
           c: 207
+          p:
+            values:
+            - -1
+            - 3
         - i: 0
           c: 101
+          p:
+            values:
+            - Pulling it caused something to happen!
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 10
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 121
+          p:
+            values:
+            - 402
+            - 402
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4221,26 +5979,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 385
+            - 22
+            - 13
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4277,12 +6071,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4319,12 +6120,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4361,38 +6169,87 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rManipulating the Stock Market and You\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - The Stock Market of the Torren Region functions like the majority of
+              stock markets- as the value of the company goes up, so does your share!
         - i: 2
           c: 101
+          p:
+            values:
+            - It's technically illegal (due to the small overall population of the
+              region), but the market can be influenced slightly by purchases.
         - i: 2
           c: 101
+          p:
+            values:
+            - Investing in Pokeballs before buying a lot of them is a very viable
+              strategy!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4429,12 +6286,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4471,12 +6335,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4513,12 +6384,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4555,18 +6433,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLiving in the Snow.\c[0], by \bYuki\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4598,18 +6492,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLiving in the Snow.\c[0], by \bYuki\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4646,18 +6556,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rFor Whom the Weepinbell Tolls\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4689,18 +6615,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rFor Whom the Weepinbell Tolls\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4737,18 +6679,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLiving in the Snow.\c[0], by \bYuki\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4780,18 +6738,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLiving in the Snow.\c[0], by \bYuki\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4804,8 +6778,8 @@ MonoBehaviour:
       y: 11
   Info:
     expanded: 0
-    name: Far West Wing
-    order: 345
-    parent_id: 262
-    scroll_x: 978
-    scroll_y: 496
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

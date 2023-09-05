@@ -1501,12 +1501,26 @@ MonoBehaviour:
         list:
         - i: 0
           c: 204
+          p:
+            values:
+            - 1
+            - fog
+            - 0
+            - 140
+            - 0
+            - 200
+            - 20
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1543,28 +1557,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveEntrance
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 404
+            - 42
+            - 34
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1601,48 +1654,111 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"717cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Sky"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbWildBattle(PBSpecies::YVELTAL,100,1)
         - i: 1
           c: 121
+          p:
+            values:
+            - 606
+            - 606
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_screen.weather(0,0,0)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1674,10 +1790,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1709,10 +1829,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1749,40 +1873,93 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rIt really sucks that the First Augur disappeared.\nHe was
+              the Gym Leader of Gaea Town... now that he''s gone, nobody can get
+              8 badges.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ACETRAINER_F'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Haley'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Field'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: As an Ace Trainer, that really bugs me. I need completion!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \r As an Ace Trainer, that really bugs me. I need completion!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ACETRAINER_F)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIt really sucks that the First Augur disappeared.\nHe was the Gym
+              Leader of Gaea Town... now that he's gone, nobody can get 8 badges.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Field"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ACETRAINER_F,"Haley",_I("As an Ace Trainer,
+              that really bugs me. I need completion!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1814,12 +1991,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAs an Ace Trainer, that really bugs me. I need completion!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1856,10 +2040,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1891,12 +2079,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1928,30 +2124,73 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 0
           c: 106
+          p:
+            values:
+            - 22
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 402
+            - 46
+            - 13
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1988,46 +2227,114 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 0
           c: 106
+          p:
+            values:
+            - 22
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 676
+            - 112
+            - 21
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - '#Kernel.pbMessage(i.to_s)'
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(i)
         - i: 0
           c: 655
+          p:
+            values:
+            - '#$game_map.need_refresh=true'
         - i: 0
           c: 655
+          p:
+            values:
+            - '#pbChangePlayer(i)'
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=16
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2040,8 +2347,8 @@ MonoBehaviour:
       y: 53
   Info:
     expanded: 0
-    name: Thanatos Cliffs
-    order: 803
-    parent_id: 676
-    scroll_x: 1280
-    scroll_y: 1280
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

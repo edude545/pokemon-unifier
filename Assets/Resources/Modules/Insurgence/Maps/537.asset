@@ -1141,22 +1141,52 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 536
+            - 13
+            - 13
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1193,10 +1223,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1233,142 +1267,367 @@ MonoBehaviour:
         list:
         - i: 0
           c: 203
+          p:
+            values:
+            - 2
+            - 2
+            - 4
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI <i>thought </i> I heard you following me.
         - i: 0
           c: 207
+          p:
+            values:
+            - -1
+            - 3
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":41,"parameters":["trchar176",0,8,0]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["trchar176",0,8,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou will not just... leave me alone, will you?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've already got the artifact I was looking for.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat up there is a decoy- I was hoping to lure you out to talk.
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's some kind of music... instrument, maybe?
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm not completely sure what it does, but it seems to be a huge source
+              of power.
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI don't think it's as strong as the crystal but it seems immensely
+              powerful.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bI can work with that. '
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut YOU will not stop getting in my way.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat do you get out of this?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou're not going to stop me. Slow me down, maybe, but I'll just keep
+              coming back.
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":14,"parameters":[0,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,0]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis is my destiny. I <i>am </i> going to succeed, no matter how
+              many losses I take on the way there.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm going to knock some sense into you.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLearn your lesson now, while you can!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PERFECTION_TAEN)
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Volcano"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PERFECTION_TAEN,"Taen",_I("Unbelievable..."),false,4)
         - i: 1
           c: 101
+          p:
+            values:
+            - \b... ... ...
         - i: 1
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bTo be fair... I hadn't changed my team at all since we last battled.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI wasn't expecting to win. I was only trying to make a point.
         - i: 1
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou can't hold me down forever, kid.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThis is <i>my </i> time.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome and stop me.
         - i: 1
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bPlus, I have... someone else interested in my efforts.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou're not going to see me losing to you again.
         - i: 1
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 121
+          p:
+            values:
+            - 500
+            - 500
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 2
+            - 4
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1400,10 +1659,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1440,14 +1703,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1479,10 +1753,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1519,14 +1797,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1558,10 +1847,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1598,14 +1891,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1637,10 +1941,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1677,14 +1985,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1716,10 +2035,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1756,10 +2079,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1791,10 +2118,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1831,70 +2162,167 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI am the Event Move Tutor.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can teach some Pokemon rare and powerful moves that they could
+              only otherwise learn in events.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bWhat do you want to learn?\ch[2,18,Extreme Speed,Crush Claw,Extrasensory,Flare
+              Blitz,Dragon Ascent,Psycho Boost,Doom Desire,Roar of Time,Spacial '
         - i: 0
           c: 401
+          p:
+            values:
+            - Rend,Secret Sword,Bolt Strike,Blue Flare,V-Create,Relic Song,Shadow
+              Force,Night Shade,Hurricane,(Cancel)]
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 17
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bOh, a shame. Maybe another time, then.                             '
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - case pbGet(2)
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 0;pbMoveTutorChoose(PBMoves::EXTREMESPEED)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 1;pbMoveTutorChoose(PBMoves::CRUSHCLAW)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 2;pbMoveTutorChoose(PBMoves::EXTRASENSORY)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 3;pbMoveTutorChoose(PBMoves::FLAREBLITZ)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 4;pbMoveTutorChoose(PBMoves::DRAGONSASCENT)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 5;pbMoveTutorChoose(PBMoves::PSYCHOBOOST)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 6;pbMoveTutorChoose(PBMoves::DOOMDESIRE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 7;pbMoveTutorChoose(PBMoves::ROAROFTIME)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 8;pbMoveTutorChoose(PBMoves::SPACIALREND)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 9;pbMoveTutorChoose(PBMoves::SECRETSWORD)'
         - i: 1
           c: 355
+          p:
+            values:
+            - '  when 10;pbMoveTutorChoose(PBMoves::BOLTSTRIKE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 11;pbMoveTutorChoose(PBMoves::BLUEFLARE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 12;pbMoveTutorChoose(PBMoves::VCREATE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 13;pbMoveTutorChoose(PBMoves::RELICSONG)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 14;pbMoveTutorChoose(PBMoves::SHADOWFORCE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 15;pbMoveTutorChoose(PBMoves::NIGHTSHADE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 16;pbMoveTutorChoose(PBMoves::HURRICANE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - end
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1907,8 +2335,8 @@ MonoBehaviour:
       y: 19
   Info:
     expanded: 0
-    name: Alpha Temple
-    order: 798
-    parent_id: 531
-    scroll_x: 1448
-    scroll_y: 1305
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

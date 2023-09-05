@@ -781,14 +781,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBridgeOn
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -820,10 +830,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -860,14 +874,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBridgeOn
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -899,10 +923,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -939,16 +967,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis Safari Zone used to be completely flooded.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBack then, tunnels were dug underground that could get you to many
+              different places!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere used to be one near here that took you to a far off land- I'd
+              love to explore it!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -985,14 +1028,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - tesseract_there
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -1029,16 +1082,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBridgeOn
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1070,10 +1137,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1110,42 +1181,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"641Cry","pitch":100,"volume":80}'
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 93
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Tornadus: \b... ... !'
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 225
+          p:
+            values:
+            - 9
+            - 9
+            - 15
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 224
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":255.0,"r":255.0}'
+            - 5
         - i: 0
           c: 106
+          p:
+            values:
+            - 2
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 93
         - i: 0
           c: 122
+          p:
+            values:
+            - 154
+            - 154
+            - 1
+            - 0
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 106
+          p:
+            values:
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1177,10 +1313,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1192,9 +1332,9 @@ MonoBehaviour:
       x: 33
       y: 17
   Info:
-    expanded: 1
-    name: 'Safari Zone   '
-    order: 450
-    parent_id: 336
-    scroll_x: 960
-    scroll_y: 960
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

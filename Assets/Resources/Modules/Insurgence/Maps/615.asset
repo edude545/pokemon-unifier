@@ -223,60 +223,142 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWant to trade Pokemon? I don't want to give away what I have, but
+              I promise it's cool.
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2)
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bThis Delta was discovered by Professor 1ofthe4rocketbros! You'll
+              love it!
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou're going to love this one.
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Ruined Man"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - PBSpecies::DELTAFEEBAS,"Apophis",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 3
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou sure, bud? Okay, I guess.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -308,92 +390,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWant to trade Pokemon? I don't want to give away what I have, but
+              I promise it's cool.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbGet(195).is_a?(Array)'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[35]>0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(35,2)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[35]!=nil
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(35,2)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2)
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou're going to love this one.
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Ruined Man"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - pbGet(195)[35],"Apophis",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 3
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou sure, bud? Okay, I guess.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -425,12 +627,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI knew you'd like it. I knew it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -467,28 +676,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 460
+            - 58
+            - 48
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -525,14 +773,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"350Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Milotic: \bMill...'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -569,12 +827,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -611,12 +876,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -653,12 +925,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 236
+          p:
+            values:
+            - 0
+            - 5
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -671,8 +952,8 @@ MonoBehaviour:
       y: 10
   Info:
     expanded: 0
-    name: Settlement Juliet
-    order: 728
-    parent_id: 460
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

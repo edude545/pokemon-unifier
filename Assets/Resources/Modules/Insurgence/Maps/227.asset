@@ -661,22 +661,41 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.doInsurgenceRockSmash
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -708,10 +727,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -748,22 +771,41 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.doInsurgenceRockSmash
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -795,10 +837,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -835,22 +881,41 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.doInsurgenceRockSmash
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -882,10 +947,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -922,12 +991,26 @@ MonoBehaviour:
         list:
         - i: 0
           c: 204
+          p:
+            values:
+            - 1
+            - fog
+            - 0
+            - 205
+            - 0
+            - 200
+            - 20
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -964,28 +1047,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 223
+            - 33
+            - 20
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1022,28 +1144,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 223
+            - 41
+            - 13
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1080,44 +1241,102 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bMy Fighting-types are gonna clobber you!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: BLACKBELT'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Tyran'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: I can''t believe I lost...'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI can''t believe I lost...'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:BLACKBELT)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMy Fighting-types are gonna clobber you!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::BLACKBELT,"Tyran",_I("I can't believe I
+              lost..."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1149,16 +1368,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can't believe I lost...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1195,44 +1429,106 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bMy family and I are sponsors of the library in Torren.\nIt''s
+              because of our funding that they''re able to get so many rare and expensive
+              books.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: RICHBOY'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: James'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Cave'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Ack! Get away from me! Away!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bAck! Get away from me! Away!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:RICHBOY)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMy family and I are sponsors of the library in Torren.\nIt's because
+              of our funding that they're able to get so many rare and expensive
+              books.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RICHBOY,"James",_I("Ack! Get away from
+              me! Away!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1264,16 +1560,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAck! Get away from me! Away!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1310,26 +1621,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Oh, a Zygarde Cell!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 121
+          p:
+            values:
+            - 668
+            - 668
+            - 0
         - i: 0
           c: 122
+          p:
+            values:
+            - 188
+            - 188
+            - 1
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 101
+          p:
+            values:
+            - The Zygarde Cell was sucked into the Zygarde Cube!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1361,10 +1709,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1377,8 +1729,8 @@ MonoBehaviour:
       y: 13
   Info:
     expanded: 0
-    name: Cave of Steam
-    order: 329
-    parent_id: 223
-    scroll_x: 880
-    scroll_y: 754
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

@@ -2161,28 +2161,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveEntrance
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 418
+            - 9
+            - 11
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2219,40 +2258,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bAccording to my calculations, you don''t stand even a small
+              chance against me.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: SCIENTIST_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Hephaestus'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: I must have miscalculated.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bDid I make a mistake?'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:SCIENTIST_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAccording to my calculations, you don't stand even a small chance
+              against me.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::SCIENTIST_M,"Hephaestus",_I("I must have
+              miscalculated."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2284,12 +2375,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDid I make a mistake?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2326,40 +2424,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bDo you truly have the conviction to continue forward?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: SAGE'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Vishnu'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: You might actually succeed where we have failed. I wish
+              to have faith again.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bYou might actually succeed where we have failed. I wish
+              to have faith again.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:SAGE)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDo you truly have the conviction to continue forward?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::SAGE,"Vishnu",_I("You might actually succeed
+              where we have failed. I wish to have faith again."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2391,12 +2541,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou might actually succeed where we have failed. I wish to have faith
+              again.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2433,40 +2591,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bAh, I can''t wait to paint a picture of your defeat!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ARTIST'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Pan'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Will I be able to paint pictures of your triumph over the
+              League instead?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWill I be able to paint pictures of your triumph over
+              the League instead?'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ARTIST)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAh, I can't wait to paint a picture of your defeat!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ARTIST,"Pan",_I("Will I be able to paint
+              pictures of your triumph over the League instead?"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2498,12 +2708,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWill I be able to paint pictures of your triumph over the League
+              instead?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2540,40 +2758,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI haven''t encountered a new opponent in years! I finally
+              feel alive again!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: BLACKBELT'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Tyr'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Woo! I''m rooting for you, kid!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWoo! I''m rooting for you, kid!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:BLACKBELT)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI haven't encountered a new opponent in years! I finally feel alive
+              again!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::BLACKBELT,"Tyr",_I("Woo! I'm rooting for
+              you, kid!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2605,12 +2875,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWoo! I'm rooting for you, kid!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2647,40 +2924,95 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bYou''ve done well to make it this far. Let me be the last
+              to test your conviction!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ACETRAINER_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Nathan'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: We have all failed our tests against the League. But you
+              will be different... I choose to believe in you.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWe have all failed our tests against the League. But
+              you will be different... I choose to believe in you.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ACETRAINER_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou've done well to make it this far. Let me be the last to test
+              your conviction!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ACETRAINER_M,"Nathan",_I("We have all failed
+              our tests against the League. But you will be different... I choose
+              to believe in you."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2712,12 +3044,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have all failed our tests against the League. But you will be
+              different... I choose to believe in you.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2754,40 +3094,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''m going to crush you here. I''ll spare you the feeling
+              of losing to the Elite Four!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: VETERAN_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Tartarus'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Hey, you might actually pull it off after all!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bHey, you might actually pull it off after all!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:VETERAN_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm going to crush you here. I'll spare you the feeling of losing
+              to the Elite Four!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::VETERAN_M,"Tartarus",_I("Hey, you might
+              actually pull it off after all!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2819,12 +3211,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHey, you might actually pull it off after all!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2861,40 +3260,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bNo. I''m not letting you get to the end. Nobody gets to
+              the end of Victory Road!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: POKEMANIAC'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Erebus'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: City'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Will... will you really do it?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bWill... will you really do it?'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:POKEMANIAC)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNo. I'm not letting you get to the end. Nobody gets to the end of
+              Victory Road!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="City"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::POKEMANIAC,"Erebus",_I("Will... will you
+              really do it?"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2926,12 +3377,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWill... will you really do it?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2968,14 +3426,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::PPUP)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3007,10 +3476,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3047,12 +3520,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - It's a shard of an ancient ruin. The words tell a story of an ancient
+              King.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3089,14 +3570,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::SUPERREPEL)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3128,10 +3620,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3168,14 +3664,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ULTRABALL)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3207,10 +3714,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3247,14 +3758,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::MAXREVIVE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3286,10 +3808,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3326,26 +3852,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 658
+            - 23
+            - 43
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3382,26 +3944,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 658
+            - 24
+            - 43
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3438,46 +4036,106 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"641Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbWildBattle(PBSpecies::TORNADUS,100,1)
         - i: 1
           c: 121
+          p:
+            values:
+            - 602
+            - 602
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_screen.weather(0,0,0)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3509,10 +4167,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3544,10 +4206,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3584,26 +4250,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 421
+            - 22
+            - 54
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3640,26 +4342,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 421
+            - 23
+            - 54
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3696,26 +4434,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 421
+            - 24
+            - 54
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3752,26 +4526,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 421
+            - 25
+            - 54
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3808,26 +4618,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 421
+            - 26
+            - 54
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3864,26 +4710,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 421
+            - 27
+            - 54
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3896,8 +4778,8 @@ MonoBehaviour:
       y: 1
   Info:
     expanded: 0
-    name: Victory Road - Ruins
-    order: 644
-    parent_id: 412
-    scroll_x: 1924
-    scroll_y: 369
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

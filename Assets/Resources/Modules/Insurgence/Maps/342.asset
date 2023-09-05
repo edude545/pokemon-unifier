@@ -421,36 +421,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":5,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":5,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 341
+            - 20
+            - 11
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -487,36 +539,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 341
+            - 10
+            - 11
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -553,14 +657,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI think it's absolutely adorable that Diana and Calreath- two of
+              the strongest leaders in the region- are dating.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAnd they both have legendaries! They're perfect for each other!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -597,14 +712,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis lighthouse lets us look over the forests around Selene City.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPeople get lost often- that's why we're here!\nWe find them and bring
+              them home safely.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -641,18 +767,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you're having trouble seeing, you should get a pair of glasses.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHere, I have an extra pair! Take them!
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::BLACKGLASSES)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -684,12 +827,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDid my glasses help you out?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -726,14 +876,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ULTRABALL,3)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -765,10 +926,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -805,26 +970,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Oh, a Zygarde Cell!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 121
+          p:
+            values:
+            - 668
+            - 668
+            - 0
         - i: 0
           c: 122
+          p:
+            values:
+            - 188
+            - 188
+            - 1
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 101
+          p:
+            values:
+            - The Zygarde Cell was sucked into the Zygarde Cube!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -856,10 +1058,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -872,8 +1078,8 @@ MonoBehaviour:
       y: 21
   Info:
     expanded: 0
-    name: Lighthouse
-    order: 488
-    parent_id: 319
-    scroll_x: 480
-    scroll_y: 521
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

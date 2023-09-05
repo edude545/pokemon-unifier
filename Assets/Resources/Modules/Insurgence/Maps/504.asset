@@ -2161,32 +2161,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 40
+            - 40
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2223,32 +2269,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 42
+            - 46
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2285,32 +2377,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 68
+            - 40
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2347,32 +2485,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 61
+            - 48
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2409,32 +2593,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 20
+            - 60
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2471,32 +2701,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 27
+            - 62
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2533,32 +2809,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 504
+            - 30
+            - 62
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2595,34 +2917,85 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 507
+            - 32
+            - 53
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[112]=$PokemonGlobal.playerID if $PokemonGlobal.playerID
+              < 6
         - i: 0
           c: 655
+          p:
+            values:
+            - i=$PokemonGlobal.playerID + 13
         - i: 0
           c: 655
+          p:
+            values:
+            - pbChangePlayer(12)
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[41]=15
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 483
+            - 483
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2659,14 +3032,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There seems to be a way deeper here...
         - i: 0
           c: 101
+          p:
+            values:
+            - But the roaring lava makes it dangerous to walk through...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2698,30 +3081,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 121
+          p:
+            values:
+            - 725
+            - 725
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveExit
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 503
+            - 29
+            - 14
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2753,14 +3180,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There seems to be a way deeper here...
         - i: 0
           c: 101
+          p:
+            values:
+            - But the roaring lava makes it dangerous to walk through...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2797,14 +3234,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::SUPERREPEL)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2836,10 +3284,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2876,14 +3328,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ELIXIR)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2915,10 +3378,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2955,14 +3422,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::MAXELIXIR)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2994,10 +3472,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3034,14 +3516,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::MAXPOTION)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3073,10 +3566,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3113,14 +3610,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::TM92)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3152,10 +3660,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3192,14 +3704,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::BLACKGLASSES)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3231,10 +3754,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3271,14 +3798,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::SPELLTAG)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3310,10 +3848,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3350,14 +3892,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::RARECANDY)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3389,10 +3942,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3429,14 +3986,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ESCAPEROPE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3468,10 +4036,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3484,8 +4056,8 @@ MonoBehaviour:
       y: 64
   Info:
     expanded: 0
-    name: Upper Mantle
-    order: 604
-    parent_id: 503
-    scroll_x: 940
-    scroll_y: 433
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

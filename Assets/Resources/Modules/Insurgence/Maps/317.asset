@@ -223,58 +223,131 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHello!  I'm a Move Tutor!
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI can teach the move "Defog" to your Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rShall I?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbMoveTutorChoose(PBMoves::DEFOG)
         - i: 2
           c: 101
+          p:
+            values:
+            - \rShall I teach it to another?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 119
+          p:
+            values:
+            - Start
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 119
+          p:
+            values:
+            - Start
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \rCome back any time!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -311,28 +384,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 238
+            - 56
+            - 31
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -369,12 +481,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -411,12 +530,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -453,34 +579,75 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bGreetings, young one.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm the ancient guardian of the legendary HM03, Surf.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOnly with this move will you be able to cross large bodies of water!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAll I ask in return is-
         - i: 0
           c: 101
+          p:
+            values:
+            - ... ... ...
         - i: 0
           c: 101
+          p:
+            values:
+            - \b...you already have an item for that?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAre you serious? I had this whole speech prepared and...
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bYou know what? Just take the thing. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI don't even care anymore.
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::HM03)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bKids these days just have everything handed to them.
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -512,14 +679,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bKids these days just have everything handed to them.
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -556,14 +734,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"224Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Octillery: \bReeeeeee!'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -600,14 +788,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"340Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Whiscash: \bCash... cash...'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -620,8 +818,8 @@ MonoBehaviour:
       y: 10
   Info:
     expanded: 0
-    name: Kepler City
-    order: 433
-    parent_id: 238
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

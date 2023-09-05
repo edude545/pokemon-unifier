@@ -2161,26 +2161,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 505
+            - 73
+            - 7
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2217,176 +2253,444 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - It's the Magma Stone that was dropped.
         - i: 0
           c: 101
+          p:
+            values:
+            - Pick it up?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 121
+          p:
+            values:
+            - 479
+            - 479
+            - 0
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 6
+            - 3
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"383Cry","pitch":100,"volume":85}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.doLegendEntrance("Groudon")
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"383Cry","pitch":80,"volume":100}'
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":37,"parameters":[]},{"code":42,"parameters":[0]},{"code":41,"parameters":["383",0,2,0]},{"code":15,"parameters":[10]},{"code":42,"parameters":[12]},{"code":15,"parameters":[3]},{"code":42,"parameters":[25]},{"code":15,"parameters":[3]},{"code":42,"parameters":[38]},{"code":15,"parameters":[3]},{"code":42,"parameters":[50]},{"code":15,"parameters":[3]},{"code":42,"parameters":[62]},{"code":15,"parameters":[3]},{"code":42,"parameters":[75]},{"code":15,"parameters":[3]},{"code":42,"parameters":[90]},{"code":15,"parameters":[3]},{"code":42,"parameters":[105]},{"code":15,"parameters":[3]},{"code":42,"parameters":[120]},{"code":15,"parameters":[3]},{"code":42,"parameters":[135]},{"code":15,"parameters":[3]},{"code":42,"parameters":[150]},{"code":15,"parameters":[3]},{"code":42,"parameters":[165]},{"code":15,"parameters":[3]},{"code":42,"parameters":[180]},{"code":15,"parameters":[3]},{"code":42,"parameters":[205]},{"code":15,"parameters":[3]},{"code":42,"parameters":[220]},{"code":15,"parameters":[3]},{"code":42,"parameters":[235]},{"code":15,"parameters":[3]},{"code":42,"parameters":[240]},{"code":15,"parameters":[3]},{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["383",0,2,0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[10]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[12]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[25]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[38]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[50]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[62]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[75]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[90]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[105]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[120]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[135]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[150]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[165]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[180]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[205]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[220]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[235]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[240]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[3]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":29,"parameters":[2]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":29,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 3
+            - 2
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(4,"A",true)
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":37,"parameters":[]},{"code":42,"parameters":[0]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"383Cry","pitch":80,"volume":100}'
         - i: 1
           c: 225
+          p:
+            values:
+            - 9
+            - 9
+            - 20
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2418,10 +2722,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2458,10 +2766,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2498,10 +2810,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2533,42 +2849,93 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"383Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Volcano2"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbWildBattle(PBSpecies::GROUDON,90,1)
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2600,10 +2967,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2635,10 +3006,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2670,10 +3045,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2710,16 +3089,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::ESCAPEROPE,1,nil,true)
         - i: 0
           c: 121
+          p:
+            values:
+            - 483
+            - 483
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2756,26 +3150,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 204
+          p:
+            values:
+            - 1
+            - fog
+            - 0
+            - 140
+            - 0
+            - 200
+            - 20
+            - 0
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::ESCAPEROPE)>0
         - i: 1
           c: 121
+          p:
+            values:
+            - 483
+            - 483
+            - 1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 121
+          p:
+            values:
+            - 483
+            - 483
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2788,8 +3218,8 @@ MonoBehaviour:
       y: 35
   Info:
     expanded: 0
-    name: Outer Core
-    order: 616
-    parent_id: 503
-    scroll_x: 1180
-    scroll_y: 982
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

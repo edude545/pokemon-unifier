@@ -421,66 +421,154 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYo, we should trade Pokemon! It'd be super sweet!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've got a Pupitar- that'd be a Pokemon you want, right?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHow 'bout you give me another Rock-type in exchange?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.hasType?(:ROCK))
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAwesome, let me know what you think!
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Guitarist James"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - PBSpecies::PUPITAR,"Gojira",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \bCome back, you know, to trade.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -512,104 +600,241 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYo, we should trade Pokemon! It'd be super sweet!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbGet(195).is_a?(Array)'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[20]>0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(20,1)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[20]!=nil
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(20,1)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(_INTL("\\bI've got a {1}- that'd be a Pokemon you
+              want, right?",
         - i: 0
           c: 655
+          p:
+            values:
+            - PBSpecies.getName(pbGet(195)[20])))
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(_INTL("\\bHow about you give me a {1}-type in exchange?",
         - i: 0
           c: 655
+          p:
+            values:
+            - PBTypes.getName(pbGet(194)[20])))
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.hasType?(pbGet(194)[20]))
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAwesome, let me know what you think!
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Guitarist James"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - pbGet(195)[20],"Gojira",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \bCome back, you know, to trade.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -641,12 +866,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLet me know how Gojira's doing!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -683,28 +915,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 247
+            - 44
+            - 65
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -741,14 +1012,26 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSelene City is my favorite city in the region because it has the
+              best parts of living in a forest and living in a city.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's beautiful, magical, and there's still so many people to get
+              to know.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -785,12 +1068,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -827,12 +1117,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -869,12 +1166,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[29]=$game_map.map_id
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -911,44 +1215,116 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 122
+          p:
+            values:
+            - 30
+            - 30
+            - 0
+            - 0
+            - 10
         - i: 1
           c: 122
+          p:
+            values:
+            - 31
+            - 31
+            - 0
+            - 0
+            - 27
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":2,"parameters":[]},{"code":7,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":7,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 1
+            - 29
+            - 30
+            - 31
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -985,46 +1361,121 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 122
+          p:
+            values:
+            - 30
+            - 30
+            - 0
+            - 0
+            - 10
         - i: 1
           c: 122
+          p:
+            values:
+            - 31
+            - 31
+            - 0
+            - 0
+            - 9
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 1
+            - 29
+            - 30
+            - 31
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":3,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":40,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":40,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1061,12 +1512,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1103,12 +1561,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1145,28 +1610,64 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAt night, there's a terrifying beast that wanders through the town.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rNobody, as far as I know, has seen its full body.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI've only seen one part of it- its limbs.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThey looked like a tiger's!
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - A
+            - 1
         - i: 1
           c: 122
+          p:
+            values:
+            - 127
+            - 127
+            - 1
+            - 0
+            - 1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1203,14 +1704,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"462Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Magnezone: \bzonezonezonezonezone'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1223,8 +1734,8 @@ MonoBehaviour:
       y: 10
   Info:
     expanded: 0
-    name: Selene City
-    order: 483
-    parent_id: 247
-    scroll_x: 480
-    scroll_y: 754
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

@@ -1501,18 +1501,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::POTION)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1544,10 +1560,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1584,18 +1604,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::AWAKENING)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1627,10 +1663,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1667,18 +1707,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::ICEHEAL)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1710,10 +1766,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1750,18 +1810,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::POTION)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1793,10 +1869,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1833,42 +1913,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":8,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":8,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 42
+            - 17
+            - 39
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":3,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1905,42 +2046,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":2,"parameters":[]},{"code":7,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":7,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 383
+            - 32
+            - 41
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]},{"code":2,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1972,42 +2174,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":2,"parameters":[]},{"code":7,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":7,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 71
+            - 30
+            - 33
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]},{"code":2,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2044,42 +2307,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":5,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":5,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 69
+            - 9
+            - 36
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]},{"code":2,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":40,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x+1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":40,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2116,32 +2440,77 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 3
+            - 70
+            - 56
+            - 0
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbChangeBackToNormal
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":19,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2173,24 +2542,57 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 515
+            - 23
+            - 15
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2227,42 +2629,98 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - The door is locked, with a fingerprint scanner.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 41
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Unlock?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 10
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(9,"A",true)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(10,"A",true)
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2294,10 +2752,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2329,14 +2791,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPersephone's down there, checking on the prisoner.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI wouldn't go down there if I were you- you don't want to make her
+              any more mad.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2368,42 +2841,98 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - The door is locked, with a fingerprint scanner.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 41
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Unlock?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 10
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(9,"B",true)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(10,"B",true)
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2435,10 +2964,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2475,10 +3008,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2510,10 +3047,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2545,10 +3086,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2580,10 +3125,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2620,88 +3169,245 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]}'
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - Mew is holding a small note!
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 231
+          p:
+            values:
+            - 4
+            - helpadventurebg
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 104
+          p:
+            values:
+            - 1
+            - 1
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out due to its special ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out of this mess due to its special
+              ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]It is able to use Transform to change its form and disguise
+              itself as something else.
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]However, unlike Ditto, Mew can transform you as well.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nSearch for something that could contain DNA, such as used clothes!
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]You should be able to use this to escape!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nYou should be able to use this to escape the base.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]Good luck.\n-Your benefactor.
         - i: 0
           c: 104
+          p:
+            values:
+            - 2
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 235
+          p:
+            values:
+            - 4
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(11,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(12,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(13,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(14,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2733,10 +3439,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2773,90 +3483,250 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]}'
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - Mew is holding a small note!
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 231
+          p:
+            values:
+            - 4
+            - helpadventurebg
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 104
+          p:
+            values:
+            - 1
+            - 1
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]\pn-
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out due to its special ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out of this mess due to its special
+              ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]It is able to use Transform to change its form and disguise
+              itself as something else.
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]However, unlike Ditto, Mew can transform you as well.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nSearch for something that could contain DNA, such as used clothes!
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]You should be able to use this to escape!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nYou should be able to use this to escape the base.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]Good luck.\n-Your benefactor.
         - i: 0
           c: 104
+          p:
+            values:
+            - 2
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 235
+          p:
+            values:
+            - 4
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(11,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(12,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(13,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(14,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2888,10 +3758,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2928,88 +3802,245 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]}'
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - Mew is holding a small note!
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 231
+          p:
+            values:
+            - 4
+            - helpadventurebg
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 104
+          p:
+            values:
+            - 1
+            - 1
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out due to its special ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out of this mess due to its special
+              ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]It is able to use Transform to change its form and disguise
+              itself as something else.
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]However, unlike Ditto, Mew can transform you as well.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nSearch for something that could contain DNA, such as used clothes!
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]You should be able to use this to escape!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nYou should be able to use this to escape the base.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]Good luck.\n-Your benefactor.
         - i: 0
           c: 104
+          p:
+            values:
+            - 2
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 235
+          p:
+            values:
+            - 4
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(11,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(12,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(13,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(14,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3041,10 +4072,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3081,88 +4116,245 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.jump(0,0)"]}'
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - Mew is holding a small note!
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 231
+          p:
+            values:
+            - 4
+            - helpadventurebg
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 104
+          p:
+            values:
+            - 1
+            - 1
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out due to its special ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]I chose Mew to help you out of this mess due to its special
+              ability.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]It is able to use Transform to change its form and disguise
+              itself as something else.
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]However, unlike Ditto, Mew can transform you as well.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 137
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nSearch for something that could contain DNA, such as used clothes!
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]You should be able to use this to escape!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]If you can find DNA, Mew can disguise you as someone
+              else.\nYou should be able to use this to escape the base.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - <ac>\c[0]\l[3]Good luck.\n-Your benefactor.
         - i: 0
           c: 104
+          p:
+            values:
+            - 2
+            - 0
         - i: 0
           c: 232
+          p:
+            values:
+            - 4
+            - 10
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 235
+          p:
+            values:
+            - 4
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(11,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(12,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(13,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(14,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3194,10 +4386,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3234,30 +4430,64 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,15)
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.name.include?("John")
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHey Smith, I thought you were upstairs with Persephone!\nWhat on
+              earth are you doing down here?
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHey Johnson, I thought you were upstairs with Persephone!\nWhat on
+              earth are you doing down here?
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3289,18 +4519,36 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,15)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShouldn't you be getting ready for the sacrifice along with everyone
+              else?
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3332,10 +4580,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3372,14 +4624,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'It''s a large statue of Darkrai.\nIt''s cold to the touch, '
         - i: 0
           c: 401
+          p:
+            values:
+            - and you feel tired just standing around it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3416,14 +4678,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'It''s a large statue of Darkrai.\nIt''s cold to the touch, '
         - i: 0
           c: 401
+          p:
+            values:
+            - and you feel tired just standing around it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3460,44 +4732,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3529,10 +4857,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3564,10 +4896,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3604,44 +4940,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3673,10 +5065,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3708,10 +5104,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3748,44 +5148,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]},{"code":15,"parameters":[1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity-=35"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3817,10 +5273,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3852,10 +5312,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3868,8 +5332,8 @@ MonoBehaviour:
       y: 42
   Info:
     expanded: 0
-    name: Cult of Darkrai
-    order: 133
-    parent_id: 42
-    scroll_x: 1138
-    scroll_y: 948
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

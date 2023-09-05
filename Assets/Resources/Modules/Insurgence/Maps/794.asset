@@ -301,26 +301,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 363
+            - 41
+            - 36
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -357,26 +393,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 363
+            - 41
+            - 36
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -413,26 +485,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 363
+            - 41
+            - 36
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -469,44 +577,101 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI love this little hideaway. In my opinion, it's so darn peaceful.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIt's the only place diversity in formes really blossoms!
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI do love Grass-type Pokemon. Perhaps I can teach you some Grass-type
+              moves?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWhat can I teach you?\ch[2,5,Giga Drain,Seed Bomb,Synthesis,Bullet
+              Seed,(Cancel)]
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 4
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - '\rOh, a shame. Maybe another time, then.                             '
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - 
         - i: 1
           c: 655
+          p:
+            values:
+            - case pbGet(2)
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 0;pbMoveTutorChoose(PBMoves::GIGADRAIN)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 1;pbMoveTutorChoose(PBMoves::SEEDBOMB)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 2;pbMoveTutorChoose(PBMoves::SYNTHESIS)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 3;pbMoveTutorChoose(PBMoves::BULLETSEED)'
         - i: 1
           c: 655
+          p:
+            values:
+            - end
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -543,14 +708,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 655
+            - 655
+            - 0
         - i: 0
           c: 122
+          p:
+            values:
+            - 7
+            - 7
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -563,8 +744,8 @@ MonoBehaviour:
       y: 32
   Info:
     expanded: 0
-    name: Flower Grotto
-    order: 504
-    parent_id: 363
-    scroll_x: 480
-    scroll_y: 608
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

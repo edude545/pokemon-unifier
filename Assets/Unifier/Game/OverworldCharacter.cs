@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 using static CharacterAnimator;
 
 namespace Assets.Unifier.Game {
@@ -6,6 +7,7 @@ namespace Assets.Unifier.Game {
     internal class OverworldCharacter : MonoBehaviour {
 
         public CharacterAnimator Animator;
+        public InteractionProbe InteractionProbe;
 
         public bool Moving;
 
@@ -23,15 +25,44 @@ namespace Assets.Unifier.Game {
             rb.velocity = Vector3.zero;
             Moving = false;
             Animator.Stop();
-            moveSpeed = MoveSpeeds.Standing;
-            Animator.FreezeFrame(0);
+            MoveSpeed = MoveSpeeds.Standing;
         }
 
-        public void SetVelocity(Vector3 vec, MoveSpeeds ms) {
+        // For grid movement
+        /*float moveProgress;
+        public float GridMoveMult = 1f;
+        Vector3 destination;
+        private bool movementQueued;
+        protected void FixedUpdate() {
+            if (Moving) {
+                moveProgress += rb.velocity.magnitude * Time.deltaTime;
+                if (moveProgress > 1f) {
+                    transform.position = destination;
+                    StopMoving();
+                }
+            }
+        }
+        public virtual void DoGridMove(Directions dir, MoveSpeeds ms) {
+            if (Moving) { return; }
+            //MoveSpeed = ms;
+            //Moving = true;
+            Animator.Play();
+            //Animator.SetFace(dir);
+            moveProgress = 0f;
+            Vector3 vel = GetDirectionVector(dir);
+            //InteractionProbe.transform.localPosition = vel;
+            destination = transform.position + vel;
+            //rb.velocity = vel * MoveSpeedMults[(int)moveSpeed - 1] * GridMoveMult;
+            SetVelocity(vel, ms);
+        }*/
+
+        // For free movement
+        public virtual void SetVelocity(Vector3 vec, MoveSpeeds ms) {
             MoveSpeed = ms;
             rb.velocity = vec * MoveSpeedMults[(int)moveSpeed-1];
             if (!Moving) Animator.Play(); // begin animation if it wasn't playing last frame
             Moving = true;
+            InteractionProbe.transform.localPosition = vec.normalized;
             if (vec.x > 0) {
                 Animator.SetFace(Directions.Right);
             } else if (vec.x < 0) {

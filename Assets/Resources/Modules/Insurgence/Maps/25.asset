@@ -151,20 +151,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 23
+            - 16
+            - 14
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -201,158 +227,374 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.numbadges>=8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokemonMart([
         - i: 1
           c: 655
+          p:
+            values:
+            - :POKEBALL,:GREATBALL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ULTRABALL,:POTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :MAXPOTION,:FULLRESTORE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :REVIVE,:ANTIDOTE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :PARLYZHEAL,:AWAKENING,
         - i: 1
           c: 655
+          p:
+            values:
+            - :BURNHEAL,:ICEHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :FULLHEAL,:ESCAPEROPE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL,:MAXREPEL
         - i: 1
           c: 655
+          p:
+            values:
+            - '])'
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.numbadges>=7
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokemonMart([
         - i: 1
           c: 655
+          p:
+            values:
+            - :POKEBALL,:GREATBALL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ULTRABALL,:POTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :MAXPOTION,:REVIVE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ANTIDOTE,:PARLYZHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :AWAKENING,:BURNHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ICEHEAL,:FULLHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ESCAPEROPE,:REPEL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :SUPERREPEL,:MAXREPEL
         - i: 1
           c: 655
+          p:
+            values:
+            - '])'
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.numbadges>=5
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokemonMart([
         - i: 1
           c: 655
+          p:
+            values:
+            - :POKEBALL,:GREATBALL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ULTRABALL,:POTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :REVIVE,:ANTIDOTE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :PARLYZHEAL,:AWAKENING,
         - i: 1
           c: 655
+          p:
+            values:
+            - :BURNHEAL,:ICEHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :FULLHEAL,:ESCAPEROPE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :MAXREPEL
         - i: 1
           c: 655
+          p:
+            values:
+            - '])'
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.numbadges>=3
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokemonMart([
         - i: 1
           c: 655
+          p:
+            values:
+            - :POKEBALL,:GREATBALL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :POTION,:SUPERPOTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :HYPERPOTION,:REVIVE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ANTIDOTE,:PARLYZHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :AWAKENING,:BURNHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ICEHEAL,:ESCAPEROPE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL
         - i: 1
           c: 655
+          p:
+            values:
+            - '])'
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.numbadges>=1
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokemonMart([
         - i: 1
           c: 655
+          p:
+            values:
+            - :POKEBALL,:GREATBALL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :POTION,:SUPERPOTION,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ANTIDOTE,:PARLYZHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :AWAKENING,:BURNHEAL,
         - i: 1
           c: 655
+          p:
+            values:
+            - :ICEHEAL,:ESCAPEROPE,
         - i: 1
           c: 655
+          p:
+            values:
+            - :REPEL
         - i: 1
           c: 655
+          p:
+            values:
+            - '])'
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonMart([
         - i: 0
           c: 655
+          p:
+            values:
+            - :POKEBALL,
         - i: 0
           c: 655
+          p:
+            values:
+            - :POTION
         - i: 0
           c: 655
+          p:
+            values:
+            - '])'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -389,58 +631,132 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.mysterygiftaccess
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - There is a questionnaire.\nWould you like to fill it out?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \PN filled in the questionnaire.
         - i: 2
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(2))
         - i: 2
           c: 106
+          p:
+            values:
+            - 20
         - i: 2
           c: 101
+          p:
+            values:
+            - \bOh, hello!\nYou filled in the questionnaire?
         - i: 2
           c: 101
+          p:
+            values:
+            - \bThat means you must know about the Mystery Gift.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bFrom now on, you should be receiving Mystery '
         - i: 2
           c: 401
+          p:
+            values:
+            - Gifts!
         - i: 2
           c: 355
+          p:
+            values:
+            - $Trainer.mysterygiftaccess=true
         - i: 2
           c: 101
+          p:
+            values:
+            - '\w[signskin]Once you save your game, you can '
         - i: 2
           c: 401
+          p:
+            values:
+            - access the Mystery Gift.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -477,10 +793,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -512,32 +832,66 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbNextMysteryGiftID>0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHello. You must be \PN.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI've received a gift for you.\nHere you go!
         - i: 1
           c: 355
+          p:
+            values:
+            - id=pbNextMysteryGiftID
         - i: 1
           c: 655
+          p:
+            values:
+            - pbReceiveMysteryGift(id)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI haven't received any other gifts for you.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe look forward to your next visit.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -550,8 +904,8 @@ MonoBehaviour:
       y: 6
   Info:
     expanded: 0
-    name: Lerucean Town Mart
-    order: 54
-    parent_id: 23
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

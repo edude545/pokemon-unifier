@@ -1501,32 +1501,76 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 40
+            - 0
+            - 6
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(1)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 710
+            - 6
+            - 6
+            - 0
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1563,60 +1607,153 @@ MonoBehaviour:
         list:
         - i: 0
           c: 118
+          p:
+            values:
+            - doover1
         - i: 0
           c: 122
+          p:
+            values:
+            - 101
+            - 101
+            - 0
+            - 2
+            - 56
+            - 73
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 101
+            - 1
+            - 67
+            - 0
         - i: 1
           c: 119
+          p:
+            values:
+            - doover1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - doover2
         - i: 0
           c: 122
+          p:
+            values:
+            - 102
+            - 102
+            - 0
+            - 2
+            - 56
+            - 73
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 102
+            - 1
+            - 67
+            - 0
         - i: 1
           c: 119
+          p:
+            values:
+            - doover2
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 101
+            - 1
+            - 102
+            - 0
         - i: 1
           c: 119
+          p:
+            values:
+            - doover2
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbDoubleTrainerBattle(ChallengeChampionship.new.getTrainerClass(pbGet(101)),ChallengeChampionship.new.getTrainerName(pbGet(101)),5,_I("Your
+              power is overwhelming!"),ChallengeChampionship.new.getTrainerClass(pbGet(102)),ChallengeChampionship.new.getTrainerName(pbGet(102)),5,_I("Ack!
+              We lost!"),false)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(2)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1648,10 +1785,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1688,22 +1829,45 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.ablePokemonCount < 1
         - i: 1
           c: 121
+          p:
+            values:
+            - 1
+            - 1
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(2)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1716,8 +1880,8 @@ MonoBehaviour:
       y: 5
   Info:
     expanded: 0
-    name: MAP767
-    order: 829
+    name: 
+    order: 0
     parent_id: 0
-    scroll_x: 1280
-    scroll_y: 1280
+    scroll_x: 0
+    scroll_y: 0

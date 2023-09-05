@@ -661,78 +661,186 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - The Pokemon seems very hungry and weak...
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::ORANBERRY)>0
         - i: 1
           c: 101
+          p:
+            values:
+            - Will you feed the Pokemon an Oran Berry?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbDeleteItem(PBItems::ORANBERRY,1)
         - i: 2
           c: 101
+          p:
+            values:
+            - The Pokemon eagerly accepted the Oran Berry!
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":35,"parameters":[]},{"code":3,"parameters":[]},{"code":36,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":35,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":36,"parameters":[]}'
         - i: 2
           c: 106
+          p:
+            values:
+            - 20
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":14,"parameters":[0,0]},{"code":15,"parameters":[2]},{"code":14,"parameters":[0,0]},{"code":15,"parameters":[2]},{"code":14,"parameters":[0,0]},{"code":33,"parameters":[]},{"code":10,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":33,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":10,"parameters":[]}'
         - i: 2
           c: 106
+          p:
+            values:
+            - 32
         - i: 2
           c: 101
+          p:
+            values:
+            - The Pokemon seems to want to join you!\nDoes it want to repay your
+              kindness?
         - i: 2
           c: 355
+          p:
+            values:
+            - pbAddPokemon(PBSpecies::DELTALITWICK,40)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 101
+          p:
+            values:
+            - The Pokemon seems saddened by your decision.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - You don't seem to have any food it's interested in.\nMaybe come back
+              with a certain type of berry?
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -764,10 +872,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -804,38 +916,93 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":8,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":8,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 828
+            - 17
+            - 21
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":100.0,"b":-100.0,"g":-100.0,"r":-100.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -872,32 +1039,72 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - tesseract_back
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - D
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - An item appeared from the past!
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":255.0,"r":255.0}'
+            - 30
         - i: 1
           c: 106
+          p:
+            values:
+            - 32
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-100.0,"g":-100.0,"r":-100.0}'
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -929,14 +1136,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::AUDINITE)
         - i: 0
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -968,10 +1186,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -984,8 +1206,8 @@ MonoBehaviour:
       y: 13
   Info:
     expanded: 0
-    name: Hidden Room
-    order: 408
-    parent_id: 828
-    scroll_x: 569
-    scroll_y: 369
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

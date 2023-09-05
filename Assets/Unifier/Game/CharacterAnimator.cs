@@ -1,5 +1,7 @@
 using Assets.Unifier.Game;
 using Assets.Unifier.Game.Data;
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterAnimator : SpriteAnimator {
@@ -34,16 +36,28 @@ public class CharacterAnimator : SpriteAnimator {
     public Sprite[] RunSprites;
     public Sprite[] BikeSprites;
 
+    public Directions Direction;
+
     protected override void Start() {
         LoadSpritesFromInspectorFields();
         base.Start();
+    }
+
+    public static Vector3 GetDirectionVector(Directions dir) {
+        switch (dir) {
+            case Directions.Up: return Vector3.up;
+            case Directions.Down: return Vector3.down;
+            case Directions.Left: return Vector3.left;
+            case Directions.Right: return Vector3.right;
+            default: throw new System.Exception();
+        }
     }
 
     public virtual void LoadSpritesFromInspectorFields () {
         WalkSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath);
         RunSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "_run");
         BikeSprites = Resources.LoadAll<Sprite>("Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "_bike");
-        if (WalkSprites.Length != AnimationPeriod * AnimationPeriod) throw new NoDataException("Couldn't find a spritesheet with " + AnimationPeriod * AnimationPeriod + " sprites with at Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "!");
+        if (WalkSprites.Length != AnimationPeriod * AnimationPeriod) throw new Exception("Couldn't find a spritesheet with " + AnimationPeriod * AnimationPeriod + " sprites with at Modules/" + ModuleName + "/Graphics/" + SpritesheetGraphicPath + "!");
         if (RunSprites.Length == 0) RunSprites = null;
         if (BikeSprites.Length == 0) BikeSprites = null;
         LoadSprites();
@@ -58,6 +72,7 @@ public class CharacterAnimator : SpriteAnimator {
     }
 
     public void SetFace(Directions dir) {
+        Direction = dir;
         LoadAnimation(walkAnimations[(int)dir]);
     }
 

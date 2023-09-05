@@ -1501,26 +1501,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 265
+            - 10
+            - 7
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1557,26 +1593,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 263
+            - 36
+            - 7
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":2,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1613,46 +1685,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1684,40 +1810,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1749,34 +1923,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1808,40 +2022,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1878,46 +2140,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1949,40 +2265,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2014,34 +2378,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-1
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2073,40 +2477,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x+1
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x+1
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-1
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2143,46 +2595,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2214,40 +2720,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2279,34 +2833,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2338,40 +2932,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2408,46 +3050,100 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2479,40 +3175,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2544,34 +3288,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x-2
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2603,40 +3387,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x<=get_character(0).x
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x>get_character(0).x-2
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - C
+            - 1
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2673,18 +3505,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Utira Town library!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm Zachary, the librarian here.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've made it my goal in life to instill the love and joy of \c[2]r\c[6]e\c[3]a\c[4]d\c[1]i\c[5]n\c[8]g\b
+              in young kids.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you need any help, let me know.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2716,18 +3565,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Utira Town library!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere's not much I can do to help you when it comes to that prophecy.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf it has to do with \c[2]r\c[6]e\c[3]a\c[4]d\c[1]i\c[5]n\c[8]g\b,
+              though, I'm happy to be your guide!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you need any help, let me know.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2759,10 +3625,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2799,26 +3669,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 228
+            - 50
+            - 21
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2855,16 +3761,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - It's a book called "\rHealing and YOU.\c[0]"
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's full of information and equations to do with healing moves.
         - i: 0
           c: 121
+          p:
+            values:
+            - 375
+            - 375
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2901,14 +3822,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm reading this fascinating book about ancient Torren.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rApparently, it was created by a Pokemon with a thousand hands!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2945,12 +3876,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou're not really supposed to be talking when you're in here.\nIt's
+              a library, after all!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2987,14 +3926,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm reading up on famous users of Electric-type Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's super interesting! I'd never heard of Lieutenant Surge before!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3031,18 +3980,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a play called "\rThe Taming of the Sandshrew.\c[0]"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3079,18 +4044,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Grapes of Poliwrath\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3127,18 +4108,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rTrick-Room for Dummies.\c[0], by \bLondon\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3175,18 +4172,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLegends of Sinnoh.\c[0]"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3223,18 +4236,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rOne Hundred Years of Geodude\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3271,18 +4300,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rAmerican Psyduck\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3319,18 +4364,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Fault in our Staryus\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3367,18 +4428,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rLove in the Time of Charmander\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3415,18 +4492,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Girl with the Dragonite Tattoo\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3463,18 +4556,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Very Hungry Caterpie\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3511,18 +4620,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rGoodnight, Lunatone\c[0]."
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3559,42 +4684,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Rarest Pokeballs\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Poke-, Great- and Ultra Balls are commonplace items for every Pokemon
+              Trainer.
         - i: 2
           c: 101
+          p:
+            values:
+            - Certain types of Pokeballs, however, are sought-after by all sorts
+              of trainers.
         - i: 2
           c: 101
+          p:
+            values:
+            - The Master Ball is a legend amongst trainers for its ability to catch
+              any Pokemon without fail.
         - i: 2
           c: 101
+          p:
+            values:
+            - The "Ancient Ball" is another rare form of Pokeball that works especially
+              well on legendaries.
         - i: 2
           c: 101
+          p:
+            values:
+            - There also exists the "Infinity Ball", but not much is known about
+              it, as one has never been replicated.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3631,44 +4813,104 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rProfessors of Note\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Many Pokemon Professors- scientists who study Pokemon as a profession-
+              will fade into mediocrity.
         - i: 2
           c: 101
+          p:
+            values:
+            - 'However, the names of some Professors have withstood the tests of
+              time:'
         - i: 2
           c: 101
+          p:
+            values:
+            - Professor Oak, for key input into the development of the first Pokedex
+              and the training of arguably the strongest trainer of all time.
         - i: 2
           c: 101
+          p:
+            values:
+            - Professor Elm, for his discoveries about Pokemon breeding and extraordinary
+              research.
         - i: 2
           c: 101
+          p:
+            values:
+            - Last but not least, Professor Sycamore, for his astounding discoveries
+              about Mega Evolution.
         - i: 2
           c: 101
+          p:
+            values:
+            - Honorable mentions include Professors Birch, Sylvan, Juniper and Rowan.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3705,36 +4947,82 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rThe Bugsy Scandal\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - 'The Bugsy Scandal was a term denoted to an incident many years ago
+              in which young Gym Leader Bugsy- of the Johto Region- was accused of
+              intentionally '
         - i: 2
           c: 401
+          p:
+            values:
+            - losing a Pokemon battle for money.\nSince then, the Azalea Town Gym
+              has been disbanded due to public backlash and a negative stigma.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3771,40 +5059,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rReligious Freedom in Torren\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - The Torren Region prides itself on religious freedom for all of its
+              citizens.
         - i: 2
           c: 101
+          p:
+            values:
+            - Unfortunately, this had led to several wars and conflicts, such as
+              the cult plague around the nation.
         - i: 2
           c: 101
+          p:
+            values:
+            - Steps are being implemented to change the laws around religious freedom.
         - i: 2
           c: 101
+          p:
+            values:
+            - Propositions include restricting worship of legendaries, or merely
+              removing ability to bypass any laws due to religious beliefs.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3841,40 +5181,91 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rArceus and Giratina\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Arceus and Giratina are the names for the two most ancient Pokemon
+              in cosmology.
         - i: 2
           c: 101
+          p:
+            values:
+            - Ancient texts say that Arceus created Dialga, Palkia and Giratina.
         - i: 2
           c: 101
+          p:
+            values:
+            - However, Giratina was displeased and revolted.
         - i: 2
           c: 101
+          p:
+            values:
+            - His insurgency was quickly stamped down by the other three creation
+              Pokemon, and he was banished to the Distortion World.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3911,40 +5302,96 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rWho was the first Pokemon trainer?\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Experts and historians often disagree as to who the very first Pokemon
+              Trainer was, due to a difference in definitions.
         - i: 2
           c: 101
+          p:
+            values:
+            - Some define a trainer as someone who uses Pokeballs to capture and
+              train Pokemon, whereas some define it as someone who has any control
+              of Pokemon at all.
         - i: 2
           c: 101
+          p:
+            values:
+            - Most people agree that the very first person to train a Pokemon for
+              use in combat was King Vesryn, who controlled a majority of the medieval
+              world.
         - i: 2
           c: 101
+          p:
+            values:
+            - However, some people don't believe the era of Pokemon trainers began
+              until the common use of the Pokeball, of which Agatha of Kanto was
+              the first major user.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3981,40 +5428,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a book called "\rI got Swagger\c[0]."
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Swagger and Attract are moves that are notoriously difficult to fight
+              against due to the randomness aspect they add to battles.
         - i: 2
           c: 101
+          p:
+            values:
+            - They are also known for being infuriating and frustrating to battle,
+              for the same reason.
         - i: 2
           c: 101
+          p:
+            values:
+            - Recently, however, researchers have found that the colloquially-known
+              "hax" in the Torren Region has been far less prominent than usual.
         - i: 2
           c: 101
+          p:
+            values:
+            - The reasoning for this is currently unknown.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4051,38 +5550,87 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book called "\rPokemon Races\c[0]." '
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Pokemon Races have been an attractive tourist destination for Sonata
+              City for many years.
         - i: 2
           c: 101
+          p:
+            values:
+            - What's very interesting about the races is that the Pokemon's speed
+              does not seem to be factored into who wins the race.
         - i: 2
           c: 101
+          p:
+            values:
+            - A Swalot is just as likely to win as an Electrode- which adds a very
+              interesting betting and gambling component to the races.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4119,36 +5667,81 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book called "\rAnatomy of a Dugtrio\c[0]." '
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Many experiments have been done in order to truly understand what goes
+              on in Diglett and Dugtrio beneath the surface.
         - i: 2
           c: 101
+          p:
+            values:
+            - 'Compiled below is a list of information known about the body parts
+              of Diglett and Dugtrio below the ground:'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4185,12 +5778,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4227,12 +5827,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4269,12 +5876,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4311,12 +5925,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4353,12 +5974,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4395,12 +6023,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4437,12 +6072,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4479,12 +6121,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4521,12 +6170,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4563,12 +6219,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4605,12 +6268,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4647,12 +6317,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This book isn't very interesting.\nMaybe a different one?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4689,84 +6366,202 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHmph. I'm the smartest one of them all. I've spent years researching
+              the strongest moves.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bCan you handle it?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat move shall I teach, then?\ch[2,25,Bind,Snore,Covet,Super Fang,Endeavor,Last
+              Resort,Block,Role Play,Gastro Acid,
         - i: 0
           c: 401
+          p:
+            values:
+            - Worry Seed,After You,Helping Hand,Swift,Endure,Double Edge,Baton Pass,Celebrate,Happy
+              Hour,Hold Hands,Hold Back,Body Slam,Metronome,Mimic,Fake Out,
         - i: 0
           c: 401
+          p:
+            values:
+            - (Cancel)]
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 24
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, a shame. Maybe another time, then.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - case pbGet(2)
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 0;pbMoveTutorChoose(PBMoves::BIND)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 1;pbMoveTutorChoose(PBMoves::SNORE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 2;pbMoveTutorChoose(PBMoves::COVET)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 3;pbMoveTutorChoose(PBMoves::SUPERFANG)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 4;pbMoveTutorChoose(PBMoves::ENDEAVOR)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 5;pbMoveTutorChoose(PBMoves::LASTRESORT)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 6;pbMoveTutorChoose(PBMoves::BLOCK)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 7;pbMoveTutorChoose(PBMoves::ROLEPLAY)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 8;pbMoveTutorChoose(PBMoves::GASTROACID)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 9;pbMoveTutorChoose(PBMoves::WORRYSEED)'
         - i: 1
           c: 355
+          p:
+            values:
+            - '  when 10;pbMoveTutorChoose(PBMoves::AFTERYOU)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 11;pbMoveTutorChoose(PBMoves::HELPINGHAND)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 12;pbMoveTutorChoose(PBMoves::SWIFT)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 13;pbMoveTutorChoose(PBMoves::ENDURE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 14;pbMoveTutorChoose(PBMoves::DOUBLEEDGE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 15;pbMoveTutorChoose(PBMoves::BATONPASS)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 16;pbMoveTutorChoose(PBMoves::CELEBRATE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 17;pbMoveTutorChoose(PBMoves::HAPPYHOUR)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 18;pbMoveTutorChoose(PBMoves::HOLDHANDS)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 19;pbMoveTutorChoose(PBMoves::HOLDBACK)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 20;pbMoveTutorChoose(PBMoves::BODYSLAM)'
         - i: 1
           c: 355
+          p:
+            values:
+            - '  when 21;pbMoveTutorChoose(PBMoves::METRONOME)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 22;pbMoveTutorChoose(PBMoves::MIMIC)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 23;pbMoveTutorChoose(PBMoves::FAKEOUT)'
         - i: 1
           c: 655
+          p:
+            values:
+            - end
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4778,9 +6573,9 @@ MonoBehaviour:
       x: 12
       y: 14
   Info:
-    expanded: 1
-    name: Utira Library
-    order: 336
-    parent_id: 228
-    scroll_x: 940
-    scroll_y: 687
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

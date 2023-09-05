@@ -151,30 +151,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 692
+            - 37
+            - 46
+            - 2
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -211,30 +255,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 692
+            - 37
+            - 46
+            - 2
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -271,18 +359,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -319,68 +423,163 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[175]=load_data("Data/rocketsingles.dat")
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Battle Factory.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWould you like to participate in a single battle?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("factorysingleopen",7,
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleFactoryRules(false,true))
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbSaveScreen
         - i: 2
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bLet's begin.
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.start
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 699
+            - 4
+            - 9
+            - 0
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 118
+          p:
+            values:
+            - End
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbCancel
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -412,170 +611,429 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - If Won
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==1
         - i: 1
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCongratulations for winning.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIHdpbGwgdGFrZSB5b3VyIHJlbnRhbCBQb2vDqW1vbiBiYWNrIGFuZCBy
+
+              ZXR1cm4geW91ciA='
         - i: 1
           c: 401
+          p:
+            values:
+            - b3duIFBva8OpbW9uLg==
         - i: 1
           c: 101
+          p:
+            values:
+            - \bPlease take this prize.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 2
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 173
+            - 0
+            - 30
+            - 1
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::DREAMMIST)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 173
+            - 0
+            - 50
+            - 1
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::DREAMMIST)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::IVSTONE)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - If Lost or Forfeited
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==2
         - i: 1
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 1
           c: 122
+          p:
+            values:
+            - 173
+            - 173
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThanks for playing.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIHdpbGwgdGFrZSB5b3VyIHJlbnRhbCBQb2vDqW1vbiBiYWNrIGFuZCBy
+
+              ZXR1cm4geW91ciA='
         - i: 1
           c: 401
+          p:
+            values:
+            - b3duIFBva8OpbW9uLg==
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.pbResting?
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWe''ve been waiting for you.  Please come this '
         - i: 1
           c: 401
+          p:
+            values:
+            - way.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 700
+            - 2
+            - 10
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 1
           c: 122
+          p:
+            values:
+            - 173
+            - 173
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bExcuse me, but you didn''t save before finishing '
         - i: 1
           c: 401
+          p:
+            values:
+            - your challenge last time.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry, but your challenge has been canceled.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -612,68 +1070,163 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[175]=load_data("Data/rocketdoubles.dat")
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Battle Factory.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWould you like to participate in a double battle?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("factorydoubleopen",7,
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleFactoryRules(false,true))
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbSaveScreen
         - i: 2
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bLet's begin.
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.start
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 699
+            - 4
+            - 9
+            - 0
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 118
+          p:
+            values:
+            - End
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbCancel
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -705,244 +1258,614 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - If Won
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==1
         - i: 1
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCongratulations for winning.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIHdpbGwgdGFrZSB5b3VyIHJlbnRhbCBQb2vDqW1vbiBiYWNrIGFuZCBy
+
+              ZXR1cm4geW91ciA='
         - i: 1
           c: 401
+          p:
+            values:
+            - b3duIFBva8OpbW9uLg==
         - i: 1
           c: 101
+          p:
+            values:
+            - \bPlease take this prize.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 2
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 173
+            - 0
+            - 30
+            - 1
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::DREAMMIST)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 173
+            - 0
+            - 50
+            - 1
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::DREAMMIST)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::IVSTONE)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \rYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 3
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - If Lost or Forfeited
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==2
         - i: 1
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 1
           c: 122
+          p:
+            values:
+            - 173
+            - 173
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThanks for playing.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIHdpbGwgdGFrZSB5b3VyIHJlbnRhbCBQb2vDqW1vbiBiYWNrIGFuZCBy
+
+              ZXR1cm4geW91ciA='
         - i: 1
           c: 401
+          p:
+            values:
+            - b3duIFBva8OpbW9uLg==
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 3
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.pbResting?
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWe''ve been waiting for you.  Please come this '
         - i: 1
           c: 401
+          p:
+            values:
+            - way.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 63
+            - 4
+            - 9
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 122
+          p:
+            values:
+            - 173
+            - 173
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bExcuse me, but you didn''t save before finishing '
         - i: 1
           c: 401
+          p:
+            values:
+            - your challenge last time.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry, but your challenge has been canceled.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -974,14 +1897,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMy apologies but we're not quite ready to accommodate a Doubles format
+              in this facility.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPlease come back in another update.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1018,22 +1952,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[1]=
         - i: 0
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getPreviousWins("factorysingleopen")
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[2]=
         - i: 0
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getMaxWins("factorysingleopen")
         - i: 0
           c: 101
+          p:
+            values:
+            - '\PN''s Battle Factory Single Battle results:'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Last win streak: \v[1]\nRecord win streak: \v[2]'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1070,22 +2026,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[1]=
         - i: 0
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getPreviousWins("factorydoubleopen")
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_variables[2]=
         - i: 0
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getMaxWins("factorydoubleopen")
         - i: 0
           c: 101
+          p:
+            values:
+            - '\PN''s Battle Factory Double Battle results:'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Last win streak: \v[1]\nRecord win streak: \v[2]'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1122,110 +2100,280 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Battle Factory rules","Cancel"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Battle Factory rules
         - i: 2
           c: 118
+          p:
+            values:
+            - Choices
         - i: 2
           c: 101
+          p:
+            values:
+            - Which heading do you want to read?\ch[1,-1,
         - i: 2
           c: 401
+          p:
+            values:
+            - 'Basic Rules,Swap: Partner,Swap: Number,'
         - i: 2
           c: 401
+          p:
+            values:
+            - 'Swap: Notes,Exit]'
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'In a Battle Swap event, you may use only three '
         - i: 3
           c: 401
+          p:
+            values:
+            - UG9rw6ltb24u
         - i: 3
           c: 101
+          p:
+            values:
+            - 'Whether you''re renting or swapping, your team may '
         - i: 3
           c: 401
+          p:
+            values:
+            - bm90IGhhdmUgdHdvIG9yIG1vcmUgb2YgdGhlIHNhbWUgUG9rw6ltb24u
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'WW91IG1heSBzd2FwIFBva8OpbW9uIG9ubHkgd2l0aCB0aGUgVHJhaW5lciB5
+
+              b3U='
         - i: 3
           c: 401
+          p:
+            values:
+            - have just defeated.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'WW91IG1heSBzd2FwIGZvciBvbmx5IHRob3NlIFBva8OpbW9uIHVzZWQgYnkg
+
+              dGhl'
         - i: 3
           c: 401
+          p:
+            values:
+            - beaten Trainer.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - After every battle you win, you may swap for one
         - i: 3
           c: 401
+          p:
+            values:
+            - b2YgeW91ciBkZWZlYXRlZCBvcHBvbmVudCdzIFBva8OpbW9uLg==
         - i: 3
           c: 101
+          p:
+            values:
+            - 'WW91IHdpbGwgbm90IGJlIGFibGUgdG8gc3dhcCBQb2vDqW1vbiB3aXRoIHRo
+
+              ZQ=='
         - i: 3
           c: 401
+          p:
+            values:
+            - last Trainer in the event.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 3
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'There are two key points to be aware of when '
         - i: 3
           c: 401
+          p:
+            values:
+            - c3dhcHBpbmcgUG9rw6ltb24u
         - i: 3
           c: 101
+          p:
+            values:
+            - 'First, when swapping, you can''t check the stats of '
         - i: 3
           c: 401
+          p:
+            values:
+            - dGhlIFBva8OpbW9uIHlvdSBhcmUgYWJvdXQgdG8gcmVjZWl2ZS4=
         - i: 3
           c: 101
+          p:
+            values:
+            - 'U2Vjb25kLCB0aGUgUG9rw6ltb24gaW4geW91ciB0ZWFtIGFyZSBsaW5lZCB1
+
+              cCBpbiA='
         - i: 3
           c: 401
+          p:
+            values:
+            - sequence, depending on the order in which you
         - i: 3
           c: 401
+          p:
+            values:
+            - rented them.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'This sequence remains unchanged even when '
         - i: 3
           c: 401
+          p:
+            values:
+            - swaps are made.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1262,14 +2410,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1281,9 +2440,9 @@ MonoBehaviour:
       x: 5
       y: 2
   Info:
-    expanded: 1
-    name: Battle Factory
-    order: 280
-    parent_id: 692
-    scroll_x: 320
-    scroll_y: 240
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

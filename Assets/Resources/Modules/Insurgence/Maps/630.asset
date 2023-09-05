@@ -781,14 +781,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI won't tell you my name, kid.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut check out that cave. Something you've wanted for a very long
+              time might happen.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -820,10 +831,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -860,10 +875,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -900,10 +919,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -940,10 +963,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -980,250 +1007,658 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":37,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=0
+              if $PokemonTemp.dependentEvents.getMew != nil"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=0
+              if $PokemonTemp.dependentEvents.getMew != nil"]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":150.0,"b":0.0,"g":0.0,"r":68.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've finally found you.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou guys... were chosen. By Arceus. To guard the... you know.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe strongest trainers throughout all of history.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bThe Timeless. '
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm such a huge fan, Steven, Cynthia. I-
         - i: 0
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bReally, Cyn? <i>This </i> is the one you want to trust with the crystal?
+              If Arceus finds-
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHe's more strong-hearted than he seems, Steven.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm sure he'll make a worthy ally.
         - i: 0
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou better be right about this...
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAdam. You know why you're here, right?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI... yes. All the cults... all the chaos in the region...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can't stop it alone. I need your help.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd how, pray tell, did you learn about our group?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI was on Route 2, and I saw Cynthia in action-
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou <i>what </i>? Cynthia, for f-
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShe was hidden! But I saw her Lucario Mega Evolve in order to protect
+              a baby Riolu.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPokemon can't Mega Evolve on their own.\nI knew there was something
+              fishy going on... and I found her hiding in a nearby cave.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShe wasn't going to say anything, but when she noticed I had Hoopa,
+              she mentioned this... this whole thing.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b...Cynthia. We've talked about this. You have to be more careful.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHoopa's <i>chosen </i> him, Steven! He's trustworthy! I know it!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... ... ...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... we put it to a vote.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUnfortunately, the side that was <i>for </i> you borrowing the crystal
+              was nearly unanimous.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut Adam, you need to listen carefully.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEven we don't know what the crystal is for... all we know is that
+              Arceus wants it guarded.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd if Arceus wants it guarded, then it's clearly <i>very </i> important.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPeople have tried to steal it before, and you cannot let that happen.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou mean those weirdo Giratina-lookalike cultists?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey're no threat! Not with that crystal by my side!
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey're not cultists. They're... something else. I'm not entirely
+              sure.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bFortunately, they can't just steal it from you. They'd need to defeat
+              you first.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMy group has decided to lend you this crystal, against my counsel,
+              to help you deal with the huge cult problems that Torren has.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut you have to return it- you cannot let it fall into the hands
+              of Giratina's group!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou cannot lose to them. Do you understand?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou cannot lose!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI understand.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI won't let you down, guys. I won't lose!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 121
+          p:
+            values:
+            - 547
+            - 547
+            - 0
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=255
+              if $PokemonTemp.dependentEvents.getMew != nil"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=255
+              if $PokemonTemp.dependentEvents.getMew != nil"]}'
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 544
+            - 18
+            - 32
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1255,250 +1690,658 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":37,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=0
+              if $PokemonTemp.dependentEvents.getMew != nil"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=0
+              if $PokemonTemp.dependentEvents.getMew != nil"]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":150.0,"b":0.0,"g":0.0,"r":68.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've finally found you.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou guys... were chosen. By Arceus. To guard the... you know.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe strongest trainers throughout all of history.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bThe Timeless. '
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm such a huge fan, Steven, Cynthia. I-
         - i: 0
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bReally, Cyn? <i>This </i> is the one you want to trust with the crystal?
+              If Arceus finds-
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHe's more strong-hearted than he seems, Steven.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm sure he'll make a worthy ally.
         - i: 0
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou better be right about this...
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAdam. You know why you're here, right?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI... yes. All the cults... all the chaos in the region...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can't stop it alone. I need your help.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd how, pray tell, did you learn about our group?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI was on Route 2, and I saw Cynthia in action-
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou <i>what </i>? Cynthia, for f-
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShe was hidden! But I saw her Lucario Mega Evolve in order to protect
+              a baby Riolu.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPokemon can't Mega Evolve on their own.\nI knew there was something
+              fishy going on... and I found her hiding in a nearby cave.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShe wasn't going to say anything, but when she noticed I had Hoopa,
+              she mentioned this... this whole thing.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b...Cynthia. We've talked about this. You have to be more careful.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHoopa's <i>chosen </i> him, Steven! He's trustworthy! I know it!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... ... ...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... we put it to a vote.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUnfortunately, the side that was <i>for </i> you borrowing the crystal
+              was nearly unanimous.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut Adam, you need to listen carefully.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEven we don't know what the crystal is for... all we know is that
+              Arceus wants it guarded.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd if Arceus wants it guarded, then it's clearly <i>very </i> important.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPeople have tried to steal it before, and you cannot let that happen.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou mean those weirdo Giratina-lookalike cultists?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey're no threat! Not with that crystal by my side!
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey're not cultists. They're... something else. I'm not entirely
+              sure.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bFortunately, they can't just steal it from you. They'd need to defeat
+              you first.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMy group has decided to lend you this crystal, against my counsel,
+              to help you deal with the huge cult problems that Torren has.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut you have to return it- you cannot let it fall into the hands
+              of Giratina's group!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou cannot lose to them. Do you understand?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou cannot lose!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI understand.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI won't let you down, guys. I won't lose!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 121
+          p:
+            values:
+            - 547
+            - 547
+            - 0
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=255
+              if $PokemonTemp.dependentEvents.getMew != nil"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=255
+              if $PokemonTemp.dependentEvents.getMew != nil"]}'
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 544
+            - 18
+            - 32
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1530,250 +2373,658 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":37,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=0
+              if $PokemonTemp.dependentEvents.getMew != nil"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=0
+              if $PokemonTemp.dependentEvents.getMew != nil"]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":150.0,"b":0.0,"g":0.0,"r":68.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've finally found you.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou guys... were chosen. By Arceus. To guard the... you know.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe strongest trainers throughout all of history.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bThe Timeless. '
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm such a huge fan, Steven, Cynthia. I-
         - i: 0
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bReally, Cyn? <i>This </i> is the one you want to trust with the crystal?
+              If Arceus finds-
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHe's more strong-hearted than he seems, Steven.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm sure he'll make a worthy ally.
         - i: 0
           c: 209
+          p:
+            values:
+            - 4
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou better be right about this...
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAdam. You know why you're here, right?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI... yes. All the cults... all the chaos in the region...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can't stop it alone. I need your help.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd how, pray tell, did you learn about our group?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI was on Route 2, and I saw Cynthia in action-
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou <i>what </i>? Cynthia, for f-
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShe was hidden! But I saw her Lucario Mega Evolve in order to protect
+              a baby Riolu.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPokemon can't Mega Evolve on their own.\nI knew there was something
+              fishy going on... and I found her hiding in a nearby cave.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bShe wasn't going to say anything, but when she noticed I had Hoopa,
+              she mentioned this... this whole thing.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b...Cynthia. We've talked about this. You have to be more careful.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHoopa's <i>chosen </i> him, Steven! He's trustworthy! I know it!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... ... ...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... we put it to a vote.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUnfortunately, the side that was <i>for </i> you borrowing the crystal
+              was nearly unanimous.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut Adam, you need to listen carefully.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEven we don't know what the crystal is for... all we know is that
+              Arceus wants it guarded.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd if Arceus wants it guarded, then it's clearly <i>very </i> important.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPeople have tried to steal it before, and you cannot let that happen.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou mean those weirdo Giratina-lookalike cultists?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey're no threat! Not with that crystal by my side!
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey're not cultists. They're... something else. I'm not entirely
+              sure.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bFortunately, they can't just steal it from you. They'd need to defeat
+              you first.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMy group has decided to lend you this crystal, against my counsel,
+              to help you deal with the huge cult problems that Torren has.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut you have to return it- you cannot let it fall into the hands
+              of Giratina's group!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou cannot lose to them. Do you understand?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,4)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou cannot lose!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI understand.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI won't let you down, guys. I won't lose!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 121
+          p:
+            values:
+            - 547
+            - 547
+            - 0
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=255
+              if $PokemonTemp.dependentEvents.getMew != nil"]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["$PokemonTemp.dependentEvents.getMew.opacity=255
+              if $PokemonTemp.dependentEvents.getMew != nil"]}'
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 544
+            - 18
+            - 32
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1810,10 +3061,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1850,26 +3105,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 446
+            - 28
+            - 40
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1906,10 +3197,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1941,12 +3236,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1978,30 +3281,73 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 0
           c: 106
+          p:
+            values:
+            - 22
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 468
+            - 20
+            - 10
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2038,26 +3384,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 445
+            - 18
+            - 38
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2094,14 +3476,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::FULLRESTORE)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2133,10 +3526,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2149,8 +3546,8 @@ MonoBehaviour:
       y: 24
   Info:
     expanded: 0
-    name: Crystal Caves
-    order: 758
-    parent_id: 544
-    scroll_x: 960
-    scroll_y: 960
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

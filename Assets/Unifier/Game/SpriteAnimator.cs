@@ -19,10 +19,11 @@ public abstract class SpriteAnimator : MonoBehaviour
 
     public float Speed = 20f;
 
-    private int[] animationData;
-    private int animationFrame = 0;
+    public int[] FrameSequence;
+    private int frameIndex = 0;
     private int animationLength;
-    private float frameTime = 0f;
+    private float timeOnCurrentFrame = 0f;
+    private int frameToEndOn = -1;
 
     protected virtual void Start() {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -31,12 +32,16 @@ public abstract class SpriteAnimator : MonoBehaviour
 
     private void Update() {
         if (Playing) {
-            frameTime += Time.deltaTime;
-            if (frameTime >= Speed) {
-                frameTime = 0f;
+            timeOnCurrentFrame += Time.deltaTime;
+            if (timeOnCurrentFrame >= Speed) {
+                timeOnCurrentFrame = 0f;
                 nextFrame();
             }
         }
+    }
+
+    public void UpdateSprite() {
+        spriteRenderer.sprite = sprites[FrameSequence[frameIndex]];
     }
 
     private void OnValidate() {
@@ -53,50 +58,37 @@ public abstract class SpriteAnimator : MonoBehaviour
     }
 
     public abstract void LoadSprites();
-    
-    public void LoadAnimation(int[] anim) {
-        animationData = anim;
-        animationLength = animationData.Length;
-    }
 
-    public void UpdateSprite() {
-        setFrame(animationFrame);
+    public void LoadAnimation(int[] seq) {
+        FrameSequence = seq;
+        animationLength = FrameSequence.Length;
     }
 
     protected void nextFrame() {
-        animationFrame++;
-        if (animationFrame == animationLength) {
-/*            if (playingOnce) {
-                Stop();
-            }*/
-            animationFrame = 0;
+        if (frameToEndOn >= 0) {
+            frameIndex = 0;
+            frameToEndOn = -1;
+            Stop();
+        } else {
+            frameIndex++;
+            if (frameIndex == animationLength) {
+                frameIndex = 0;
+            }
         }
         UpdateSprite();
     }
 
-    public void setFrame(int index) {
-        //Debug.Log(transform.parent.name+":\nsprites.length: "+sprites.Length+"\nanimationData.Length: "+animationData.Length+"\nindex: "+index+"\nspriteRenderer: "+spriteRenderer+"\nsprites[animationData[index]]: "+sprites[animationData[index]]);
-        spriteRenderer.sprite = sprites[animationData[index]];
-    }
-
-    public void FreezeFrame(int index) {
-        setFrame(index);
-        Stop();
-    }
-
     public void Play() {
-        Playing = true;// playingOnce = false;
+        Playing = true;
     }
-
-    /*public void PlayOnce() {
-        if (!Playing) {
-            animationFrame = 0;
-            Playing = true; playingOnce = true;
-        }
-    }*/
 
     public void Stop() {
-        Playing = false;// playingOnce = false;
+        Playing = false;
+        timeOnCurrentFrame = 0f;
+    }
+
+    public void DelayedStop(int frame) {
+        frameToEndOn = frame;
     }
 
 }

@@ -241,20 +241,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 18
+            - 3
+            - 2
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -291,198 +317,491 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 118
+          p:
+            values:
+            - Start
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a vending machine.\n
         - i: 1
           c: 401
+          p:
+            values:
+            - Which drink would you like?\G
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Fresh Water - $200","Soda Pop - $300","Lemonade - $350","Cancel"]'
+            - 4
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Fresh Water - $200
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 200
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::FRESHWATER)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 200
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::FRESHWATER)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Fresh Water dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::FRESHWATER)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::FRESHWATER)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Fresh Water dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Soda Pop - $300
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 300
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::SODAPOP)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 300
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::SODAPOP)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Soda Pop dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::SODAPOP)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::SODAPOP)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Soda Pop dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Lemonade - $350
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 350
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::LEMONADE)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 350
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::LEMONADE)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Lemonade dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::LEMONADE)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::LEMONADE)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Lemonade dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 2
           c: 101
+          p:
+            values:
+            - \GDecided not to buy a drink.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -519,198 +838,491 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 118
+          p:
+            values:
+            - Start
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a vending machine.\n
         - i: 1
           c: 401
+          p:
+            values:
+            - Which drink would you like?\G
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Fresh Water - $200","Soda Pop - $300","Lemonade - $350","Cancel"]'
+            - 4
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Fresh Water - $200
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 200
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::FRESHWATER)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 200
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::FRESHWATER)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Fresh Water dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::FRESHWATER)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::FRESHWATER)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Fresh Water dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Soda Pop - $300
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 300
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::SODAPOP)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 300
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::SODAPOP)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Soda Pop dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::SODAPOP)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::SODAPOP)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Soda Pop dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Lemonade - $350
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 350
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::LEMONADE)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 350
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::LEMONADE)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Lemonade dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::LEMONADE)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::LEMONADE)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Lemonade dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 2
           c: 101
+          p:
+            values:
+            - \GDecided not to buy a drink.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -747,198 +1359,491 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 118
+          p:
+            values:
+            - Start
         - i: 1
           c: 101
+          p:
+            values:
+            - It's a vending machine.\n
         - i: 1
           c: 401
+          p:
+            values:
+            - Which drink would you like?\G
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Fresh Water - $200","Soda Pop - $300","Lemonade - $350","Cancel"]'
+            - 4
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Fresh Water - $200
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 200
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::FRESHWATER)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 200
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::FRESHWATER)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Fresh Water dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::FRESHWATER)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::FRESHWATER)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Fresh Water dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Soda Pop - $300
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 300
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::SODAPOP)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 300
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::SODAPOP)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Soda Pop dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::SODAPOP)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::SODAPOP)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Soda Pop dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Lemonade - $350
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 350
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::LEMONADE)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 350
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::LEMONADE)
         - i: 4
           c: 101
+          p:
+            values:
+            - \GA Lemonade dropped down!
         - i: 4
           c: 122
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
+            - 10
         - i: 4
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 5
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbCanStore?(PBItems::LEMONADE)
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbStoreItem(PBItems::LEMONADE)
         - i: 6
           c: 101
+          p:
+            values:
+            - \GBonus! Another Lemonade dropped down.
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 412
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 119
+          p:
+            values:
+            - Start
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 101
+          p:
+            values:
+            - \GYou have no room left in the Bag.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \GYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 2
           c: 101
+          p:
+            values:
+            - \GDecided not to buy a drink.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -975,12 +1880,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\sign[signskin]Rooftop Square: Vending Machines'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -993,8 +1905,8 @@ MonoBehaviour:
       y: 7
   Info:
     expanded: 0
-    name: Cedolan Dept. Rooftop
-    order: 50
-    parent_id: 14
-    scroll_x: 512
-    scroll_y: 320
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

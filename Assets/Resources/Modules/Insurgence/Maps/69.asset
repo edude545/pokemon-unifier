@@ -1021,18 +1021,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::POTION)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1064,10 +1080,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1104,38 +1124,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bCults 101\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rWhere other regions have teams (such as Rocket or Plasma) causing
+              a ruckus around the region, Torren is home to a number of cults.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThe core difference between the cults and other Teams, is that the
+              goals of the former have to do with the worship and catching of a legendary
+              Pokemon.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThis is a stark contrast to groups like Team Rocket, who are in the
+              search of money, money, and more money!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1167,38 +1237,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bThe Cults of the Torren Region\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThe Torren Region has, as far as we know, always been under the threat
+              of different legendary-worshipping cults.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rThere are five cults currently in power.\nThe \c[0]Cult of Darkrai\r,
+              \c[0]Abyssal Cult\r, \c[0]Infernal Cult\r, \c[0]Sky Cult\r, and a group
+              simply called '
         - i: 2
           c: 401
+          p:
+            values:
+            - '"\c[0]Perfection\r."\nAll of these cults are extremely dangerous and
+              should be treated with extreme caution.'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1235,42 +1355,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":8,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":8,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 70
+            - 14
+            - 34
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":3,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1307,38 +1488,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bCults 101\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rWhere other regions have teams (such as Rocket or Plasma) causing
+              a ruckus around the region, Torren is home to a number of cults.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThe core difference between the cults and other Teams, is that the
+              goals of the former have to do with the worship and catching of a legendary
+              Pokemon.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThis is a stark contrast to groups like Team Rocket, who are in the
+              search of money, money, and more money!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1370,38 +1601,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bThe Cults of the Torren Region\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThe Torren Region has, as far as we know, always been under the threat
+              of different legendary-worshipping cults.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rThere are five cults currently in power.\nThe \c[0]Cult of Darkrai\r,
+              \c[0]Abyssal Cult\r, \c[0]Infernal Cult\r, \c[0]Sky Cult\r, and a group
+              simply called '
         - i: 2
           c: 401
+          p:
+            values:
+            - '"\c[0]Perfection\r."\nAll of these cults are extremely dangerous and
+              should be treated with extreme caution.'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1438,10 +1719,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1473,10 +1758,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1513,10 +1802,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1548,10 +1841,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1588,10 +1885,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1623,10 +1924,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1663,402 +1968,1036 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(pbGet(182))
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 203
+          p:
+            values:
+            - 4
+            - 2
+            - 3
         - i: 0
           c: 203
+          p:
+            values:
+            - 2
+            - 5
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 60
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - ' $Trainer.clothes[0]=PBItems::C_NOHAT'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[2]=PBItems::C_JUMPSUIT'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[3]=PBItems::C_PURPLEPACK'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[4]=PBItems::C_JUMPPANTS'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[5]=pbGet(116)'
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSo, how is she doing?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bShe looks healthy.\nShe's been asleep for nearly three days.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bFortunately, she's waking up tomorrow.\nYou have no idea how boring
+              this supervision job has been.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWhat are you planning to do with her?
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell, she's not going to remember anything when she wakes up.\nPersephone's
+              just going to let her go, no harm done.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm not sure why she's so afraid of her. She is just a kid, after
+              all.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt's not our call to make. You know Miss Persephone knows best.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI guess so.\nI'm just bummed because Persephone's going to try summoning
+              Darkrai again today.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bShe wants me keeping an eye on the kid until she wakes up, so I can't
+              come and watch.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell... ... ...\nWhy not just leave one of your Pokemon here to supervise?\nThen
+              you can come see it guilt-free!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHmm. That's a pretty good idea, actually.\nIt's not like she's going
+              to find out!
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome on out, Gengar!
         - i: 1
           c: 207
+          p:
+            values:
+            - 24
+            - 93
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(24,"A",true)
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou might be able to make it back without her noticing. Let's go-
+              quick!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSo, how is he doing?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHe looks healthy.\nHe's been asleep for nearly three days.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bFortunately, he's waking up tomorrow.\nYou have no idea how boring
+              this supervision job has been.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWhat are you planning to do with him?
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell, he's not going to remember anything when he wakes up.\nPersephone's
+              just going to let him go, no harm done.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm not sure why she's so afraid of him. He is just a kid, after
+              all.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt's not our call to make. You know Miss Persephone knows best.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI guess so.\nI'm just bummed because Persephone's going to try summoning
+              Darkrai again today.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bShe wants me keeping an eye on the kid until he wakes up, so I can't
+              come and watch.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell... ... ...\nWhy not just leave one of your Pokemon here to supervise?\nThen
+              you can come see it guilt-free!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHmm. That's a pretty good idea, actually.\nIt's not like she's going
+              to find out!
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome on out, Gengar!
         - i: 1
           c: 207
+          p:
+            values:
+            - 24
+            - 93
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(24,"A",true)
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou might be able to make it back without her noticing. Let's go-
+              quick!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 355
+          p:
+            values:
+            - '    $game_player.straighten'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    $game_map.update'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    $scene.disposeSpritesets'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    GC.start'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    $scene.createSpritesets'
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 121
+          p:
+            values:
+            - 41
+            - 41
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 203
+          p:
+            values:
+            - 6
+            - 2
+            - 3
         - i: 0
           c: 203
+          p:
+            values:
+            - 8
+            - 5
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 60
         - i: 0
           c: 101
+          p:
+            values:
+            - \|. \|. \|.
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 30
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(24),4)
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":41,"parameters":["151",0,2,0]},{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["151",0,2,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(24))
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":3,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(14,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(13,"A",true)
         - i: 0
           c: 209
+          p:
+            values:
+            - 24
+            - '{"list":[{"code":1,"parameters":[]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 106
+          p:
+            values:
+            - 35
         - i: 0
           c: 101
+          p:
+            values:
+            - \b\pn, you can wake up now.\nFollow Mew and find a way out of the base!
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":37,"parameters":[]},{"code":3,"parameters":[]},{"code":35,"parameters":[]},{"code":2,"parameters":[]},{"code":36,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":35,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":36,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":18,"parameters":[]},{"code":35,"parameters":[]},{"code":2,"parameters":[]},{"code":36,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":35,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":36,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(-1),4)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbAddPokemonSilent(PBSpecies::MEW,65)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonFollow(10)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(24,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2090,372 +3029,951 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(pbGet(182))
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 203
+          p:
+            values:
+            - 4
+            - 2
+            - 3
         - i: 0
           c: 203
+          p:
+            values:
+            - 2
+            - 8
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 60
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 355
+          p:
+            values:
+            - ' $Trainer.clothes[0]=PBItems::C_NOHAT'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[2]=PBItems::C_JUMPSUIT'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[3]=PBItems::C_PURPLEPACK'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[4]=PBItems::C_JUMPPANTS'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[5]=pbGet(116)'
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAll right. The door is locked, and Gengar is doing her thing.\nSoon,
+              Dream Eater will rid the prisoner of the last of her memories.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAll right. The door is locked, and Gengar is doing her thing.\nSoon,
+              Dream Eater will rid the prisoner of the last of his memories.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHopefully we'll be done within the hour.
         - i: 0
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWell? How is our youngest prisoner faring?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAccording to the computer, Miss Persephone, their memories should
+              be completely gone very soon.\nEverything is going as planned.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rExcellent. Finally, we'll have fulfilled our end of the bargain.\nGood
+              work, you two.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWe are starting the ritual soon in the upstairs room.\nWill you be
+              attending?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOf course, Miss. I would never miss a sacrifice.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rVery well. I'll see you upstairs, then.
         - i: 0
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bMiss, wait, I have a question.
         - i: 0
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAfter the child's memories are gone, what do you plan to do with
+              them?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rKill them, of course.
         - i: 0
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI expect you upstairs within two minutes.
         - i: 0
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 106
+          p:
+            values:
+            - 30
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhy are we bothering to wipe their memories if we're just going to
+              kill them anyways?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNo clue, but thanks for not asking that in front of <i>her.</i>
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou know how she hates to be questioned.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLet's go upstairs, then.\nIt's always fun to see a ritual being performed.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 121
+          p:
+            values:
+            - 41
+            - 41
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - '    $game_player.straighten'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    $game_map.update'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    $scene.disposeSpritesets'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    GC.start'
         - i: 0
           c: 655
+          p:
+            values:
+            - '    $scene.createSpritesets'
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 203
+          p:
+            values:
+            - 6
+            - 2
+            - 3
         - i: 0
           c: 203
+          p:
+            values:
+            - 8
+            - 8
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 30
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"094Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 30
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"094Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 70
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 40
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(9),4)
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":41,"parameters":["151",0,2,0]},{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["151",0,2,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"151Cry","pitch":100,"volume":80}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(9))
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(14,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(13,"A",true)
         - i: 0
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":1,"parameters":[]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 106
+          p:
+            values:
+            - 35
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe Gengar's gone... go.\nFollow Mew, get out of here, and never
+              look back.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bGood luck.
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 209
+          p:
+            values:
+            - 10
+            - '{"list":[{"code":3,"parameters":[]},{"code":35,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":36,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":35,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":36,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":35,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":36,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":35,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":36,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 5
         - i: 0
           c: 355
+          p:
+            values:
+            - pbExclaim(get_character(-1),4)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbAddPokemonSilent(PBSpecies::MEW,65)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonFollow(10)
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(9,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2487,10 +4005,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2527,10 +4049,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2562,10 +4088,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2602,10 +4132,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2642,10 +4176,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2682,10 +4220,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2722,10 +4264,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2757,10 +4303,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2797,10 +4347,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2832,10 +4386,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2872,10 +4430,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2907,10 +4469,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2947,10 +4513,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2982,10 +4552,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3022,10 +4596,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3057,10 +4635,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3097,44 +4679,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The door is locked.\nInstead of a key lock, a '
         - i: 0
           c: 401
+          p:
+            values:
+            - fingerprint scanner stops it from being opened.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 41
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Unlock?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 10
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(17,"A",true)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(18,"A",true)
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3166,10 +4807,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3206,44 +4851,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The door is locked.\nInstead of a key lock, a '
         - i: 0
           c: 401
+          p:
+            values:
+            - fingerprint scanner stops it from being opened.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 41
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Unlock?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 10
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(19,"A",true)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(16,"A",true)
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3275,10 +4979,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3315,44 +5023,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The door is locked.\nInstead of a key lock, a '
         - i: 0
           c: 401
+          p:
+            values:
+            - fingerprint scanner stops it from being opened.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 41
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Unlock?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 10
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(20,"A",true)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(15,"A",true)
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3384,10 +5151,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3424,12 +5195,23 @@ MonoBehaviour:
         list:
         - i: 0
           c: 122
+          p:
+            values:
+            - 41
+            - 41
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3466,18 +5248,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::POTION)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3509,10 +5307,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3549,18 +5351,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::REPEL)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3592,10 +5410,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3632,10 +5454,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3667,10 +5493,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3702,10 +5532,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3737,10 +5571,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3777,12 +5615,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - configureFullScreen
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3819,256 +5664,925 @@ MonoBehaviour:
         list:
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Boy","Girl"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Boy
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAnd... do you remember what you look like?
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 231
+          p:
+            values:
+            - 6
+            - introbase
+            - 1
+            - 0
+            - 106
+            - 256
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 6
+            - 15
+            - 1
+            - 0
+            - 106
+            - 256
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 8
+            - introbase
+            - 1
+            - 0
+            - 406
+            - 256
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 8
+            - 15
+            - 1
+            - 0
+            - 406
+            - 256
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 3
+            - Picture_BoyBase
+            - 1
+            - 0
+            - 256
+            - 140
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 3
+            - 10
+            - 1
+            - 0
+            - 256
+            - 180
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 7
+            - Picture_BoyLighter
+            - 1
+            - 0
+            - 106
+            - 140
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 7
+            - 10
+            - 1
+            - 0
+            - 106
+            - 180
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 9
+            - Picture_BoyDarker
+            - 1
+            - 0
+            - 406
+            - 140
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 9
+            - 10
+            - 1
+            - 0
+            - 406
+            - 180
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Left","Middle","Right"]'
+            - 0
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Left
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAre you sure?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbChangePlayer(2)
         - i: 3
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 10
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 119
+          p:
+            values:
+            - gender/skin
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Middle
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAre you sure?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbChangePlayer(0)
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 119
+          p:
+            values:
+            - gender/skin
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Right
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAre you sure?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbChangePlayer(4)
         - i: 3
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 4
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 119
+          p:
+            values:
+            - gender/skin
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 232
+          p:
+            values:
+            - 3
+            - 10
+            - 1
+            - 0
+            - 256
+            - 180
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 6
+            - 10
+            - 1
+            - 0
+            - 106
+            - 220
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 8
+            - 10
+            - 1
+            - 0
+            - 406
+            - 220
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 7
+            - 10
+            - 1
+            - 0
+            - 106
+            - 180
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 9
+            - 10
+            - 1
+            - 0
+            - 406
+            - 180
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Girl
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAnd... do you remember what you look like?
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 231
+          p:
+            values:
+            - 6
+            - introbase
+            - 1
+            - 0
+            - 106
+            - 256
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 6
+            - 15
+            - 1
+            - 0
+            - 106
+            - 256
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 8
+            - introbase
+            - 1
+            - 0
+            - 406
+            - 256
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 8
+            - 15
+            - 1
+            - 0
+            - 406
+            - 256
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 3
+            - Picture_GirlBase
+            - 1
+            - 0
+            - 256
+            - 140
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 3
+            - 10
+            - 1
+            - 0
+            - 256
+            - 180
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 7
+            - Picture_GirlLighter
+            - 1
+            - 0
+            - 106
+            - 140
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 7
+            - 10
+            - 1
+            - 0
+            - 106
+            - 180
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 231
+          p:
+            values:
+            - 9
+            - Picture_GirlDarker
+            - 1
+            - 0
+            - 406
+            - 140
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 9
+            - 10
+            - 1
+            - 0
+            - 406
+            - 180
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 118
+          p:
+            values:
+            - Type_Girl
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Left","Middle","Right"]'
+            - 0
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Left
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAre you sure?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbChangePlayer(3)
         - i: 3
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 11
         - i: 3
           c: 121
+          p:
+            values:
+            - 78
+            - 78
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 119
+          p:
+            values:
+            - gender/skin
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Middle
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAre you sure?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbChangePlayer(1)
         - i: 3
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 1
         - i: 3
           c: 121
+          p:
+            values:
+            - 78
+            - 78
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 119
+          p:
+            values:
+            - gender/skin
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Right
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAre you sure?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbChangePlayer(5)
         - i: 3
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 78
+            - 78
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 119
+          p:
+            values:
+            - gender/skin
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 232
+          p:
+            values:
+            - 3
+            - 10
+            - 1
+            - 0
+            - 256
+            - 180
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 6
+            - 10
+            - 1
+            - 0
+            - 106
+            - 220
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 8
+            - 10
+            - 1
+            - 0
+            - 406
+            - 220
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 7
+            - 10
+            - 1
+            - 0
+            - 106
+            - 180
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 232
+          p:
+            values:
+            - 9
+            - 10
+            - 1
+            - 0
+            - 406
+            - 180
+            - 100
+            - 100
+            - 0
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4105,14 +6619,28 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(2)
         - i: 0
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 10
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4149,14 +6677,28 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(0)
         - i: 0
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4193,14 +6735,28 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(4)
         - i: 0
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 4
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4237,16 +6793,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(3)
         - i: 0
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 11
         - i: 0
           c: 121
+          p:
+            values:
+            - 78
+            - 78
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4283,16 +6858,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(1)
         - i: 0
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 1
         - i: 0
           c: 121
+          p:
+            values:
+            - 78
+            - 78
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4329,16 +6923,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChangePlayer(5)
         - i: 0
           c: 122
+          p:
+            values:
+            - 116
+            - 116
+            - 0
+            - 0
+            - 5
         - i: 0
           c: 121
+          p:
+            values:
+            - 78
+            - 78
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4375,18 +6988,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - ' $Trainer.clothes[0]=PBItems::C_NOHAT'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[2]=PBItems::C_JUMPSUIT'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[3]=PBItems::C_PURPLEPACK'
         - i: 0
           c: 655
+          p:
+            values:
+            - '      $Trainer.clothes[4]=PBItems::C_JUMPPANTS'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4423,26 +7052,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Oh, a Zygarde Cell!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 121
+          p:
+            values:
+            - 668
+            - 668
+            - 0
         - i: 0
           c: 122
+          p:
+            values:
+            - 188
+            - 188
+            - 1
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 101
+          p:
+            values:
+            - The Zygarde Cell was sucked into the Zygarde Cube!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4474,10 +7140,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4490,8 +7160,8 @@ MonoBehaviour:
       y: 38
   Info:
     expanded: 0
-    name: Cult of Darkrai
-    order: 132
-    parent_id: 42
-    scroll_x: 609
-    scroll_y: 820
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

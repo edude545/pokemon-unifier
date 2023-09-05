@@ -1021,20 +1021,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1066,10 +1089,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1106,342 +1133,869 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWelcome, challenger.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI am Diana. Leader of the Selene City Gym.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThe Gym I run is themed around dreams- and as such, I specialize
+              in both Psychic- and Ghost-types.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI hope you found my Gym puzzle clever.\nIf you understood the poem,
+              I'm sure you had no trouble getting through my Gym at all.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWhen it said to walk right ahead... well, I couldn't be any more
+              literal!
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut anyways, enough of that, right?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rLet's get this show on the road. Get ready to lose!
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":29,"parameters":[2]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":29,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":14,"parameters":[-2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[-2,0]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":29,"parameters":[2]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":14,"parameters":[2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":29,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[2,0]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":14,"parameters":[-2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[-2,0]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":14,"parameters":[2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[2,0]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":14,"parameters":[-2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[-2,0]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":14,"parameters":[2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[2,0]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 203
+          p:
+            values:
+            - 4
+            - 2
+            - 4
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 203
+          p:
+            values:
+            - 6
+            - 2
+            - 4
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBring it.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::LEADER_Diana,"Diana",_I("That was stunning
+              battling."),false,0)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIt seems as if I've been toppled...
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 2
           c: 203
+          p:
+            values:
+            - 6
+            - 2
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 203
+          p:
+            values:
+            - 4
+            - 2
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI guess it had to happen eventually!
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \rCongratulations. Here's your prize.
         - i: 1
           c: 355
+          p:
+            values:
+            - $Trainer.badges[5]=true
         - i: 1
           c: 101
+          p:
+            values:
+            - Obtained the Dreamland Badge!
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThis will let higher level Pokemon obey you.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIt can also attract rarer wild Pokemon in certain areas, such as
+              the Friend Safari.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rAnd take this, too, as a gift from me.
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::TM29)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThat TM contains the move Psychic.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rPsychic is perhaps the most well-known Psychic-type move.\nIt's very
+              strong, and very reliable.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThis TM is definitely an invaluable asset for any trainer.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rNext, I'll assume you'll want to go to Amphitrite City.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rMy boyfriend, Calreath, runs the Gym there.\nHis team specializes
+              around the Rain, so you might want to prepare for that.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rOh, and don't forget- you can exit the Gym just by going straight
+              down.
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(32,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(33,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(34,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(35,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(36,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(37,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(38,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(39,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(40,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(41,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(42,"A",true)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(43,"A",true)
         - i: 1
           c: 121
+          p:
+            values:
+            - 9
+            - 9
+            - 0
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 286
+            - 30
+            - 68
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":37,"parameters":[]},{"code":29,"parameters":[6]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":29,"parameters":[6]}'
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1473,10 +2027,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1513,20 +2071,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1558,10 +2139,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1598,18 +2183,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Welcome to the Gym of Dreams.
         - i: 0
           c: 101
+          p:
+            values:
+            - Where walls are sightless, and not is all as it seems.
         - i: 0
           c: 101
+          p:
+            values:
+            - Leave no stone unturned or unexplored.
         - i: 0
           c: 101
+          p:
+            values:
+            - So walk right on, hero, and find just reward.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1646,18 +2247,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A chance was taken, a chance was missed.
         - i: 0
           c: 101
+          p:
+            values:
+            - To not fight trainers and to persist.
         - i: 0
           c: 101
+          p:
+            values:
+            - But a chance you had and have again.
         - i: 0
           c: 101
+          p:
+            values:
+            - To walk straight into Her domain.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1694,20 +2311,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1739,10 +2379,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1779,10 +2423,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1814,20 +2462,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1864,10 +2535,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1899,20 +2574,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1949,10 +2647,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1984,20 +2686,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2034,10 +2759,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2069,20 +2798,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2119,10 +2871,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2154,20 +2910,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2204,10 +2983,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2239,20 +3022,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2289,20 +3095,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2334,10 +3163,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2374,20 +3207,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2419,10 +3275,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2459,20 +3319,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2504,10 +3387,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2544,10 +3431,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2579,20 +3470,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2629,10 +3543,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2664,20 +3582,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2714,10 +3655,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2749,20 +3694,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2799,10 +3767,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2834,20 +3806,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2884,10 +3879,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2919,20 +3918,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2969,10 +3991,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3004,20 +4030,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3054,20 +4103,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3099,10 +4171,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3139,20 +4215,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3184,10 +4283,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3224,20 +4327,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3269,10 +4395,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3309,20 +4439,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3354,10 +4507,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3394,20 +4551,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3439,10 +4619,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3479,20 +4663,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 207
+          p:
+            values:
+            - 0
+            - 77
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 0
           c: 121
+          p:
+            values:
+            - 151
+            - 151
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3524,10 +4731,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3564,26 +4775,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 286
+            - 30
+            - 76
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3620,26 +4867,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 286
+            - 30
+            - 6
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3676,26 +4959,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 247
+            - 36
+            - 21
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3732,12 +5051,26 @@ MonoBehaviour:
         list:
         - i: 0
           c: 204
+          p:
+            values:
+            - 1
+            - fog
+            - 0
+            - 140
+            - 0
+            - 200
+            - 20
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3774,41 +5107,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rBring it on, you don''t have a chance.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: PSYCHIC_F'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Harriet'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Hmph. Well done.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rHmph. Well done.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PSYCHIC_F)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBring it on, you don't have a chance.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PSYCHIC_F,"Harriet",_I("Hmph. Well done."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3840,13 +5224,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHmph. Well done.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3883,41 +5276,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bBring it on, you don''t have a chance.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: PSYCHIC_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Harry'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Hmph. Well done.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bHmph. Well done.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PSYCHIC_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBring it on, you don't have a chance.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PSYCHIC_M,"Harry",_I("Hmph. Well done."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3949,13 +5393,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHmph. Well done.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3992,41 +5445,93 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rIt''s pretty scary in here, isn''t it?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: MEDIUM'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Millie'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: If you can conquer your fears, nothing can stop you!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rIf you can conquer your fears, nothing can stop you!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:MEDIUM)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIt's pretty scary in here, isn't it?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::MEDIUM,"Millie",_I("If you can conquer
+              your fears, nothing can stop you!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 5
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 6
@@ -4058,13 +5563,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIf you can conquer your fears, nothing can stop you!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 5
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 6
@@ -4101,41 +5615,95 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bIf you''re here to challenge Diana, you should be able to
+              defeat me without breaking a sweat!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ELDER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Price'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Best of luck with the rest of the Gym!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bBest of luck with the rest of the Gym!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ELDER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you're here to challenge Diana, you should be able to defeat me
+              without breaking a sweat!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ELDER,"Price",_I("Best of luck with the
+              rest of the Gym!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 5
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 6
@@ -4167,13 +5735,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBest of luck with the rest of the Gym!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 5
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 6
@@ -4210,42 +5787,97 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rI''m going to beat you so badly, I almost feel bad about
+              it.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: PSYCHIC_F'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Cass'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: I... I can''t believe it!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rI... I can''t believe it!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PSYCHIC_F)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm going to beat you so badly, I almost feel bad about it.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PSYCHIC_F,"Cass",_I("I... I can't believe
+              it!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 18
+            parameters:
+              values: []
           - code: 17
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4277,14 +5909,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI... I can't believe it!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 18
+            parameters:
+              values: []
           - code: 17
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4321,42 +5964,97 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI kind of feel bad for you. That''s how bad you''re gonna
+              get beat.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: PSYCHIC_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Calvin'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: I... I can''t believe it!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI... I can''t believe it!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PSYCHIC_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI kind of feel bad for you. That's how bad you're gonna get beat.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PSYCHIC_M,"Calvin",_I("I... I can't believe
+              it!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 18
+            parameters:
+              values: []
           - code: 17
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4388,14 +6086,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI... I can't believe it!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 18
+            parameters:
+              values: []
           - code: 17
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4432,41 +6141,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rDiana''s just through this door. Do you think you can take
+              her on?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: MEDIUM'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Melissa'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: If you can beat me, I''m sure you''ll do fine!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rJust have fun!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:MEDIUM)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rDiana's just through this door. Do you think you can take her on?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::MEDIUM,"Melissa",_I("If you can beat me,
+              I'm sure you'll do fine!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4498,13 +6260,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rJust have fun!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4541,42 +6312,97 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''d say you''d win... but that''d just be a lie, now wouldn''t
+              it?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ELDER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Cunningham'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: You shouldn''t lie if you can help it!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bYou shouldn''t lie if you can help it!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ELDER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'd say you'd win... but that'd just be a lie, now wouldn't it?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ELDER,"Cunningham",_I("You shouldn't lie
+              if you can help it!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 17
+            parameters:
+              values: []
           - code: 16
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4608,14 +6434,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou shouldn't lie if you can help it!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 17
+            parameters:
+              values: []
           - code: 16
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4652,41 +6489,95 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bCan I tell you a secret? I can''t actually see the future...
+              I''m only a really big fan of Psychic-types.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: PSYCHIC_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Jaran'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: I have a feeling every Psychic is the same way, too...'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI have a feeling every Psychic is the same way, too...'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PSYCHIC_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bCan I tell you a secret? I can't actually see the future... I'm only
+              a really big fan of Psychic-types.
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PSYCHIC_M,"Jaran",_I("I have a feeling
+              every Psychic is the same way, too..."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4718,13 +6609,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI have a feeling every Psychic is the same way, too...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4761,41 +6661,95 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bHow does it feel to know that you could have skipped every
+              trainer in here?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: MEDIUM'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Cassia'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: But you failed to do so...'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rBut you failed to do so...'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:MEDIUM)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHow does it feel to know that you could have skipped every trainer
+              in here?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::MEDIUM,"Cassia",_I("But you failed to do
+              so..."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4827,13 +6781,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut you failed to do so...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4870,41 +6833,95 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bHow does it feel to know that you could have skipped every
+              trainer in here?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: ELDER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: McKinley'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: But you failed to do so...'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bBut you failed to do so...'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:ELDER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHow does it feel to know that you could have skipped every trainer
+              in here?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::ELDER,"McKinley",_I("But you failed to
+              do so..."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4936,13 +6953,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut you failed to do so...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4979,41 +7005,93 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rIt''s spooky in this Gym, isn''t it?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: MEDIUM'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Mary'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: East'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Ah, a wonderful battle, that was.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rJust have fun!'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:MEDIUM)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIt's spooky in this Gym, isn't it?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::MEDIUM,"Mary",_I("Ah, a wonderful battle,
+              that was."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5045,13 +7123,22 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rJust have fun!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 24
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5088,38 +7175,86 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWell hey-o there, champ!
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bDiana here has themed her Gym around dreams. That way, she can use
+              her two favourite types: Psychic and Ghost!'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDark-types are your friend here, for sure.\nGhost-types too!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOh, and another thing. There's a lot of trainers here, but they don't
+              give as much experience as you might want... that's because you're
+              supposed to avoid them!
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - A
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell, best of luck there, champ!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bTake this, for luck!
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::FRESHWATER)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell, best of luck there, champ!
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5151,12 +7286,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNicely done, champ, I can't believe you beat Diana. Great work!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5193,12 +7335,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 398
+            - 398
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5235,10 +7386,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5275,32 +7430,72 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - tesseract_back
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - D
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - An item appeared from the past!
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":255.0,"r":255.0}'
+            - 30
         - i: 1
           c: 106
+          p:
+            values:
+            - 32
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -5332,14 +7527,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::GOTHITITE)
         - i: 0
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5371,10 +7577,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5411,10 +7621,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5451,10 +7665,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5491,10 +7709,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5531,10 +7753,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5571,10 +7797,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5611,10 +7841,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5626,9 +7860,9 @@ MonoBehaviour:
       x: 37
       y: 69
   Info:
-    expanded: 1
-    name: Selene Gym
-    order: 479
-    parent_id: 247
-    scroll_x: 960
-    scroll_y: 2191
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

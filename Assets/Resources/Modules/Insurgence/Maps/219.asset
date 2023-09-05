@@ -169,36 +169,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":7,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":7,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 218
+            - 4
+            - 12
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -235,36 +287,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 220
+            - 14
+            - 8
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -301,12 +405,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbRandomPokemonMart(1)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -343,12 +454,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbRandomPokemonMart(2)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -385,18 +503,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere be a lot of different kinds of Pokemon Balls on this floor.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDoes me saying Pokemon Balls make you uncomfortable?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPokemon Mart? Pokemon Index?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bPocket Monster Balls! Pocket Monster Index!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -433,12 +567,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIf you're looking to breed certain Pokemon, this floor is your friend.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -475,312 +616,788 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bHello there! I''m a hairstylist, but I specialize mainly in '
         - i: 0
           c: 401
+          p:
+            values:
+            - 'c3R5bGluZyB0aGUgaGFpciBvZiBQb2vDqW1vbiBsaWtlIEZ1cmZyb3UhIElm
+
+              IHlvdSBoYXZlIGE='
         - i: 0
           c: 401
+          p:
+            values:
+            - Furfrou, I can give it a fresh new look!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.pokemonParty[0].species==PBSpecies::FURFROU
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bOh, I see you have a Furfrou with you! If you want, '
         - i: 1
           c: 401
+          p:
+            values:
+            - I can give them a fresh new haircut, free of charge!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bNow, what style should I create?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Normal Trim","Star Trim","More...","Cancel"]'
+            - 4
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Normal Trim
         - i: 2
           c: 101
+          p:
+            values:
+            - \bVery well, one moment while I grab my scissors.
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 2
           c: 355
+          p:
+            values:
+            - poke.form=0
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Star Trim
         - i: 2
           c: 101
+          p:
+            values:
+            - \bVery well, one moment while I grab my scissors.
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 2
           c: 355
+          p:
+            values:
+            - poke.form=1
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - More...
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Heart Trim","Pharaoh Trim","More...","Cancel"]'
+            - 4
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Heart Trim
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 3
           c: 355
+          p:
+            values:
+            - poke.form=2
         - i: 3
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - Pharaoh Trim
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 3
           c: 355
+          p:
+            values:
+            - poke.form=3
         - i: 3
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 2
+            - More...
         - i: 3
           c: 102
+          p:
+            values:
+            - '["Matron Trim","Dandy Trim","More...","Cancel"]'
+            - 4
         - i: 3
           c: 402
+          p:
+            values:
+            - 0
+            - Matron Trim
         - i: 4
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 4
           c: 106
+          p:
+            values:
+            - 8
         - i: 4
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 4
           c: 355
+          p:
+            values:
+            - poke.form=4
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 4
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 4
           c: 106
+          p:
+            values:
+            - 8
         - i: 4
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 402
+          p:
+            values:
+            - 1
+            - Dandy Trim
         - i: 4
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 4
           c: 106
+          p:
+            values:
+            - 8
         - i: 4
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 4
           c: 355
+          p:
+            values:
+            - poke.form=5
         - i: 4
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 4
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 4
           c: 106
+          p:
+            values:
+            - 8
         - i: 4
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 402
+          p:
+            values:
+            - 2
+            - More...
         - i: 4
           c: 102
+          p:
+            values:
+            - '["Kabuki Trim","La Reine Trim","More...","Cancel"]'
+            - 4
         - i: 4
           c: 402
+          p:
+            values:
+            - 0
+            - Kabuki Trim
         - i: 5
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 5
           c: 106
+          p:
+            values:
+            - 8
         - i: 5
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 5
           c: 355
+          p:
+            values:
+            - poke.form=6
         - i: 5
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 5
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 5
           c: 106
+          p:
+            values:
+            - 8
         - i: 5
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 402
+          p:
+            values:
+            - 1
+            - La Reine Trim
         - i: 5
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 5
           c: 106
+          p:
+            values:
+            - 8
         - i: 5
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 5
           c: 355
+          p:
+            values:
+            - poke.form=7
         - i: 5
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 5
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 5
           c: 106
+          p:
+            values:
+            - 8
         - i: 5
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 402
+          p:
+            values:
+            - 2
+            - More...
         - i: 5
           c: 102
+          p:
+            values:
+            - '["Deputantei Trim","Diamond Trim","Cancel"]'
+            - 3
         - i: 5
           c: 402
+          p:
+            values:
+            - 0
+            - Deputantei Trim
         - i: 6
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 6
           c: 106
+          p:
+            values:
+            - 8
         - i: 6
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 6
           c: 355
+          p:
+            values:
+            - poke.form=8
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 6
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 6
           c: 106
+          p:
+            values:
+            - 8
         - i: 6
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 402
+          p:
+            values:
+            - 1
+            - Diamond Trim
         - i: 6
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 6
           c: 106
+          p:
+            values:
+            - 8
         - i: 6
           c: 355
+          p:
+            values:
+            - poke=$Trainer.party[0]
         - i: 6
           c: 355
+          p:
+            values:
+            - poke.form=9
         - i: 6
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 6
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 6
           c: 106
+          p:
+            values:
+            - 8
         - i: 6
           c: 101
+          p:
+            values:
+            - \bAlright, you're all set, have a good day!
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 402
+          p:
+            values:
+            - 2
+            - Cancel
         - i: 6
           c: 101
+          p:
+            values:
+            - '\bNo problem, come back if you want a new style for '
         - i: 6
           c: 401
+          p:
+            values:
+            - your Furfrou!
         - i: 6
           c: 0
+          p:
+            values: []
         - i: 5
           c: 404
+          p:
+            values: []
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 5
           c: 101
+          p:
+            values:
+            - '\bNo problem, come back if you want a new style for '
         - i: 5
           c: 401
+          p:
+            values:
+            - your Furfrou!
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 404
+          p:
+            values: []
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 4
           c: 101
+          p:
+            values:
+            - '\bNo problem, come back if you want a new style for '
         - i: 4
           c: 401
+          p:
+            values:
+            - your Furfrou!
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 404
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 3
           c: 101
+          p:
+            values:
+            - '\bNo problem, come back if you want a new style for '
         - i: 3
           c: 401
+          p:
+            values:
+            - your Furfrou!
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 3
+            - Cancel
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bNo problem, come back if you want a new style for '
         - i: 2
           c: 401
+          p:
+            values:
+            - your Furfrou!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -817,12 +1434,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbRandomPokemonMart(0)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -835,8 +1459,8 @@ MonoBehaviour:
       y: 8
   Info:
     expanded: 0
-    name: Department Store
-    order: 325
-    parent_id: 217
-    scroll_x: 480
-    scroll_y: 288
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

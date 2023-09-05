@@ -223,14 +223,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"577Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Solosis: \bSolololo!'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -267,28 +277,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 408
+            - 11
+            - 25
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -325,16 +374,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou're going to take on the Elite Four? What a joke.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou're a kid! There's no way you'll even stand a <i>chance </i> against
+              my brother, London.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHis team is incredible! AND he has a never-before-seen Mega Evolution!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -366,16 +429,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWait, what?\nYOU'RE the kid that beat my brother!?
         - i: 0
           c: 101
+          p:
+            values:
+            - \b...
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOkay maybe you're better than I thought. But don't let it go to your
+              head!\nLondon will end up beating you one day, mark my words!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -412,12 +489,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -454,12 +538,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -496,41 +587,110 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAh, \pn. Welcome to my humble abode.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll spare you the pretentious introductions just this once and formally
+              congratulate you for defeating not only myself, but also the rest of
+              the League, once again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut listen, \pn.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bI have no doubt that the journey you have experienced thus far has
+              been long and arduous. But you must remember that your adventure does
+              not end here.\nSo '
         - i: 0
           c: 401
+          p:
+            values:
+            - long as you continue to possess a burning passion for discovering everything
+              that this world has to offer, you will continue to fill the pages of
+              your own story.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd to that end, I would like to bestow upon you a gift.
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::REUNICLITE)
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bHmm... you seem a bit concerned. Are you perhaps worried about what
+              will become of my team if I part ways with such a precious item?\nI
+              do appreciate the '
         - i: 0
           c: 401
+          p:
+            values:
+            - concern, but the Reuniclite that you now possess was one of two given
+              to me by my father before his passing.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bYou may think it a bit strange, perhaps even cold of me to give
+              an invaluable item like a Mega Stone to an acquaintance rather than
+              my own brother, but in truth I... '
         - i: 0
           c: 401
+          p:
+            values:
+            - well, let's just say that I think it's best for him to take his own
+              path in life rather than blindly dawdling behind me.\nThere are far
+              too many possibilities that he needs
         - i: 0
           c: 401
+          p:
+            values:
+            - to experience for him to remain within my shadow, oblivious to the
+              colors of the world around him.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bAh, but I''m sure that you didn''t come to hear me talk about this
+              and I''m sure that you, being the third Augur, have your own duties
+              to attend to.\nI do appreciate you '
         - i: 0
           c: 401
+          p:
+            values:
+            - taking time out of your day to pay me a visit and I do hope to see
+              you again for a rematch at the League in the future!
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 4
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -562,19 +722,41 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bWelcome back, \pn. I sincerely hope that you are continuing to enjoy
+              yourself on your travels.\nEvery new encounter, every new adventure
+              that you experience '
         - i: 0
           c: 401
+          p:
+            values:
+            - will help to develop you and your character.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bRegardless of the character that you find yourself becoming in the
+              future, your story is one that I greatly desire to hear with my own
+              ears one day far off into the '
         - i: 0
           c: 401
+          p:
+            values:
+            - future.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 4
+            parameters:
+              values: []
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -587,8 +769,8 @@ MonoBehaviour:
       y: 10
   Info:
     expanded: 0
-    name: Nexa Town
-    order: 634
-    parent_id: 600
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

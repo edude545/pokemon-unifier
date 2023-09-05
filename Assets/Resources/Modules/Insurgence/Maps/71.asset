@@ -1021,42 +1021,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 70
+            - 13
+            - 42
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":3,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":40,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":40,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1093,14 +1154,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'It''s a large statue of Darkrai.\nIt''s cold to the touch, '
         - i: 0
           c: 401
+          p:
+            values:
+            - and you feel tired just standing around it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1137,14 +1208,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'It''s a large statue of Darkrai.\nIt''s cold to the touch, '
         - i: 0
           c: 401
+          p:
+            values:
+            - and you feel tired just standing around it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1181,24 +1262,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1230,10 +1342,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1270,24 +1386,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1319,10 +1466,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1359,24 +1510,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1408,10 +1590,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1448,24 +1634,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1497,10 +1714,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1537,24 +1758,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1586,10 +1838,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1626,24 +1882,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1675,10 +1962,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1715,24 +2006,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1764,10 +2086,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1804,24 +2130,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1853,10 +2210,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1893,12 +2254,23 @@ MonoBehaviour:
         list:
         - i: 0
           c: 122
+          p:
+            values:
+            - 39
+            - 39
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1910,9 +2282,9 @@ MonoBehaviour:
       x: 16
       y: 18
   Info:
-    expanded: 1
-    name: Cult of Darkrai
-    order: 134
-    parent_id: 42
-    scroll_x: 960
-    scroll_y: 1028
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

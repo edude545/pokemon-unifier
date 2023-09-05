@@ -8,6 +8,7 @@ using Unity.Plastic.Newtonsoft.Json;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.Rendering;
 
 namespace Assets.Unifier.Game.Editor {
 
@@ -133,6 +134,41 @@ namespace Assets.Unifier.Game.Editor {
             }
         }
 
+        private class ParametersConverter : JsonConverter<Parameters> {
+            public override Parameters ReadJson(JsonReader reader, Type objectType, Parameters existingValue, bool hasExistingValue, JsonSerializer serializer) {
+                Parameters parameters = new Parameters();
+                List<string> values = new();
+
+                reader.Read(); // get rid of StartArray
+
+                while (reader.TokenType != JsonToken.EndArray) {
+                    if (reader.TokenType == JsonToken.Integer || reader.TokenType == JsonToken.String) {
+                        values.Add(reader.Value.ToString());
+                    } else if (reader.TokenType == JsonToken.StartObject) {
+                        values.Add(JsonConvert.SerializeObject(JObject.Load(reader))); // :|
+                    } else if (reader.TokenType == JsonToken.StartArray) {
+                        List<object> list = new();
+                        reader.Read();
+                        while (reader.TokenType != JsonToken.EndArray) {
+                            list.Add(reader.Value);
+                            reader.Read();
+                        }
+                        values.Add(JsonConvert.SerializeObject(list));
+                    } else {
+                        throw new NotImplementedException("Unhandled token type: " + reader.TokenType);
+                    }
+                    reader.Read();
+                }
+
+                parameters.values = values.ToArray();
+                return parameters;
+            }
+
+            public override void WriteJson(JsonWriter writer, Parameters value, JsonSerializer serializer) {
+                throw new NotImplementedException();
+            }
+        }
+
         // =============================================
 
         public void DeserializeMaps() {
@@ -140,17 +176,20 @@ namespace Assets.Unifier.Game.Editor {
             string[] jsonPaths = Directory.GetFiles("Assets/Resources/" + essentialsModule.ModulePath + "/JSON/Maps", "*.json");
             makeFolder("Maps");
             foreach (string jsonPath in jsonPaths) {
+                Debug.Log(jsonPath);
                 TextAsset json = AssetDatabase.LoadAssetAtPath<TextAsset>(jsonPath);
                 MapData map = JsonConvert.DeserializeObject<MapData>(json.text);
                 map.event_list =
                     JsonConvert.DeserializeObject<Dictionary<string, Essentials.Event>>(
-                        JObject.Parse(json.text)["events"].ToString()
+                        JObject.Parse(json.text)["events"].ToString(),
+                        new ParametersConverter()
                     ).Values.ToArray();
                 EssentialsMapAsset asset = CreateInstance<EssentialsMapAsset>();
                 asset.Data = map;
                 asset.name = json.name.Replace("Map00", "").Replace("Map0","").Replace("Map",""); // :/
                 asset.Module = essentialsModule;
                 saveAsset(asset, "Maps");
+                //break;
             }
             AssetDatabase.StopAssetEditing();
         }

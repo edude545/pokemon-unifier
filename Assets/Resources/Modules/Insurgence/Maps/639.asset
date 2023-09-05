@@ -223,16 +223,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBack when Adam lived around these parts, he spent most of his time
+              in his little mancave below the Gym.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThe Gym's mostly been closed off, but his little base has been left
+              untouched out of respect.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI guess we're all still hoping he'll come back.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -269,28 +284,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 527
+            - 30
+            - 66
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -327,14 +381,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"454Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Toxicroak: \bCroaaaa! Croaaa!'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -371,12 +435,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -413,12 +484,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -455,66 +533,155 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rSay, you don't happen to have a Shellos or Gastrodon, do you?\nI'd
+              be able to switch its form if you did!\nIt's a mystical talent of mine-
+              don't tell anyone about it!
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - (poke.species==PBSpecies::SHELLOS || poke.species==PBSpecies::GASTRODON)
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - 'if pbGetPokemon(1).form==0 '
         - i: 2
           c: 655
+          p:
+            values:
+            - pbGetPokemon(1).form = 1
         - i: 2
           c: 655
+          p:
+            values:
+            - else
         - i: 2
           c: 655
+          p:
+            values:
+            - pbGetPokemon(1).form = 0
         - i: 2
           c: 655
+          p:
+            values:
+            - end
         - i: 2
           c: 101
+          p:
+            values:
+            - \rWonderful! Check it out now- look how different it is!
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWell, come back if you change your mind!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -551,12 +718,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYuki of the Elite Four only came out and began her transitioning
+              last year, but people are already totally adjusted to it. I love living
+              in Torren sometimes.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -569,8 +745,8 @@ MonoBehaviour:
       y: 10
   Info:
     expanded: 0
-    name: Gaea Town
-    order: 667
-    parent_id: 527
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

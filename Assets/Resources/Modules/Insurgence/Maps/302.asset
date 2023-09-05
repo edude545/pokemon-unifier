@@ -223,28 +223,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 228
+            - 51
+            - 65
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -281,12 +320,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -323,12 +369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -365,14 +418,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBack when I was in college, I was in the graduating class with Reukra
+              and Professor Sylvan.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThose two were super smart. It's no wonder they became so close!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -409,16 +473,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou know that prophecy about the Torren Region everyone talks about?\nI
+              heard a rumor that it was written in the Utira Library.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere's an orb in the Abandoned Wing that some people think have
+              to do with it, but I don't believe them.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bRumors are just rumors, after all!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -450,16 +529,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou know that prophecy about the cults everyone talks about?\nI heard
+              a rumor that it was written in the Utira Library.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere's an orb in the Abandoned Wing that some people think have
+              to do with it, but I don't believe them.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bRumors are just rumors, after all!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -496,26 +590,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"300Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Skitty: \rTeeeee!'
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - A
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - Oh! The Skitty was holding an item!
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::NORMALGEM)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -552,34 +675,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rCould you do me a favor?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI've been searching through the library for ages, but I couldn't
+              find the book I was looking for <i>anywhere </i>.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIt was about Moonlight and healing moves...
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIf you could find it for me, I could give you something in return!
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 375
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \rOh, wonderful! Central Wing, middle column, far right?
         - i: 1
           c: 101
+          p:
+            values:
+            - \g\rHere's your reward. Thank you very much!
         - i: 1
           c: 125
+          p:
+            values:
+            - 0
+            - 0
+            - 5000
         - i: 1
           c: 101
+          p:
+            values:
+            - \gObtained $5000.
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -611,12 +778,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThank you for your help.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -653,10 +827,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -669,8 +847,8 @@ MonoBehaviour:
       y: 12
   Info:
     expanded: 0
-    name: Utira Town
-    order: 349
-    parent_id: 228
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

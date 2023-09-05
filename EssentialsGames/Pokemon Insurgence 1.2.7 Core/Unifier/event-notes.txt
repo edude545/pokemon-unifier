@@ -108,6 +108,8 @@ c: 111 - "???"
   else:
     skip command
 
+c: 122 - "Control Variables"
+
 c: 121 - "???"
   Interpreter.rb - "Control Switches"
   Many integers.
@@ -129,8 +131,9 @@ c: 201 - "???"
   appointment_method is 0 or 1. 0 tells the interpreter to use new_map_number, new_x and new_y as literal variables, e.g. send the player to map 530 at coordinates 44,44. If 1, the interpreter queries $game_variables and uses the values stored at keys 530, 44, and 44.
   fade can be 0 or 1 and causes a screen transition if 0.
 
-c: 223 - "???"
-  Interpreter.rb - "Change Screen Color Tone"
+c: 209 - "Set Move Route"
+
+c: 223 - "Change Screen Color Tone"
   JSON "Tone" object & integer. A Tone is just an RGBA color. Maybe sets screen overlay color, because this is used in the cave exit trannsition. If this is the case, that EventCommand chain looks like it makes the screen white, then transitions to black?
   e.g. [{a: 255.0, b: -255.0, g: -255.0, r: -255.0}, 8], [{a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 8]
 

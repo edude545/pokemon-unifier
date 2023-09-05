@@ -223,86 +223,206 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAre you interested in trading Pokemon?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rFor... you see... I am the owner of a rare Delta Species.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'll trade it to you, if you want... but I need something suitable
+              in return.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rMy Delta Girafarig for any fully evolved Pokemon with the strongest
+              Fire, Water, or Grass type techniques.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThat's Frenzy Plant, Blast Burn, or Hydro Cannon!
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - ary=[PBMoves::BLASTBURN,PBMoves::HYDROCANNON,PBMoves::FRENZYPLANT]
         - i: 1
           c: 655
+          p:
+            values:
+            - ary2=[PBSpecies::BLASTOISE,PBSpecies::CHARIZARD,PBSpecies::VENUSAUR,PBSpecies::SWAMPERT,PBSpecies::FERALIGATR,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::TYPHLOSION,PBSpecies::MEGANIUM,PBSpecies::SCEPTILE,PBSpecies::BLAZIKEN,PBSpecies::TORTERRA,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::INFERNAPE,PBSpecies::EMPOLEON,PBSpecies::EMBOAR,PBSpecies::SERPERIOR,PBSpecies::SAMUROTT,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::GRENINJA,PBSpecies::DELPHOX,PBSpecies::CHESNAUGHT,PBSpecies::DELTATORTERRA,PBSpecies::DELTASERPERIOR,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::DELTAGRENINJA,PBSpecies::SMEARGLE]
         - i: 1
           c: 655
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - ary2.include?(poke.species)&&(ary.include?(poke.moves[0].id)||ary.include?(poke.moves[1].id)||
         - i: 1
           c: 655
+          p:
+            values:
+            - ary.include?(poke.moves[2].id)||ary.include?(poke.moves[3].id))
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThis Pokemon was discovered by the brilliant Professor Nico!
         - i: 2
           c: 101
+          p:
+            values:
+            - \rHopefully you find it useful.
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Lady Bottril"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - PBSpecies::DELTAGIRAFARIG,"Palindrome",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI promise it'll be worth it!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -334,122 +454,287 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAre you interested in trading Pokemon?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rFor... you see... I am the owner of a rare Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'll trade it to you, if you want... but I need something suitable
+              in return.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbGet(195).is_a?(Array)'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[25]>0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(25,2)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbGet(195)[25]!=nil
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetRandomTrade(25,2)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(_INTL(
         - i: 0
           c: 655
+          p:
+            values:
+            - '"\\rMy {1} for any fully evolved Pokemon with the strongest Fire,
+              Water, or Grass type techniques.", '
         - i: 0
           c: 655
+          p:
+            values:
+            - PBSpecies.getName(pbGet(195)[25])))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThat's Frenzy Plant, Blast Burn, or Hydro Cannon!
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - ary=[PBMoves::BLASTBURN,PBMoves::HYDROCANNON,PBMoves::FRENZYPLANT]
         - i: 1
           c: 655
+          p:
+            values:
+            - ary2=[PBSpecies::BLASTOISE,PBSpecies::CHARIZARD,PBSpecies::VENUSAUR,PBSpecies::SWAMPERT,PBSpecies::FERALIGATR,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::TYPHLOSION,PBSpecies::MEGANIUM,PBSpecies::SCEPTILE,PBSpecies::BLAZIKEN,PBSpecies::TORTERRA,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::INFERNAPE,PBSpecies::EMPOLEON,PBSpecies::EMBOAR,PBSpecies::SERPERIOR,PBSpecies::SAMUROTT,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::GRENINJA,PBSpecies::DELPHOX,PBSpecies::CHESNAUGHT,PBSpecies::DELTATORTERRA,PBSpecies::DELTASERPERIOR,
         - i: 1
           c: 655
+          p:
+            values:
+            - PBSpecies::DELTAGRENINJA,PBSpecies::SMEARGLE]
         - i: 1
           c: 655
+          p:
+            values:
+            - pbChoosePokemon(1,2,
         - i: 1
           c: 655
+          p:
+            values:
+            - proc {|poke|
         - i: 1
           c: 655
+          p:
+            values:
+            - ary2.include?(poke.species)&&(ary.include?(poke.moves[0].id)||ary.include?(poke.moves[1].id)||
         - i: 1
           c: 655
+          p:
+            values:
+            - ary.include?(poke.moves[2].id)||ary.include?(poke.moves[3].id))
         - i: 1
           c: 655
+          p:
+            values:
+            - '})'
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 119
+          p:
+            values:
+            - cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \rHopefully you find it useful.
         - i: 2
           c: 355
+          p:
+            values:
+            - name = "Lady Bottril"
         - i: 2
           c: 655
+          p:
+            values:
+            - pbStartTrade(pbGet(1),
         - i: 2
           c: 655
+          p:
+            values:
+            - pbGet(195)[25],"Palindrome",name)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 119
+          p:
+            values:
+            - cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - cancel
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI promise it'll be worth it!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -481,12 +766,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHopefully you find that worthwhile!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -523,28 +815,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 409
+            - 48
+            - 27
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -581,12 +912,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -623,12 +961,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -641,8 +986,8 @@ MonoBehaviour:
       y: 9
   Info:
     expanded: 0
-    name: Route 16
-    order: 620
-    parent_id: 409
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

@@ -1861,14 +1861,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBridgeOn
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1900,10 +1910,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1940,10 +1954,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1975,10 +1993,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2015,10 +2037,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2050,10 +2076,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2090,454 +2120,1198 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 63
+            - 63
+            - 0
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Nora: 6'
         - i: 0
           c: 408
+          p:
+            values:
+            - 'Zenith: 5'
         - i: 0
           c: 408
+          p:
+            values:
+            - 'Other Guy: 3 '
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":41,"parameters":["trchar153",0,4,0]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["trchar153",0,4,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":17,"parameters":[]},{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \r\pn, am I ever glad to see you.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI heard about what happened with Damian down in Audrey's base.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rListen... I don't know what's going on with him.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut we're going to find a way to help him, okay? I promise.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm happy you're here. I was worried I'd have to fight the Infernal
+              Cult by myself.
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rLet's... let's do it together.
         - i: 0
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b-and as it turns out, everyone was interpreting the prophecy wrong!
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat do you mean? Did you find out what it was really trying to say?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYes! And it had fantastic news!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat hero? They'll defeat all the other cults, save the region, yadda
+              yadda yadda.\nThen, not only will they <i>not </i> defeat us, they'll
+              end up <i>joining </i> us.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat's... wonderful.\nAnd since the only candidates for the hero
+              are that Rain-team Leader or one of those kids, I don't think they're
+              going to be joining us willingly.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bExactly. Which means our gift is more powerful than we first thought.
         - i: 0
           c: 203
+          p:
+            values:
+            - 2
+            - 1
+            - 4
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWhat on earth is wrong with you?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 207
+          p:
+            values:
+            - 5
+            - 3
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou were with us at the library when we heard that prophecy!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou were supposed to be on our side!\nYou told us how important that
+              prophecy was- special information that nobody else knows!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAnd now... you're just sharing it to Zenith and Infernal!
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":14,"parameters":[0,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,0]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou betrayed us! We don't have our advantage anymore!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYour advantage was gone long before that.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bZenith knew about the prophecy the moment you did, you foolish girl.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThen you... you...
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou never did ask my name.\nYou really should have. Names are important.
+              They have power.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":3,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe chance of hearing that prophecy is the only reason I ever worked
+              at that library at all.\nHaving to wear hair dye was annoying enough...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhen the three of you showed up and that oracle finally appeared...
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEvery tiresome moment there became worthwile when I finally heard
+              him predict our victory.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd now...
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe don't fear children, or any kind of prophecy.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOne of you will join us. It is foretold.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWe'll never help you. You're crazy.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou act like you have a choice.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut so be it. If you want a fight, then that's what you'll get.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSo, \pn, Nora. Come at us. Show us what you can do!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:INFERNALLEADER)
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Volcano2"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::INFERNALLEADER,"Zenith",_I("Hmph, not bad."),false,0)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHmph. Not bad.\nI'm kind of hoping it'll be you who ends up joining
+              us.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe've spent enough time stalling.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm going to show you exactly what we're capable of.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bGroudon... duke of the earth...
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 4
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bRise! Show yourself to your loyal servants!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \b<i>I vocare immortali terra!</i>
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 10
         - i: 1
           c: 224
+          p:
+            values:
+            - '{"a":255.0,"b":0.0,"g":0.0,"r":255.0}'
+            - 10
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 40
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.doLegendEntrance("Groudon")
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":41,"parameters":["383_0",0,2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["383_0",0,2,0]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe connection has been established.
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 2
+            - 4
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bExcellent. Time to go.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWhat? How... how did Groudon join you so easily?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rYou didn't even catch it! What's going on?!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, the innocence of youth.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou didn't come down here expecting us to <i>catch </i> Groudon,
+              did you?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou clearly haven't done your research on us before you came.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe were the first. It's only natural that we caught the legendary
+              we worshipped long ago.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe're merely waking Groudon from its rest.\nAfter all, it's nearly
+              time to begin.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe're in the mountains if you're still aching for a fight.\nI'll
+              be waiting.
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 22
         - i: 1
           c: 121
+          p:
+            values:
+            - 145
+            - 145
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \r... ... ...
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 3
+            - 4
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI... I didn't know they've already caught Groudon...
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThat's bad, \pn. Really bad.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rYou saw how quickly the Abyssal Cult moved into action after they
+              caught Lugia.\nI don't know what Infernal is planning, but I don't
+              like it.
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI'm going to head back to the library.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rSomething Zenith said made me think about Perfection.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIt's a long shot, but I have an idea.\nI need to research this more.
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \r\pn, you should probably head to Selene City, there's a Gym there,
+              after all.\nI'll see you around.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 121
+          p:
+            values:
+            - 146
+            - 146
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 121
+          p:
+            values:
+            - 63
+            - 63
+            - 1
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2569,446 +3343,1177 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 63
+            - 63
+            - 0
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Nora: 6'
         - i: 0
           c: 408
+          p:
+            values:
+            - 'Zenith: 5'
         - i: 0
           c: 408
+          p:
+            values:
+            - 'Other Guy: 3 '
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":41,"parameters":["trchar153",0,4,0]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["trchar153",0,4,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":17,"parameters":[]},{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \r\pn, am I ever glad to see you.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI heard about what happened with Damian down in Audrey's base.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rListen... I don't know what's going on with him, and I don't know
+              how to cure him.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut we're going to find a way to help him, okay? I promise.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm happy you're here. I was worried I'd have to fight the Infernal
+              Cult by myself.
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rLet's... let's do it together.
         - i: 0
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 3
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \b-and as it turns out, everyone was interpreting the prophecy wrong!
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat do you mean? Did you find out what it was really trying to say?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYes! And it had fantastic news!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat hero? They'll defeat all the other cults just fine.\nThen, not
+              only will they not defeat us, they'll end up <i>joining </i> us.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat's... wonderful.\nAnd since the only candidates for the hero
+              are that Rain-team Leader or one of those kids, I don't think they're
+              going to be joining us willingly.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bExactly. Which means our gift is more powerful than we ever believed.
         - i: 0
           c: 203
+          p:
+            values:
+            - 2
+            - 1
+            - 4
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWhat on earth is wrong with you?
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 207
+          p:
+            values:
+            - 5
+            - 3
         - i: 0
           c: 207
+          p:
+            values:
+            - 3
+            - 3
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou were with us at the library when we heard that prophecy!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou were supposed to be on our side!\nYou told us how important that
+              prophecy was- special information that the cults don't know!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAnd now... you're just sharing it to Zenith and Infernal!
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":14,"parameters":[0,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,0]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou betrayed us! We don't have our advantage anymore!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYour advantage was gone long before that.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bZenith knew about the prophecy the moment you did, you foolish girl.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThen you... you...
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou never did ask my name.\nYou really should have. Names are important.
+              They have power.
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":3,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe chance of hearing that prophecy is the only reason I ever worked
+              at that stupid library at all.\nHaving to wear hair dye was awful in
+              itself.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhen the three of you showed up and that oracle finally appeared...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEvery tiresome moment there became worthwile when I finally heard
+              him predict our victory.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAnd now...
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe don't fear children, or any kind of prophecy.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOne of you will join us. It is foretold.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWe'll never help you. You're crazy.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou act like you have a choice.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut so be it. If you want a fight, then that's what you'll get.
         - i: 0
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSo, \pn, Nora. Come at us. Show us what you can do!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:INFERNALLEADER)
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Volcano"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::INFERNALLEADER,"Zenith",_I("Hmph, not bad."),false,0)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHmph. Not bad.\nI'm kind of hoping it'll be you who ends up joining
+              us.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe've spent enough time stalling.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm going to show you exactly what we're capable of.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bGroudon... duke of the earth...
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 4
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bRise! Show yourself to your loyal servants!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \b<i>I vocare immortali terra!</i>
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 10
         - i: 1
           c: 224
+          p:
+            values:
+            - '{"a":255.0,"b":0.0,"g":0.0,"r":255.0}'
+            - 10
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 40
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.doLegendEntrance("Groudon")
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":41,"parameters":["383_0",0,2,0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["383_0",0,2,0]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 209
+          p:
+            values:
+            - 3
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,3)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe connection has been established.
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 2
+            - 4
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bExcellent. Time to go.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWhat? How... how did Groudon join you so easily?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWhere was the ritual? Where was the sacrifice?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, the innocence of youth.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou didn't come down here expecting us to <i>catch </i> Groudon,
+              did you?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou clearly haven't done your research on the Infernal Cult.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe were the first. It's only natural that we caught the legendary
+              we worshipped long ago.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe're merely waking Groudon from its rest.\nAfter all, it's nearly
+              time to begin.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe're in the mountains if you're still aching for a fight.\nI'll
+              be waiting.
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":255.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 22
         - i: 1
           c: 121
+          p:
+            values:
+            - 145
+            - 145
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \r... ... ...
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 3
+            - 4
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI... I didn't know they've already caught Groudon...
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThat's bad, \pn. Really bad.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rYou saw how quickly the Abyssal Cult moved into action after they
+              caught Lugia.\nI don't know what Infernal is planning, but I don't
+              like it.
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI'm going to head back to the library.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rSomething Zenith said made me think about Perfection.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIt's a long shot, but I have an idea.\nI need to research this more.
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \r\pn, you should probably head to Selene City, there's a Gym there,
+              after all.\nI'll see you around.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 121
+          p:
+            values:
+            - 146
+            - 146
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 121
+          p:
+            values:
+            - 63
+            - 63
+            - 1
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3040,10 +4545,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3080,10 +4589,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3115,10 +4628,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3155,10 +4672,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3190,10 +4711,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3230,14 +4755,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3269,10 +4805,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3309,14 +4849,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3348,10 +4899,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3388,14 +4943,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3427,10 +4993,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3467,14 +5037,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3506,10 +5087,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3546,14 +5131,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3585,10 +5181,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3625,14 +5225,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3664,10 +5275,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3704,14 +5319,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3743,10 +5369,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3783,14 +5413,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3822,10 +5463,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3862,154 +5507,372 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 21
+            - 1
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":14,"parameters":[0,1]},{"code":14,"parameters":[0,1]},{"code":14,"parameters":[0,1]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 3
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).y <= 42
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x <= 42
         - i: 4
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":14,"parameters":[-2,0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[-2,0]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 4
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 30
         - i: 4
           c: 106
+          p:
+            values:
+            - 32
         - i: 4
           c: 101
+          p:
+            values:
+            - The boulder raised the level of the lava!
         - i: 4
           c: 121
+          p:
+            values:
+            - 150
+            - 150
+            - 0
         - i: 4
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 4
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 4
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 5
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 5
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 5
           c: 0
+          p:
+            values: []
         - i: 4
           c: 412
+          p:
+            values: []
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 4
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 3
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 3
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4041,126 +5904,304 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).y <= 42
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x <= 42
         - i: 3
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":14,"parameters":[-2,0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[-2,0]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 30
         - i: 3
           c: 106
+          p:
+            values:
+            - 32
         - i: 3
           c: 101
+          p:
+            values:
+            - The boulder raised the level of the lava!
         - i: 3
           c: 121
+          p:
+            values:
+            - 150
+            - 150
+            - 0
         - i: 3
           c: 123
+          p:
+            values:
+            - D
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 4
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 3
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4192,10 +6233,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4232,10 +6277,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4267,10 +6316,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4307,10 +6360,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4342,10 +6399,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4382,10 +6443,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4417,10 +6482,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4457,10 +6526,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4492,10 +6565,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4532,10 +6609,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4567,10 +6648,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4607,10 +6692,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4642,10 +6731,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4682,10 +6775,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4717,10 +6814,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4757,10 +6858,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4792,10 +6897,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4832,10 +6941,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4867,10 +6980,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4907,10 +7024,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4942,10 +7063,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4982,10 +7107,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5017,10 +7146,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5057,10 +7190,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5092,10 +7229,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5132,10 +7273,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5167,10 +7312,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5207,10 +7356,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5242,10 +7395,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5282,10 +7439,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5317,10 +7478,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5357,10 +7522,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5392,10 +7561,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5432,10 +7605,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5467,10 +7644,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5507,10 +7688,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5542,10 +7727,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5582,10 +7771,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5617,10 +7810,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5657,10 +7854,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5692,10 +7893,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5732,10 +7937,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5767,10 +7976,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5807,10 +8020,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5842,10 +8059,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5882,10 +8103,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5917,10 +8142,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5957,10 +8186,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -5992,10 +8225,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6032,10 +8269,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6067,10 +8308,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6107,10 +8352,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6142,10 +8391,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6182,10 +8435,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6217,10 +8474,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6257,10 +8518,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6292,10 +8557,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6332,10 +8601,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6367,10 +8640,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6407,10 +8684,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6442,10 +8723,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6482,10 +8767,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6517,10 +8806,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6557,10 +8850,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6592,10 +8889,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6632,10 +8933,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6667,10 +8972,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6707,10 +9016,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6742,10 +9055,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6782,10 +9099,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6817,10 +9138,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6857,10 +9182,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6892,10 +9221,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6932,10 +9265,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -6967,10 +9304,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7007,10 +9348,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7042,10 +9387,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7082,10 +9431,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7117,10 +9470,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7157,10 +9514,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7192,10 +9553,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7232,10 +9597,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7267,10 +9636,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7307,10 +9680,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7342,10 +9719,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7382,10 +9763,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7417,10 +9802,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7457,10 +9846,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7492,10 +9885,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7532,10 +9929,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7567,10 +9968,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7607,10 +10012,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7642,10 +10051,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7682,10 +10095,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7717,10 +10134,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7757,10 +10178,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7792,10 +10217,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7832,10 +10261,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7867,10 +10300,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7907,10 +10344,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7942,10 +10383,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -7982,10 +10427,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8017,10 +10466,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8057,10 +10510,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8092,10 +10549,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8132,10 +10593,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8167,10 +10632,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8207,10 +10676,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8242,10 +10715,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8282,10 +10759,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8317,10 +10798,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8357,10 +10842,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8392,10 +10881,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8432,10 +10925,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8467,10 +10964,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8507,10 +11008,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8542,10 +11047,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8582,10 +11091,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8617,10 +11130,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8657,10 +11174,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8692,10 +11213,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8732,10 +11257,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8767,10 +11296,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8807,10 +11340,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8842,10 +11379,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8882,10 +11423,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8917,10 +11462,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8957,10 +11506,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -8992,10 +11545,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9032,10 +11589,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9067,10 +11628,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9107,10 +11672,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9142,10 +11711,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9182,10 +11755,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9217,10 +11794,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9257,10 +11838,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9292,10 +11877,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9332,54 +11921,124 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 6
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":8,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":8,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),16)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":7,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":7,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),14)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9416,54 +12075,124 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":5,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":5,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),10)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 6
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),12)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9500,28 +12229,61 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:INFERNALGRUNT_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI heard there was an enemy coming, but you're just a kid!\nDo you
+              really expect to be able to stand up to us?
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave4"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::INFERNALGRUNT_M,"Cultist",_I("Ack! I see
+              now! I'm sorry!"),false,5)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9553,12 +12315,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAck! I see now! I'm sorry!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9590,10 +12359,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9630,28 +12403,60 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:INFERNALGRUNT_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou shall not pass!\nYour journey ends here!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave4"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::INFERNALGRUNT_M,"Cultist",_I("Urgh... fine.
+              You may proceed."),false,6)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9683,12 +12488,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUrgh... fine. You may proceed.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9720,10 +12532,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9760,28 +12576,61 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:INFERNALGRUNT_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bFun fact: the Infernal Cult was the first one to ever exist!\nThere''s
+              a reason for that, too!'
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave4"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::INFERNALGRUNT_M,"Cultist",_I("Why is it
+              always that a frickin' KID manages to beat all the highly-trained grunts?"),false,7)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9813,12 +12662,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhy is it always that a frickin' KID manages to beat all the highly-trained
+              grunts?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9850,10 +12707,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9890,14 +12751,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - tesseract_there
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -9934,10 +12805,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -9974,26 +12849,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 281
+            - 68
+            - 26
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10030,22 +12941,42 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - '!$Trainer.owned[PBSpecies::HEATRAN]'
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10077,30 +13008,64 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"485Cry","pitch":100,"volume":80}'
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 10
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Volcano2"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbWildBattle(PBSpecies::HEATRAN,100)
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10132,10 +13097,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10172,16 +13141,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 20
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10213,10 +13196,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10253,54 +13240,124 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":5,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":5,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),10)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 6
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),12)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10337,54 +13394,124 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 6
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":8,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":8,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),6)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 11
+            - 4
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":7,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":7,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - moveFancy(Kernel.pbGetDependency("Dependent"),14)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -10396,9 +13523,9 @@ MonoBehaviour:
       x: 52
       y: 55
   Info:
-    expanded: 1
-    name: Fiery Caverns
-    order: 467
-    parent_id: 280
-    scroll_x: 1280
-    scroll_y: 460
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

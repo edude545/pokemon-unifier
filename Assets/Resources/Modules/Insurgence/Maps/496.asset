@@ -421,64 +421,155 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou're the trainer that's supposed to take the Augur's place...
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI see.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAny powerful trainer can save a region- it says nothing about your
+              character.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut... your Pokemon...
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThey can tell me things that no action can.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSo let's begin! Let me hear the voices of your Pokemon!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:TIMELESS_N)
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Crystal"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::TIMELESS_N,"N",_I("Thank you."),false,0)
         - i: 1
           c: 122
+          p:
+            values:
+            - 143
+            - 143
+            - 1
+            - 0
+            - 1
         - i: 1
           c: 121
+          p:
+            values:
+            - 463
+            - 463
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 143
+            - 0
+            - 7
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bI never expected Pokemon to say such things.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou are truly a stellar trainer.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bThe doors to our leader will open now.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou might actually have a chance against him. Good luck.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bI never expected Pokemon to say such things.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou are truly a stellar trainer.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bI really hope you can get through all of the Timeless.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 655
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -510,34 +601,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 143
+            - 0
+            - 7
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI never expected Pokemon to say such things.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou are truly a stellar trainer.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe doors to our leader will open now.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou might actually have a chance against him. Good luck.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI never expected Pokemon to say such things.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou are truly a stellar trainer.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI really hope you can get through all of the Timeless.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -574,26 +705,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 493
+            - 18
+            - 26
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -630,10 +797,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -670,10 +841,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -686,8 +861,8 @@ MonoBehaviour:
       y: 28
   Info:
     expanded: 0
-    name: N's Cave
-    order: 560
-    parent_id: 493
-    scroll_x: 640
-    scroll_y: 640
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

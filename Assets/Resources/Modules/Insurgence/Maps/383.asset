@@ -1021,44 +1021,108 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":39,"parameters":[]},{"code":6,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":39,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 70
+            - 14
+            - 42
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":3,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":40,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":40,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1095,14 +1159,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'It''s a large statue of Darkrai.\nIt''s cold to the touch, '
         - i: 0
           c: 401
+          p:
+            values:
+            - and you feel tired just standing around it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1139,14 +1213,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'It''s a large statue of Darkrai.\nIt''s cold to the touch, '
         - i: 0
           c: 401
+          p:
+            values:
+            - and you feel tired just standing around it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1183,24 +1267,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1232,10 +1347,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1272,24 +1391,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1321,10 +1471,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1361,24 +1515,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1410,10 +1595,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1450,24 +1639,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1499,10 +1719,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1539,24 +1763,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1588,10 +1843,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1628,24 +1887,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1677,10 +1967,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1717,24 +2011,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1766,10 +2091,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1806,24 +2135,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - There is dried-up blood splattered on the ground.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1855,10 +2215,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1895,12 +2259,23 @@ MonoBehaviour:
         list:
         - i: 0
           c: 122
+          p:
+            values:
+            - 39
+            - 39
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1937,28 +2312,66 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - A used Darkrai cloak lies on the table.
         - i: 0
           c: 101
+          p:
+            values:
+            - Obtained DNA of \c[5]Darkrai Cultist.
         - i: 0
           c: 122
+          p:
+            values:
+            - 42
+            - 42
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[42]=Array.new
         - i: 0
           c: 655
+          p:
+            values:
+            - pbGet(42)[1]=true
         - i: 0
           c: 121
+          p:
+            values:
+            - 42
+            - 42
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1990,16 +2403,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - A used Darkrai cloak lies on the table.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2036,42 +2463,103 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":6,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":6,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 70
+            - 13
+            - 42
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":3,"parameters":[]},{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]},{"code":38,"parameters":[]},{"code":40,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":45,"parameters":["pbFancyMoveTo(Kernel.pbGetDependency(\"Dependent\"),$game_player.x-1,$game_player.y)"]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":40,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2108,42 +2596,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bUxie, Mesprit and Azelf\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rUxie, Mesprit and Azelf, also known as the spirit trio or the lake
+              trio, represent Knowledge, Emotion, and Willpower, respectively.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rTogether, the three of them make up the human spirit and are guardians
+              of the lakes in Sinnoh.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rMany people believe they''re mutations of the Pokemon Mew, who was
+              known to once be abundant as the first Pokemon species, thousands upon
+              thousands of '
         - i: 2
           c: 401
+          p:
+            values:
+            - years ago.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rSome believe that with the right equipment- and Mew-, the lake trio
+              could be summoned or created again.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2180,42 +2725,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bUxie, Mesprit and Azelf\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rUxie, Mesprit and Azelf, also known as the spirit trio or the lake
+              trio, represent Knowledge, Emotion, and Willpower, respectively.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rTogether, the three of them make up the human spirit and are guardians
+              of the lakes in Sinnoh.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rMany people believe they''re mutations of the Pokemon Mew, who was
+              known to once be abundant as the first Pokemon species, thousands upon
+              thousands of '
         - i: 2
           c: 401
+          p:
+            values:
+            - years ago.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rSome believe that with the right equipment- and Mew-, the lake trio
+              could be summoned or created again.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2252,34 +2854,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bThe First Augur\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Oddly enough, this book is empty.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2316,34 +2958,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bThe First Augur\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - Oddly enough, this book is empty.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2380,42 +3062,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bUxie, Mesprit and Azelf\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rUxie, Mesprit and Azelf, also known as the spirit trio or the lake
+              trio, represent Knowledge, Emotion, and Willpower, respectively.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rTogether, the three of them make up the human spirit and are guardians
+              of the lakes in Sinnoh.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rMany people believe they''re mutations of the Pokemon Mew, who was
+              known to once be abundant as the first Pokemon species, thousands upon
+              thousands of '
         - i: 2
           c: 401
+          p:
+            values:
+            - years ago.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rSome believe that with the right equipment- and Mew-, the lake trio
+              could be summoned or created again.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2452,42 +3191,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 101
+          p:
+            values:
+            - 'It''s a book that reads: "\bUxie, Mesprit and Azelf\c[0]".'
         - i: 1
           c: 101
+          p:
+            values:
+            - Would you like to read it?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \rUxie, Mesprit and Azelf, also known as the spirit trio or the lake
+              trio, represent Knowledge, Emotion, and Willpower, respectively.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rTogether, the three of them make up the human spirit and are guardians
+              of the lakes in Sinnoh.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rMany people believe they''re mutations of the Pokemon Mew, who was
+              known to once be abundant as the first Pokemon species, thousands upon
+              thousands of '
         - i: 2
           c: 401
+          p:
+            values:
+            - years ago.
         - i: 2
           c: 101
+          p:
+            values:
+            - \rSome believe that with the right equipment- and Mew-, the lake trio
+              could be summoned or created again.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2524,12 +3320,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbShowMap
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2566,12 +3369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbShowMap
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2608,18 +3418,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbItemBall(PBItems::POTION)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2651,10 +3477,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2667,8 +3497,8 @@ MonoBehaviour:
       y: 41
   Info:
     expanded: 0
-    name: Cult of Darkrai
-    order: 135
-    parent_id: 71
-    scroll_x: 960
-    scroll_y: 1280
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

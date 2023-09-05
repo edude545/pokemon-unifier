@@ -1,3 +1,4 @@
+using Assets.Unifier.Game.Data;
 using Assets.Unifier.Game.Essentials;
 using UnityEditor;
 using UnityEngine;
@@ -15,6 +16,11 @@ namespace Assets.Unifier.Game.Editor {
 
         private void Awake() {
             Instance = this;
+        }
+
+        public void LoadMapByID(string module, int id) {
+            Map = UnifierResources.LoadEssentialsMapAsset(module, id);
+            Map.Load(this);
         }
 
         public bool GetPointCollision(Vector2 point) {

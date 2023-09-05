@@ -331,30 +331,68 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bGreetings- I'm the Move Master.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI can create a Custom Move for you and your Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bCustom Moves are illegal now, unfortunately, which is why I had to
+              move down here.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI don't want to get caught, so I won't make any more than one, you
+              hear?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou can change it and teach it to however many Pokemon you want,
+              though.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt will always be Physical, and you can't use it online.
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[100] = "Name Me"
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[98] = 1
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you're ready to make your own move, let me know!
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -386,96 +424,226 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSo, your Custom Move needs editing? What about it?
         - i: 0
           c: 118
+          p:
+            values:
+            - start
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Learn Move","Change Name","Change Type","(Cancel)"]'
+            - 4
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Learn Move
         - i: 1
           c: 101
+          p:
+            values:
+            - \b\gIt'll cost you $5000 to learn your Custom Move. Are you sure?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 111
+          p:
+            values:
+            - 7
+            - 5000
+            - 0
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - pbMoveTutorChoose(PBMoves::CUSTOMMOVE)
         - i: 4
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 5000
         - i: 4
           c: 101
+          p:
+            values:
+            - \bIt is done. Remember, it cannot be used online.
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - \bYou don't have enough money.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Change Name
         - i: 1
           c: 101
+          p:
+            values:
+            - \bVery well. What name do you want to call it? Something crude?
         - i: 1
           c: 355
+          p:
+            values:
+            - cocksuck = pbEnterText("Name of your move?",1,11)
         - i: 1
           c: 655
+          p:
+            values:
+            - $game_variables[100] = cocksuck if cocksuck != ""
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt is done. Anything else?
         - i: 1
           c: 119
+          p:
+            values:
+            - start
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - Change Type
         - i: 1
           c: 118
+          p:
+            values:
+            - firsttype
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWhat type would you like me to change it '
         - i: 1
           c: 401
+          p:
+            values:
+            - to?\ch[5,0,Normal,Grass,Fire,Water,Poison,Fighting,Dark,Psychic,Ghost,Ice,Ground,Rock,Flying,Bug,Electric,Dragon,Steel,Fairy]
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbSetCustomMove(pbGet(5))
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt is done.
         - i: 1
           c: 119
+          p:
+            values:
+            - start
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 3
+            - (Cancel)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -512,10 +680,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -552,28 +724,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 179
+            - 66
+            - 64
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -610,12 +821,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 64
+            - 64
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -628,8 +848,8 @@ MonoBehaviour:
       y: 25
   Info:
     expanded: 0
-    name: Black Market
-    order: 304
-    parent_id: 179
-    scroll_x: 640
-    scroll_y: 480
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

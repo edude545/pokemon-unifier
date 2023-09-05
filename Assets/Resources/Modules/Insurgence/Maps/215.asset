@@ -331,66 +331,162 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rMy name is Witchdoctor.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI have a special powder that allows Pokemon to make contact with
+              another world.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'll let you use it for free, if you'd like.
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWhich Pokemon shall I use it on, then?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbChoosePokemon(1,2)
         - i: 1
           c: 655
+          p:
+            values:
+            - $game_variables[1]=Kernel.pbTradeEvolution(pbGet(1))
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \rHmm, I don't think my powder will work on this Pokemon...
         - i: 2
           c: 101
+          p:
+            values:
+            - \rTry a different one, instead.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \rI feel like my powder will work with this Pokemon, but something
+              is still missing.\nPerhaps you need an item of some sort?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \rAh, it reacted to my powder perfectly!
         - i: 2
           c: 101
+          p:
+            values:
+            - \rCongratulations!
         - i: 2
           c: 101
+          p:
+            values:
+            - \rCome back if you need my services again.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \rVery well.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -427,10 +523,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -467,28 +567,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 179
+            - 81
+            - 59
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -525,12 +664,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 64
+            - 64
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -543,8 +691,8 @@ MonoBehaviour:
       y: 25
   Info:
     expanded: 0
-    name: Black Market
-    order: 305
-    parent_id: 179
-    scroll_x: 640
-    scroll_y: 480
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

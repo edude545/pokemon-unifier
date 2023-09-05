@@ -421,10 +421,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -456,10 +460,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -496,14 +504,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - It's a rusty looking Noivern.
         - i: 0
           c: 101
+          p:
+            values:
+            - It seems to be guarding something.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -540,34 +558,76 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A small egg lies resting in a nest.
         - i: 0
           c: 101
+          p:
+            values:
+            - Take the egg?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbAddPokemonSilent(PBSpecies::DELTANOIBAT,1,true,"Egg","Ancient Tower")
         - i: 1
           c: 101
+          p:
+            values:
+            - Obtained the Mysterious Egg!
         - i: 1
           c: 121
+          p:
+            values:
+            - 394
+            - 394
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -599,10 +659,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -639,52 +703,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -716,22 +835,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -768,52 +909,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -845,22 +1041,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -897,52 +1115,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -974,22 +1247,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1026,52 +1321,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1103,22 +1453,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1155,52 +1527,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1232,22 +1659,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1284,52 +1733,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1361,22 +1865,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1413,52 +1939,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1490,22 +2071,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1542,52 +2145,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1619,22 +2277,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1671,52 +2351,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1748,22 +2483,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1800,52 +2557,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1877,22 +2689,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1929,34 +2763,82 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'There seems to be an old page torn from a notebook. '
         - i: 0
           c: 401
+          p:
+            values:
+            - Should you read through it?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"I finally made it to the top, and to my shock my journey was well
+              worth it. I found a new Delta Species!"
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"It appeared to originally be a Noivern but with shiny metallic skin
+              and flowing green grass on its neck and chest."
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGIiQnV0IHRoZSBiaWdnZXN0IGRpc2NvdmVyeSBjYW1lIGluIHRoZSBmYWN0
+
+              IHRoYXQgbm90IG9ubHkgd2VyZSB0aGVyZSB0d28gbmV3IERlbHRhIFBva8Op
+
+              bW9uIGluIGZyb250IG9mIG1lLCBidXQgYWxzbyBhbiB1bnByZWNlZGVudGVk
+
+              IHNpZ2h0OiBhIHBhaXIgb2YgZWdncyEgRGVsdGEg'
         - i: 1
           c: 401
+          p:
+            values:
+            - Eggs!"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1993,52 +2875,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2070,22 +3007,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2122,52 +3081,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 1
           c: 106
+          p:
+            values:
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x == get_character(0).x && $game_player.y == get_character(0).y
         - i: 2
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.bicycle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 3
           c: 115
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2199,22 +3213,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 382
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 117
+          p:
+            values:
+            - 25
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("B")
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2251,40 +3287,101 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'There seems to be an old page torn from a notebook. '
         - i: 0
           c: 401
+          p:
+            values:
+            - Should you read through it?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"The two Noiverns appeared to be huddled around the eggs, and it
+              took a while before they let me come near them. Both dragons looked
+              really weak..."
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"Rust had started to form on their bodies, and their yellow eyes
+              seemed to be fading. It must've taken all of their strength to keep
+              these eggs safe here."
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"The one that appeared female nudged me, pushing one egg towards
+              me. I nodded and took that egg with me, leaving the other one with
+              the Noiverns."
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"If you're finding these notes, please take the other egg. Keep it
+              safe- it might be the only surviving proof that Delta Pokemon might
+              be able to breed."
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"And if you do find this... I will be continuing research into the
+              breeding of Delta Pokemon."
         - i: 1
           c: 101
+          p:
+            values:
+            - \b"You can find me in Gaea Town. The scientist by the pond. Just mention
+              the Noibat."
         - i: 1
           c: 121
+          p:
+            values:
+            - 642
+            - 642
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2321,32 +3418,77 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 368
+            - 11
+            - 22
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2383,34 +3525,76 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - A small egg lies resting in a nest.
         - i: 0
           c: 101
+          p:
+            values:
+            - Take the egg?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - pbAddPokemonSilent(PBSpecies::DELTANOIBAT,1,true,"Egg","Ancient Tower")
         - i: 1
           c: 101
+          p:
+            values:
+            - Obtained the Mysterious Egg!
         - i: 1
           c: 121
+          p:
+            values:
+            - 394
+            - 394
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2442,10 +3626,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2482,10 +3670,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2517,10 +3709,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2557,14 +3753,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - It's a rusty looking Noivern.
         - i: 0
           c: 101
+          p:
+            values:
+            - It seems to be guarding something.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2577,8 +3783,8 @@ MonoBehaviour:
       y: 15
   Info:
     expanded: 0
-    name: Ancient Tower
-    order: 496
-    parent_id: 364
-    scroll_x: 640
-    scroll_y: 640
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

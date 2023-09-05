@@ -691,20 +691,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":255.0,"r":255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveEntrance
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 49
+            - 12
+            - 14
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -736,24 +762,48 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).onEvent?
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -790,20 +840,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":255.0,"r":255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveEntrance
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 49
+            - 19
+            - 20
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -835,24 +911,48 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).onEvent?
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -889,42 +989,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -961,102 +1113,238 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHaiiiii-yaaaaaah!
         - i: 0
           c: 247
+          p:
+            values: []
         - i: 0
           c: 242
+          p:
+            values:
+            - 1
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 241
+          p:
+            values:
+            - '{"name":"002-Battle02","pitch":100,"volume":100}'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Duel Minigame, based on the version written by Alael, '
         - i: 0
           c: 408
+          p:
+            values:
+            - bW9kaWZpZWQgZm9yIFBva8OpbW9uIEVzc2VudGlhbHMu
         - i: 0
           c: 108
+          p:
+            values:
+            - 'The duel takes place in a row of 4 tiles, with the '
         - i: 0
           c: 408
+          p:
+            values:
+            - 'player and opponent using the centre two.  Make '
         - i: 0
           c: 408
+          p:
+            values:
+            - sure you have enough space.
         - i: 0
           c: 108
+          p:
+            values:
+            - '3 texts for defense, 3 for precise attacks, 3 for fierce '
         - i: 0
           c: 408
+          p:
+            values:
+            - attacks.
         - i: 0
           c: 355
+          p:
+            values:
+            - $speeches=[]
         - i: 0
           c: 655
+          p:
+            values:
+            - $speeches.push(
         - i: 0
           c: 655
+          p:
+            values:
+            - '"I shall block all your attacks!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"Nothing can pierce my armor!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"Behold my dodging skills!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"I''ll show you my fighting skills!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"Awe at the perfection of my skills!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"I''ll deliver a perfect blow!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"Feel my power!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"AAAAHHHH!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"I''ll attack with all my strength!")'
         - i: 0
           c: 108
+          p:
+            values:
+            - 3 texts for special attacks
         - i: 0
           c: 355
+          p:
+            values:
+            - $speeches.push(
         - i: 0
           c: 655
+          p:
+            values:
+            - '"Face my secret technique!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"This is my secret technique!",'
         - i: 0
           c: 655
+          p:
+            values:
+            - '"Evil Blade Strike!"'
         - i: 0
           c: 655
+          p:
+            values:
+            - )
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Only the trainer type needs to be defined.  The '
         - i: 0
           c: 408
+          p:
+            values:
+            - 'trainer itself doesn''t need to appear in trainers.txt.  '
         - i: 0
           c: 408
+          p:
+            values:
+            - 'This information is only used to display a name and '
         - i: 0
           c: 408
+          p:
+            values:
+            - graphic for the opponent.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbDuel(PBTrainers::BLACKBELT,"Dan",get_character(0),$speeches)
         - i: 1
           c: 242
+          p:
+            values:
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 248
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou won, good job.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 242
+          p:
+            values:
+            - 1
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 248
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - You lost, too bad.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1093,24 +1381,50 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:TEAMROCKET_M)
         - i: 0
           c: 101
+          p:
+            values:
+            - XGJJJ20gYSBiYXNpYyB0cmFpbmVyIHdpdGggYSBTaGFkb3cgUG9rw6ltb24u
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::TEAMROCKET_M,"Grunt",_I("You're too good
+              for me!"),false,1)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1142,16 +1456,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'XGJEaWQgeW91IG1hbmFnZSB0byBzbmFnIG15IFNoYWRvdyBQb2vDqW1vbj8g
+
+              IA=='
         - i: 0
           c: 401
+          p:
+            values:
+            - Because you can't battle me again for another
         - i: 0
           c: 401
+          p:
+            values:
+            - chance.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1188,32 +1517,69 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:TEAMROCKET_F)
         - i: 0
           c: 101
+          p:
+            values:
+            - '\rYou can battle me repeatedly, and have unlimited '
         - i: 0
           c: 401
+          p:
+            values:
+            - YXR0ZW1wdHMgdG8gc25hZyBteSBTaGFkb3cgUG9rw6ltb24u
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::TEAMROCKET_F,"Grunt",_I("You're too good
+              for me!"),false,1)
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.shadowcaught[PBSpecies::ELECTABUZZ]
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1245,14 +1611,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\rYou''ve managed to snag my Shadow Electabuzz.  '
         - i: 0
           c: 401
+          p:
+            values:
+            - I'm not going to do anything now.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1289,100 +1665,254 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'XGJJIGNhbiB0ZWxsIHlvdSBzb21lIHRoaW5ncyBhYm91dCBTaGFkb3cgUG9r
+
+              w6ltb24='
         - i: 0
           c: 401
+          p:
+            values:
+            - in Essentials.  However, the wiki has far more
         - i: 0
           c: 401
+          p:
+            values:
+            - information about them.
         - i: 0
           c: 118
+          p:
+            values:
+            - Choices
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat do you want to know?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Information","U2hhZG93IFBva8OpbW9uIGJhdHRsZXM=","UHVyaWZ5aW5nIFBva8OpbW9u","Exit"]'
+            - 4
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Information
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJTaGFkb3cgUG9rw6ltb24gYXJlIGEgc3BlY2lhbCBraW5kIG9mIFBva8Op
+
+              bW9uIA=='
         - i: 1
           c: 401
+          p:
+            values:
+            - d2hpY2ggYXBwZWFyZWQgaW4gUG9rw6ltb24gQ29sb3NzZXVtIGFuZA==
         - i: 1
           c: 401
+          p:
+            values:
+            - UG9rw6ltb24gWEQu
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bThey can be included in Essentials as well.  See '
         - i: 1
           c: 401
+          p:
+            values:
+            - the wiki for information on how to do this.
         - i: 1
           c: 119
+          p:
+            values:
+            - Choices
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - U2hhZG93IFBva8OpbW9uIGJhdHRsZXM=
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJUcmFpbmVycyB3aXRoIFNoYWRvdyBQb2vDqW1vbiBhcmUgc2V0IHVwIGlu
+
+              IA=='
         - i: 1
           c: 401
+          p:
+            values:
+            - exactly the same way as any other trainer.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJBbnkgUG9rw6kgQmFsbCBjYW4gYmUgZGVmaW5lZCBhcyBhIFNuYWcgQmFs
+
+              bCBpbiA='
         - i: 1
           c: 401
+          p:
+            values:
+            - items.txt.  If $PokemonGlobal.snagMachine is TRUE,
         - i: 1
           c: 401
+          p:
+            values:
+            - 'YWxsIFBva8OpIEJhbGxzIHdpbGwgYmUgU25hZyBCYWxscyBhdXRvbWF0aWNh
+
+              bGx5Lg=='
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.snagMachine=true
         - i: 1
           c: 101
+          p:
+            values:
+            - '\b$Trainer.shadowcaught is an array (like the '
         - i: 1
           c: 401
+          p:
+            values:
+            - 'UG9rw6lkZXggc2Vlbi9vd25lZCBhcnJheXMpIHdoaWNoIGtlZXBzIHRyYWNr
+
+              IG9m'
         - i: 1
           c: 401
+          p:
+            values:
+            - 'd2hpY2ggU2hhZG93IFBva8OpbW9uIHNwZWNpZXMgaGF2ZSBiZWVuIGNhdWdo
+
+              dC4='
         - i: 1
           c: 119
+          p:
+            values:
+            - Choices
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - UHVyaWZ5aW5nIFBva8OpbW9u
         - i: 1
           c: 101
+          p:
+            values:
+            - XGJZb3UgY2FuIHB1cmlmeSBTaGFkb3cgUG9rw6ltb24gaW4gdHdvIHdheXMu
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe first is by bringing them to the Relic Stone here.
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bThe second is by placing them in the Purify '
         - i: 1
           c: 401
+          p:
+            values:
+            - 'Q2hhbWJlciwgd2hpY2ggeW91IGNhbiBhY2Nlc3MgZnJvbSB0aGUgUEMgaW4g
+
+              UG9rw6k='
         - i: 1
           c: 401
+          p:
+            values:
+            - Centers.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!$PokemonGlobal.seenPurifyChamber'
         - i: 2
           c: 101
+          p:
+            values:
+            - \bI've now given you access to the Purify Chamber.
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.seenPurifyChamber=true
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bThe effects of Heart Gauge-lowering items are '
         - i: 1
           c: 401
+          p:
+            values:
+            - already in Essentials.  You just need to add the items
         - i: 1
           c: 401
+          p:
+            values:
+            - themselves to items.txt.
         - i: 1
           c: 119
+          p:
+            values:
+            - Choices
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 3
+            - Exit
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1419,12 +1949,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbRelicStone
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1461,62 +1998,146 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbExclaim(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI stopped you as you walked past.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bHaving "Trainer(2)" as my event''s name, and the '
         - i: 0
           c: 401
+          p:
+            values:
+            - '"Event Touch" trigger, tells me to activate whenever'
         - i: 0
           c: 401
+          p:
+            values:
+            - you enter either of the two tiles in front of me.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bKernel.pbExclaim makes me exclaim.  '
         - i: 0
           c: 401
+          p:
+            values:
+            - Kernel.pbNoticePlayer does the same thing, as well
         - i: 0
           c: 401
+          p:
+            values:
+            - as make me approach you.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bTrainers use these features by default, but other '
         - i: 0
           c: 401
+          p:
+            values:
+            - NPCs like me can use them too.  Roadblock events in
         - i: 0
           c: 401
+          p:
+            values:
+            - particular love to use them.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bShall I turn you back like a real roadblock, or should '
         - i: 0
           c: 401
+          p:
+            values:
+            - I deactivate myself?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Roadblock","Deactivate"]'
+            - 0
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Roadblock
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":22,"parameters":[]},{"code":12,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":22,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":12,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Deactivate
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bOkay.  I''ll fulfil my roadblock condition myself, by '
         - i: 1
           c: 401
+          p:
+            values:
+            - turning the Global Switch I depend on (5) to ON.
         - i: 1
           c: 121
+          p:
+            values:
+            - 5
+            - 5
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1548,14 +2169,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bRoadblock events don''t normally set the conditions '
         - i: 0
           c: 401
+          p:
+            values:
+            - they wait for (Global Switch 5 in my case), but I did.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1592,14 +2223,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bHello.  This is what I say if you talk to me during the '
         - i: 0
           c: 401
+          p:
+            values:
+            - day.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1631,14 +2272,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHalt!  Who goes there?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis is what I say if you talk to me at night.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1675,42 +2326,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1747,42 +2450,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1819,86 +2574,224 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bI can control the weather.  Which weather would '
         - i: 0
           c: 401
+          p:
+            values:
+            - you like to see?\ch[1,-1,
         - i: 0
           c: 401
+          p:
+            values:
+            - None,Rain,Storm,Snow,Sandstorm,Sunny]
         - i: 0
           c: 108
+          p:
+            values:
+            - None.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 236
+          p:
+            values:
+            - 0
+            - 5
+            - 20
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Rain.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 236
+          p:
+            values:
+            - 1
+            - 9
+            - 20
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Storm.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
         - i: 1
           c: 236
+          p:
+            values:
+            - 2
+            - 9
+            - 20
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Snow.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 3
+            - 0
         - i: 1
           c: 236
+          p:
+            values:
+            - 3
+            - 9
+            - 20
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Sandstorm.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_screen.weather(4,9.0,20)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Sunny.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 5
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_screen.weather(5,9.0,20)
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bThis weather can occur even at night,and doesn''t '
         - i: 1
           c: 401
+          p:
+            values:
+            - fade in/out.  It's better if you don't use it.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bNote that the weather metadata for this map is set, '
         - i: 0
           c: 401
+          p:
+            values:
+            - even though its probability is 0.  This prevents the
         - i: 0
           c: 401
+          p:
+            values:
+            - weather from lingering when you leave this map.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1911,8 +2804,8 @@ MonoBehaviour:
       y: 20
   Info:
     expanded: 0
-    name: Route 7
-    order: 25
-    parent_id: 75
-    scroll_x: 1120
-    scroll_y: 672
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

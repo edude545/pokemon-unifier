@@ -1,4 +1,5 @@
 ﻿using Assets.Unifier.Engine;
+using Assets.Unifier.Game.Essentials;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,7 +58,16 @@ namespace Assets.Unifier.Game.Data {
         }
 
         public static Sprite[] LoadOverworldWalkCycle(string filename) {
-            return Resources.LoadAll<Sprite>("Modules/Official/Graphics/Characters/" + filename);
+            return LoadOverworldWalkCycle("Official", filename);
+        }
+
+        public static Sprite[] LoadOverworldWalkCycle(string module, string filename) {
+            string path = $"Modules/{module}/Graphics/Characters/{filename}";
+            Sprite[] ret = Resources.LoadAll<Sprite>(path);
+            if (ret.Length == 0) {
+                Debug.LogWarning($"Couldn't find overworld walk cycle at {path}");
+            }
+            return ret;
         }
 
         public static Sprite[] LoadIcon(Pokemon pokemon) {
@@ -82,6 +92,10 @@ namespace Assets.Unifier.Game.Data {
                 categoryIcons = Resources.LoadAll<Sprite>("Modules/Official/Graphics/Pictures/category");
             }
             return categoryIcons[(int)category];
+        }
+
+        public static EssentialsMapAsset LoadEssentialsMapAsset(string module, int id) {
+            return Resources.Load<EssentialsMapAsset>($"Modules/{module}/Maps/{id}");
         }
 
     }

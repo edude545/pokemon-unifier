@@ -1,10 +1,4 @@
 ﻿using Assets.Unifier.Engine;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine.TextCore.Text;
 using UnityEngine;
 
 namespace Assets.Unifier.Game {

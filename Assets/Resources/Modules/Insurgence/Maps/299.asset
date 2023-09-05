@@ -223,28 +223,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 228
+            - 62
+            - 26
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -281,12 +320,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -323,12 +369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -365,36 +418,86 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHey kid, do you think you could do me a favor?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm trying to train up my Fighting-type team, but I'm having trouble
+              deciding on the best movesets for them.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere's a book in the library called "The Fighting Compendium" that
+              could help, but I haven't been able to find it.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you can get it for me, there'll definitely be a reward in it for
+              you!
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 374
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, you found it?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bBack row, as far west as you can possibly go?\nThanks, kid. I really
+              appreciate it.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm a bit short on cash right now, but I've got an item I don't really
+              need.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt's not for Fighting-types, so you'd probably appreciate it more
+              than me!
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::CACTURNITE)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -426,12 +529,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThanks for helping me out, kid.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -468,16 +578,29 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHave you ever considered a career in the Pokemon Navy?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's a difficult job for sure, but it can be very rewarding!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've seen so many incredible Water-type Pokemon on my journeys!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -514,26 +637,55 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"189Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Jumpluff: \bPluff! Pluff!'
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - A
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - Oh! The Jumpluff was holding an item!
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::TM90)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -546,8 +698,8 @@ MonoBehaviour:
       y: 15
   Info:
     expanded: 0
-    name: Utira Town
-    order: 346
-    parent_id: 228
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

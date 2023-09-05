@@ -421,10 +421,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -456,62 +460,149 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"486Cry","pitch":100,"volume":80}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 10
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave2"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbWildBattle(PBSpecies::REGIGIGAS,100,1,false,true)
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - Would you like to access the PC to add Regigigas to your party?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 121
+          p:
+            values:
+            - 457
+            - 457
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 121
+          p:
+            values:
+            - 457
+            - 457
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 121
+          p:
+            values:
+            - 457
+            - 457
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -543,10 +634,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -583,10 +678,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -623,82 +722,217 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 458
+            - 1
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 4
         - i: 1
           c: 101
+          p:
+            values:
+            - ...
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 101
+          p:
+            values:
+            - ...
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 40
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 12
         - i: 1
           c: 106
+          p:
+            values:
+            - 40
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.doLegendEntrance("Regigigas")
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 12
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 15
         - i: 1
           c: 106
+          p:
+            values:
+            - 15
         - i: 1
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":41,"parameters":["486",0,2,0]},{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["486",0,2,0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 1
           c: 225
+          p:
+            values:
+            - 9
+            - 9
+            - 5
         - i: 1
           c: 207
+          p:
+            values:
+            - 9
+            - 72
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 121
+          p:
+            values:
+            - 458
+            - 458
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":42,"parameters":[0]},{"code":4,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 3
+            - 4
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -730,14 +964,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -769,10 +1014,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -809,82 +1058,217 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 458
+            - 1
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 4
         - i: 1
           c: 101
+          p:
+            values:
+            - ...
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 101
+          p:
+            values:
+            - ...
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 40
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 12
         - i: 1
           c: 106
+          p:
+            values:
+            - 40
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.doLegendEntrance("Regigigas")
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 12
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 15
         - i: 1
           c: 106
+          p:
+            values:
+            - 15
         - i: 1
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":41,"parameters":["486",0,2,0]},{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["486",0,2,0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 1
           c: 225
+          p:
+            values:
+            - 9
+            - 9
+            - 5
         - i: 1
           c: 207
+          p:
+            values:
+            - 9
+            - 72
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 121
+          p:
+            values:
+            - 458
+            - 458
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":42,"parameters":[0]},{"code":4,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 3
+            - 4
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -916,14 +1300,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -955,10 +1350,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -995,82 +1394,217 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 458
+            - 1
         - i: 1
           c: 203
+          p:
+            values:
+            - 8
+            - 3
+            - 4
         - i: 1
           c: 101
+          p:
+            values:
+            - ...
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 101
+          p:
+            values:
+            - ...
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 40
         - i: 1
           c: 106
+          p:
+            values:
+            - 25
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 12
         - i: 1
           c: 106
+          p:
+            values:
+            - 40
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.doLegendEntrance("Regigigas")
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 12
         - i: 1
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 15
         - i: 1
           c: 106
+          p:
+            values:
+            - 15
         - i: 1
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":41,"parameters":["486",0,2,0]},{"code":14,"parameters":[0,1]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["486",0,2,0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":14,"parameters":[0,1]}'
         - i: 1
           c: 225
+          p:
+            values:
+            - 9
+            - 9
+            - 5
         - i: 1
           c: 207
+          p:
+            values:
+            - 9
+            - 72
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 121
+          p:
+            values:
+            - 458
+            - 458
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 209
+          p:
+            values:
+            - 9
+            - '{"list":[{"code":42,"parameters":[0]},{"code":4,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 3
+            - 4
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1102,302 +1636,769 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":37,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":41,"parameters":["professor maple",0,8,0]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["professor maple",0,8,0]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 203
+          p:
+            values:
+            - 2
+            - 2
+            - 4
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... ... ...
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI see I'm too late.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI was hoping to complete the entire collection...
         - i: 0
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut I guess it's worthless. Regigigas isn't a Delta Species, after
+              all.
         - i: 0
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt was a valiant attempt, \pn. I'll give you that.
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... but Delta Species are the way of the future.
         - i: 0
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEven if you do get Regigigas on your side... you can't stop me.
         - i: 0
           c: 101
+          p:
+            values:
+            - \b<i>Nobody </i> can stop me.
         - i: 0
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've... I've come too far.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBwahahahahahaha!
         - i: 0
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm going to take you down.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bEven you, the Augur, don't stand a chance against me. Not anymore!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNot even with Regigigas!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLet me show you now, \pn! Let me show you my incredible power!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PROFESSORMAPLE)
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Cave2"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PROFESSORMAPLE,"Maple",_I("What? No! Impossible."),false,0)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bBut... but... how?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThat's impossible. My Deltas are superior! Unbeatable!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou must have cheated! Sabotaged me!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCheating is an academic offense warranting expulsion!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bNevermind. I'll bide my time for now. I'll-
         - i: 1
           c: 207
+          p:
+            values:
+            - 2
+            - 3
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 203
+          p:
+            values:
+            - 2
+            - 2
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":41,"parameters":["professor_pine",0,8,0]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":2,"parameters":[]},{"code":19,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["professor_pine",0,8,0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":41,"parameters":["trchar062",0,8,0]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":41,"parameters":["trchar062",0,8,0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIt's over, Maple. You lost.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,6)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rJust give it up.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou can't arrest me! I'm the leading researcher at Holon University!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,2)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI've won awards! I've captured legendaries! I have tenure!
         - i: 1
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bLet's just make it easy on both of us, buster.
         - i: 1
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bLet's go.
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 7
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":15,"parameters":[1]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - 2
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":15,"parameters":[1]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[1]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 106
+          p:
+            values:
+            - 20
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 101
+          p:
+            values:
+            - \r... jeez.
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \rListen, \pn. I owe you one. Maybe two.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI can't really repay you for all you've done for Holon- helping us
+              with our resource, exploring the region, <i>and </i> stopping Professor
+              Maple.
         - i: 1
           c: 101
+          p:
+            values:
+            - '\rListen, I''m sure you know about my Pokeball inventions. '
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIt's not much, but hopefully this can help you out.
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::ANCIENTBALL,20)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThe Ancient Ball is as strong as an Ultra Ball, but if you use it
+              on a legendary Pokemon, it has many times the catch rate.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rAnd again... thank you.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rThe idea of such a young Augur weirded me out at first, but, y'know...
         - i: 1
           c: 101
+          p:
+            values:
+            - \rIf anyone is worthy of that position, it's you.
         - i: 1
           c: 101
+          p:
+            values:
+            - \rHopefully you don't turn out to be a traitor too, eh?
         - i: 1
           c: 355
+          p:
+            values:
+            - MetricHandler.AddOne(HOLONWIN)
         - i: 1
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":15,"parameters":[10]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[10]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 121
+          p:
+            values:
+            - 459
+            - 459
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1429,10 +2430,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1469,10 +2474,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1509,10 +2518,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1549,26 +2562,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 617
+            - 39
+            - 13
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1605,10 +2654,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1645,26 +2698,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 460
+            - 35
+            - 10
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1701,26 +2790,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 460
+            - 35
+            - 10
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1757,12 +2882,23 @@ MonoBehaviour:
         list:
         - i: 0
           c: 122
+          p:
+            values:
+            - 162
+            - 162
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1775,8 +2911,8 @@ MonoBehaviour:
       y: 21
   Info:
     expanded: 0
-    name: Gaea Core
-    order: 736
-    parent_id: 426
-    scroll_x: 640
-    scroll_y: 433
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

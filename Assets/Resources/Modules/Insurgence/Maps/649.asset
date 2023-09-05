@@ -421,22 +421,52 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 650
+            - 19
+            - 23
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -468,30 +498,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).onEvent?
         - i: 1
           c: 208
+          p:
+            values:
+            - 0
         - i: 1
           c: 106
+          p:
+            values:
+            - 6
         - i: 1
           c: 208
+          p:
+            values:
+            - 1
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -528,14 +591,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":153.0,"b":0.0,"g":0.0,"r":30.0}'
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -567,10 +641,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -607,88 +685,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -725,88 +927,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -843,88 +1169,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -961,88 +1411,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1079,88 +1653,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1197,88 +1895,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1315,88 +2137,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1433,88 +2379,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1551,88 +2621,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1669,88 +2863,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1787,88 +3105,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1905,88 +3347,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2023,88 +3589,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2141,88 +3831,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2259,88 +4073,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2377,22 +4315,52 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 650
+            - 19
+            - 23
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2424,30 +4392,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).onEvent?
         - i: 1
           c: 208
+          p:
+            values:
+            - 0
         - i: 1
           c: 106
+          p:
+            values:
+            - 6
         - i: 1
           c: 208
+          p:
+            values:
+            - 1
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2484,88 +4485,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2602,88 +4727,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2720,88 +4969,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2838,88 +5211,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2956,88 +5453,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3074,88 +5695,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3192,88 +5937,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3310,88 +6179,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3428,88 +6421,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3546,88 +6663,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3664,88 +6905,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3782,88 +7147,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3900,88 +7389,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4018,88 +7631,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4136,88 +7873,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4254,88 +8115,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4372,88 +8357,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4490,88 +8599,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4608,32 +8841,77 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 648
+            - 11
+            - 21
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4670,88 +8948,212 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 2
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":2,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 6
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":3,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $game_map.passable?(get_character(0).x,get_character(0).y,$game_player.direction)
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).x==39 && get_character(0).y==31
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 225
+          p:
+            values:
+            - 5
+            - 5
+            - 5
         - i: 3
           c: 121
+          p:
+            values:
+            - 528
+            - 528
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - $game_map.need_refresh=true
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4764,8 +9166,8 @@ MonoBehaviour:
       y: 22
   Info:
     expanded: 0
-    name: Ancient Tower
-    order: 502
-    parent_id: 643
-    scroll_x: 640
-    scroll_y: 640
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

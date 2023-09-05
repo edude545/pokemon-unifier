@@ -181,10 +181,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -216,20 +220,47 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 293
+            - 5
+            - 12
+            - 8
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -266,450 +297,1200 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="East"
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":15,"parameters":[8]},{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[8]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 106
+          p:
+            values:
+            - 20
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 30
         - i: 0
           c: 106
+          p:
+            values:
+            - 40
         - i: 0
           c: 355
+          p:
+            values:
+            - PokemonWorldTournament.new
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 710
+            - 14
+            - 8
+            - 0
+            - 0
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - startrand
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 4
+            - 2
         - i: 1
           c: 122
+          p:
+            values:
+            - 67
+            - 67
+            - 0
+            - 2
+            - 1
+            - 50
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 6
+            - 2
         - i: 2
           c: 122
+          p:
+            values:
+            - 67
+            - 67
+            - 0
+            - 2
+            - 51
+            - 77
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 122
+          p:
+            values:
+            - 67
+            - 67
+            - 0
+            - 2
+            - 82
+            - 98
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - for i in pbGet(43)
         - i: 0
           c: 655
+          p:
+            values:
+            - ' $game_switches[243]=true if pbGet(67) == i'
         - i: 0
           c: 655
+          p:
+            values:
+            - end
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 243
+            - 0
         - i: 1
           c: 121
+          p:
+            values:
+            - 243
+            - 243
+            - 1
         - i: 1
           c: 119
+          p:
+            values:
+            - startrand
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbGet(43).push(pbGet(67))
         - i: 0
           c: 101
+          p:
+            values:
+            - The next round is about to begin!
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The contestants are: \v[69] \pn!'
         - i: 0
           c: 101
+          p:
+            values:
+            - And...
         - i: 0
           c: 355
+          p:
+            values:
+            - ChallengeChampionship.new.speech
         - i: 0
           c: 122
+          p:
+            values:
+            - 12
+            - 12
+            - 0
+            - 2
+            - 1
+            - 4
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 12
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="EliteA"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 12
+            - 0
+            - 2
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="EliteB"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 12
+            - 0
+            - 3
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="EliteC"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 12
+            - 0
+            - 4
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="EliteD"
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $game_variables[67] == 46 || $game_variables[67] == 21
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(ChallengeChampionship.new.getTrainerClass,ChallengeChampionship.new.getTrainerName,_I("You
+              were too strong!"),true,5,false)
         - i: 2
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 2
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 2
           c: 119
+          p:
+            values:
+            - win
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 2
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 2
           c: 119
+          p:
+            values:
+            - lose
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(ChallengeChampionship.new.getTrainerClass,ChallengeChampionship.new.getTrainerName,_I("You
+              were too strong!"),false,5,false)
         - i: 2
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 2
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 2
           c: 119
+          p:
+            values:
+            - win
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 2
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 2
           c: 119
+          p:
+            values:
+            - lose
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - win
         - i: 0
           c: 355
+          p:
+            values:
+            - for i in 0..$Trainer.party.length-1
         - i: 0
           c: 655
+          p:
+            values:
+            - '  $Trainer.party[i].item = pbGet(83)[i]'
         - i: 0
           c: 655
+          p:
+            values:
+            - end
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 5
+            - 2
         - i: 1
           c: 101
+          p:
+            values:
+            - The winner of Round \v[66] is...
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 6
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - The winner of this block's quarterfinals is...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 7
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - The winner of this block's semifinals is...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 8
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - The winner of this Challenge Championship is...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \v[69] \pn!
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 67
+            - 0
+            - 77
+            - 0
         - i: 1
           c: 121
+          p:
+            values:
+            - 336
+            - 336
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 8
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Congratulations, \pn!\nYou have won the Challenge Championship!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(1)
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 122
+          p:
+            values:
+            - 66
+            - 66
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Congratulations! You can move to the next round!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbAddWin
         - i: 0
           c: 314
+          p:
+            values:
+            - 0
         - i: 0
           c: 122
+          p:
+            values:
+            - 66
+            - 66
+            - 1
+            - 0
+            - 1
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 118
+          p:
+            values:
+            - Choice Menu
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSet(1,pbBattleChallenge.battleNumber)
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Battle number \v[1] is next.  Are you '
         - i: 1
           c: 401
+          p:
+            values:
+            - ready?\ch[2,0,Go on,Retire]
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Battle number \v[1] is next.  Are you '
         - i: 1
           c: 401
+          p:
+            values:
+            - ready?\ch[2,0,Go on,Retire]
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Record.
         - i: 0
           c: 108
+          p:
+            values:
+            - Retire.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - Are you sure you want to quit your challenge?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(2)
         - i: 2
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 122
+          p:
+            values:
+            - 66
+            - 66
+            - 0
+            - 0
+            - 0
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 119
+          p:
+            values:
+            - Choice Menu
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Rest.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":18,"parameters":[]},{"code":3,"parameters":[]},{"code":3,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 119
+          p:
+            values:
+            - Next Opponent
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 115
+          p:
+            values: []
         - i: 0
           c: 118
+          p:
+            values:
+            - lose
         - i: 0
           c: 355
+          p:
+            values:
+            - for i in 0..$Trainer.party.length-1
         - i: 0
           c: 655
+          p:
+            values:
+            - '  $Trainer.party[i].item = pbGet(83)[i]'
         - i: 0
           c: 655
+          p:
+            values:
+            - end
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 5
+            - 2
         - i: 1
           c: 101
+          p:
+            values:
+            - The winner of Round \v[66] is...
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 6
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - The winner of this block's quarterfinals is...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 7
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - The winner of this block's semifinals is...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 66
+            - 0
+            - 8
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - The winner of this Challenge Championship is...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(_INTL("{1}!",ChallengeChampionship.new.getTrainerName))
         - i: 0
           c: 101
+          p:
+            values:
+            - Sorry, \pn, but you're out of the tournament!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(2)
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 122
+          p:
+            values:
+            - 66
+            - 66
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -741,10 +1522,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -781,12 +1566,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 359
+            - 359
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -823,12 +1617,23 @@ MonoBehaviour:
         list:
         - i: 0
           c: 122
+          p:
+            values:
+            - 185
+            - 185
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -841,8 +1646,8 @@ MonoBehaviour:
       y: 12
   Info:
     expanded: 0
-    name: Challenge Championship
-    order: 825
-    parent_id: 710
-    scroll_x: 320
-    scroll_y: 320
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

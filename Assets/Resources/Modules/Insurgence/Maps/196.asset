@@ -223,10 +223,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -263,28 +267,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 175
+            - 35
+            - 32
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -321,10 +364,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -361,12 +408,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -403,12 +457,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -445,16 +506,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAfter twenty years of inactivity, the Battle Frontier is finally
+              coming back!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNot only that, but it's coming right here to Roggan Town!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat an honor! I can't wait to participate!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -491,14 +566,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIf you like playing games, you should check out the Game Corner in
+              our town.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou can earn money, prizes and even certain TMs there.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -535,42 +621,120 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm a lover of the rarest of Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you can show me one rare enough, I'll give you a fair prize!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHow does that sound? Do you have anything to show me?
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbHasSpecies?(PBSpecies::MEW) || pbHasSpecies?(PBSpecies::ZAPDOS) ||
+              pbHasSpecies?(PBSpecies::ARTICUNO) ||pbHasSpecies?(PBSpecies::MOLTRES)
+              ||pbHasSpecies?(PBSpecies::MEWTWO) ||pbHasSpecies?(PBSpecies::RAIKOU)
+              || pbHasSpecies?(PBSpecies::ENTEI) ||pbHasSpecies?(PBSpecies::SUICUNE)
+              ||pbHasSpecies?(PBSpecies::CELEBI) ||pbHasSpecies?(PBSpecies::HOOH)
+              ||pbHasSpecies?(PBSpecies::LUGIA) ||pbHasSpecies?(PBSpecies::REGISTEEL)
+              ||pbHasSpecies?(PBSpecies::REGICE) ||pbHasSpecies?(PBSpecies::REGIROCK)
+              ||pbHasSpecies?(PBSpecies::LATIOS) ||pbHasSpecies?(PBSpecies::LATIAS)
+              ||pbHasSpecies?(PBSpecies::KYOGRE) ||pbHasSpecies?(PBSpecies::GROUDON)
+              ||pbHasSpecies?(PBSpecies::RAYQUAZA) ||pbHasSpecies?(PBSpecies::JIRACHI)
+              ||pbHasSpecies?(PBSpecies::DEOXYS) ||pbHasSpecies?(PBSpecies::AZELF)
+              ||pbHasSpecies?(PBSpecies::MESPRIT) ||pbHasSpecies?(PBSpecies::UXIE)
+              ||pbHasSpecies?(PBSpecies::DIALGA) ||pbHasSpecies?(PBSpecies::PALKIA)
+              ||pbHasSpecies?(PBSpecies::GIRATINA) ||pbHasSpecies?(PBSpecies::HEATRAN)
+              ||pbHasSpecies?(PBSpecies::CRESSELIA) ||pbHasSpecies?(PBSpecies::REGIGIGAS)
+              ||pbHasSpecies?(PBSpecies::MANAPHY) ||pbHasSpecies?(PBSpecies::PHIONE)
+              ||pbHasSpecies?(PBSpecies::DARKRAI) ||pbHasSpecies?(PBSpecies::SHAYMIN)
+              ||pbHasSpecies?(PBSpecies::ARCEUS) ||pbHasSpecies?(PBSpecies::VICTINI)
+              ||pbHasSpecies?(PBSpecies::VIRIZION) ||pbHasSpecies?(PBSpecies::COBALION)
+              ||pbHasSpecies?(PBSpecies::TERRAKION) ||pbHasSpecies?(PBSpecies::KELDEO)
+              ||pbHasSpecies?(PBSpecies::THUNDURUS) ||pbHasSpecies?(PBSpecies::TORNADUS)
+              ||pbHasSpecies?(PBSpecies::LANDORUS) ||pbHasSpecies?(PBSpecies::RESHIRAM)
+              ||pbHasSpecies?(PBSpecies::ZEKROM) ||pbHasSpecies?(PBSpecies::KYUREM)
+              ||pbHasSpecies?(PBSpecies::MELOETTA) ||pbHasSpecies?(PBSpecies::GENESECT)
+              ||pbHasSpecies?(PBSpecies::XERNEAS) ||pbHasSpecies?(PBSpecies::YVELTAL)
+              ||pbHasSpecies?(PBSpecies::ZYGARDE) ||pbHasSpecies?(PBSpecies::HOOPA)
+              ||pbHasSpecies?(PBSpecies::VOLCANION) ||pbHasSpecies?(PBSpecies::HOOPA)
+              ||pbHasSpecies?(PBSpecies::DIANCIE)
         - i: 1
           c: 207
+          p:
+            values:
+            - 0
+            - 3
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThats... that's a legendary Pokemon!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bBut... how? How could you even possibly get one?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bTake this, anyways.
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbItemBall(PBItems::DIANCITE)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAh, you don't have any super-rare Pokemon.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHow disappointing!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -602,12 +766,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHow could you even possibly get a legendary Pokemon?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -620,8 +791,8 @@ MonoBehaviour:
       y: 12
   Info:
     expanded: 0
-    name: Roggan House
-    order: 270
-    parent_id: 175
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

@@ -157,20 +157,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 7
+            - 11
+            - 29
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -207,18 +233,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - XGJUaGlzIGlzIGFuIGV4YW1wbGUgb2YgYSBQb2vDqW1vbiBHeW0u
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bThe only differences are that the trainers become '
         - i: 0
           c: 401
+          p:
+            values:
+            - inactive if the Leader is defeated, and that the Leader
         - i: 0
           c: 401
+          p:
+            values:
+            - gives you a badge and TM after defeating him.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -255,30 +297,66 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:LEADER_Brock)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou've made it this far, but can you beat me?
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::LEADER_Brock,"Brock",_I("Very good."))
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou've earned the Boulder Badge.
         - i: 1
           c: 355
+          p:
+            values:
+            - $Trainer.badges[0]=true
         - i: 1
           c: 121
+          p:
+            values:
+            - 4
+            - 4
+            - 0
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -310,18 +388,36 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bI often work in the caves on Route 7, digging up '
         - i: 0
           c: 401
+          p:
+            values:
+            - fossils.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'XGJUaGVyZSdzIGEgbWFuIGluIHRoZSBQb2vDqW1vbiBJbnN0aXR1dGUgd2hv
+
+              IGNhbiA='
         - i: 0
           c: 401
+          p:
+            values:
+            - cmV2aXZlIGZvc3NpbHMgaW50byBsaXZpbmcgUG9rw6ltb24u
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -358,40 +454,89 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bBattle me now!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: CAMPER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Liam'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: A very good battle, indeed.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bYou''re pretty hot. But not as hot as'
         - i: 0
           c: 408
+          p:
+            values:
+            - Brock!
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndIfSwitch: 4'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:CAMPER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBattle me now!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::CAMPER,"Liam",_I("A very good battle, indeed."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -423,14 +568,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou're pretty hot. But not as hot as
         - i: 0
           c: 401
+          p:
+            values:
+            - Brock!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -462,14 +617,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou're pretty hot. But not as hot as
         - i: 0
           c: 401
+          p:
+            values:
+            - Brock!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -482,8 +647,8 @@ MonoBehaviour:
       y: 8
   Info:
     expanded: 0
-    name: Cedolan Gym
-    order: 41
-    parent_id: 7
-    scroll_x: 320
-    scroll_y: 256
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

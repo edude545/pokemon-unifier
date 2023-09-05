@@ -223,28 +223,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 234
+            - 15
+            - 62
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -281,12 +320,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -323,12 +369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -365,10 +418,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -400,66 +457,175 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou beat Audrey?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThat's seriously incredible, \pn.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou actually took down a cult leader.\nAbyssal is no more. That's
+              mind-blowing.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou're the first person since the First Augur to pull something like
+              that off.
         - i: 0
           c: 101
+          p:
+            values:
+            - \r... ... ...
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI heard about your friend.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rListen, I'm sure he'll be fine.\nHe's just doing what he believes
+              is the right thing to do.\nYou just have to talk to him, he'll snap
+              out of it.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI've been doing some research into the Pokerus virus.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\rHopefully we''ll be able to figure out what''s causing this in the
+              first place, because I <i>refuse </i> to believe that whatever my fa-
+              err, Malde wants to do is good '
         - i: 0
           c: 401
+          p:
+            values:
+            - for the world.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'll tell Nora about it, and we'll work on finding a solution together.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI know you're worried about Damian. Trust me, he'll be fine.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWe'll work together to help him out.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rDon't do anything rash, ok?\nI'll leave you here, I have a Gym to
+              run.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAnd from what I hear, you have one to visit!\nAnastasia should be
+              ready for you in Kepler!
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThanks for telling me about this.\nLet me know if you see my father
+              or your friend again.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 278
+            - 21
+            - 15
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -491,64 +657,165 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 101
+          p:
+            values:
+            - \rSo Kyogre got her in the end, huh?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThat's horrifying. It's appropriate, but still.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThat's seriously incredible, \pn.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou actually beat a cult leader, and disbanded her cult.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou're the first person since the First Augur to pull that off.
         - i: 0
           c: 101
+          p:
+            values:
+            - \r... ... ...
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \r...I heard about your friend.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rIf whatever's affecting Malde is affecting him too, then I promise
+              we'll find a way to help him.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI've been doing some research into the Pokerus virus.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'll tell Nora about it, and we'll work on finding a solution together.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI know you're worried about him.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThe decisions he's making... they aren't his.\nIt's the virus talking.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rDon't do anything rash, ok?\nI'll leave you here, I have a Gym to
+              run.
         - i: 0
           c: 209
+          p:
+            values:
+            - 6
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAnd from what I hear, you have one to visit!\nAnastasia should be
+              ready for you in Kepler!
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThanks for telling me about this.\nLet me know if you see my father
+              or your friend again.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 278
+            - 21
+            - 15
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -580,10 +847,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -620,14 +891,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rMiss Harmony lives here when she's not working at her Gym.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'm just the caretaker. I keep the place nice and tidy.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -640,8 +921,8 @@ MonoBehaviour:
       y: 13
   Info:
     expanded: 0
-    name: Sonata City
-    order: 395
-    parent_id: 234
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

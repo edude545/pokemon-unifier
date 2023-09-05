@@ -151,20 +151,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 5
+            - 11
+            - 6
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -201,108 +227,264 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - C
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHello! I'm Kurt!
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIHNwZWNpYWxpc2UgaW4gdHVybmluZyBBcHJpY29ybnMgaW50byBQb2vD
+
+              qSBCYWxscy4='
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJZiB5b3UgbGlrZSwgSSBjYW4gY29udmVydCBvbmUgb2YgeW91cnMgaW50
+
+              byBhIFBva8OpIA=='
         - i: 1
           c: 401
+          p:
+            values:
+            - Ball.
         - i: 1
           c: 123
+          p:
+            values:
+            - C
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHello again. Do you have an Apricorn for me?
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChooseItemFromList(
         - i: 0
           c: 655
+          p:
+            values:
+            - _I("<c2=6546675A>Which Apricorn would you like me to convert?"),8,
         - i: 0
           c: 655
+          p:
+            values:
+            - :REDAPRICORN,:YLWAPRICORN,:BLUAPRICORN,
         - i: 0
           c: 655
+          p:
+            values:
+            - :GRNAPRICORN,:PNKAPRICORN,:WHTAPRICORN,
         - i: 0
           c: 655
+          p:
+            values:
+            - :BLKAPRICORN)
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 8
+            - 0
+            - -1
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Player cancelled choosing an Apricorn.
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bLet me know when you want me to convert an '
         - i: 1
           c: 401
+          p:
+            values:
+            - Apricorn for you.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 8
+            - 0
+            - 0
+            - 0
         - i: 2
           c: 108
+          p:
+            values:
+            - Player has no Apricorns.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bCome back when you have an Apricorn for me.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 108
+          p:
+            values:
+            - Player chose an Apricorn.
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbDeleteItem(pbGet(8))
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSet(3,PBItems.getName(pbGet(8)))
         - i: 2
           c: 101
+          p:
+            values:
+            - 'XGJPa2F5LiBJJ2xsIHR1cm4geW91ciBcdlszXSBpbnRvIGEgUG9rw6kgQmFs
+
+              bCBmb3IgeW91Lg=='
         - i: 2
           c: 101
+          p:
+            values:
+            - \bI should be finished by tomorrow.
         - i: 2
           c: 108
+          p:
+            values:
+            - Convert Apricorn into Ball now.
         - i: 2
           c: 355
+          p:
+            values:
+            - arr=[:REDAPRICORN,:LEVELBALL,
         - i: 2
           c: 655
+          p:
+            values:
+            - :YLWAPRICORN,:MOONBALL,:BLUAPRICORN,:LUREBALL,
         - i: 2
           c: 655
+          p:
+            values:
+            - :GRNAPRICORN,:FRIENDBALL,:PNKAPRICORN,:LOVEBALL,
         - i: 2
           c: 655
+          p:
+            values:
+            - :WHTAPRICORN,:FASTBALL,:BLKAPRICORN,:HEAVYBALL]
         - i: 2
           c: 655
+          p:
+            values:
+            - item=pbGet(8); pbSet(8,0)
         - i: 2
           c: 655
+          p:
+            values:
+            - for i in 0...(arr.length/2)
         - i: 2
           c: 655
+          p:
+            values:
+            - '  if item==getID(PBItems,arr[2*i])'
         - i: 2
           c: 655
+          p:
+            values:
+            - '    pbSet(8,getID(PBItems,arr[2*i+1]))'
         - i: 2
           c: 655
+          p:
+            values:
+            - '    break'
         - i: 2
           c: 655
+          p:
+            values:
+            - '  end'
         - i: 2
           c: 655
+          p:
+            values:
+            - end
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetEventTime
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -334,50 +516,121 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 8
+            - 0
+            - 0
+            - 3
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJJ3ZlIGJlZW4gd2FpdGluZyBmb3IgeW91LiBJJ3ZlIGNvbXBsZXRlZCB0
+
+              aGUgUG9rw6kg'
         - i: 1
           c: 401
+          p:
+            values:
+            - Ball you asked me to make.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbReceiveItem(pbGet(8))
         - i: 2
           c: 122
+          p:
+            values:
+            - 8
+            - 8
+            - 0
+            - 0
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bYou have no room left. Make room, then come see '
         - i: 2
           c: 401
+          p:
+            values:
+            - me.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIHRyaWVkIG1ha2luZyBhIFBva8OpIEJhbGwgb3V0IG9mIHdoYXQgeW91
+
+              IGdhdmUgbWUsIA=='
         - i: 1
           c: 401
+          p:
+            values:
+            - but it didn't work.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry.
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -409,12 +662,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm still working on your Apricorn. Come back later.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -446,16 +706,31 @@ MonoBehaviour:
         list:
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 0
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -468,8 +743,8 @@ MonoBehaviour:
       y: 4
   Info:
     expanded: 0
-    name: Kurt's house
-    order: 61
-    parent_id: 5
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

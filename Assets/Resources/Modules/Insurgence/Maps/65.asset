@@ -151,230 +151,575 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThanks for competing.\nLet me heal your party.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 314
+          p:
+            values:
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 118
+          p:
+            values:
+            - Choice Menu
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSet(1,
         - i: 0
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.battleNumber)
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 1
           c: 101
+          p:
+            values:
+            - \bBattle number \v[1] is next.  Are you ready?\ch[2,0,
         - i: 1
           c: 401
+          p:
+            values:
+            - Go on,Rest,Retire,Record]
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bBattle number \v[1] is next.  Are you ready?\ch[2,0,
         - i: 1
           c: 401
+          p:
+            values:
+            - Go on,Rest,Retire]
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Record.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 3
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 2
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 119
+          p:
+            values:
+            - Choice Menu
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Retire.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 2
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAre you sure you want to quit your challenge?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.setDecision(2)
         - i: 2
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoToStart
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 119
+          p:
+            values:
+            - Choice Menu
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Rest.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWould you like to save the game and continue '
         - i: 1
           c: 401
+          p:
+            values:
+            - later?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbRest
         - i: 2
           c: 101
+          p:
+            values:
+            - Your game has been saved.
         - i: 2
           c: 354
+          p:
+            values: []
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 119
+          p:
+            values:
+            - Choice Menu
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 119
+          p:
+            values:
+            - Choice Menu
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Go on.
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.extra.pbPrepareSwaps
         - i: 1
           c: 101
+          p:
+            values:
+            - XGJXb3VsZCB5b3UgbGlrZSB0byBzd2FwIGEgUG9rw6ltb24gZmlyc3Q/
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.extra.pbChooseSwaps
         - i: 3
           c: 101
+          p:
+            values:
+            - XGJPSywgdGhlIFBva8OpbW9uIHN3YXAgaXMgY29tcGxldGUu
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome with me.
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 64
+            - 2
+            - 10
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -387,8 +732,8 @@ MonoBehaviour:
       y: 4
   Info:
     expanded: 0
-    name: Battle Factory corridor
-    order: 21
-    parent_id: 62
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

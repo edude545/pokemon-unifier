@@ -151,20 +151,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 52
+            - 8
+            - 9
+            - 2
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -201,18 +227,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -249,158 +291,388 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Battle Palace.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWould you like to participate in a single battle?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bDo you want to take the Level 50 challenge, or the '
         - i: 1
           c: 401
+          p:
+            values:
+            - Open Level challenge?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Level 50","Open Level","Cancel"]'
+            - 3
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Level 50
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("palacesingle",7,
         - i: 2
           c: 655
+          p:
+            values:
+            - pbBattlePalaceRules(false,false))
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Open Level
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("palacesingleopen",7,
         - i: 2
           c: 655
+          p:
+            values:
+            - pbBattlePalaceRules(false,true))
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Cancel
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 108
+          p:
+            values:
+            - Has 3 or more eligible Pokemon level 100 or less?
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbHasEligible?(3,100)'
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bSorry, you can''t participate.  You need three '
         - i: 2
           c: 401
+          p:
+            values:
+            - ZGlmZmVyZW50IFBva8OpbW9uIHRvIGVudGVyLg==
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bThey must be of a different species and hold '
         - i: 2
           c: 401
+          p:
+            values:
+            - different items.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bCertain exotic species, as well as eggs, are '
         - i: 2
           c: 401
+          p:
+            values:
+            - ineligible.
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJQbGVhc2UgY2hvb3NlIHRoZSB0aHJlZSBQb2vDqW1vbiB0aGF0IHdpbGwg
+
+              ZW50ZXIu'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbEntryScreen(3,100)'
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbSaveScreen
         - i: 2
           c: 101
+          p:
+            values:
+            - \bPlease come this way.
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.start
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 59
+            - 2
+            - 8
+            - 0
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 118
+          p:
+            values:
+            - End
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbCancel
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -432,174 +704,422 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - If Won
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCongratulations for winning.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bPlease take this prize.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou have no room for it.  At least you won, though.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 3
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - If Lost or Forfeited
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==2
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThanks for playing.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 3
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.pbResting?
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWe''ve been waiting for you.  Please come this '
         - i: 1
           c: 401
+          p:
+            values:
+            - way.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 59
+            - 2
+            - 8
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bExcuse me, but you didn''t save before finishing '
         - i: 1
           c: 401
+          p:
+            values:
+            - your challenge last time.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry, but your challenge has been canceled.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -636,158 +1156,388 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Battle Palace.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWould you like to participate in a double battle?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bDo you want to take the Level 50 challenge, or the '
         - i: 1
           c: 401
+          p:
+            values:
+            - Open Level challenge?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Level 50","Open Level","Cancel"]'
+            - 3
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Level 50
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("palacedouble",7,
         - i: 2
           c: 655
+          p:
+            values:
+            - pbBattlePalaceRules(true,false))
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Open Level
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("palacedoubleopen",7,
         - i: 2
           c: 655
+          p:
+            values:
+            - pbBattlePalaceRules(true,true))
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Cancel
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 108
+          p:
+            values:
+            - Has 3 or more eligible Pokemon level 100 or less?
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbHasEligible?(3,100)'
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bSorry, you can''t participate.  You need three '
         - i: 2
           c: 401
+          p:
+            values:
+            - ZGlmZmVyZW50IFBva8OpbW9uIHRvIGVudGVyLg==
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bThey must be of a different species and hold '
         - i: 2
           c: 401
+          p:
+            values:
+            - different items.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bCertain exotic species, as well as eggs, are '
         - i: 2
           c: 401
+          p:
+            values:
+            - ineligible.
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJQbGVhc2UgY2hvb3NlIHRoZSB0aHJlZSBQb2vDqW1vbiB0aGF0IHdpbGwg
+
+              ZW50ZXIu'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbEntryScreen(3,100)'
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbSaveScreen
         - i: 2
           c: 101
+          p:
+            values:
+            - \bPlease come this way.
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.start
         - i: 2
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 59
+            - 2
+            - 8
+            - 0
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 118
+          p:
+            values:
+            - End
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbCancel
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -819,174 +1569,422 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - If Won
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCongratulations for winning.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bPlease take this prize.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY)'
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou have no room for it.  At least you won, though.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 3
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - If Lost or Forfeited
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==2
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThanks for playing.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonTemp.lastbattle!=nil
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWould you like to record your last battle?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 355
+          p:
+            values:
+            - pbRecordLastBattle
         - i: 3
           c: 101
+          p:
+            values:
+            - \se[expfull]The battle was recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - Your results will be recorded.\wtnp[15]
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.pbResting?
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bWe''ve been waiting for you.  Please come this '
         - i: 1
           c: 401
+          p:
+            values:
+            - way.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 59
+            - 2
+            - 8
+            - 0
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bExcuse me, but you didn''t save before finishing '
         - i: 1
           c: 401
+          p:
+            values:
+            - your challenge last time.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry, but your challenge has been canceled.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1023,52 +2021,119 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Check results for which challenge?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Level 50","Open Level","Cancel"]'
+            - 3
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Level 50
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_variables[1]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getPreviousWins("palacesingle")
         - i: 1
           c: 655
+          p:
+            values:
+            - $game_variables[2]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getMaxWins("palacesingle")
         - i: 1
           c: 101
+          p:
+            values:
+            - '\PN''s Battle Palace Level 50 Single Battle results:'
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Last win streak: \v[1]\nRecord win streak: \v[2]'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Open Level
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_variables[1]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getPreviousWins("palacesingleopen")
         - i: 1
           c: 655
+          p:
+            values:
+            - $game_variables[2]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getMaxWins("palacesingleopen")
         - i: 1
           c: 101
+          p:
+            values:
+            - '\PN''s Battle Palace Open Level Single Battle results:'
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Last win streak: \v[1]\nRecord win streak: \v[2]'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - Cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1105,52 +2170,119 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Check results for which challenge?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Level 50","Open Level","Cancel"]'
+            - 3
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Level 50
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_variables[1]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getPreviousWins("palacedouble")
         - i: 1
           c: 655
+          p:
+            values:
+            - $game_variables[2]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getMaxWins("palacedouble")
         - i: 1
           c: 101
+          p:
+            values:
+            - '\PN''s Battle Palace Level 50 Double Battle results:'
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Last win streak: \v[1]\nRecord win streak: \v[2]'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Open Level
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_variables[1]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getPreviousWins("palacedoubleopen")
         - i: 1
           c: 655
+          p:
+            values:
+            - $game_variables[2]=
         - i: 1
           c: 655
+          p:
+            values:
+            - pbBattleChallenge.getMaxWins("palacedoubleopen")
         - i: 1
           c: 101
+          p:
+            values:
+            - '\PN''s Battle Palace Open Level Double Battle results:'
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Last win streak: \v[1]\nRecord win streak: \v[2]'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - Cancel
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1187,162 +2319,423 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Battle Palace rules","Play recorded battle","Cancel"]'
+            - 3
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Battle Palace rules
         - i: 2
           c: 118
+          p:
+            values:
+            - Top
         - i: 2
           c: 101
+          p:
+            values:
+            - Which heading do you want to read?\ch[1,-1,
         - i: 2
           c: 401
+          p:
+            values:
+            - QmF0dGxlIEJhc2ljcyxQb2vDqW1vbiBOYXR1cmUsUG9rw6ltb24gTW92ZXMs
         - i: 2
           c: 401
-        - i: 2
-          c: 111
-        - i: 3
-          c: 101
-        - i: 3
-          c: 401
-        - i: 3
-          c: 101
-        - i: 3
-          c: 401
-        - i: 3
-          c: 119
-        - i: 3
-          c: 0
-        - i: 2
-          c: 412
+          p:
+            values:
+            - Underpowered,When in Danger,Exit]
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'SW4gdGhlIEJhdHRsZSBQYWxhY2UsIFBva8OpbW9uIGFyZSByZXF1aXJlZCB0
+
+              byB0aGluayBieSA='
         - i: 3
           c: 401
+          p:
+            values:
+            - themselves.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'VW5saWtlIGluIHRoZSB3aWxkLCBQb2vDqW1vbiB0aGF0IGxpdmUgd2l0aCBw
+
+              ZW9wbGUg'
         - i: 3
           c: 401
-        - i: 3
-          c: 101
-        - i: 3
-          c: 401
-        - i: 3
-          c: 101
-        - i: 3
-          c: 401
+          p:
+            values:
+            - behave differently depending on their nature.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'RGVwZW5kaW5nIG9uIGl0cyBuYXR1cmUsIGEgUG9rw6ltb24gbWF5IHByZWZl
+
+              ciB0byA='
         - i: 3
           c: 401
+          p:
+            values:
+            - attack no matter what.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'QW5vdGhlciBQb2vDqW1vbiBtYXkgcHJlZmVyIHRvIHByb3RlY3QgaXRzZWxm
+
+              IGZyb20g'
         - i: 3
           c: 401
+          p:
+            values:
+            - harm.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'Yet another may enjoy vexing or confounding its '
         - i: 3
           c: 401
-        - i: 3
-          c: 401
+          p:
+            values:
+            - foes.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'QSBQb2vDqW1vbidzIG5hdHVyZSBkZXRlcm1pbmVzIHdoaWNoIG1vdmVzIGl0
+
+              IGlzIA=='
         - i: 3
           c: 401
+          p:
+            values:
+            - good at using, and which moves it has trouble using.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'There are offensive moves that deal direct damage '
         - i: 3
           c: 401
-        - i: 3
-          c: 401
+          p:
+            values:
+            - on the foe.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'There are defensive moves that are used to prepare '
         - i: 3
           c: 401
+          p:
+            values:
+            - for enemy attacks or used to heal HP and so on.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'And there are other somewhat-odd moves that may '
         - i: 3
           c: 401
+          p:
+            values:
+            - enfeeble the foe with status problems including
         - i: 3
           c: 401
+          p:
+            values:
+            - poison and paralysis.
+        - i: 3
+          c: 101
+          p:
+            values:
+            - 'UG9rw6ltb24gd2lsbCBjb25zaWRlciB1c2luZyBtb3ZlcyBpbiB0aGVzZSB0
+
+              aHJlZSA='
+        - i: 3
+          c: 401
+          p:
+            values:
+            - categories.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 3
+            - 0
         - i: 3
           c: 101
+          p:
+            values:
+            - 'When not taking commands from its Trainer, a '
         - i: 3
           c: 401
+          p:
+            values:
+            - 'UG9rw6ltb24gbWF5IGJlIHVuYWJsZSB0byBlZmZlY3RpdmVseSB1c2UgY2Vy
+
+              dGFpbg=='
         - i: 3
           c: 401
+          p:
+            values:
+            - kinds of moves.
         - i: 3
           c: 101
+          p:
+            values:
+            - 'QSBQb2vDqW1vbiBpcyBub3QgZ29vZCBhdCB1c2luZyBhbnkgbW92ZSB0aGF0
+
+              IGl0IA=='
         - i: 3
           c: 401
+          p:
+            values:
+            - dislikes.
+        - i: 3
+          c: 101
+          p:
+            values:
+            - 'SWYgYSBQb2vDqW1vbiBvbmx5IGtub3dzIG1vdmVzIHRoYXQgZG9uJ3QgY29u
+
+              Zm9ybSA='
+        - i: 3
+          c: 401
+          p:
+            values:
+            - to its nature, it will often be unable to live up to its
+        - i: 3
+          c: 401
+          p:
+            values:
+            - potential.
         - i: 3
           c: 119
+          p:
+            values:
+            - Choices
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
+        - i: 2
+          c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
+        - i: 3
+          c: 101
+          p:
+            values:
+            - 'RGVwZW5kaW5nIG9uIGl0cyBuYXR1cmUsIGEgUG9rw6ltb24gbWF5IHN0YXJ0
+
+              IHVzaW5nIA=='
+        - i: 3
+          c: 401
+          p:
+            values:
+            - moves that don't match its nature when it is in
+        - i: 3
+          c: 401
+          p:
+            values:
+            - trouble.
+        - i: 3
+          c: 101
+          p:
+            values:
+            - 'SWYgYSBQb2vDqW1vbiBiZWdpbnMgYmVoYXZpbmcgb2RkbHkgaW4gYSBwaW5j
+
+              aCwgd2F0Y2gg'
+        - i: 3
+          c: 401
+          p:
+            values:
+            - it carefully.
+        - i: 3
+          c: 119
+          p:
+            values:
+            - Choices
+        - i: 3
+          c: 0
+          p:
+            values: []
+        - i: 2
+          c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - Play recorded battle
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonGlobal.lastbattle!=nil
         - i: 3
           c: 355
+          p:
+            values:
+            - pbPlayLastBattle
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 101
+          p:
+            values:
+            - There is no battle recorded.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 2
+            - Cancel
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1354,9 +2747,9 @@ MonoBehaviour:
       x: 8
       y: 3
   Info:
-    expanded: 1
-    name: Battle Palace
-    order: 14
-    parent_id: 52
-    scroll_x: 320
-    scroll_y: 240
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

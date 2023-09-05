@@ -223,42 +223,95 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI cannot STAND how quiet this town is.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bListen. I need a favor. Let me teach you a few loud moves.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll teach 'em for free- but you gotta go out there and make some
+              NOISE, you hear me?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat can I teach you?\ch[2,5,Uproar,Hyper Voice,Boomburst,Self-Destruct,(Cancel)]
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 2
+            - 0
+            - 4
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bOh, a shame. Maybe another time, then.                             '
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - case pbGet(2)
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 0;pbMoveTutorChoose(PBMoves::UPROAR)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 1;pbMoveTutorChoose(PBMoves::HYPERVOICE)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 2;pbMoveTutorChoose(PBMoves::BOOMBURST)'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  when 3;pbMoveTutorChoose(PBMoves::SELFDESTRUCT)'
         - i: 1
           c: 655
+          p:
+            values:
+            - end
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -295,28 +348,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 234
+            - 22
+            - 52
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -353,12 +445,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -395,12 +494,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -437,16 +543,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI grew up in Kanto and moved to Torren when I was younger.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThere's so much more to do here, but let me tell you- these cults
+              are a lot scarier than Team Rocket!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOn the whole, it's a lot harder to decide which one I like more!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -483,14 +603,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rYou look... really familiar.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI can't quite place it. I feel like I've seen you before, though.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -527,18 +657,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe leader here, Harmony, is a real piece of work.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI tried taking her on myself, but her Mega M-
         - i: 0
           c: 101
+          p:
+            values:
+            - \b... ... ...\n...the point is, she's a real tough opponent!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou'll have a doozy of a time against her!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -551,8 +697,8 @@ MonoBehaviour:
       y: 12
   Info:
     expanded: 0
-    name: Sonata City
-    order: 397
-    parent_id: 234
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

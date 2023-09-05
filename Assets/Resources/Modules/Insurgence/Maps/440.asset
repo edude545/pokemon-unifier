@@ -1501,40 +1501,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''m going to show you what it''s like to battle underwater!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: SWIMMER_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Derren'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Underwater'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: It was less fun than I expected.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bIt was less fun than I expected.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:SWIMMER_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm going to show you what it's like to battle underwater!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Underwater"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::SWIMMER_M,"Derren",_I("It was less fun
+              than I expected."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1566,12 +1616,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt was less fun than I expected.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1608,40 +1665,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bHmph! You''ll never take down this gym! You''ll lose here!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: SWIMMER_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Miguel'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Underwater'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: I... uh.. guess you can continue.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI... uh.. guess you can continue.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:SWIMMER_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHmph! You'll never take down this gym! You'll lose here!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Underwater"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::SWIMMER_M,"Miguel",_I("I... uh.. guess
+              you can continue."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1673,12 +1780,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI... uh.. guess you can continue.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1715,40 +1829,92 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bBwahahahha! I''m evil! You''re going down!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: SWIMMER_M'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Evil'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Underwater'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Yeah... my parents named me Evil. They didn''t like me
+              much.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bYeah... my parents named me Evil. They didn''t like me
+              much.'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:SWIMMER_M)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBwahahahha! I'm evil! You're going down!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Underwater"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::SWIMMER_M,"Evil",_I("Yeah... my parents
+              named me Evil. They didn't like me much."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1780,12 +1946,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYeah... my parents named me Evil. They didn't like me much.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1822,10 +1995,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1857,14 +2034,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(1,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(2,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1901,26 +2088,62 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 286
+            - 30
+            - 76
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1933,8 +2156,8 @@ MonoBehaviour:
       y: 2
   Info:
     expanded: 0
-    name: Amphitrite (UW)
-    order: 548
-    parent_id: 442
-    scroll_x: 1138
-    scroll_y: 1000
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

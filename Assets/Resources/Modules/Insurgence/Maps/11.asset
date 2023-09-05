@@ -151,20 +151,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 7
+            - 35
+            - 28
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -201,108 +227,263 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - B
+            - 1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, hello. I'm a scientist.
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJJIGNhbiB0dXJuIGZvc3NpbHMgaW50byBsaXZpbmcsIGJyZWF0aGluZyBQ
+
+              b2vDqW1vbiE='
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAiyah! You come again!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbChooseItemFromList(
         - i: 0
           c: 655
+          p:
+            values:
+            - _I("<c2=6546675A>Do you have a fossil for me to revive?"),9,
         - i: 0
           c: 655
+          p:
+            values:
+            - :HELIXFOSSIL,:DOMEFOSSIL,:OLDAMBER,
         - i: 0
           c: 655
+          p:
+            values:
+            - :ROOTFOSSIL,:CLAWFOSSIL,
         - i: 0
           c: 655
+          p:
+            values:
+            - :SKULLFOSSIL,:ARMORFOSSIL,
         - i: 0
           c: 655
+          p:
+            values:
+            - :COVERFOSSIL,:PLUMEFOSSIL)
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 9
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Player has no fossils.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 9
+            - 0
+            - -1
+            - 0
         - i: 2
           c: 108
+          p:
+            values:
+            - Player cancelled choosing a fossil.
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bLet me know when you want me to revive a '
         - i: 2
           c: 401
+          p:
+            values:
+            - fossil for you.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 108
+          p:
+            values:
+            - Player chose a fossil.
         - i: 2
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbDeleteItem(pbGet(9))
         - i: 2
           c: 355
+          p:
+            values:
+            - $game_variables[3]=PBItems.getName(pbGet(9))
         - i: 2
           c: 101
+          p:
+            values:
+            - \bOkay. I'll see if I can revive your \v[3].
         - i: 2
           c: 101
+          p:
+            values:
+            - \bCome back later.
         - i: 2
           c: 108
+          p:
+            values:
+            - Convert fossil into species now.
         - i: 2
           c: 355
+          p:
+            values:
+            - arr=[:HELIXFOSSIL,:OMANYTE,:DOMEFOSSIL,:KABUTO,
         - i: 2
           c: 655
+          p:
+            values:
+            - :OLDAMBER,:AERODACTYL,:ROOTFOSSIL,:LILEEP,
         - i: 2
           c: 655
+          p:
+            values:
+            - :CLAWFOSSIL,:ANORITH,:SKULLFOSSIL,:CRANIDOS,
         - i: 2
           c: 655
+          p:
+            values:
+            - :ARMORFOSSIL,:SHIELDON,:COVERFOSSIL,:TIRTOUGA,
         - i: 2
           c: 655
+          p:
+            values:
+            - :PLUMEFOSSIL,:ARCHEN]
         - i: 2
           c: 655
+          p:
+            values:
+            - item=pbGet(9); pbSet(9,0)
         - i: 2
           c: 655
+          p:
+            values:
+            - for i in 0...(arr.length/2)
         - i: 2
           c: 655
+          p:
+            values:
+            - '  if item==getID(PBItems,arr[2*i])'
         - i: 2
           c: 655
+          p:
+            values:
+            - '    pbSet(9,getID(PBSpecies,arr[2*i+1]))'
         - i: 2
           c: 655
+          p:
+            values:
+            - '    break'
         - i: 2
           c: 655
+          p:
+            values:
+            - '  end'
         - i: 2
           c: 655
+          p:
+            values:
+            - end
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 121
+          p:
+            values:
+            - 13
+            - 13
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -334,56 +515,132 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 9
+            - 0
+            - 0
+            - 3
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWhere have you been?  I've finished reviving your
         - i: 1
           c: 401
+          p:
+            values:
+            - fossil.
         - i: 1
           c: 355
+          p:
+            values:
+            - $game_variables[3]=PBSpecies.getName(pbGet(9))
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt was \v[3] like I thought.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbAddToParty(pbGet(9),1)
         - i: 2
           c: 122
+          p:
+            values:
+            - 9
+            - 9
+            - 0
+            - 0
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - '\bYou have no room left.  Make room, then come see '
         - i: 2
           c: 401
+          p:
+            values:
+            - me.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI managed to revive your fossil.
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bHowever, what I brought back didn''t live long...\1 '
         - i: 1
           c: 401
+          p:
+            values:
+            - fortunately.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry.
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -415,12 +672,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI told you, come back later.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -457,12 +721,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -475,8 +746,8 @@ MonoBehaviour:
       y: 1
   Info:
     expanded: 0
-    name: UG9rw6ltb24gSW5zdGl0dXRl
-    order: 42
-    parent_id: 7
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

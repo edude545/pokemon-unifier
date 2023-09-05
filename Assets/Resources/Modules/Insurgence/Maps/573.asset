@@ -223,44 +223,101 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's good to see kids like you taking an active role in society.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSay, would you be able to give me a hand?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bJust a small favour. It shouldn't take you too long.
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, great.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI lost an important item of mine in the caves of Route 15.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt was a rock, I think? Or far away from one?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIf I knew where it was exactly, I'd get it myself.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt's really important to me. If you can find it for me, I'll get
+              you something in return.
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh. Well, forget what I said about kids these days.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bUnhelpful, ungrateful little whelps.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -292,46 +349,104 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI lost an important item of mine in the caves of Route 15.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt was a rock, I think? Or far away from one?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf I knew where it was exactly, I'd get it myself.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's really important to me. If you can find it for me, I'll get
+              you something in return.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::HIKERSITEM)>0
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbDeleteItem(PBItems::HIKERSITEM,1)
         - i: 1
           c: 207
+          p:
+            values:
+            - 0
+            - 3
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWh-what? You found it!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, man. I don't know how I could ever repay you.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThank you. From the bottom of my heart.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bUh... I'm not sure what I could give you that would make up for it.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHow about this? I've got a few spares.
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::IVSTONE)
         - i: 1
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -363,12 +478,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThanks kid. I owe you one.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -405,28 +527,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 391
+            - 61
+            - 23
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -463,18 +624,36 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOranos Town is a really peaceful place, usually.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNot a lot happens here. We don't have a lot of the drama other towns
+              and cities do.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThat's why I'm so nervous Zachary's here.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHe's a great guy- he was a librarian, so we can trust him- but it
+              still makes me nervous.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -506,18 +685,35 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOranos Town is a really peaceful place, usually.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNot a lot happens here. We don't have a lot of the drama other towns
+              and cities do.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bBut then Zachary came. I heard on the TV he was a cultist!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAmazing. Finally, some drama here!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -554,12 +750,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -596,12 +799,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -638,14 +848,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"411Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Bastiodon: \bDon... don...'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -658,8 +878,8 @@ MonoBehaviour:
       y: 15
   Info:
     expanded: 0
-    name: Oranos Town
-    order: 526
-    parent_id: 391
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

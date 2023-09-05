@@ -223,12 +223,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -265,28 +272,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 82
+            - 26
+            - 40
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -323,12 +369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -365,12 +418,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -407,12 +467,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -449,14 +516,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI heard that Lucario can read your mind by looking at your aura.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIs it just me, or is that really creepy? I wouldn't want any Lucario
+              trainer anywhere near me!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -493,52 +571,120 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHello there.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHave you ever heard of the Pledge moves?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI can only teach it to a few Pokemon, but the moves have an interesting
+              effect- when used together, amazing things will happen!
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWhich would you like to learn?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Grass Pledge","Water Pledge","Fire Pledge","(None)"]'
+            - 4
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Grass Pledge
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWho shall I teach it to?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbMoveTutorChoose(PBMoves::GRASSPLEDGE)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Water Pledge
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWho shall I teach it to?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbMoveTutorChoose(PBMoves::WATERPLEDGE)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - Fire Pledge
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWho shall I teach it to?
         - i: 1
           c: 355
+          p:
+            values:
+            - pbMoveTutorChoose(PBMoves::FIREPLEDGE)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 3
+            - (None)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rOh, I see.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -551,8 +697,8 @@ MonoBehaviour:
       y: 11
   Info:
     expanded: 0
-    name: Suntouched City
-    order: 176
-    parent_id: 82
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

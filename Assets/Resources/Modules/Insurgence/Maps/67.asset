@@ -151,20 +151,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 66
+            - 12
+            - 7
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -201,170 +227,418 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWelcome to the Safari Zone!
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \G\bFor just $500, you can play the Safari Game.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\G\bYou can roam the wide-open safari and catch '
         - i: 0
           c: 401
+          p:
+            values:
+            - what you like.
         - i: 0
           c: 101
+          p:
+            values:
+            - \G\bWould you like to play?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbBoxesFull?
         - i: 2
           c: 101
+          p:
+            values:
+            - \G\bSorry, your PC boxes are full.
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 7
+            - 499
+            - 1
         - i: 2
           c: 101
+          p:
+            values:
+            - \G\bOops!\nNot enough money!
         - i: 2
           c: 101
+          p:
+            values:
+            - \G\bCome again.
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 125
+          p:
+            values:
+            - 1
+            - 0
+            - 500
         - i: 2
           c: 101
+          p:
+            values:
+            - \G\bThat'll be $500, please!
         - i: 2
           c: 101
+          p:
+            values:
+            - 'XEdcYldlIG9ubHkgdXNlIGEgc3BlY2lhbCBraW5kIG9mIFBva8OpIEJhbGwg
+
+              aGVyZS4='
         - i: 2
           c: 101
+          p:
+            values:
+            - \G\PN received 30 Safari Balls from the attendant.
         - i: 2
           c: 401
+          p:
+            values:
+            - \se[itemlevel]\wtnp[20]
         - i: 2
           c: 101
+          p:
+            values:
+            - '\G\bWe''ll call you on the PA when you run out of time '
         - i: 2
           c: 401
+          p:
+            values:
+            - or Safari Balls.
         - i: 2
           c: 101
+          p:
+            values:
+            - \G\bWell, I'll wish you the best of luck!
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x==3
         - i: 3
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":3,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":3,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 3
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 111
+          p:
+            values:
+            - 12
+            - $game_player.x==5
         - i: 4
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":2,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 411
+          p:
+            values: []
         - i: 4
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 4
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSafariState.pbStart(30)
         - i: 2
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 68
+            - 25
+            - 27
+            - 0
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \G\bOkay.\nPlease come again!
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -396,94 +670,228 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbSafariState.decision==0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bAre you going to leave the Safari Zone early?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - \bPlease return any Safari Balls you may have left.
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSafariState.pbEnd
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 101
+          p:
+            values:
+            - \bGood luck!
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 2
           c: 210
+          p:
+            values: []
         - i: 2
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 68
+            - 25
+            - 27
+            - 0
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbSafariState.decision==1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bDid you catch your fair share?  Come again!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSafariState.pbEnd
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -496,8 +904,8 @@ MonoBehaviour:
       y: 3
   Info:
     expanded: 0
-    name: Safari Zone gate
-    order: 6
-    parent_id: 66
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

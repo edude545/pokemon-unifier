@@ -223,12 +223,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -265,28 +272,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 152
+            - 60
+            - 43
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -323,12 +369,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -365,12 +418,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -407,12 +467,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbWatchTV
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -449,18 +516,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIs that... a stock market in the corner of the town?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWho would do that?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWho would consider running a stock market when Pokemon exist?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSheesh, of all things to have around here...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -497,14 +580,26 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLike those cracked rocks around the region, I heard boulders can
+              be pushed by moves, too.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI've had success with Steamroller, Whirlwind, and Bulldoze... but
+              I'm sure there are tons more that work!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -541,46 +636,107 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm a lawyer. I do lawyer things.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you ever need someone to do lawyer things, I'm the lawyer for
+              the job!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::EASTSWILL)>0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIs that... a last will and testament?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHmm, it says it's from someone named 'East'.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCould this be the Gym Leader, East?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell, as a lawyer, I should follow his will the best I can.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHmm, house to family, Pokemon to friends, this is pretty standard
+              stuff.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh, but this last one... "give the rock to whomever holds the will".
         - i: 1
           c: 101
+          p:
+            values:
+            - \bHuh... well, I don't know what this rock is, but East clearly wanted
+              you to have it.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOr he wanted whoever had the will to have it, I don't know.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bIt doesn't matter. Here's the stone he was talking about.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCould it be a Mega Stone?
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::ALTARITE)
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonBag.pbDeleteItem(PBItems::EASTSWILL)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -612,12 +768,20 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI hope you found good use for that weird stone left to you in East's
+              Will.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -654,12 +818,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 53
+            - 53
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -696,14 +869,37 @@ MonoBehaviour:
         list:
         - i: 0
           c: 231
+          p:
+            values:
+            - 1
+            - 
+            - 0
+            - 0
+            - 0
+            - 0
+            - 100
+            - 100
+            - 255
+            - 0
         - i: 0
           c: 122
+          p:
+            values:
+            - 118
+            - 118
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -716,8 +912,8 @@ MonoBehaviour:
       y: 12
   Info:
     expanded: 0
-    name: Koril Town
-    order: 245
-    parent_id: 152
-    scroll_x: 480
-    scroll_y: 432
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

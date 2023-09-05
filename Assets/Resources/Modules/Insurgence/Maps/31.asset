@@ -1096,40 +1096,89 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbCut
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1166,12 +1215,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1208,12 +1264,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1250,42 +1313,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bHi!  I like shorts!  They''re comfy and easy to'
         - i: 0
           c: 408
+          p:
+            values:
+            - wear!
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: YOUNGSTER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Ben'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Aww, I lost.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bYou can''t get a trainer event simpler'
         - i: 0
           c: 408
+          p:
+            values:
+            - than me!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:YOUNGSTER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHi!  I like shorts!  They're comfy and easy to
         - i: 0
           c: 401
+          p:
+            values:
+            - wear!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::YOUNGSTER,"Ben",_I("Aww, I lost."),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1317,14 +1432,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou can't get a trainer event simpler
         - i: 0
           c: 401
+          p:
+            values:
+            - than me!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1361,56 +1486,129 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bDid I notice you, or did you notice me?'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bLet''s have a rematch!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: CAMPER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Jeff'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: A very good battle, indeed.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: You beat me again!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI''ll get even stronger, and beat you'
         - i: 0
           c: 408
+          p:
+            values:
+            - next time!
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI don''t think I''ll ever be able to beat'
         - i: 0
           c: 408
+          p:
+            values:
+            - you.
         - i: 0
           c: 108
+          p:
+            values:
+            - 'RegSpeech: \\bShall we exchange numbers, so we'
         - i: 0
           c: 408
+          p:
+            values:
+            - can have a rematch?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:CAMPER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDid I notice you, or did you notice me?
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbTrainerCheck(:CAMPER,"Jeff",2,0)
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::CAMPER,"Jeff",_I("A very good battle, indeed."),false,0)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPhoneRegisterBattle(_I("\\bShall we exchange numbers, so we
         - i: 1
           c: 655
+          p:
+            values:
+            - can have a rematch?"),get_character(0),PBTrainers::CAMPER,"Jeff",2)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1442,36 +1640,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbPhoneBattleCount(PBTrainers::CAMPER,"Jeff")>=1
         - i: 1
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:CAMPER)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bLet's have a rematch!
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::CAMPER,"Jeff",_I("You beat me again!"),false,1)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbPhoneIncrement(PBTrainers::CAMPER,"Jeff",2)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 2
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1503,34 +1743,72 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbPhoneBattleCount(PBTrainers::CAMPER,"Jeff")>=1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI don't think I'll ever be able to beat
         - i: 1
           c: 401
+          p:
+            values:
+            - you.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPhoneRegisterBattle(_I("\\bShall we exchange numbers, so we
         - i: 1
           c: 655
+          p:
+            values:
+            - can have a rematch?"),get_character(0),PBTrainers::CAMPER,"Jeff",2)
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll get even stronger, and beat you
         - i: 0
           c: 401
+          p:
+            values:
+            - next time!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPhoneRegisterBattle(_I("\\bShall we exchange numbers, so we
         - i: 1
           c: 655
+          p:
+            values:
+            - can have a rematch?"),get_character(0),PBTrainers::CAMPER,"Jeff",2)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1567,44 +1845,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rBattle me now!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rBattle me now!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: PICNICKER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Susie'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Defeated!  Oh my!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rI''ll say the same thing after every battle.'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'RegSpeech: \\rCan I add you to my contacts list?'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PICNICKER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBattle me now!
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbTrainerCheck(:PICNICKER,"Susie",2,0)
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PICNICKER,"Susie",_I("Defeated!  Oh my!"),false,0)
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPhoneRegisterBattle(_I("\\rCan I add you to my contacts list?"),get_character(0),PBTrainers::PICNICKER,"Susie",2)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1636,36 +1969,78 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbPhoneBattleCount(PBTrainers::PICNICKER,"Susie")>=1
         - i: 1
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:PICNICKER)
         - i: 1
           c: 101
+          p:
+            values:
+            - \rBattle me now!
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::PICNICKER,"Susie",_I("Defeated!  Oh my!"),false,1)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbPhoneIncrement(PBTrainers::PICNICKER,"Susie",2)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 2
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1697,26 +2072,52 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbPhoneBattleCount(PBTrainers::PICNICKER,"Susie")>=1
         - i: 1
           c: 101
+          p:
+            values:
+            - \rI'll say the same thing after every battle.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPhoneRegisterBattle(_I("\\rCan I add you to my contacts list?"),get_character(0),PBTrainers::PICNICKER,"Susie",2)
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI'll say the same thing after every battle.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPhoneRegisterBattle(_I("\\rCan I add you to my contacts list?"),get_character(0),PBTrainers::PICNICKER,"Susie",2)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1753,44 +2154,99 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rI''ve brought my own special backdrop!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: BEAUTY'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Bridget'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: My Skitty!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rI battled you first because my event''s'
         - i: 0
           c: 408
+          p:
+            values:
+            - number (7) comes before the Hiker's and Fisherman's
         - i: 0
           c: 408
+          p:
+            values:
+            - event numbers.
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Backdrop: Champion'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:BEAUTY)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI've brought my own special backdrop!
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonGlobal.nextBattleBack="Champion"
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::BEAUTY,"Bridget",_I("My Skitty!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1822,16 +2278,29 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI battled you first because my event's
         - i: 0
           c: 401
+          p:
+            values:
+            - number (7) comes before the Hiker's and Fisherman's
         - i: 0
           c: 401
+          p:
+            values:
+            - event numbers.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1868,38 +2337,84 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bThis battle will go without a hitch!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: HIKER'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Ford'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: You''re too good for me!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bHow did you manage to face all three of'
         - i: 0
           c: 408
+          p:
+            values:
+            - us?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:HIKER)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis battle will go without a hitch!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::HIKER,"Ford",_I("You're too good for me!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1931,14 +2446,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHow did you manage to face all three of
         - i: 0
           c: 401
+          p:
+            values:
+            - us?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1975,38 +2500,84 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \bI''ll get my tackle out for you!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: FISHERMAN'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Andrew'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: Washed out!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \bI don''t understand why my Magikarp'
         - i: 0
           c: 408
+          p:
+            values:
+            - couldn't beat you.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:FISHERMAN)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll get my tackle out for you!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::FISHERMAN,"Andrew",_I("Washed out!"),false,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2038,14 +2609,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI don't understand why my Magikarp
         - i: 0
           c: 401
+          p:
+            values:
+            - couldn't beat you.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2082,40 +2663,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Battle: \rGet ready for a double battle!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Type: LASS'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Name: Crissy'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndSpeech: You didn''t have to win so convincingly!'
         - i: 0
           c: 108
+          p:
+            values:
+            - 'EndBattle: \rMake sure all double battle opponents'
         - i: 0
           c: 408
+          p:
+            values:
+            - aGF2ZSBhdCBsZWFzdCAyIFBva8OpbW9uIQ==
         - i: 0
           c: 108
+          p:
+            values:
+            - 'DoubleBattle: true'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:LASS)
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbNoticePlayer(get_character(0))
         - i: 0
           c: 101
+          p:
+            values:
+            - \rGet ready for a double battle!
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::LASS,"Crissy",_I("You didn't have to win
+              so convincingly!"),true,0)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2147,14 +2778,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rMake sure all double battle opponents
         - i: 0
           c: 401
+          p:
+            values:
+            - aGF2ZSBhdCBsZWFzdCAyIFBva8OpbW9uIQ==
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2191,40 +2832,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.ablePokemonCount<=1
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XHJZb3UnbGwgbmVlZCBhdCBsZWFzdCB0d28gUG9rw6ltb24gaWYgeW91IHdh
+
+              bnQgdG8g'
         - i: 1
           c: 401
+          p:
+            values:
+            - battle us.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:COOLCOUPLE)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAh, looks like a challenging trainer.  Ready, Bob?
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::COOLCOUPLE,"Alice & Bob",_I("Our teamwork
+              failed!"),true)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Set the partner event's Self Switch "A" on.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(12,"A",true)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2256,12 +2947,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rNotice that our events aren't created by comments.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2298,40 +2996,90 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $Trainer.ablePokemonCount<=1
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XGJZb3UnbGwgbmVlZCBhdCBsZWFzdCB0d28gUG9rw6ltb24gaWYgeW91IHdh
+
+              bnQgdG8g'
         - i: 1
           c: 401
+          p:
+            values:
+            - battle us.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:COOLCOUPLE)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAh, looks like a challenging trainer.  Ready, Alice?
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::COOLCOUPLE,"Alice & Bob",_I("Our teamwork
+              failed!"),true)
         - i: 1
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Set the partner event's Self Switch "A" on.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(11,"A",true)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2363,12 +3111,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNotice that our events aren't created by comments.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2405,64 +3160,149 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDo you want to team up with me?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 108
+          p:
+            values:
+            - 'Makes this event follow the player.  The first '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'parameter means "this event", the second is a name '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'for that dependency, and the third is the Common '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'Event number run when this following event is '
         - i: 1
           c: 408
+          p:
+            values:
+            - interacted with.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbAddDependency2(
         - i: 1
           c: 655
+          p:
+            values:
+            - '   @event_id,"Brendan",2)'
         - i: 1
           c: 108
+          p:
+            values:
+            - 'Creates a partner trainer to battle alongside the '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'player.  The parameters are the trainer type and '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'name of the partner.  The partner trainer is defined '
         - i: 1
           c: 408
+          p:
+            values:
+            - in trainers.txt just like any other trainer.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbRegisterPartner(
         - i: 1
           c: 655
+          p:
+            values:
+            - '  PBTrainers::POKEMONTRAINER_Brendan,'
         - i: 1
           c: 655
+          p:
+            values:
+            - '  "Brendan")'
         - i: 1
           c: 108
+          p:
+            values:
+            - 'Note that the above two features are entirely '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'unrelated.  You can have a dependent event which '
         - i: 1
           c: 408
+          p:
+            values:
+            - 'isn''t also a partner trainer (e.g. escort mission), or a '
         - i: 1
           c: 408
+          p:
+            values:
+            - partner trainer who doesn't visibly follow you around.
         - i: 1
           c: 101
+          p:
+            values:
+            - \PN teamed up with Brendan!\se[itemlevel]\wtnp[20]
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOK then.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2499,24 +3339,49 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - 'This event should be somewhere where the player '
         - i: 0
           c: 408
+          p:
+            values:
+            - can't possibly see it.
         - i: 0
           c: 408
+          p:
+            values:
+            - 'It is moved from here to where it is needed, and back '
         - i: 0
           c: 408
+          p:
+            values:
+            - again afterwards.
         - i: 0
           c: 108
+          p:
+            values:
+            - 'Note that this event does nothing except look like an '
         - i: 0
           c: 408
+          p:
+            values:
+            - 'NPC (the Rival).  The actual battle and movements '
         - i: 0
           c: 408
+          p:
+            values:
+            - are done by the controlling events.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2553,148 +3418,368 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:RIVAL1)
         - i: 0
           c: 108
+          p:
+            values:
+            - Position the Rival event level with the player.
         - i: 0
           c: 202
+          p:
+            values:
+            - 14
+            - 0
+            - 22
+            - 6
+            - 2
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHi \PN!  I'm your Rival!
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bDo you want to name me, or leave me with my '
         - i: 0
           c: 401
+          p:
+            values:
+            - default name as defined in trainers.txt?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Rename","Cancel"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Rename
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSet(12,pbEnterText(
         - i: 1
           c: 655
+          p:
+            values:
+            - '"Rival''s name?",1,7,"Blue"))'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSo my name is \v[12], huh?  Okay then.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Cancel
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSet(12,nil)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLet's get down to the battle!
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 7
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Player chose Bulbasaur, rival has Charmander.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,1)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 7
+            - 0
+            - 2
+            - 0
         - i: 2
           c: 108
+          p:
+            values:
+            - Player chose Charmander, rival has Squirtle.
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,2)
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 108
+          p:
+            values:
+            - Player chose Squirtle, rival has Bulbasaur.
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,0)
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm going to leave now.  Smell you later!
         - i: 0
           c: 108
+          p:
+            values:
+            - Move the Rival event off-screen.
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 202
+          p:
+            values:
+            - 14
+            - 0
+            - 12
+            - 0
+            - 2
         - i: 0
           c: 108
+          p:
+            values:
+            - Disable both controller events.
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(16,"A",true)
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2726,10 +3811,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2766,148 +3855,368 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Position the Rival event level with the player.
         - i: 0
           c: 202
+          p:
+            values:
+            - 14
+            - 0
+            - 23
+            - 6
+            - 2
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerIntro(:RIVAL1)
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHi \PN!  I'm your Rival!
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bDo you want to name me, or leave me with my '
         - i: 0
           c: 401
+          p:
+            values:
+            - default name as defined in trainers.txt?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Rename","Cancel"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Rename
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSet(12,pbEnterText(
         - i: 1
           c: 655
+          p:
+            values:
+            - '"Rival''s name?",1,7,"Blue"))'
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSo my name is \v[12], huh?  Okay then.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - Cancel
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSet(12,nil)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLet's get down to the battle!
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 7
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 108
+          p:
+            values:
+            - Player chose Bulbasaur, rival has Charmander.
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,1)
         - i: 2
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 7
+            - 0
+            - 2
+            - 0
         - i: 2
           c: 108
+          p:
+            values:
+            - Player chose Charmander, rival has Squirtle.
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,2)
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 108
+          p:
+            values:
+            - Player chose Squirtle, rival has Bulbasaur.
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbTrainerBattle(PBTrainers::RIVAL1,"Blue",_I("Not too shabby."),false,0)
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm going to leave now.  Smell you later!
         - i: 0
           c: 355
+          p:
+            values:
+            - pbTrainerEnd
         - i: 0
           c: 108
+          p:
+            values:
+            - Move the Rival event off-screen.
         - i: 0
           c: 209
+          p:
+            values:
+            - 14
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 202
+          p:
+            values:
+            - 14
+            - 0
+            - 12
+            - 0
+            - 2
         - i: 0
           c: 108
+          p:
+            values:
+            - Disable both controller events.
         - i: 0
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(15,"A",true)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2939,10 +4248,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2979,20 +4292,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":255.0,"g":255.0,"r":255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveEntrance
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 34
+            - 23
+            - 17
+            - 8
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3024,24 +4363,48 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - get_character(0).onEvent?
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3078,12 +4441,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3120,12 +4490,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3162,12 +4539,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3204,12 +4588,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3246,42 +4637,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3318,42 +4761,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3390,40 +4885,89 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbCut
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3460,12 +5004,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3502,12 +5053,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3544,12 +5102,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbHeadbutt
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3586,152 +5151,385 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::SILPHSCOPE)>0
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Something unseeable is in the way.  Want to use the '
         - i: 1
           c: 401
+          p:
+            values:
+            - Silph Scope?
         - i: 1
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 1
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 2
           c: 101
+          p:
+            values:
+            - 'VGhlIGludmlzaWJsZSBQb2vDqW1vbiBiZWNhbWUgY29tcGxldGVseSB2aXNp
+
+              YmxlIQ=='
         - i: 2
           c: 101
+          p:
+            values:
+            - VGhlIHN0YXJ0bGVkIFBva8OpbW9uIGF0dGFja2VkIQ==
         - i: 2
           c: 355
+          p:
+            values:
+            - pbWildBattle(PBSpecies::KECLEON,30,1)
         - i: 2
           c: 108
+          p:
+            values:
+            - If won
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - pbFadeOutIn(99999){
         - i: 3
           c: 655
+          p:
+            values:
+            - '}'
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 108
+          p:
+            values:
+            - If escaped
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 3
+            - 0
         - i: 3
           c: 355
+          p:
+            values:
+            - pbFadeOutIn(99999){
         - i: 3
           c: 655
+          p:
+            values:
+            - '}'
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 108
+          p:
+            values:
+            - If caught
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 404
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::DEVONSCOPE)>0
         - i: 2
           c: 101
+          p:
+            values:
+            - 'Something unseeable is in the way.  Want to use the '
         - i: 2
           c: 401
+          p:
+            values:
+            - Devon Scope?
         - i: 2
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 2
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 3
           c: 101
+          p:
+            values:
+            - 'VGhlIGludmlzaWJsZSBQb2vDqW1vbiBiZWNhbWUgY29tcGxldGVseSB2aXNp
+
+              YmxlIQ=='
         - i: 3
           c: 101
+          p:
+            values:
+            - VGhlIHN0YXJ0bGVkIFBva8OpbW9uIGF0dGFja2VkIQ==
         - i: 3
           c: 355
+          p:
+            values:
+            - pbWildBattle(PBSpecies::KECLEON,30,1)
         - i: 3
           c: 108
+          p:
+            values:
+            - If won
         - i: 3
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 4
           c: 355
+          p:
+            values:
+            - pbFadeOutIn(99999){
         - i: 4
           c: 655
+          p:
+            values:
+            - '}'
         - i: 4
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 108
+          p:
+            values:
+            - If escaped
         - i: 3
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 3
+            - 0
         - i: 4
           c: 355
+          p:
+            values:
+            - pbFadeOutIn(99999){
         - i: 4
           c: 655
+          p:
+            values:
+            - '}'
         - i: 4
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 108
+          p:
+            values:
+            - If caught
         - i: 3
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 4
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 4
           c: 0
+          p:
+            values: []
         - i: 3
           c: 412
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 404
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Something unseeable is in the way.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3763,10 +5561,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3803,40 +5605,89 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbCut
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3873,36 +5724,79 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'These are all the particle effects available in '
         - i: 0
           c: 401
+          p:
+            values:
+            - Essentials.  An event can only have one particle
         - i: 0
           c: 401
+          p:
+            values:
+            - effect.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'Shadow sources can be modified as in the top left '
         - i: 0
           c: 401
+          p:
+            values:
+            - particle event.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'All four parameters (anglemax, anglemin, '
         - i: 0
           c: 401
+          p:
+            values:
+            - maxdistance, opacity) must be included in that order
         - i: 0
           c: 401
+          p:
+            values:
+            - if you want to change any of them.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The default values are "anglemax 0", "anglemin 0", '
         - i: 0
           c: 401
+          p:
+            values:
+            - '"maxdistance 350", "opacity 100".  Distance is in'
         - i: 0
           c: 401
+          p:
+            values:
+            - pixels.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The shadow-related comments must come before the '
         - i: 0
           c: 401
+          p:
+            values:
+            - particle effect comment.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -3939,24 +5833,49 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - begin Shadow Source
         - i: 0
           c: 108
+          p:
+            values:
+            - anglemax 0
         - i: 0
           c: 108
+          p:
+            values:
+            - anglemin 0
         - i: 0
           c: 108
+          p:
+            values:
+            - maxdistance 100
         - i: 0
           c: 108
+          p:
+            values:
+            - opacity 100
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - fire
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -3993,14 +5912,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - smoke
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4037,14 +5966,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - soot
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4081,14 +6020,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - sootsmoke
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4125,14 +6074,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - rocket
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4169,14 +6128,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - smokescreen
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4213,22 +6182,44 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - anglemax 180
         - i: 0
           c: 108
+          p:
+            values:
+            - anglemin 179
         - i: 0
           c: 108
+          p:
+            values:
+            - maxdistance 100
         - i: 0
           c: 108
+          p:
+            values:
+            - opacity 100
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - explosion
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4265,14 +6256,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - spirit
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4309,14 +6310,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - aura
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4353,14 +6364,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - flare
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4397,14 +6418,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - splash
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4441,14 +6472,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - fixteleport
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4485,14 +6526,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Particle Engine Type
         - i: 0
           c: 408
+          p:
+            values:
+            - starteleport
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 4
@@ -4529,20 +6580,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 84
+            - 14
+            - 21
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -4555,8 +6632,8 @@ MonoBehaviour:
       y: 31
   Info:
     expanded: 0
-    name: Route 3
-    order: 34
-    parent_id: 75
-    scroll_x: 1278
-    scroll_y: 1104
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

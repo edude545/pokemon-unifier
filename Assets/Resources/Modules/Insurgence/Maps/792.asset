@@ -151,15 +151,43 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 6
         move_route:
           list:
           - code: 41
+            parameters:
+              values:
+              - spinning fan
+              - 0
+              - 2
+              - 0
           - code: 15
+            parameters:
+              values:
+              - 1
           - code: 41
+            parameters:
+              values:
+              - spinning fan
+              - 0
+              - 2
+              - 1
           - code: 15
+            parameters:
+              values:
+              - 1
           - code: 41
+            parameters:
+              values:
+              - spinning fan
+              - 0
+              - 2
+              - 2
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -196,12 +224,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 356
+            - 356
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -238,54 +275,126 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - oi=Kernel.getEggsFromFile("nappy")
         - i: 0
           c: 655
+          p:
+            values:
+            - if oi.is_a?(Array)
         - i: 0
           c: 655
+          p:
+            values:
+            - Kernel.pbMessage("Success! "+oi[1][1].to_s)
         - i: 0
           c: 655
+          p:
+            values:
+            - elsif oi.is_a?(String)
         - i: 0
           c: 655
+          p:
+            values:
+            - Kernel.pbMessage(oi)
         - i: 0
           c: 655
+          p:
+            values:
+            - else
         - i: 0
           c: 655
+          p:
+            values:
+            - Kernel.pbMessage("Nope.")
         - i: 0
           c: 655
+          p:
+            values:
+            - end
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 101
+          p:
+            values:
+            - Load Eggs from which file?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["(Randomly Generate)","dfnegglocke1.txt","fun_egglocke.txt","lotsofeggs.txt"]'
+            - 1
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - (Randomly Generate)
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - dfnegglocke1.txt
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - fun_egglocke.txt
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 3
+            - lotsofeggs.txt
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbMessage(""+Kernel.getEgglockeNames[0]) if Kernel.getEgglockeNames
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -322,12 +431,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.listUnmade
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -364,10 +480,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -404,12 +524,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $Trainer.pokegear=true
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -422,8 +549,8 @@ MonoBehaviour:
       y: 9
   Info:
     expanded: 0
-    name: Test Tilesets Map
-    order: 115
-    parent_id: 392
-    scroll_x: 320
-    scroll_y: 240
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

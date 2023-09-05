@@ -421,16 +421,29 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - ... ... ...
         - i: 0
           c: 101
+          p:
+            values:
+            - It's the boss's kid.
         - i: 0
           c: 101
+          p:
+            values:
+            - He seems to be mute.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -462,10 +475,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -502,16 +519,29 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - ... ... ...
         - i: 0
           c: 101
+          p:
+            values:
+            - It's the boss's kid.
         - i: 0
           c: 101
+          p:
+            values:
+            - She seems to be mute.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -543,10 +573,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -583,18 +617,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThe boss's children are a bit eerie, aren't they?
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThey just sit around all day and don't talk or move.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rBut I guess that's why the boss brings them into work.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rThey must get awfully lonely...
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -631,16 +681,32 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm a new employee here. I'm supposed to be working on the Rare Pokemon
+              channel.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm pretty good at capturing things on film, but actual captures?
+              No way.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe need a strong trainer to help us find these Pokemon to get our
+              channel started!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -677,156 +743,387 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHey, you're not allowed back here!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis is where the boss of the Broadcast Tower works.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou shouldn't disturb him, he's busy.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUnless... are you a trainer?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe boss is looking for trainers, y'see.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe're trying to start a new channel based around Rare Pokemon, but
+              we need a trainer to make it happen.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you are, we can make you a star! It pays well, and you can keep
+              any Pokemon you catch.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you're going on an adventure, it won't interfere with that.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt'll be like a side-job you can help out with from time to time.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAre you willing to help?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOn("A")
         - i: 1
           c: 121
+          p:
+            values:
+            - 127
+            - 127
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bExcellent. I'll take you to see the boss, then.
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":15,"parameters":[12]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[12]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThis kid seems to be a trainer, boss.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bShe said she's willing to help you out with the new channel.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bHe said he's willing to help you out with the new channel.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bDid she now? What's your name?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bDid he now? What's your name?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - ... ... ...
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bVery well then, \pn.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm going to make you a star!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe start filming the pilot episode right away!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bLet's begin!
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 209
+            - 22
+            - 31
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThen scram! You're not allowed back here.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -858,10 +1155,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -893,14 +1194,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou better get ready for that mission.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou are a member of our group now, after all!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -937,14 +1248,25 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI don't mean to toot my own horn, but I'm kind of famous around these
+              parts.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm the star of the series, "I Didn't Intend to Play the Trumpet".
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -981,22 +1303,51 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe start filming the pilot episode right away!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bLet's begin!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 209
+            - 22
+            - 31
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1028,20 +1379,40 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI heard about your work on the Axew mission, \pn.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bGreat work! I'm very impressed.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHopefully you can see the pilots on TVs around the region!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe're still waiting for ratings to come back before we shoot anymore,
+              so hang around.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'll call you on your Pokegear if we need you, yeah?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1073,28 +1444,68 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis one's sort of the same thing!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou see, we heard reports of one of those very rare Delta Species
+              Pokemon over in the Rezzai Desert.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe'd like you to check it out.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bOf course, you can catch it if you want- we just need footage for
+              our TV show about finding Wild Pokemon!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 375
+            - 33
+            - 20
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1126,14 +1537,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm sure with your help, our TV show will be the next hit!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1165,28 +1586,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have some information about a <i>very </i> rare Pokemon that's
+              appeared in one of the many Torren Forests.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe'd like you to check it out.
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bBut be warned! It can and will flee upon encountering it. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bDon't be alarmed if that happens. We'll be sure to pay you extra!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 376
+            - 34
+            - 43
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1218,14 +1678,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm sure with your help, our TV show will be the next hit!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1257,24 +1727,57 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have some information about another Delta Species that's been
+              running around.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bSame deal as the Delta Grimer you found, really! Let's get it going!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 768
+            - 19
+            - 63
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1306,14 +1809,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm sure with your help, our TV show will be the next hit!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1345,26 +1858,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have some information about a dragon-type Pokemon that's appeared
+              in the northern Dragon Ruins.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's an... odd colour, too.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have a hunch about what it might be... and I'd appreciate it if
+              you could check it out.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 661
+            - 34
+            - 40
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1396,14 +1946,24 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bI'm sure with your help, our TV show will be the next hit!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1435,44 +1995,106 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bGreat work on your last mission, \pn. '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe were able to track down the Latios you found a while back.
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - $PokemonBag.pbQuantity(PBItems::HIKINGBOOTS)<1
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh but... listen. Maybe you shouldn't do this mission yet.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou see, we've seen some tough rocks on this trail.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bMaybe come back when you're able to climb rocks?
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have some information about a dragon-type Pokemon that's appeared
+              in the northern Dragon Ruins.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe've traced it to a small pond in eastern Torren.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe've got to snare it here! This could be our big break!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe have a hunch about what it might be... and I'd appreciate it if
+              you could check it out.
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 662
+            - 33
+            - 90
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1504,12 +2126,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe're very close to starting "Latios and Friends". I can't wait!
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1541,26 +2170,63 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bYou ready, \pn? '
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's time to start filming "Latios and Friends", a wonderful sitcom
+              involving our host, Latios.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe can watch as he gets involved in all sorts of shenaningans with
+              his other Pokemon friends!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bNo time to waste! Let's get filming!
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 0
           c: 106
+          p:
+            values:
+            - 10
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 664
+            - 31
+            - 37
+            - 0
+            - 0
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1592,10 +2258,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1632,162 +2302,404 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":17,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHey, you're not allowed back here!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis is where the boss of the Broadcast Tower works.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou shouldn't disturb him, he's busy.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUnless... are you a trainer?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe boss is looking for trainers, y'see.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe're trying to start a new channel based around Rare Pokemon, but
+              we need a trainer to make it happen.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you are, we can make you a star! It pays well, and you can keep
+              any Pokemon you catch.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you're going on an adventure, it won't interfere with that.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt'll be like a side-job you can help out with from time to time.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bAre you willing to help?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOnFor("A",5)
         - i: 1
           c: 121
+          p:
+            values:
+            - 127
+            - 127
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bExcellent. I'll take you to see the boss, then.
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":15,"parameters":[12]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[12]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThis kid seems to be a trainer, boss.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bShe said she's willing to help you out with the new channel.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bHe said he's willing to help you out with the new channel.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bDid she now? What's your name?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bDid he now? What's your name?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - ... ... ...
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bVery well then, \pn.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm going to make you a star!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe start filming the pilot episode right away!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bLet's begin!
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 209
+            - 22
+            - 31
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThen scram! You're not allowed back here.
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1819,10 +2731,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1859,170 +2775,424 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":18,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bHey, you're not allowed back here!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThis is where the boss of the Broadcast Tower works.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou shouldn't disturb him, he's busy.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bUnless... are you a trainer?
         - i: 0
           c: 101
+          p:
+            values:
+            - \bThe boss is looking for trainers, y'see.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWe're trying to start a new show about hunting Pokemon, but we need
+              one to make it happen.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you are, we can make you a star! It pays well, and you can keep
+              any Pokemon you catch!
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIf you're going on an adventure, it won't interfere with that.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt'll be like a side-job you can help out with from time to time.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWhat do you say?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 355
+          p:
+            values:
+            - setTempSwitchOnFor("A",5)
         - i: 1
           c: 121
+          p:
+            values:
+            - 127
+            - 127
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bExcellent. I'll take you to see the boss, then!
         - i: 1
           c: 209
+          p:
+            values:
+            - 5
+            - '{"list":[{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":15,"parameters":[12]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":2,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[12]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,5)
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bShe said she's willing to help you out with the new channel.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bHe said he's willing to help you out with the new channel.
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 78
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bDid she now? What's your name?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bDid he now? What's your name?
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - ... ... ...
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bVery well then, \pn.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bI'm going to make you a star!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe start filming the pilot episode right away!
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bLet's begin!
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 209
+            - 22
+            - 31
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 355
+          p:
+            values:
+            - pbCallBub(2,7)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThen scram! You're not allowed back here.
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2054,10 +3224,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2094,36 +3268,88 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 4
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":5,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":5,"parameters":[]}'
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":255.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 8
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 191
+            - 20
+            - 10
+            - 0
+            - 0
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":2,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":2,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -2135,9 +3361,9 @@ MonoBehaviour:
       x: 19
       y: 10
   Info:
-    expanded: 1
-    name: Broadcast Tower
-    order: 180
-    parent_id: 191
-    scroll_x: 640
-    scroll_y: 640
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

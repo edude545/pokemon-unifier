@@ -1,4 +1,5 @@
 ﻿using Assets.Unifier.Game.Editor;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Dynamic;
 using Unity.VisualScripting;
@@ -50,6 +51,15 @@ namespace Assets.Unifier.Game.Essentials {
                     }
                 }
             }
+            GameObject toDestroy = map.transform.Find("Events")?.gameObject;
+            if (Application.isPlaying) { Destroy(toDestroy); }
+            else { DestroyImmediate(toDestroy); }
+            GameObject events = new GameObject();
+            events.transform.parent = map.transform;
+            events.name = "Events";
+            foreach (Event ev in Data.event_list) {
+                new GameObject("", typeof(RectTransform)).AddComponent<EssentialsEvent>().LoadData(events.transform, ev);
+            }
         }
     }
 
@@ -71,14 +81,14 @@ namespace Assets.Unifier.Game.Essentials {
         public AudioFile bgm;
         public AudioFile bgs;
         public Table data;
-        public object[] encounter_list; // not sure what type this should be, haven't found a map whose encounter_list is not empty
+        //public object[] encounter_list; // not sure what type this should be, haven't found a map whose encounter_list is not empty
         public int encounter_step;
         public int height;
         public int tileset_id;
         public int width;
 
         // These fields require extra code to deserialize
-        public Event[] event_list;
+        public Event[] event_list; // In the JSON data, event_list is represented as a dictionary with numerical keys. This is converted to an array in the deserialization code.
     }
 
     [System.Serializable]
@@ -151,7 +161,18 @@ namespace Assets.Unifier.Game.Essentials {
     public struct EventCommand {
         public int i;
         public int c;
-        public object[] p;
+        public Parameters p;
+        /*public override string ToString() {
+            return $"i={i}, c={c}, p=[" + ((p == null) ? "" : (string.Join(",", p))) + "]";
+        }*/
+    }
+
+    [System.Serializable]
+    public struct Parameters {
+        public string[] values;
+        public string this[int index] {
+            get => values[index];
+        }
     }
 
     [System.Serializable]
@@ -172,7 +193,7 @@ namespace Assets.Unifier.Game.Essentials {
     [System.Serializable]
     public struct MoveCommand {
         public int code;
-        public object[] parameters;
+        public Parameters parameters;
     }
 
 }

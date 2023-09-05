@@ -322,20 +322,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveExit
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 47
+            - 46
+            - 11
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -372,20 +398,46 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 355
+          p:
+            values:
+            - pbCaveExit
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 47
+            - 56
+            - 16
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -422,18 +474,41 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 50
+            - 11
+            - 12
+            - 6
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -470,28 +545,66 @@ MonoBehaviour:
         list:
         - i: 0
           c: 106
+          p:
+            values:
+            - 4
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"throw","pitch":100,"volume":80}'
         - i: 0
           c: 208
+          p:
+            values:
+            - 0
         - i: 0
           c: 106
+          p:
+            values:
+            - 4
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 50
+            - 12
+            - 7
+            - 0
+            - 1
         - i: 0
           c: 208
+          p:
+            values:
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -528,28 +641,57 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bCan you push that boulder onto the switch?
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - A
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh!  The boulder has been moved onto the switch!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWell done!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOh.  The boulder is not on the switch.
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -586,12 +728,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPushThisBoulder
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -623,10 +772,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -663,12 +816,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPushThisBoulder
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -700,10 +860,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -740,118 +904,328 @@ MonoBehaviour:
         list:
         - i: 0
           c: 108
+          p:
+            values:
+            - Boulder to be pushed down hole is event 6.
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - A
+            - 1
         - i: 1
           c: 122
+          p:
+            values:
+            - 4
+            - 4
+            - 0
+            - 6
+            - 6
+            - 0
         - i: 1
           c: 122
+          p:
+            values:
+            - 5
+            - 5
+            - 0
+            - 6
+            - 6
+            - 1
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 4
+            - 0
+            - 12
+            - 0
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 5
+            - 0
+            - 7
+            - 0
         - i: 3
           c: 108
+          p:
+            values:
+            - Is over hole.
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 250
+          p:
+            values:
+            - '{"name":"throw","pitch":100,"volume":80}'
         - i: 3
           c: 121
+          p:
+            values:
+            - 33
+            - 33
+            - 0
         - i: 3
           c: 123
+          p:
+            values:
+            - A
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - Boulder to be pushed onto switch is event 7.
         - i: 0
           c: 108
+          p:
+            values:
+            - 'There is more to this one because the boulder can be '
         - i: 0
           c: 408
+          p:
+            values:
+            - pushed off the switch again.
         - i: 0
           c: 111
+          p:
+            values:
+            - 2
+            - B
+            - 1
         - i: 1
           c: 122
+          p:
+            values:
+            - 4
+            - 4
+            - 0
+            - 6
+            - 7
+            - 0
         - i: 1
           c: 122
+          p:
+            values:
+            - 5
+            - 5
+            - 0
+            - 6
+            - 7
+            - 1
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 4
+            - 0
+            - 20
+            - 0
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 5
+            - 0
+            - 7
+            - 0
         - i: 3
           c: 108
+          p:
+            values:
+            - Is on switch.
         - i: 3
           c: 106
+          p:
+            values:
+            - 8
         - i: 3
           c: 250
+          p:
+            values:
+            - '{"name":"balldrop","pitch":100,"volume":80}'
         - i: 3
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(5,"A",true)
         - i: 3
           c: 123
+          p:
+            values:
+            - B
+            - 0
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 122
+          p:
+            values:
+            - 4
+            - 4
+            - 0
+            - 6
+            - 7
+            - 0
         - i: 1
           c: 122
+          p:
+            values:
+            - 5
+            - 5
+            - 0
+            - 6
+            - 7
+            - 1
         - i: 1
           c: 111
+          p:
+            values:
+            - 1
+            - 4
+            - 0
+            - 20
+            - 5
         - i: 2
           c: 108
+          p:
+            values:
+            - Boulder has been moved off the switch.
         - i: 2
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(5,"A",false)
         - i: 2
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 1
+            - 5
+            - 0
+            - 7
+            - 5
         - i: 3
           c: 108
+          p:
+            values:
+            - Boulder has been moved off the switch.
         - i: 3
           c: 355
+          p:
+            values:
+            - pbSetSelfSwitch(5,"A",false)
         - i: 3
           c: 123
+          p:
+            values:
+            - B
+            - 1
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -888,18 +1262,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The positions of the boulders are checked by a '
         - i: 0
           c: 401
+          p:
+            values:
+            - Parallel Process event.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'The hole event must have its "Through" option set, to '
         - i: 0
           c: 401
+          p:
+            values:
+            - allow boulder events to be pushed onto it.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -936,42 +1326,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1008,42 +1450,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1080,42 +1574,94 @@ MonoBehaviour:
         list:
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbRockSmash
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbEraseThisEvent
         - i: 1
           c: 355
+          p:
+            values:
+            - Kernel.pbRockSmashRandomEncounter
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1152,18 +1698,41 @@ MonoBehaviour:
         list:
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 51
+            - 0
+            - 0
+            - 6
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1200,18 +1769,38 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - This ladder leads to a random dungeon.
         - i: 0
           c: 101
+          p:
+            values:
+            - 'VGhlIGxldmVscyBvZiBQb2vDqW1vbiB3aXRoaW4gYXJlIGJhc2VkIG9uIHRo
+
+              ZSBsZXZlbHMg'
         - i: 0
           c: 401
+          p:
+            values:
+            - 'b2YgUG9rw6ltb24gaW4gdGhlIHBsYXllcidzIHBhcnR5LiAgVGhlIHJlbGV2
+
+              YW50IGNvZGU='
         - i: 0
           c: 401
+          p:
+            values:
+            - is in the script section PokemonEncounterModifiers.
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1248,156 +1837,372 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - Which tile puzzle do you want to play?\ch[1,8,
         - i: 0
           c: 401
+          p:
+            values:
+            - Alph,Alph Rotator,Mystic Square,Tile Swap,
         - i: 0
           c: 401
+          p:
+            values:
+            - Tile Swap Rotator,Rubik's Square,Star Rotator,Cancel]
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(1,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 1
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(2,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 2
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(3,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 3
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(4,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 4
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(5,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 5
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(6,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 1
+            - 1
+            - 0
+            - 6
+            - 0
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbTilePuzzle(7,"Kabuto")
         - i: 2
           c: 101
+          p:
+            values:
+            - Puzzle solved!
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - Gave up...
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1409,9 +2214,9 @@ MonoBehaviour:
       x: 24
       y: 8
   Info:
-    expanded: 1
-    name: Rock Cave
-    order: 26
-    parent_id: 47
-    scroll_x: 544
-    scroll_y: 464
+    expanded: 0
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0

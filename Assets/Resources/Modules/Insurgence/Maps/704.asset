@@ -151,30 +151,74 @@ MonoBehaviour:
         list:
         - i: 0
           c: 121
+          p:
+            values:
+            - 340
+            - 340
+            - 1
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 692
+            - 65
+            - 37
+            - 2
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -211,18 +255,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -259,10 +319,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -294,240 +358,599 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - pbDeregisterPartner
         - i: 0
           c: 121
+          p:
+            values:
+            - 329
+            - 329
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 8
         - i: 0
           c: 108
+          p:
+            values:
+            - If Won
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==1
         - i: 1
           c: 355
+          p:
+            values:
+            - for i in 0..$Trainer.party.length-1
         - i: 1
           c: 655
+          p:
+            values:
+            - '  $Trainer.party[i].item = pbGet(83)[i]'
         - i: 1
           c: 655
+          p:
+            values:
+            - end
         - i: 1
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonBag=pbGet(106)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCongratulations for winning!
         - i: 1
           c: 101
+          p:
+            values:
+            - \bPlease take this prize.
         - i: 1
           c: 111
+          p:
+            values:
+            - 0
+            - 353
+            - 0
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::RARECANDY,3)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \bYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::HEARTSCALE,1)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \bYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - '!Kernel.pbReceiveItem(PBItems::IVSTONE,1)'
         - i: 3
           c: 101
+          p:
+            values:
+            - \bYou have no room for it.  At least you won, though.
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \bBecause it's your first time winning the Battle Pyramid, you get
+              this!
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbReceiveItem(PBItems::REUNICLITE)
         - i: 2
           c: 101
+          p:
+            values:
+            - \bFeel free to challenge the Battle Pyramid again- but if you do, future
+              victories will only shell out Rare Candies, Heart Scales, and IV Stones.
         - i: 2
           c: 121
+          p:
+            values:
+            - 353
+            - 353
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 108
+          p:
+            values:
+            - If Lost or Forfeited
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.decision==2
         - i: 1
           c: 355
+          p:
+            values:
+            - for i in 0..$Trainer.party.length-1
         - i: 1
           c: 655
+          p:
+            values:
+            - '  $Trainer.party[i].item = pbGet(83)[i]'
         - i: 1
           c: 655
+          p:
+            values:
+            - end
         - i: 1
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonBag=pbGet(106)
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThanks for playing.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 101
+          p:
+            values:
+            - \bCome back another time.
         - i: 1
           c: 115
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 111
+          p:
+            values:
+            - 12
+            - pbBattleChallenge.pbResting?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bWe've been waiting for you.  Please come this way.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbGoOn
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":19,"parameters":[]},{"code":4,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":44,"parameters":[{"name":"Entering Door","pitch":100,"volume":100}]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":19,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":44,"parameters":[{"name":"Entering Door","pitch":100,"volume":100}]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":19,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":37,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":15,"parameters":[4]},{"code":4,"parameters":[]},{"code":4,"parameters":[]},{"code":42,"parameters":[0]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[4]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":4,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[0]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 208
+          p:
+            values:
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - 8
+            - '{"list":[{"code":15,"parameters":[2]},{"code":18,"parameters":[]},{"code":15,"parameters":[2]},{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":true}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":18,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 1
           c: 106
+          p:
+            values:
+            - 8
         - i: 1
           c: 208
+          p:
+            values:
+            - 1
         - i: 1
           c: 201
+          p:
+            values:
+            - 0
+            - 56
+            - 0
+            - 6
+            - 6
+            - 1
         - i: 1
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 1
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonBag=pbGet(106)
         - i: 1
           c: 101
+          p:
+            values:
+            - '\bExcuse me, but you didn''t save before finishing '
         - i: 1
           c: 401
+          p:
+            values:
+            - your challenge last time.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bSorry, but your challenge has been canceled.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.pbEnd
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -564,16 +987,30 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - I can't just waltz in without a partner!
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":1,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -610,10 +1047,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -650,80 +1091,199 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbSetPokemonCenter
         - i: 0
           c: 101
+          p:
+            values:
+            - XHJXb3VsZCB5b3UgbGlrZSB0byByZXN0IHlvdXIgUG9rw6ltb24/
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - 'XHJPSywgSSdsbCB0YWtlIHlvdXIgUG9rw6ltb24gZm9yIGEgZmV3IHNlY29u
+
+              ZHMu'
         - i: 1
           c: 314
+          p:
+            values:
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - 12
+            - '{"list":[{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 210
+          p:
+            values: []
         - i: 1
           c: 249
+          p:
+            values:
+            - '{"name":"Pokemon Healing","pitch":100,"volume":100}'
         - i: 1
           c: 355
+          p:
+            values:
+            - pbSet(6,$Trainer.party.length)
         - i: 1
           c: 106
+          p:
+            values:
+            - 40
         - i: 1
           c: 122
+          p:
+            values:
+            - 6
+            - 6
+            - 0
+            - 0
+            - 0
         - i: 1
           c: 209
+          p:
+            values:
+            - 12
+            - '{"list":[{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 1
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - Kernel.pbPokerus?
         - i: 2
           c: 101
+          p:
+            values:
+            - XHJZb3VyIFBva8OpbW9uIG1heSBiZSBpbmZlY3RlZCBieSBQb2tlUnVzLg==
         - i: 2
           c: 101
+          p:
+            values:
+            - '\rLittle is known about the PokeRus except that they '
         - i: 2
           c: 401
+          p:
+            values:
+            - 'YXJlIG1pY3Jvc2NvcGljIGxpZmUtZm9ybXMgdGhhdCBhdHRhY2ggdG8gUG9r
+
+              w6ltb24u'
         - i: 2
           c: 101
+          p:
+            values:
+            - XHJXaGlsZSBpbmZlY3RlZCwgUG9rw6ltb24gYXJlIHNhaWQgdG8gZ3JvdyA=
         - i: 2
           c: 401
+          p:
+            values:
+            - exceptionally well.
         - i: 2
           c: 121
+          p:
+            values:
+            - 2
+            - 2
+            - 0
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 101
+          p:
+            values:
+            - \rThank you for waiting.
         - i: 2
           c: 101
+          p:
+            values:
+            - 'XHJXZSd2ZSByZXN0b3JlZCB5b3VyIFBva8OpbW9uIHRvIGZ1bGwgaGVhbHRo
+
+              Lg=='
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 101
+          p:
+            values:
+            - \rWe hope to see you again!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -760,142 +1320,363 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \bWould you like to begin a Battle Pyramid challenge?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No","What is that?"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 101
+          p:
+            values:
+            - \bOk! First, you will have to pick three Pokemon for your team.
         - i: 1
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.set("challenge",8,
         - i: 1
           c: 655
+          p:
+            values:
+            - pbChallengeChampionshipRules(false,false))
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbHasEligible?(4,100)'
         - i: 2
           c: 101
+          p:
+            values:
+            - \bSorry, you can't participate.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bThere are a few rules your team must abide by.\nFor example, Uber
+              Pokemon are considered banned, and the Sleep and Freeze clauses are
+              included.
         - i: 2
           c: 101
+          p:
+            values:
+            - \bYou also cannot bring in an egg, and you must have 4 different species
+              of Pokemon- no duplicates!
         - i: 2
           c: 101
+          p:
+            values:
+            - \bFix up your team, then come back!
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - '!pbEntryScreen(4,100)'
         - i: 2
           c: 115
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - 'ChallengeChampionship.new.getTrainerClass,ChallengeChampionship.new.getTrainerName,_I("You
+              were too '
         - i: 2
           c: 655
+          p:
+            values:
+            - strong!"),true,5,false)
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 111
+          p:
+            values:
+            - 12
+            - pbSaveScreen
         - i: 2
           c: 121
+          p:
+            values:
+            - 293
+            - 293
+            - 0
         - i: 2
           c: 121
+          p:
+            values:
+            - 329
+            - 329
+            - 0
         - i: 2
           c: 122
+          p:
+            values:
+            - 67
+            - 67
+            - 0
+            - 2
+            - 1
+            - 43
         - i: 2
           c: 111
+          p:
+            values:
+            - 12
+            - pbRegisterPartner(ChallengeChampionship.new.getTrainerClass,ChallengeChampionship.new.getTrainerName,5)
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 411
+          p:
+            values: []
         - i: 3
           c: 0
+          p:
+            values: []
         - i: 2
           c: 412
+          p:
+            values: []
         - i: 2
           c: 355
+          p:
+            values:
+            - $game_variables[1]=ChallengeChampionship.new.getTrainerName
         - i: 2
           c: 122
+          p:
+            values:
+            - 40
+            - 40
+            - 0
+            - 0
+            - 0
         - i: 2
           c: 101
+          p:
+            values:
+            - \bWe've found a partner for this round!\nThe great \rLeader \v[1]\c[0]!
         - i: 2
           c: 355
+          p:
+            values:
+            - Kernel.pbSetPokemonCenter
         - i: 2
           c: 355
+          p:
+            values:
+            - $game_variables[106]=$PokemonBag
         - i: 2
           c: 655
+          p:
+            values:
+            - $PokemonBag = PokemonBag.new
         - i: 2
           c: 101
+          p:
+            values:
+            - \bOk! Let's begin!
         - i: 2
           c: 108
+          p:
+            values:
+            - Starting challenge type 0 (7 rounds)
         - i: 2
           c: 355
+          p:
+            values:
+            - pbBattleChallenge.start(0,8)
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 2
           c: 106
+          p:
+            values:
+            - 8
         - i: 2
           c: 208
+          p:
+            values:
+            - 1
         - i: 2
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":42,"parameters":[255]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 2
           c: 509
+          p:
+            values:
+            - '{"code":42,"parameters":[255]}'
         - i: 2
           c: 355
+          p:
+            values:
+            - $game_variables[83]=Array.new
         - i: 2
           c: 655
+          p:
+            values:
+            - for i in 0..$Trainer.party.length-1
         - i: 2
           c: 655
+          p:
+            values:
+            - '   pbGet(83)[i]=$Trainer.party[i].item'
         - i: 2
           c: 655
+          p:
+            values:
+            - end
         - i: 2
           c: 101
+          p:
+            values:
+            - 2
         - i: 2
           c: 201
+          p:
+            values:
+            - 0
+            - 705
+            - 9
+            - 6
+            - 6
+            - 1
         - i: 2
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 411
+          p:
+            values: []
         - i: 2
           c: 119
+          p:
+            values:
+            - End
         - i: 2
           c: 0
+          p:
+            values: []
         - i: 1
           c: 412
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 2
+            - What is that?
         - i: 1
           c: 101
+          p:
+            values:
+            - \bThe Battle Pyramid is a challenge where you have to ascend the floors
+              of a dangerous pyramid, attempting to get to the top.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou will get a partner from the Gym Leaders onboard Phoenix Iota,
+              and you will travel together, for the duration of a challenge.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYou will encounter other pairs of partners on your way up.\nIf you
+              lose a battle, you lose the challenge.
         - i: 1
           c: 101
+          p:
+            values:
+            - \bYour bag will be emptied until the challenge is completed. However,
+              you can find items during the challenge that you can use.
         - i: 1
           c: 119
+          p:
+            values:
+            - start
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -932,12 +1713,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - PokemonWorldTournament.new
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -974,12 +1762,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.sortBoxes(0)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1016,12 +1811,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.sortBoxes(1)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1058,12 +1860,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.sortBoxes(2)
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1100,10 +1909,14 @@ MonoBehaviour:
         list:
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1135,44 +1948,110 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - 'XHJGaXJzdCwgeW91IHNob3VsZCByZXN0b3JlIHlvdXIgUG9rw6ltb24gdG8g
+
+              ZnVsbCA='
         - i: 0
           c: 401
+          p:
+            values:
+            - health.
         - i: 0
           c: 314
+          p:
+            values:
+            - 0
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":17,"parameters":[]},{"code":15,"parameters":[2]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":17,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 0
           c: 210
+          p:
+            values: []
         - i: 0
           c: 249
+          p:
+            values:
+            - '{"name":"Pokemon Healing","pitch":100,"volume":100}'
         - i: 0
           c: 355
+          p:
+            values:
+            - pbSet(6,$Trainer.party.length)
         - i: 0
           c: 106
+          p:
+            values:
+            - 40
         - i: 0
           c: 122
+          p:
+            values:
+            - 6
+            - 6
+            - 0
+            - 0
+            - 0
         - i: 0
           c: 209
+          p:
+            values:
+            - 0
+            - '{"list":[{"code":15,"parameters":[2]},{"code":16,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":15,"parameters":[2]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":16,"parameters":[]}'
         - i: 0
           c: 101
+          p:
+            values:
+            - 'XHJZb3VyIFBva8OpbW9uIGhhdmUgYmVlbiBoZWFsZWQgdG8gcGVyZmVjdCBo
+
+              ZWFsdGgu'
         - i: 0
           c: 101
+          p:
+            values:
+            - \rWe hope you excel!
         - i: 0
           c: 121
+          p:
+            values:
+            - 1
+            - 1
+            - 1
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -1185,8 +2064,8 @@ MonoBehaviour:
       y: 5
   Info:
     expanded: 0
-    name: Battle Pyramid
-    order: 820
+    name: 
+    order: 0
     parent_id: 0
-    scroll_x: 480
-    scroll_y: 240
+    scroll_x: 0
+    scroll_y: 0

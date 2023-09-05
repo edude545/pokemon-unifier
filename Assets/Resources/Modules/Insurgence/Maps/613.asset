@@ -421,38 +421,84 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbSetPokemonCenter
         - i: 0
           c: 101
+          p:
+            values:
+            - The Chansey is offering to heal your Pokemon.
         - i: 0
           c: 101
+          p:
+            values:
+            - Would you like to heal your party?
         - i: 0
           c: 102
+          p:
+            values:
+            - '["Yes","No"]'
+            - 2
         - i: 0
           c: 402
+          p:
+            values:
+            - 0
+            - Yes
         - i: 1
           c: 249
+          p:
+            values:
+            - '{"name":"Pokemon Healing","pitch":100,"volume":100}'
         - i: 1
           c: 314
+          p:
+            values:
+            - 0
         - i: 1
           c: 106
+          p:
+            values:
+            - 10
         - i: 1
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 1
           c: 101
+          p:
+            values:
+            - Your party was healed!
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 402
+          p:
+            values:
+            - 1
+            - No
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 404
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -484,46 +530,108 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 0
+            - 71
+            - 0
         - i: 1
           c: 101
+          p:
+            values:
+            - 'Your Nuzlocke Challenge is over.\nThank you for participating.\nWe
+              will revive your dead Pokemon, however, this Challenge is no longer
+              considered a '
         - i: 1
           c: 401
+          p:
+            values:
+            - Nuzlocke Challenge and you are considered to have failed.
         - i: 1
           c: 121
+          p:
+            values:
+            - 71
+            - 71
+            - 1
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 411
+          p:
+            values: []
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 355
+          p:
+            values:
+            - remove_sprite
         - i: 0
           c: 355
+          p:
+            values:
+            - Kernel.pbSetPokemonCenter
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"113Cry","pitch":100,"volume":80}'
         - i: 0
           c: 101
+          p:
+            values:
+            - Your Pokemon were healed!
         - i: 0
           c: 314
+          p:
+            values:
+            - 0
         - i: 0
           c: 249
+          p:
+            values:
+            - '{"name":"Pokemon Healing","pitch":100,"volume":100}'
         - i: 0
           c: 355
+          p:
+            values:
+            - $PokemonTemp.dependentEvents.refresh_sprite
         - i: 0
           c: 106
+          p:
+            values:
+            - 40
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonFollow(32)
         - i: 0
           c: 121
+          p:
+            values:
+            - 1
+            - 1
+            - 1
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -560,28 +668,67 @@ MonoBehaviour:
         list:
         - i: 0
           c: 250
+          p:
+            values:
+            - '{"name":"Exit Door","pitch":100,"volume":80}'
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":-255.0,"g":-255.0,"r":-255.0}'
+            - 6
         - i: 0
           c: 106
+          p:
+            values:
+            - 8
         - i: 0
           c: 201
+          p:
+            values:
+            - 0
+            - 460
+            - 29
+            - 45
+            - 0
+            - 1
         - i: 0
           c: 223
+          p:
+            values:
+            - '{"a":0.0,"b":0.0,"g":0.0,"r":0.0}'
+            - 6
         - i: 0
           c: 209
+          p:
+            values:
+            - -1
+            - '{"list":[{"code":37,"parameters":[]},{"code":1,"parameters":[]},{"code":38,"parameters":[]},{"code":0,"parameters":[]}],"repeat":false,"skippable":false}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":37,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":1,"parameters":[]}'
         - i: 0
           c: 509
+          p:
+            values:
+            - '{"code":38,"parameters":[]}'
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -618,18 +765,34 @@ MonoBehaviour:
         list:
         - i: 0
           c: 111
+          p:
+            values:
+            - 6
+            - -1
+            - 8
         - i: 1
           c: 355
+          p:
+            values:
+            - pbPokeCenterPC
         - i: 1
           c: 0
+          p:
+            values: []
         - i: 0
           c: 412
+          p:
+            values: []
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -666,20 +829,40 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - '\bFun fact: the Settlements of Holon are all named after letters of
+              the phonetic alphabet!'
         - i: 0
           c: 101
+          p:
+            values:
+            - \bYou know, Alfa, Bravo, Charlie, Delta, Echo, Foxtrot...
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIt's the words that airplane staff use to spell out words, for example.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bFor example, Alfa Romeo Tango would be the code for ART.
         - i: 0
           c: 101
+          p:
+            values:
+            - \bIsn't that neat?
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -716,20 +899,40 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHey, \pn! It's great to see you again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAre you interested in buying some stuff from me? Maybe some of my
+              rare, gimmicked Pokeballs and items?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonMart([:POKEBALL,:GREATBALL,:ULTRABALL,:SNOREBALL,:DELTABALL,:SHINYBALL,:ANCIENTBALL,:POTION,
         - i: 0
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,:MAXPOTION,:FULLRESTORE,:REVIVE,
         - i: 0
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL,:MAXREPEL,:FULLHEAL,:ANTIDOTE,:ICEHEAL,:PARLYZHEAL,:AWAKENING,:BURNHEAL,:ESCAPEROPE,:HONEY])
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -761,24 +964,53 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHey, \pn! It's great to see you again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI actually have something for you.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI was exploring the Torren Region and I found some Delta Species
+              that nobody seemed to notice, just lying there, injured.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rI took it and healed it up, but perhaps you'd like to take care of
+              it? I think it belonged to that blue-haired cultist who fled the region.
         - i: 0
           c: 355
+          p:
+            values:
+            - pbAddPokemon(PBSpecies::DELTABELDUM2,20)
         - i: 0
           c: 101
+          p:
+            values:
+            - \rTake good care of it.
         - i: 0
           c: 121
+          p:
+            values:
+            - 649
+            - 649
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -810,20 +1042,40 @@ MonoBehaviour:
         list:
         - i: 0
           c: 101
+          p:
+            values:
+            - \rHey, \pn! It's great to see you again.
         - i: 0
           c: 101
+          p:
+            values:
+            - \rAre you interested in buying some stuff from me? Maybe some of my
+              rare, gimmicked Pokeballs and items?
         - i: 0
           c: 355
+          p:
+            values:
+            - pbPokemonMart([:POKEBALL,:GREATBALL,:ULTRABALL,:SNOREBALL,:DELTABALL,:SHINYBALL,:ANCIENTBALL,:POTION,
         - i: 0
           c: 655
+          p:
+            values:
+            - :SUPERPOTION,:HYPERPOTION,:MAXPOTION,:FULLRESTORE,:REVIVE,
         - i: 0
           c: 655
+          p:
+            values:
+            - :REPEL,:SUPERREPEL,:MAXREPEL,:FULLHEAL,:ANTIDOTE,:ICEHEAL,:PARLYZHEAL,:AWAKENING,:BURNHEAL,:ESCAPEROPE,:HONEY])
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -860,12 +1112,19 @@ MonoBehaviour:
         list:
         - i: 0
           c: 355
+          p:
+            values:
+            - $game_variables[29]=$game_map.map_id
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -902,12 +1161,21 @@ MonoBehaviour:
         list:
         - i: 0
           c: 236
+          p:
+            values:
+            - 0
+            - 5
+            - 0
         - i: 0
           c: 0
+          p:
+            values: []
         move_frequency: 3
         move_route:
           list:
           - code: 0
+            parameters:
+              values: []
           repeat: 1
           skippable: 0
         move_speed: 3
@@ -920,8 +1188,8 @@ MonoBehaviour:
       y: 8
   Info:
     expanded: 0
-    name: Medic's Tent
-    order: 726
-    parent_id: 460
-    scroll_x: 480
-    scroll_y: 377
+    name: 
+    order: 0
+    parent_id: 0
+    scroll_x: 0
+    scroll_y: 0
